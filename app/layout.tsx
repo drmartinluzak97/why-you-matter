@@ -3,11 +3,11 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "Why You Matter | You Are Irreplaceable",
-  description: "A sanctuary for moments of crisis, doubt, and mental exhaustion. Immediate help, grounding tools, and the reasons why your existence matters.",
-  keywords: ["mental health", "why you matter", "crisis support", "panic button", "grounding", "breathing exercise", "thoughts are not facts", "sublimation"],
+  description: "A global sanctuary for moments of crisis, doubt, and mental exhaustion. 250+ countries & territories crisis directory (ISO 3166-1), grounding tools, and the reasons why your existence matters.",
+  keywords: ["mental health", "why you matter", "crisis support 250 countries", "global crisis lines", "panic button", "grounding", "breathing exercise", "thoughts are not facts", "sublimation", "ISO 3166-1"],
   openGraph: {
     title: "Why You Matter | A Sanctuary in the Dark",
-    description: "Your thoughts are not facts. Your existence changes everything.",
+    description: "Your thoughts are not facts. Your existence changes everything. Global crisis directory across 250+ countries & territories.",
     type: "website",
     url: "https://why-you-matter.org",
   },

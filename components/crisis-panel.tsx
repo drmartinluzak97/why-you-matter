@@ -1,5 +1,12 @@
 "use client";
 
+/**
+ * CrisisPanel Component
+ * Comprehensive international crisis and emergency directory covering all 249 ISO 3166-1 
+ * alpha-2 countries and autonomous territories (252 regional entities worldwide).
+ * Features dual-row segmented navigation, live search filtering, and smart locale detection.
+ */
+
 import React, { useState, useEffect, useMemo, useRef } from "react";
 import {
   PhoneCall,
