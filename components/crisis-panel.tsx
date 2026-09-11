@@ -33,10 +33,24 @@ import {
   detectUserCountryCode,
 } from "@/lib/crisis-data";
 
-export function CrisisPanel() {
+export interface CrisisPanelProps {
+  initialCountryCode?: string;
+}
+
+export function CrisisPanel({ initialCountryCode }: CrisisPanelProps) {
   const [targetType, setTargetType] = useState<"self" | "other">("self");
-  const [selectedContinent, setSelectedContinent] = useState<ContinentId>("all");
-  const [selectedCountryCode, setSelectedCountryCode] = useState<string>("sk");
+
+  // Determine the best initial country
+  const defaultCountry = useMemo(() => {
+    if (initialCountryCode) {
+      const match = COUNTRIES_DATA.find((c) => c.code === initialCountryCode.toLowerCase().trim());
+      if (match) return match;
+    }
+    return COUNTRIES_DATA.find((c) => c.code === "sk") || COUNTRIES_DATA[0];
+  }, [initialCountryCode]);
+
+  const [selectedContinent, setSelectedContinent] = useState<ContinentId>(defaultCountry.continent);
+  const [selectedCountryCode, setSelectedCountryCode] = useState<string>(defaultCountry.code);
   const [searchQuery, setSearchQuery] = useState<string>("");
   const [isDropdownOpen, setIsDropdownOpen] = useState<boolean>(false);
 
@@ -57,15 +71,17 @@ export function CrisisPanel() {
     }
   };
 
-  // Auto-detect country and continent on initial client mount
+  // Auto-detect country and continent on initial client mount if not already provided via server header
   useEffect(() => {
-    const detectedCode = detectUserCountryCode();
-    const found = COUNTRIES_DATA.find((c) => c.code === detectedCode);
-    if (found) {
-      setSelectedCountryCode(found.code);
-      setSelectedContinent(found.continent);
+    if (!initialCountryCode) {
+      const detectedCode = detectUserCountryCode();
+      const found = COUNTRIES_DATA.find((c) => c.code === detectedCode);
+      if (found) {
+        setSelectedCountryCode(found.code);
+        setSelectedContinent(found.continent);
+      }
     }
-  }, []);
+  }, [initialCountryCode]);
 
   // Filter countries by continent & search query
   const filteredCountries = useMemo(() => {

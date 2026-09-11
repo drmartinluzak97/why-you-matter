@@ -4737,16 +4737,24 @@ export const COUNTRIES_DATA: CountryCrisisInfo[] = [
 ];
 
 /**
- * Intelligent helper to resolve user's country code based on their browser timezone or language.
+ * Intelligent helper to resolve user's country code based on Vercel IP country header,
+ * client browser timezone, or system language fallback.
  */
-export function detectUserCountryCode(): string {
+export function detectUserCountryCode(serverCountryCode?: string): string {
+  if (serverCountryCode) {
+    const normalized = serverCountryCode.toLowerCase().trim();
+    if (COUNTRIES_DATA.some((c) => c.code === normalized)) {
+      return normalized;
+    }
+  }
+
   if (typeof window === "undefined") return "sk";
 
   try {
     const tz = Intl.DateTimeFormat().resolvedOptions().timeZone || "";
     const lang = (navigator.language || navigator.languages?.[0] || "").toLowerCase();
 
-    // Europe timezones
+    // Europe timezones & territories
     if (tz.includes("Bratislava")) return "sk";
     if (tz.includes("Prague")) return "cz";
     if (tz.includes("Warsaw")) return "pl";
@@ -4779,11 +4787,12 @@ export function detectUserCountryCode(): string {
     if (tz.includes("Sarajevo")) return "ba";
     if (tz.includes("Podgorica")) return "me";
     if (tz.includes("Pristina")) return "xk";
-    if (tz.includes("Ljubljana")) return "sl";
+    if (tz.includes("Ljubljana")) return "si";
     if (tz.includes("Tirane")) return "al";
     if (tz.includes("Skopje")) return "mk";
     if (tz.includes("Chisinau")) return "md";
     if (tz.includes("Kyiv")) return "ua";
+    if (tz.includes("Minsk")) return "by";
     if (tz.includes("Tbilisi")) return "ge";
     if (tz.includes("Yerevan")) return "am";
     if (tz.includes("Baku")) return "az";
@@ -4795,8 +4804,15 @@ export function detectUserCountryCode(): string {
     if (tz.includes("San_Marino")) return "sm";
     if (tz.includes("Vatican")) return "va";
     if (tz.includes("Moscow")) return "ru";
+    if (tz.includes("Gibraltar")) return "gi";
+    if (tz.includes("Isle_of_Man")) return "im";
+    if (tz.includes("Jersey")) return "je";
+    if (tz.includes("Guernsey")) return "gg";
+    if (tz.includes("Faroe") || tz.includes("Faeroe")) return "fo";
+    if (tz.includes("Mariehamn")) return "ax";
+    if (tz.includes("Longyearbyen")) return "sj";
 
-    // Middle East & Africa timezones
+    // Middle East & Africa timezones & territories
     if (tz.includes("Baghdad") || tz.includes("Basra")) return "iq";
     if (tz.includes("Riyadh")) return "sa";
     if (tz.includes("Dubai")) return "ae";
@@ -4817,6 +4833,7 @@ export function detectUserCountryCode(): string {
     if (tz.includes("Tunis")) return "tn";
     if (tz.includes("Algiers")) return "dz";
     if (tz.includes("Casablanca")) return "ma";
+    if (tz.includes("El_Aaiun")) return "eh";
     if (tz.includes("Nouakchott")) return "mr";
     if (tz.includes("Khartoum")) return "sd";
     if (tz.includes("Juba")) return "ss";
@@ -4840,7 +4857,7 @@ export function detectUserCountryCode(): string {
     if (tz.includes("Ouagadougou")) return "bf";
     if (tz.includes("Bamako")) return "ml";
     if (tz.includes("Conakry")) return "gn";
-    if (tz.includes("Freetown")) return "sl-africa";
+    if (tz.includes("Freetown")) return "sl";
     if (tz.includes("Monrovia")) return "lr";
     if (tz.includes("Lome")) return "tg";
     if (tz.includes("Porto-Novo")) return "bj";
@@ -4866,16 +4883,20 @@ export function detectUserCountryCode(): string {
     if (tz.includes("Maseru")) return "ls";
     if (tz.includes("Mbabane")) return "sz";
     if (tz.includes("Johannesburg")) return "za";
+    if (tz.includes("Reunion")) return "re";
+    if (tz.includes("Mayotte")) return "yt";
+    if (tz.includes("St_Helena")) return "sh";
 
-    // Asia & Pacific timezones
+    // Asia & Pacific timezones & territories
     if (tz.includes("Tokyo")) return "jp";
     if (tz.includes("Shanghai") || tz.includes("Beijing")) return "cn";
     if (tz.includes("Hong_Kong")) return "hk";
+    if (tz.includes("Macau")) return "mo";
     if (tz.includes("Taipei")) return "tw";
-    if (tz.includes("Seoul")) return "ko";
+    if (tz.includes("Seoul")) return "kr";
     if (tz.includes("Pyongyang")) return "kp";
     if (tz.includes("Singapore")) return "sg";
-    if (tz.includes("Sydney") || tz.includes("Melbourne") || tz.includes("Brisbane")) return "au";
+    if (tz.includes("Sydney") || tz.includes("Melbourne") || tz.includes("Brisbane") || tz.includes("Perth")) return "au";
     if (tz.includes("Auckland")) return "nz";
     if (tz.includes("Kolkata") || tz.includes("Calcutta")) return "in";
     if (tz.includes("Karachi")) return "pk";
@@ -4887,11 +4908,11 @@ export function detectUserCountryCode(): string {
     if (tz.includes("Kabul")) return "af";
     if (tz.includes("Manila")) return "ph";
     if (tz.includes("Bangkok")) return "th";
-    if (tz.includes("Saigon") || tz.includes("Ho_Chi_Minh")) return "vi";
+    if (tz.includes("Saigon") || tz.includes("Ho_Chi_Minh")) return "vn";
     if (tz.includes("Kuala_Lumpur")) return "my";
     if (tz.includes("Jakarta")) return "id";
     if (tz.includes("Phnom_Penh")) return "kh";
-    if (tz.includes("Vientiane")) return "la-asia";
+    if (tz.includes("Vientiane")) return "la";
     if (tz.includes("Yangon")) return "mm";
     if (tz.includes("Brunei")) return "bn";
     if (tz.includes("Dili")) return "tl";
@@ -4908,22 +4929,35 @@ export function detectUserCountryCode(): string {
     if (tz.includes("Apia")) return "ws";
     if (tz.includes("Tongatapu")) return "to";
     if (tz.includes("Tarawa")) return "ki";
-    if (tz.includes("Pohnpei")) return "fm";
+    if (tz.includes("Pohnpei") || tz.includes("Chuuk") || tz.includes("Kosrae")) return "fm";
     if (tz.includes("Palau")) return "pw";
-    if (tz.includes("Majuro")) return "mh";
+    if (tz.includes("Majuro") || tz.includes("Kwajalein")) return "mh";
     if (tz.includes("Nauru")) return "nr";
     if (tz.includes("Funafuti")) return "tv";
+    if (tz.includes("Guam")) return "gu";
+    if (tz.includes("Saipan")) return "mp";
+    if (tz.includes("Pago_Pago")) return "as";
+    if (tz.includes("Tahiti")) return "pf";
+    if (tz.includes("Noumea")) return "nc";
+    if (tz.includes("Rarotonga")) return "ck";
+    if (tz.includes("Niue")) return "nu";
+    if (tz.includes("Fakaofo")) return "tk";
+    if (tz.includes("Wallis")) return "wf";
+    if (tz.includes("Pitcairn")) return "pn";
+    if (tz.includes("Norfolk")) return "nf";
+    if (tz.includes("Christmas")) return "cx";
+    if (tz.includes("Cocos")) return "cc";
 
-    // Americas timezones
-    if (tz.includes("New_York") || tz.includes("Chicago") || tz.includes("Los_Angeles") || tz.includes("Denver")) return "us";
-    if (tz.includes("Toronto") || tz.includes("Vancouver") || tz.includes("Montreal")) return "ca";
-    if (tz.includes("Mexico_City")) return "mx";
-    if (tz.includes("Sao_Paulo")) return "br";
-    if (tz.includes("Buenos_Aires")) return "ar";
+    // Americas timezones & territories
+    if (tz.includes("New_York") || tz.includes("Chicago") || tz.includes("Los_Angeles") || tz.includes("Denver") || tz.includes("Phoenix") || tz.includes("Anchorage") || tz.includes("Honolulu")) return "us";
+    if (tz.includes("Toronto") || tz.includes("Vancouver") || tz.includes("Montreal") || tz.includes("Edmonton") || tz.includes("Winnipeg") || tz.includes("Halifax")) return "ca";
+    if (tz.includes("Mexico_City") || tz.includes("Cancun") || tz.includes("Tijuana") || tz.includes("Monterrey")) return "mx";
+    if (tz.includes("Sao_Paulo") || tz.includes("Rio_Branco") || tz.includes("Manaus") || tz.includes("Recife")) return "br";
+    if (tz.includes("Buenos_Aires") || tz.includes("Cordoba") || tz.includes("Mendoza")) return "ar";
     if (tz.includes("Bogota")) return "co";
     if (tz.includes("Santiago")) return "cl";
     if (tz.includes("Lima")) return "pe";
-    if (tz.includes("Guayaquil")) return "ec";
+    if (tz.includes("Guayaquil") || tz.includes("Galapagos")) return "ec";
     if (tz.includes("Caracas")) return "ve";
     if (tz.includes("Montevideo")) return "uy";
     if (tz.includes("Asuncion")) return "py";
@@ -4950,6 +4984,25 @@ export function detectUserCountryCode(): string {
     if (tz.includes("Dominica")) return "dm";
     if (tz.includes("Guyana")) return "gy";
     if (tz.includes("Paramaribo")) return "sr";
+    if (tz.includes("Godthab") || tz.includes("Nuuk") || tz.includes("Thule") || tz.includes("Danmarkshavn")) return "gl";
+    if (tz.includes("Bermuda")) return "bm";
+    if (tz.includes("Puerto_Rico")) return "pr";
+    if (tz.includes("St_Thomas") || tz.includes("Virgin")) return "vi";
+    if (tz.includes("Tortola")) return "vg";
+    if (tz.includes("Cayman")) return "ky";
+    if (tz.includes("Aruba")) return "aw";
+    if (tz.includes("Curacao")) return "cw";
+    if (tz.includes("Kralendijk")) return "bq";
+    if (tz.includes("Guadeloupe")) return "gp";
+    if (tz.includes("Martinique")) return "mq";
+    if (tz.includes("Cayenne")) return "gf";
+    if (tz.includes("Marigot")) return "mf";
+    if (tz.includes("St_Barthelemy")) return "bl";
+    if (tz.includes("Miquelon")) return "pm";
+    if (tz.includes("Grand_Turk")) return "tc";
+    if (tz.includes("Anguilla")) return "ai";
+    if (tz.includes("Montserrat")) return "ms";
+    if (tz.includes("Stanley")) return "fk";
 
     // Language fallbacks
     if (lang.startsWith("sk")) return "sk";
@@ -4962,10 +5015,18 @@ export function detectUserCountryCode(): string {
     if (lang.startsWith("it")) return "it";
     if (lang.startsWith("ja")) return "jp";
     if (lang.startsWith("zh")) return "cn";
-    if (lang.startsWith("ko")) return "ko";
+    if (lang.startsWith("ko")) return "kr";
     if (lang.startsWith("ar")) return "sa";
     if (lang.startsWith("pt")) return "br";
     if (lang.startsWith("ru")) return "ru";
+    if (lang.startsWith("uk")) return "ua";
+    if (lang.startsWith("ro")) return "ro";
+    if (lang.startsWith("bg")) return "bg";
+    if (lang.startsWith("el")) return "gr";
+    if (lang.startsWith("tr")) return "tr";
+    if (lang.startsWith("vi")) return "vn";
+    if (lang.startsWith("th")) return "th";
+    if (lang.startsWith("hi")) return "in";
 
     return "sk";
   } catch {

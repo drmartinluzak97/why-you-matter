@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { headers } from "next/headers";
 import { Header } from "@/components/header";
 import { HeroMatter } from "@/components/hero-matter";
 import { CrisisPanel } from "@/components/crisis-panel";
@@ -7,7 +8,14 @@ import { ThoughtRelease } from "@/components/thought-release";
 import { Footer } from "@/components/footer";
 import { Sparkles, ArrowRight } from "lucide-react";
 
-export default function Home() {
+export default async function Home() {
+  const headersList = await headers();
+  const countryHeader =
+    headersList.get("x-vercel-ip-country") ||
+    headersList.get("x-real-ip-country") ||
+    headersList.get("cf-ipcountry") ||
+    undefined;
+
   return (
     <div className="flex-1 flex flex-col justify-between">
       <Header />
@@ -19,8 +27,8 @@ export default function Home() {
         {/* The Two Main Paths (Clean, un-crowded, powerful) */}
         <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-10 items-stretch">
-            {/* Card 1: Immediate Crisis & Danger */}
-            <CrisisPanel />
+            {/* Card 1: Immediate Crisis & Danger with 0ms Geolocation */}
+            <CrisisPanel initialCountryCode={countryHeader?.toLowerCase()} />
 
             {/* Card 2: Relief, Tips, Calming Tools & Breathing */}
             <ReliefHub />
