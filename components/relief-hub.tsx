@@ -53,7 +53,7 @@ export function ReliefHub() {
         </div>
 
         {/* Sub Navigation Bar */}
-        <div className="flex items-center gap-1.5 p-1.5 bg-slate-950/70 rounded-2xl border border-slate-800 overflow-x-auto">
+        <div className="flex items-center gap-1.5 p-1.5 bg-slate-950/70 rounded-2xl border border-slate-800 overflow-x-auto no-scrollbar">
           {TABS.map((tab) => {
             const Icon = tab.icon;
             const isCurrent = activeTab === tab.key;
