@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://why-you-matter.org"),
+  metadataBase: new URL("https://www.why-you-matter.org"),
   title: "Why You Matter | You Are Irreplaceable",
   description: "A global sanctuary for moments of crisis, doubt, and mental exhaustion. 250+ countries & territories crisis directory (ISO 3166-1), grounding tools, and the reasons why your existence matters.",
   keywords: [
@@ -19,13 +19,13 @@ export const metadata: Metadata = {
     "ISO 3166-1",
   ],
   alternates: {
-    canonical: "https://why-you-matter.org",
+    canonical: "https://www.why-you-matter.org",
   },
   openGraph: {
     title: "Why You Matter | A Sanctuary in the Dark",
     description: "Your thoughts are not facts. Your existence changes everything. Global crisis directory across 250+ countries & territories.",
     type: "website",
-    url: "https://why-you-matter.org",
+    url: "https://www.why-you-matter.org",
     siteName: "Why You Matter",
   },
   twitter: {
@@ -40,9 +40,9 @@ const JSON_LD_SCHEMA = {
   "@graph": [
     {
       "@type": "WebApplication",
-      "@id": "https://why-you-matter.org/#app",
+      "@id": "https://www.why-you-matter.org/#app",
       "name": "Why You Matter",
-      "url": "https://why-you-matter.org",
+      "url": "https://www.why-you-matter.org",
       "applicationCategory": "HealthApplication",
       "operatingSystem": "All",
       "offers": {
@@ -59,9 +59,9 @@ const JSON_LD_SCHEMA = {
     },
     {
       "@type": "MedicalWebPage",
-      "@id": "https://why-you-matter.org/#crisis-directory",
+      "@id": "https://www.why-you-matter.org/#crisis-directory",
       "name": "Global 250+ Countries Crisis & Emergency Directory",
-      "url": "https://why-you-matter.org",
+      "url": "https://www.why-you-matter.org",
       "about": [
         {
           "@type": "MedicalCondition",

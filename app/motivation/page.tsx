@@ -1,13 +1,24 @@
 import React from "react";
 import Link from "next/link";
+import type { Metadata } from "next";
 import { Header } from "@/components/header";
 import { Footer } from "@/components/footer";
 import { SublimationCards } from "@/components/sublimation-cards";
 import { ArrowLeft, Sparkles, Heart, Compass, Flame, Shield, SunMedium, Brain } from "lucide-react";
 
-export const metadata = {
+export const metadata: Metadata = {
   title: "Motivation & Deeper Perspective | Why You Matter",
   description: "Deeper reflections, psychological reframing, and the alchemy of turning pain into purpose.",
+  alternates: {
+    canonical: "https://www.why-you-matter.org/motivation",
+  },
+  openGraph: {
+    title: "Motivation & Deeper Perspective | Why You Matter",
+    description: "Deeper reflections, psychological reframing, and the alchemy of turning pain into purpose.",
+    type: "website",
+    url: "https://www.why-you-matter.org/motivation",
+    siteName: "Why You Matter",
+  },
 };
 
 export default function MotivationPage() {

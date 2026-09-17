@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: "*",
       allow: "/",
     },
-    sitemap: "https://why-you-matter.org/sitemap.xml",
+    sitemap: "https://www.why-you-matter.org/sitemap.xml",
   };
 }
