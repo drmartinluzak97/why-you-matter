@@ -4740,7 +4740,7 @@ export const COUNTRIES_DATA: CountryCrisisInfo[] = [
  * Intelligent helper to resolve user's country code based on Vercel IP country header,
  * client browser timezone, or system language fallback.
  */
-export function detectUserCountryCode(serverCountryCode?: string): string {
+export function detectUserCountryCode(serverCountryCode?: string, currentLocale?: string): string {
   if (serverCountryCode) {
     const normalized = serverCountryCode.toLowerCase().trim();
     if (COUNTRIES_DATA.some((c) => c.code === normalized)) {
@@ -4748,23 +4748,50 @@ export function detectUserCountryCode(serverCountryCode?: string): string {
     }
   }
 
-  if (typeof window === "undefined") return "sk";
+  if (typeof window === "undefined") {
+    if (currentLocale === "sk") return "sk";
+    if (currentLocale === "cs") return "cz";
+    if (currentLocale === "de") return "de";
+    return "sk";
+  }
 
   try {
     const tz = Intl.DateTimeFormat().resolvedOptions().timeZone || "";
-    const lang = (navigator.language || navigator.languages?.[0] || "").toLowerCase();
+    const navLang = (navigator.language || navigator.languages?.[0] || "").toLowerCase();
+    const lang = (currentLocale || navLang).toLowerCase();
 
-    // Europe timezones & territories
+    // High confidence European timezones
     if (tz.includes("Bratislava")) return "sk";
+    if (tz.includes("Vienna")) return "at";
     if (tz.includes("Prague")) return "cz";
     if (tz.includes("Warsaw")) return "pl";
-    if (tz.includes("Budapest")) return "hu";
+    if (tz.includes("Berlin")) return "de";
+    if (tz.includes("Zurich")) return "ch";
     if (tz.includes("London")) return "gb";
     if (tz.includes("Dublin")) return "ie";
-    if (tz.includes("Berlin")) return "de";
-    if (tz.includes("Vienna")) return "at";
-    if (tz.includes("Zurich")) return "ch";
     if (tz.includes("Paris")) return "fr";
+    if (tz.includes("Rome")) return "it";
+    if (tz.includes("Madrid")) return "es";
+    if (tz.includes("Lisbon")) return "pt";
+    if (tz.includes("Amsterdam")) return "nl";
+    if (tz.includes("Stockholm")) return "se";
+    if (tz.includes("Oslo")) return "no";
+    if (tz.includes("Copenhagen")) return "dk";
+    if (tz.includes("Helsinki")) return "fi";
+    if (tz.includes("Kyiv")) return "ua";
+    if (tz.includes("Tokyo")) return "jp";
+
+    // Windows OS maps standard Central European Time (CET) to "Europe/Budapest".
+    // Check language to avoid falsely attributing Slovak/Czech/Austrian users to Hungary on localhost:
+    if (tz.includes("Budapest")) {
+      if (lang.startsWith("sk")) return "sk";
+      if (lang.startsWith("cs")) return "cz";
+      if (lang.startsWith("de")) return "at";
+      if (lang.startsWith("pl")) return "pl";
+      if (lang.startsWith("hu")) return "hu";
+      return "hu";
+    }
+
     if (tz.includes("Brussels")) return "be";
     if (tz.includes("Luxembourg")) return "lu";
     if (tz.includes("Rome")) return "it";

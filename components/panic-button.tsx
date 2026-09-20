@@ -4,9 +4,11 @@ import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import { createPortal } from "react-dom";
 import { Trees, EyeOff, Search, CloudSun, CheckSquare, FileText, ArrowLeft, Sparkles } from "lucide-react";
+import { useLanguage } from "./language-context";
 import { NatureDistractionModal } from "./nature-modal";
 
 export function PanicButton() {
+  const { t } = useLanguage();
   const [mounted, setMounted] = useState(false);
   const [showNatureModal, setShowNatureModal] = useState(false);
   const [isDisguised, setIsDisguised] = useState(false);
@@ -148,13 +150,19 @@ export function PanicButton() {
               <div className="p-5 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-3">
                 <span className="text-xs font-semibold uppercase tracking-wider text-emerald-600">Calendar Agenda</span>
                 <div className="space-y-2 text-xs text-slate-700">
-                  <div className="p-2 rounded-lg bg-slate-50 border border-slate-100 flex justify-between">
-                    <span className="font-medium">Design Review</span>
-                    <span className="text-slate-400">14:30</span>
+                  <div className="p-2 rounded-lg bg-slate-50 border border-slate-100 flex items-center justify-between">
+                    <div>
+                      <span className="font-semibold block">Team Sync & Retrospective</span>
+                      <span className="text-[11px] text-slate-500">14:00 - 14:45 • Room B</span>
+                    </div>
+                    <span className="text-[11px] text-blue-600 font-medium">In 15m</span>
                   </div>
-                  <div className="p-2 rounded-lg bg-slate-50 border border-slate-100 flex justify-between">
-                    <span className="font-medium">Client Sync</span>
-                    <span className="text-slate-400">16:00</span>
+                  <div className="p-2 rounded-lg bg-slate-50 border border-slate-100 flex items-center justify-between">
+                    <div>
+                      <span className="font-semibold block">Architecture Review</span>
+                      <span className="text-[11px] text-slate-500">16:00 - 17:00 • Virtual</span>
+                    </div>
+                    <span className="text-[11px] text-slate-500">Later</span>
                   </div>
                 </div>
               </div>
@@ -164,29 +172,35 @@ export function PanicButton() {
 
         {disguiseTab === "docs" && (
           <div className="bg-white p-8 rounded-2xl border border-slate-200 shadow-xs space-y-5">
-            <h2 className="text-2xl font-bold text-slate-900">Technical Overview & Architecture Guidelines</h2>
+            <h1 className="text-2xl font-bold text-slate-900">Q3 Product Specification & Roadmap</h1>
             <p className="text-sm text-slate-600 leading-relaxed">
-              This document specifies the internal software guidelines, caching policies, and latency parameters for upcoming cloud deployments.
+              This document outlines the core architectural milestones for the upcoming development cycle. Key focus areas include latency reduction, enhanced data synchronization, and accessibility improvements across mobile platforms.
             </p>
-            <div className="space-y-3 text-xs text-slate-700">
-              <div className="p-3 rounded-lg bg-slate-50 font-mono text-slate-800">
-                GET /api/v2/analytics/reports?range=monthly&status=active
-              </div>
-              <p>All microservices communicate through authenticated event queues with retry timeouts set to 3000ms.</p>
+            <div className="border-t border-slate-100 pt-4 space-y-3">
+              <h2 className="text-base font-semibold text-slate-800">1. Architectural Objectives</h2>
+              <p className="text-xs text-slate-600 leading-relaxed">
+                Ensure zero downtime migrations during database maintenance windows. Increase cache hit ratio by 15% through localized edge computing caches.
+              </p>
             </div>
           </div>
         )}
 
         {disguiseTab === "tasks" && (
-          <div className="bg-white p-6 rounded-2xl border border-slate-200 shadow-xs space-y-4">
-            <h2 className="text-lg font-bold text-slate-900">Sprint Backlog (Sprint 42)</h2>
-            <div className="space-y-2 text-xs">
-              {["Verify DNS propagation for domain migration", "Review server logging retention policies", "Update design token tokens for dark theme", "Run automated unit test coverage suite"].map((t, idx) => (
-                <div key={idx} className="p-3 rounded-xl border border-slate-200 flex items-center gap-3">
-                  <input type="checkbox" defaultChecked={idx < 2} className="accent-blue-600 rounded" />
-                  <span className={idx < 2 ? "line-through text-slate-400" : "text-slate-700 font-medium"}>{t}</span>
-                </div>
-              ))}
+          <div className="bg-white p-8 rounded-2xl border border-slate-200 shadow-xs space-y-4">
+            <h1 className="text-xl font-bold text-slate-900">Sprint Backlog (Sprint 42)</h1>
+            <div className="space-y-2">
+              <div className="p-3 rounded-xl border border-slate-200 flex items-center justify-between">
+                <span className="text-xs font-medium text-slate-700">INFRA-802: Refactor edge cache headers</span>
+                <span className="text-[11px] px-2 py-0.5 rounded-full bg-emerald-100 text-emerald-700">Done</span>
+              </div>
+              <div className="p-3 rounded-xl border border-slate-200 flex items-center justify-between">
+                <span className="text-xs font-medium text-slate-700">FE-312: Update component accessibility labels</span>
+                <span className="text-[11px] px-2 py-0.5 rounded-full bg-blue-100 text-blue-700">In Progress</span>
+              </div>
+              <div className="p-3 rounded-xl border border-slate-200 flex items-center justify-between">
+                <span className="text-xs font-medium text-slate-700">BE-109: Audit security headers and CSP rules</span>
+                <span className="text-[11px] px-2 py-0.5 rounded-full bg-slate-100 text-slate-700">To Do</span>
+              </div>
             </div>
           </div>
         )}
@@ -201,30 +215,30 @@ export function PanicButton() {
         <button
           onClick={() => setShowNatureModal(true)}
           className="group relative inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-teal-500/10 hover:bg-teal-500/20 border border-teal-500/30 text-teal-300 text-xs font-medium transition-all duration-300 hover:scale-[1.03] active:scale-95"
-          title="Instant calming nature, oceans & companion sanctuary"
+          title={t.nav.emergencyNatureTitle}
         >
           <Trees className="w-3.5 h-3.5 text-teal-400 group-hover:rotate-12 transition-transform" />
-          <span>Emergency Nature & More</span>
+          <span>{t.nav.emergencyNature}</span>
         </button>
 
         {/* 2nd: Motivation Page Link */}
         <Link
           href="/motivation"
           className="group inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-purple-500/15 hover:bg-purple-500/25 border border-purple-500/30 text-purple-300 text-xs font-medium transition-all hover:text-purple-100 hover:scale-[1.03] active:scale-95 shadow-xs"
-          title="Explore deeper motivation & psychological reframing"
+          title={t.nav.motivationTitle}
         >
           <Sparkles className="w-3.5 h-3.5 text-purple-400 group-hover:rotate-12 transition-transform" />
-          <span>Motivation</span>
+          <span>{t.nav.motivation}</span>
         </Link>
 
         {/* 3rd: Quick Disguise Button */}
         <button
           onClick={() => setIsDisguised(true)}
           className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-slate-800/80 hover:bg-slate-700/80 border border-slate-700 text-slate-300 text-xs font-medium transition-all hover:text-white active:scale-95"
-          title="Disguise this screen as a work document immediately"
+          title={t.nav.disguiseTitle}
         >
           <EyeOff className="w-3.5 h-3.5" />
-          <span className="hidden sm:inline">Disguise</span>
+          <span className="hidden sm:inline">{t.nav.disguise}</span>
         </button>
       </div>
 

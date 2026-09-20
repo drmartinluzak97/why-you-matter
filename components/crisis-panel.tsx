@@ -40,7 +40,7 @@ export interface CrisisPanelProps {
 }
 
 export function CrisisPanel({ initialCountryCode }: CrisisPanelProps) {
-  const { t } = useLanguage();
+  const { currentLanguage, t } = useLanguage();
   const tc = t.crisis;
   const [targetType, setTargetType] = useState<"self" | "other">("self");
 
@@ -50,8 +50,9 @@ export function CrisisPanel({ initialCountryCode }: CrisisPanelProps) {
       const match = COUNTRIES_DATA.find((c) => c.code === initialCountryCode.toLowerCase().trim());
       if (match) return match;
     }
-    return COUNTRIES_DATA.find((c) => c.code === "sk") || COUNTRIES_DATA[0];
-  }, [initialCountryCode]);
+    const detected = detectUserCountryCode(undefined, currentLanguage.code);
+    return COUNTRIES_DATA.find((c) => c.code === detected) || COUNTRIES_DATA.find((c) => c.code === "sk") || COUNTRIES_DATA[0];
+  }, [initialCountryCode, currentLanguage.code]);
 
   const [selectedContinent, setSelectedContinent] = useState<ContinentId>(defaultCountry.continent);
   const [selectedCountryCode, setSelectedCountryCode] = useState<string>(defaultCountry.code);
@@ -79,14 +80,14 @@ export function CrisisPanel({ initialCountryCode }: CrisisPanelProps) {
   // Auto-detect country and continent on initial client mount if not already provided via server header
   useEffect(() => {
     if (!initialCountryCode) {
-      const detectedCode = detectUserCountryCode();
+      const detectedCode = detectUserCountryCode(undefined, currentLanguage.code);
       const found = COUNTRIES_DATA.find((c) => c.code === detectedCode);
       if (found) {
         setSelectedCountryCode(found.code);
         setSelectedContinent(found.continent);
       }
     }
-  }, [initialCountryCode]);
+  }, [initialCountryCode, currentLanguage.code]);
 
   // Filter countries by continent & search query
   const filteredCountries = useMemo(() => {
@@ -179,7 +180,7 @@ export function CrisisPanel({ initialCountryCode }: CrisisPanelProps) {
                 : "text-slate-400 hover:text-slate-200"
             }`}
           >
-            <span>I am in danger</span>
+            <span>{tc.modeSelf}</span>
           </button>
           <button
             onClick={() => setTargetType("other")}
@@ -190,7 +191,7 @@ export function CrisisPanel({ initialCountryCode }: CrisisPanelProps) {
             }`}
           >
             <Users className="w-4 h-4" />
-            <span>Someone else is in danger</span>
+            <span>{tc.modeOther}</span>
           </button>
         </div>
 
@@ -200,20 +201,20 @@ export function CrisisPanel({ initialCountryCode }: CrisisPanelProps) {
             <div className="p-4 rounded-2xl bg-rose-950/30 border border-rose-800/40 space-y-2.5 backdrop-blur-xs">
               <div className="flex items-center gap-2 text-rose-300 font-semibold text-xs sm:text-sm">
                 <Clock className="w-4 h-4 text-rose-400" />
-                <span>The 3-Step Emergency Anchor</span>
+                <span>{tc.anchorTitle}</span>
               </div>
               <ul className="text-xs text-slate-200 space-y-1.5">
                 <li className="flex items-start gap-2">
                   <span className="font-bold text-rose-400">1.</span>
-                  <span><strong>Physical Pause:</strong> Put both feet flat on the floor and take 3 deep, slow breaths.</span>
+                  <span><strong>{tc.anchorStep1Title}:</strong> {tc.anchorStep1Desc}</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="font-bold text-rose-400">2.</span>
-                  <span><strong>Temperature Shock:</strong> Hold an ice cube or splash cold water on your face.</span>
+                  <span><strong>{tc.anchorStep2Title}:</strong> {tc.anchorStep2Desc}</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="font-bold text-rose-400">3.</span>
-                  <span><strong>Reach Out:</strong> Connect with one of the free, anonymous hotlines below.</span>
+                  <span><strong>{tc.anchorStep3Title}:</strong> {tc.anchorStep3Desc}</span>
                 </li>
               </ul>
             </div>
@@ -228,7 +229,7 @@ export function CrisisPanel({ initialCountryCode }: CrisisPanelProps) {
                   <span>{tc.selectCountryLabel}</span>
                 </span>
                 <span className="text-[10px] text-slate-400 bg-slate-800/80 px-2 py-0.5 rounded-full border border-slate-700">
-                  {COUNTRIES_DATA.length} Countries Available
+                  {COUNTRIES_DATA.length} {tc.countriesAvailable}
                 </span>
               </div>
 
@@ -333,11 +334,11 @@ export function CrisisPanel({ initialCountryCode }: CrisisPanelProps) {
                         <div className="text-[10px] uppercase font-bold text-slate-400 px-2 py-1 border-b border-slate-800/80 mb-1 flex items-center justify-between">
                           <span>
                             {selectedContinent === "all"
-                              ? "All Countries in This Region"
-                              : `Countries in ${
+                              ? tc.allCountriesInRegion
+                              : `${tc.allCountriesInRegion} (${
                                   CONTINENTS.find((c) => c.id === selectedContinent)?.name ||
-                                  "This Region"
-                                }`}
+                                  ""
+                                })`}
                           </span>
                           <span className="text-rose-400 font-mono">
                             ({filteredCountries.length})
@@ -411,7 +412,7 @@ export function CrisisPanel({ initialCountryCode }: CrisisPanelProps) {
                     })}
                     {filteredCountries.length === 0 && (
                       <div className="text-xs text-slate-400 py-1 px-2">
-                        No country matched "{searchQuery}". Try searching another name or reset filter.
+                        {tc.noResults}
                       </div>
                     )}
                   </div>
@@ -457,7 +458,7 @@ export function CrisisPanel({ initialCountryCode }: CrisisPanelProps) {
                 {/* Emergency Services Badge */}
                 <div className="text-right">
                   <span className="text-[10px] text-slate-400 uppercase tracking-wider block">
-                    General Emergency
+                    {tc.generalEmergency}
                   </span>
                   <span className="text-xs font-mono font-bold text-rose-400 bg-rose-950/50 px-2 py-0.5 rounded-md border border-rose-800/50">
                     🚨 {activeCountry.emergencyNumber}
@@ -480,17 +481,17 @@ export function CrisisPanel({ initialCountryCode }: CrisisPanelProps) {
                         {hotline.is24_7 && (
                           <span className="text-[10px] bg-emerald-500/20 text-emerald-300 px-1.5 py-0.5 rounded-md border border-emerald-500/30 flex items-center gap-1 font-medium">
                             <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse" />
-                            24/7
+                            {tc.available247}
                           </span>
                         )}
                         {hotline.isFree && (
                           <span className="text-[10px] bg-sky-500/20 text-sky-300 px-1.5 py-0.5 rounded-md border border-sky-500/30 font-medium">
-                            Free
+                            {tc.tollFree}
                           </span>
                         )}
                         {hotline.isChat && (
                           <span className="text-[10px] bg-purple-500/20 text-purple-300 px-1.5 py-0.5 rounded-md border border-purple-500/30 font-medium">
-                            Chat
+                            {tc.chat}
                           </span>
                         )}
                       </div>
@@ -505,10 +506,10 @@ export function CrisisPanel({ initialCountryCode }: CrisisPanelProps) {
                         <a
                           href={`tel:${hotline.phone.replace(/\s+/g, "")}`}
                           className="px-3.5 py-2 rounded-xl bg-gradient-to-r from-rose-600 to-rose-700 hover:from-rose-500 hover:to-rose-600 text-white text-xs font-bold flex items-center gap-1.5 transition-all shadow-md shadow-rose-600/30 active:scale-95 border border-rose-400/40"
-                          title={`Call ${hotline.name}`}
+                          title={`${tc.callPrefix} ${hotline.name}`}
                         >
                           <PhoneCall className="w-3.5 h-3.5" />
-                          <span>Call {hotline.phone}</span>
+                          <span>{tc.callPrefix} {hotline.phone}</span>
                         </a>
                       )}
 
@@ -518,10 +519,10 @@ export function CrisisPanel({ initialCountryCode }: CrisisPanelProps) {
                             hotline.sms.keyword ? `?body=${encodeURIComponent(hotline.sms.keyword)}` : ""
                           }`}
                           className="px-3.5 py-2 rounded-xl bg-gradient-to-r from-sky-600 to-sky-700 hover:from-sky-500 hover:to-sky-600 text-white text-xs font-bold flex items-center gap-1.5 transition-all shadow-md shadow-sky-600/30 active:scale-95 border border-sky-400/40"
-                          title={`Text ${hotline.sms.number}`}
+                          title={`${tc.textPrefix} ${hotline.sms.number}`}
                         >
                           <MessageSquare className="w-3.5 h-3.5" />
-                          <span>Text {hotline.sms.keyword || hotline.sms.number}</span>
+                          <span>{tc.textPrefix} {hotline.sms.keyword || hotline.sms.number}</span>
                         </a>
                       )}
 
@@ -543,14 +544,16 @@ export function CrisisPanel({ initialCountryCode }: CrisisPanelProps) {
 
               {/* Report Outdated Number Link */}
               <div className="pt-2 flex items-center justify-between text-[11px] text-slate-400">
-                <span className="truncate">Found a broken number for {activeCountry.name}?</span>
+                <span className="truncate">
+                  {tc.foundBrokenNumber.replace("{country}", activeCountry.name)}
+                </span>
                 <button
                   type="button"
                   onClick={() => setIsReportModalOpen(true)}
                   className="text-rose-400 hover:text-rose-300 font-medium underline underline-offset-2 flex items-center gap-1 shrink-0 ml-2"
                 >
                   <AlertTriangle className="w-3 h-3" />
-                  <span>Report / Update Hotline</span>
+                  <span>{tc.reportHotline}</span>
                 </button>
               </div>
             </div>
@@ -561,37 +564,37 @@ export function CrisisPanel({ initialCountryCode }: CrisisPanelProps) {
             <div className="p-4 rounded-2xl bg-amber-950/30 border border-amber-800/40 space-y-3">
               <h3 className="text-sm font-bold text-amber-200 flex items-center gap-2">
                 <HeartHandshake className="w-4 h-4 text-amber-400" />
-                How to Handle Someone in Crisis
+                {tc.otherGuideTitle}
               </h3>
               <ul className="text-xs sm:text-sm text-slate-200 space-y-2.5">
                 <li className="flex items-start gap-2">
                   <span className="text-amber-400 font-bold">•</span>
-                  <span><strong>Stay with them:</strong> Do not leave them alone if there is active danger.</span>
+                  <span><strong>{tc.otherStep1Title}:</strong> {tc.otherStep1Desc}</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-amber-400 font-bold">•</span>
-                  <span><strong>Ask directly & calmly:</strong> "Are you thinking about hurting yourself?" Asking directly opens the door, it does not cause harm.</span>
+                  <span><strong>{tc.otherStep2Title}:</strong> {tc.otherStep2Desc}</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-amber-400 font-bold">•</span>
-                  <span><strong>Listen without debating:</strong> Avoid saying "You have so much to live for." Instead say: "I am here with you, and you don't have to face this alone."</span>
+                  <span><strong>{tc.otherStep3Title}:</strong> {tc.otherStep3Desc}</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-amber-400 font-bold">•</span>
-                  <span><strong>Involve Emergency Services:</strong> Call 112 / 911 if there is an immediate medical or physical risk.</span>
+                  <span><strong>{tc.otherStep4Title}:</strong> {tc.otherStep4Desc}</span>
                 </li>
               </ul>
             </div>
 
             <div className="p-4 rounded-xl bg-slate-900 border border-slate-800 text-xs text-slate-300 flex items-center justify-between">
-              <span>Need step-by-step guidance on how to support?</span>
+              <span>{tc.otherNeedGuide}</span>
               <a
                 href="https://www.befrienders.org/how-to-support-someone"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-1 text-sky-400 hover:text-sky-300 font-medium"
               >
-                Guide <ExternalLink className="w-3 h-3" />
+                {tc.otherGuideLink} <ExternalLink className="w-3 h-3" />
               </a>
             </div>
           </div>
@@ -601,9 +604,9 @@ export function CrisisPanel({ initialCountryCode }: CrisisPanelProps) {
       <div className="pt-4 border-t border-slate-800/80 mt-5 flex items-center justify-between text-[11px] text-slate-400 relative z-10">
         <span className="flex items-center gap-1">
           <ShieldCheck className="w-3.5 h-3.5 text-emerald-400" />
-          <span>Confidential, free & verified</span>
+          <span>{tc.footerVerified}</span>
         </span>
-        <span>You are worthy of support</span>
+        <span>{tc.footerWorthy}</span>
       </div>
 
       <ReportModal
