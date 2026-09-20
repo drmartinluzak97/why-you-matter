@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
+import { headers } from "next/headers";
 import { Analytics } from "@vercel/analytics/next";
 import { UmamiAnalytics } from "@/components/umami-analytics";
+import { LanguageProvider } from "@/components/language-context";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -78,11 +80,18 @@ const JSON_LD_SCHEMA = {
   ],
 };
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const headersList = await headers();
+  const countryHeader =
+    headersList.get("x-vercel-ip-country") ||
+    headersList.get("x-real-ip-country") ||
+    headersList.get("cf-ipcountry") ||
+    undefined;
+
   return (
     <html lang="en" className="dark scroll-smooth">
       <head>
@@ -92,7 +101,9 @@ export default function RootLayout({
         />
       </head>
       <body className="antialiased bg-[#070b14] text-slate-100 min-h-screen flex flex-col selection:bg-sky-500/30 selection:text-sky-200">
-        {children}
+        <LanguageProvider initialCountryCode={countryHeader?.toLowerCase()}>
+          {children}
+        </LanguageProvider>
         <Analytics />
         <UmamiAnalytics />
       </body>

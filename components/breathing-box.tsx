@@ -1,13 +1,16 @@
 "use client";
 
 import React, { useState, useEffect } from "react";
-import { Play, Pause, RotateCcw, Wind } from "lucide-react";
+import { Play, Pause, RotateCcw } from "lucide-react";
+import { useLanguage } from "./language-context";
 
 export function BreathingBox() {
+  const { t } = useLanguage();
+  const tb = t.relief.tools.breathing;
   const [isActive, setIsActive] = useState(false);
-  const [phase, setPhase] = useState<"Inhale" | "Hold (Full)" | "Exhale" | "Hold (Empty)">("Inhale");
+  const [phase, setPhase] = useState<"inhale" | "holdFull" | "exhale" | "holdEmpty">("inhale");
   const [secondsLeft, setSecondsLeft] = useState(4);
-  const [technique, setTechnique] = useState<"box" | "relax">("box"); // box: 4-4-4-4, relax: 4-7-8
+  const [technique, setTechnique] = useState<"box" | "relax">("box");
 
   useEffect(() => {
     let interval: NodeJS.Timeout;
@@ -19,32 +22,29 @@ export function BreathingBox() {
             return prev - 1;
           }
 
-          // Transition to next phase
           if (technique === "box") {
-            // 4s Box Breathing: Inhale -> Hold -> Exhale -> Hold
-            if (phase === "Inhale") {
-              setPhase("Hold (Full)");
+            if (phase === "inhale") {
+              setPhase("holdFull");
               return 4;
-            } else if (phase === "Hold (Full)") {
-              setPhase("Exhale");
+            } else if (phase === "holdFull") {
+              setPhase("exhale");
               return 4;
-            } else if (phase === "Exhale") {
-              setPhase("Hold (Empty)");
+            } else if (phase === "exhale") {
+              setPhase("holdEmpty");
               return 4;
             } else {
-              setPhase("Inhale");
+              setPhase("inhale");
               return 4;
             }
           } else {
-            // 4-7-8 Relaxing: Inhale (4s) -> Hold (7s) -> Exhale (8s)
-            if (phase === "Inhale") {
-              setPhase("Hold (Full)");
+            if (phase === "inhale") {
+              setPhase("holdFull");
               return 7;
-            } else if (phase === "Hold (Full)") {
-              setPhase("Exhale");
+            } else if (phase === "holdFull") {
+              setPhase("exhale");
               return 8;
             } else {
-              setPhase("Inhale");
+              setPhase("inhale");
               return 4;
             }
           }
@@ -57,28 +57,27 @@ export function BreathingBox() {
 
   const reset = () => {
     setIsActive(false);
-    setPhase("Inhale");
+    setPhase("inhale");
     setSecondsLeft(4);
   };
 
-  const getPhaseInstruction = () => {
+  const getPhaseName = () => {
     switch (phase) {
-      case "Inhale":
-        return "Breathe in slowly through your nose...";
-      case "Hold (Full)":
-        return "Hold gently. Relax your shoulders...";
-      case "Exhale":
-        return "Release slowly through your mouth...";
-      case "Hold (Empty)":
-        return "Rest in stillness...";
+      case "inhale":
+        return tb.inhale;
+      case "holdFull":
+      case "holdEmpty":
+        return tb.hold;
+      case "exhale":
+        return tb.exhale;
     }
   };
 
   const getScaleClass = () => {
     if (!isActive) return "scale-100";
-    if (phase === "Inhale") return "scale-125 transition-transform duration-[4000ms] ease-out";
-    if (phase === "Hold (Full)") return "scale-125";
-    if (phase === "Exhale") return "scale-90 transition-transform duration-[4000ms] ease-in";
+    if (phase === "inhale") return "scale-125 transition-transform duration-[4000ms] ease-out";
+    if (phase === "holdFull") return "scale-125";
+    if (phase === "exhale") return "scale-90 transition-transform duration-[4000ms] ease-in";
     return "scale-90";
   };
 
@@ -94,7 +93,7 @@ export function BreathingBox() {
               : "text-slate-400 hover:text-slate-200"
           }`}
         >
-          Box Breathing (4-4-4-4)
+          Box 4-4-4-4
         </button>
         <button
           onClick={() => { setTechnique("relax"); reset(); }}
@@ -104,20 +103,18 @@ export function BreathingBox() {
               : "text-slate-400 hover:text-slate-200"
           }`}
         >
-          4-7-8 Sleep & Calm
+          4-7-8 Relax
         </button>
       </div>
 
       {/* Visual Breathing Orb */}
       <div className="relative h-56 flex items-center justify-center">
-        {/* Outer pulsating ring */}
         <div
           className={`w-44 h-44 rounded-full border border-teal-500/20 bg-teal-950/20 backdrop-blur-md flex items-center justify-center shadow-2xl ${getScaleClass()}`}
         >
-          {/* Inner glowing orb */}
           <div className="w-32 h-32 rounded-full bg-gradient-to-tr from-emerald-500/30 via-teal-400/40 to-sky-400/30 flex flex-col items-center justify-center p-3 shadow-inner border border-teal-400/30">
-            <span className="text-xs font-mono uppercase tracking-widest text-teal-200 font-semibold">
-              {phase}
+            <span className="text-xs font-mono uppercase tracking-widest text-teal-200 font-semibold truncate max-w-[110px]">
+              {getPhaseName()}
             </span>
             <span className="text-3xl font-extrabold text-white my-1 font-mono">
               {isActive ? secondsLeft : 4}s
@@ -128,7 +125,7 @@ export function BreathingBox() {
 
       {/* Instruction text */}
       <p className="text-sm font-medium text-teal-200/90 h-6 animate-fade-in">
-        {isActive ? getPhaseInstruction() : "Press start and follow the rhythm."}
+        {isActive ? getPhaseName() : tb.desc}
       </p>
 
       {/* Controls */}
@@ -138,12 +135,12 @@ export function BreathingBox() {
           className="inline-flex items-center gap-2 px-6 py-2.5 rounded-xl bg-gradient-to-r from-emerald-500 to-teal-600 hover:from-emerald-400 hover:to-teal-500 text-slate-950 font-bold text-sm shadow-lg shadow-emerald-500/20 transition-all active:scale-95"
         >
           {isActive ? <Pause className="w-4 h-4 fill-slate-950" /> : <Play className="w-4 h-4 fill-slate-950" />}
-          <span>{isActive ? "Pause" : "Start Breathing"}</span>
+          <span>{isActive ? tb.pause : tb.start}</span>
         </button>
         <button
           onClick={reset}
           className="p-2.5 rounded-xl bg-slate-800 text-slate-300 hover:text-white hover:bg-slate-700 transition-all"
-          title="Reset"
+          title={tb.reset}
         >
           <RotateCcw className="w-4 h-4" />
         </button>

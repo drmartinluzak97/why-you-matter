@@ -7,17 +7,20 @@ import { BreathingBox } from "./breathing-box";
 import { AmbientSoundscape } from "./ambient-soundscape";
 import { GroundingSensory } from "./grounding-sensory";
 import { NatureDistractionModal } from "./nature-modal";
+import { useLanguage } from "./language-context";
 
 type TabKey = "breathing" | "grounding" | "sounds";
 
 export function ReliefHub() {
+  const { t } = useLanguage();
+  const tr = t.relief;
   const [activeTab, setActiveTab] = useState<TabKey>("breathing");
   const [showNatureModal, setShowNatureModal] = useState(false);
 
   const TABS = [
-    { key: "breathing", label: "Breathing", icon: Wind },
+    { key: "breathing", label: tr.tools.breathing.title.split(" ")[0] || "Breathing", icon: Wind },
     { key: "grounding", label: "5-4-3-2-1", icon: Hand },
-    { key: "sounds", label: "Soundscapes", icon: Music },
+    { key: "sounds", label: tr.tools.nature.badge || "Soundscapes", icon: Music },
   ];
 
   return (
@@ -31,13 +34,13 @@ export function ReliefHub() {
           <div>
             <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-teal-500/20 text-teal-300 text-xs font-semibold tracking-wide border border-teal-500/30 mb-2">
               <Sparkles className="w-3.5 h-3.5 text-teal-400" />
-              <span>Grounding & Relief Hub</span>
+              <span>{tr.badge}</span>
             </div>
             <h2 className="text-2xl sm:text-3xl font-bold text-white">
-              Tips & Immediate Relief
+              {tr.title}
             </h2>
             <p className="text-sm text-slate-300 mt-1">
-              Interactive exercises to calm acute panic, ease anxiety, and reset your nervous system.
+              {tr.subtitle}
             </p>
           </div>
 
@@ -48,7 +51,7 @@ export function ReliefHub() {
             title="Open Nature & More Sanctuary"
           >
             <Trees className="w-4 h-4 text-teal-400" />
-            <span>Nature & More</span>
+            <span>Nature & Sanctuary</span>
           </button>
         </div>
 
@@ -73,7 +76,7 @@ export function ReliefHub() {
             );
           })}
 
-          {/* Motivation Link as requested 4th tab */}
+          {/* Motivation Link */}
           <Link
             href="/motivation"
             className="py-2 px-3.5 rounded-xl text-xs font-semibold transition-all flex items-center gap-1.5 whitespace-nowrap text-purple-300 bg-purple-500/10 border border-purple-500/20 hover:bg-purple-500/20 hover:text-purple-200 ml-auto"
@@ -94,7 +97,7 @@ export function ReliefHub() {
       <div className="pt-6 border-t border-slate-800/80 mt-6 flex items-center justify-between text-[11px] text-slate-400">
         <span>100% Client-side & Private</span>
         <Link href="/motivation" className="text-teal-400 hover:text-teal-300 flex items-center gap-1">
-          <span>Read Motivation & Sublimation</span>
+          <span>{t.footer.motivationHub}</span>
           <ArrowRight className="w-3 h-3" />
         </Link>
       </div>

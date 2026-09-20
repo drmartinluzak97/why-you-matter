@@ -32,12 +32,16 @@ import {
   CountryCrisisInfo,
   detectUserCountryCode,
 } from "@/lib/crisis-data";
+import { useLanguage } from "./language-context";
+import { ReportModal } from "./report-modal";
 
 export interface CrisisPanelProps {
   initialCountryCode?: string;
 }
 
 export function CrisisPanel({ initialCountryCode }: CrisisPanelProps) {
+  const { t } = useLanguage();
+  const tc = t.crisis;
   const [targetType, setTargetType] = useState<"self" | "other">("self");
 
   // Determine the best initial country
@@ -53,6 +57,7 @@ export function CrisisPanel({ initialCountryCode }: CrisisPanelProps) {
   const [selectedCountryCode, setSelectedCountryCode] = useState<string>(defaultCountry.code);
   const [searchQuery, setSearchQuery] = useState<string>("");
   const [isDropdownOpen, setIsDropdownOpen] = useState<boolean>(false);
+  const [isReportModalOpen, setIsReportModalOpen] = useState<boolean>(false);
 
   const continentsScrollRef = useRef<HTMLDivElement>(null);
   const countriesScrollRef = useRef<HTMLDivElement>(null);
@@ -153,13 +158,13 @@ export function CrisisPanel({ initialCountryCode }: CrisisPanelProps) {
           <div>
             <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-rose-500/20 text-rose-300 text-xs font-semibold tracking-wide border border-rose-500/30 mb-2 shadow-xs">
               <AlertTriangle className="w-3.5 h-3.5 text-rose-400 animate-pulse" />
-              <span>Immediate Support Protocol</span>
+              <span>{tc.badge}</span>
             </div>
             <h2 className="text-2xl sm:text-3xl font-bold text-white tracking-tight">
-              In Crisis or Threat
+              {tc.title}
             </h2>
             <p className="text-xs sm:text-sm text-slate-300 mt-1">
-              If life, safety, or mental stability is under immediate risk, help is accessible worldwide 24/7.
+              {tc.subtitle}
             </p>
           </div>
         </div>
@@ -220,7 +225,7 @@ export function CrisisPanel({ initialCountryCode }: CrisisPanelProps) {
               <div className="flex items-center justify-between text-xs text-slate-400 px-0.5">
                 <span className="font-semibold uppercase tracking-wider text-[11px] text-slate-300 flex items-center gap-1.5">
                   <Globe className="w-3.5 h-3.5 text-rose-400" />
-                  <span>Select Region & Country:</span>
+                  <span>{tc.selectCountryLabel}</span>
                 </span>
                 <span className="text-[10px] text-slate-400 bg-slate-800/80 px-2 py-0.5 rounded-full border border-slate-700">
                   {COUNTRIES_DATA.length} Countries Available
@@ -294,7 +299,7 @@ export function CrisisPanel({ initialCountryCode }: CrisisPanelProps) {
                       type="text"
                       value={searchQuery}
                       onChange={(e) => setSearchQuery(e.target.value)}
-                      placeholder="Search country, code or Mesopotamia..."
+                      placeholder={tc.searchCountryPlaceholder}
                       className="w-full bg-slate-900/90 border border-slate-700/80 rounded-xl pl-9 pr-8 py-1.5 text-xs text-white placeholder-slate-500 focus:outline-hidden focus:border-rose-400 focus:ring-1 focus:ring-rose-400 transition-colors"
                     />
                     {searchQuery && (
@@ -535,6 +540,19 @@ export function CrisisPanel({ initialCountryCode }: CrisisPanelProps) {
                   </div>
                 ))}
               </div>
+
+              {/* Report Outdated Number Link */}
+              <div className="pt-2 flex items-center justify-between text-[11px] text-slate-400">
+                <span className="truncate">Found a broken number for {activeCountry.name}?</span>
+                <button
+                  type="button"
+                  onClick={() => setIsReportModalOpen(true)}
+                  className="text-rose-400 hover:text-rose-300 font-medium underline underline-offset-2 flex items-center gap-1 shrink-0 ml-2"
+                >
+                  <AlertTriangle className="w-3 h-3" />
+                  <span>Report / Update Hotline</span>
+                </button>
+              </div>
             </div>
           </div>
         ) : (
@@ -587,6 +605,13 @@ export function CrisisPanel({ initialCountryCode }: CrisisPanelProps) {
         </span>
         <span>You are worthy of support</span>
       </div>
+
+      <ReportModal
+        isOpen={isReportModalOpen}
+        onClose={() => setIsReportModalOpen(false)}
+        defaultCountry={activeCountry.name}
+        defaultType="outdated_number"
+      />
     </div>
   );
 }
