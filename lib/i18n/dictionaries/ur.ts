@@ -18,7 +18,10 @@ export const ur: TranslationDictionary = {
     "motivation": "حوصلہ افزائی",
     "motivationTitle": "Explore deeper motivation & psychological reframing",
     "disguise": "چھپائیں",
-    "disguiseTitle": "Disguise this screen as a work document immediately"
+    "disguiseTitle": "Disguise this screen as a work document immediately",
+    "languageCountNotice": "50 عالمی زبانیں • فوری ترجمہ",
+    "geoDetectionEnabled": "خودکار جغرافیائی شناخت فعال ہے",
+    "clearSearch": "صاف کریں"
   },
   "hero": {
     "badge": "براہ کرم ایک لمحے کے لیے رکیں",

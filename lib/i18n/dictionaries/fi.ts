@@ -18,7 +18,10 @@ export const fi: TranslationDictionary = {
     "motivation": "Motivaatio & Toivo",
     "motivationTitle": "Löydä syvempää motivaatiota ja uusia näkökulmia",
     "disguise": "Naamiointi",
-    "disguiseTitle": "Piilota tämä näyttö heti työdokumentiksi"
+    "disguiseTitle": "Piilota tämä näyttö heti työdokumentiksi",
+    "languageCountNotice": "50 maailmankieltä • Välitön käännös",
+    "geoDetectionEnabled": "Automaattinen sijainnintunnistus käytössä",
+    "clearSearch": "Tyhjennä"
   },
   "hero": {
     "badge": "Turvallinen Satama Pimeydessä",

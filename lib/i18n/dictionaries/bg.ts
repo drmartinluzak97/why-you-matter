@@ -18,7 +18,10 @@ export const bg: TranslationDictionary = {
     "motivation": "Мотивация",
     "motivationTitle": "Открийте по-дълбока мотивация и психологически гледни точки",
     "disguise": "Прикриване",
-    "disguiseTitle": "Прикрийте незабавно този екран като работен документ"
+    "disguiseTitle": "Прикрийте незабавно този екран като работен документ",
+    "languageCountNotice": "50 световни езика • Незабавен превод",
+    "geoDetectionEnabled": "Автоматично гео-откриване активирано",
+    "clearSearch": "Изчисти"
   },
   "hero": {
     "badge": "Безопасно Убежище в Тъмнината",

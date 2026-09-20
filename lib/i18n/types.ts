@@ -78,6 +78,9 @@ export interface TranslationDictionary {
     motivationTitle: string;
     disguise: string;
     disguiseTitle: string;
+    languageCountNotice: string;
+    geoDetectionEnabled: string;
+    clearSearch: string;
   };
   hero: {
     badge: string;

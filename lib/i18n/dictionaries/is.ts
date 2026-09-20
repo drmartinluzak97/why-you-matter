@@ -18,7 +18,10 @@ export const is: TranslationDictionary = {
     "motivation": "Hvatning",
     "motivationTitle": "Explore deeper motivation & psychological reframing",
     "disguise": "Dulargervi",
-    "disguiseTitle": "Disguise this screen as a work document immediately"
+    "disguiseTitle": "Disguise this screen as a work document immediately",
+    "languageCountNotice": "50 heimstungumál • Tafarlaus þýðing",
+    "geoDetectionEnabled": "Sjálfvirk staðsetningargreining virk",
+    "clearSearch": "Hreinsa"
   },
   "hero": {
     "badge": "Vinsamlegast staldraðu við í smástund",

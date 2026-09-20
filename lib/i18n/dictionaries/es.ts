@@ -18,7 +18,10 @@ export const es: TranslationDictionary = {
     "motivation": "Motivación",
     "motivationTitle": "Explorar motivación profunda y perspectivas psicológicas",
     "disguise": "Camuflaje",
-    "disguiseTitle": "Disfrazar esta pantalla como documento de trabajo de inmediato"
+    "disguiseTitle": "Disfrazar esta pantalla como documento de trabajo de inmediato",
+    "languageCountNotice": "50 idiomas globales • Traducción instantánea",
+    "geoDetectionEnabled": "Geolocalización automática activada",
+    "clearSearch": "Borrar"
   },
   "hero": {
     "badge": "Un santuario seguro en la oscuridad",

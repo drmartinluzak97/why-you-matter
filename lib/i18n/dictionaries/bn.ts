@@ -18,7 +18,10 @@ export const bn: TranslationDictionary = {
     "motivation": "অনুপ্রেরণা",
     "motivationTitle": "Explore deeper motivation & psychological reframing",
     "disguise": "ছদ্মবেশ",
-    "disguiseTitle": "Disguise this screen as a work document immediately"
+    "disguiseTitle": "Disguise this screen as a work document immediately",
+    "languageCountNotice": "৫০টি বৈশ্বিক ভাষা • তাৎক্ষণিক অনুবাদ",
+    "geoDetectionEnabled": "স্বয়ংক্রিয় অবস্থান শনাক্তকরণ সক্রিয়",
+    "clearSearch": "মুছুন"
   },
   "hero": {
     "badge": "অনুগ্রহ করে একটি মুহূর্ত থামুন",

@@ -18,7 +18,10 @@ export const ta: TranslationDictionary = {
     "motivation": "ஊக்கம்",
     "motivationTitle": "Explore deeper motivation & psychological reframing",
     "disguise": "மறைப்பு",
-    "disguiseTitle": "Disguise this screen as a work document immediately"
+    "disguiseTitle": "Disguise this screen as a work document immediately",
+    "languageCountNotice": "50 உலக மொழிகள் • உடனடி மொழிபெயர்ப்பு",
+    "geoDetectionEnabled": "தானியங்கி இருப்பிடக் கண்டறிதல் இயக்கப்பட்டது",
+    "clearSearch": "அழி"
   },
   "hero": {
     "badge": "தயவுசெய்து ஒரு கணம் நில்லுங்கள்",

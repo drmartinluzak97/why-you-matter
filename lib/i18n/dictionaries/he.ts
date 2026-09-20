@@ -18,7 +18,10 @@ export const he: TranslationDictionary = {
     "motivation": "מוטיבציה",
     "motivationTitle": "גלה מוטיבציה עמוקה ונקודות מבט פסיכולוגיות",
     "disguise": "הסוואת מסך",
-    "disguiseTitle": "הסווה מסך זה באופן מיידי כמסמך עבודה"
+    "disguiseTitle": "הסווה מסך זה באופן מיידי כמסמך עבודה",
+    "languageCountNotice": "50 שפות גלובליות • תרגום מיידי",
+    "geoDetectionEnabled": "זיהוי מיקום אוטומטי מופעל",
+    "clearSearch": "נקה"
   },
   "hero": {
     "badge": "מקלט בטוח בעת חשיכה",

@@ -18,7 +18,10 @@ export const hy: TranslationDictionary = {
     "motivation": "Մոտիվացիա",
     "motivationTitle": "Explore deeper motivation & psychological reframing",
     "disguise": "Քողարկում",
-    "disguiseTitle": "Disguise this screen as a work document immediately"
+    "disguiseTitle": "Disguise this screen as a work document immediately",
+    "languageCountNotice": "50 համաշխարհային լեզու • Ակնթարթային թարգմանություն",
+    "geoDetectionEnabled": "Ավտոմատ տեղորոշումը միացված է",
+    "clearSearch": "Մաքրել"
   },
   "hero": {
     "badge": "Խնդրում ենք, կանգ առ մեկ ակնթարթ",

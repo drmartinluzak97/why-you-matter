@@ -18,7 +18,10 @@ export const tr: TranslationDictionary = {
     "motivation": "Motivasyon",
     "motivationTitle": "Derin motivasyonu ve psikolojik bakış açılarını keşfet",
     "disguise": "Gizleme",
-    "disguiseTitle": "Bu ekranı hemen bir çalışma belgesi olarak gizle"
+    "disguiseTitle": "Bu ekranı hemen bir çalışma belgesi olarak gizle",
+    "languageCountNotice": "50 Küresel Dil • Anında Çeviri",
+    "geoDetectionEnabled": "Otomatik Konum Algılama Etkin",
+    "clearSearch": "Temizle"
   },
   "hero": {
     "badge": "Karanlıkta Güvenli Bir Sığınak",

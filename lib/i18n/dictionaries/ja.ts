@@ -18,7 +18,10 @@ export const ja: TranslationDictionary = {
     "motivation": "生きる理由・動機",
     "motivationTitle": "心理的リフレーミングと深い生きる視点を見る",
     "disguise": "画面偽装",
-    "disguiseTitle": "この画面を即座に業務文書へ偽装する"
+    "disguiseTitle": "この画面を即座に業務文書へ偽装する",
+    "languageCountNotice": "50の世界言語 • 即時翻訳",
+    "geoDetectionEnabled": "自動地域検出が有効です",
+    "clearSearch": "クリア"
   },
   "hero": {
     "badge": "暗闇の中の安全な避難所",

@@ -18,7 +18,10 @@ export const hr: TranslationDictionary = {
     "motivation": "Motivacija",
     "motivationTitle": "Istraži dublju motivaciju i psihološke perspektive",
     "disguise": "Kamuflaža",
-    "disguiseTitle": "Odmah sakrij ovaj zaslon kao poslovni dokument"
+    "disguiseTitle": "Odmah sakrij ovaj zaslon kao poslovni dokument",
+    "languageCountNotice": "50 svjetskih jezika • Trenutni prijevod",
+    "geoDetectionEnabled": "Automatsko prepoznavanje lokacije aktivno",
+    "clearSearch": "Očisti"
   },
   "hero": {
     "badge": "Sigurno Utočište u Tami",

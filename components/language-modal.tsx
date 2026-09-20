@@ -66,7 +66,7 @@ export function LanguageModal() {
                 <Sparkles className="w-4 h-4 text-sky-400" />
               </h3>
               <p className="text-xs text-slate-400 font-mono">
-                10 Global Languages • Instant Translation
+                {t.nav.languageCountNotice}
               </p>
             </div>
           </div>
@@ -96,7 +96,7 @@ export function LanguageModal() {
                 onClick={() => setSearch("")}
                 className="absolute right-3 top-1/2 -translate-y-1/2 text-xs text-slate-400 hover:text-white bg-slate-800 px-2 py-0.5 rounded-md"
               >
-                Clear
+                {t.nav.clearSearch}
               </button>
             )}
           </div>
@@ -167,7 +167,7 @@ export function LanguageModal() {
         <div className="p-4 border-t border-slate-800 bg-slate-950/60 flex items-center justify-between text-xs text-slate-400">
           <span className="flex items-center gap-1.5 font-mono">
             <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
-            Automatic Geo-Detection Enabled
+            {t.nav.geoDetectionEnabled}
           </span>
           <button
             onClick={() => setIsLanguageModalOpen(false)}

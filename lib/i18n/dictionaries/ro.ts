@@ -18,7 +18,10 @@ export const ro: TranslationDictionary = {
     "motivation": "Motivație",
     "motivationTitle": "Descoperă motivația profundă și perspective psihologice",
     "disguise": "Camuflaj",
-    "disguiseTitle": "Ascunde imediat acest ecran sub un document de lucru"
+    "disguiseTitle": "Ascunde imediat acest ecran sub un document de lucru",
+    "languageCountNotice": "50 de limbi globale • Traducere instantanee",
+    "geoDetectionEnabled": "Detectare geografică automată activată",
+    "clearSearch": "Șterge"
   },
   "hero": {
     "badge": "Un Sanctuar Sigur în Întuneric",

@@ -18,7 +18,10 @@ export const uk: TranslationDictionary = {
     "motivation": "Мотивація",
     "motivationTitle": "Дослідити глибинну мотивацію та психологічні перспективи",
     "disguise": "Маскування",
-    "disguiseTitle": "Миттєво замаскувати екран під робочий документ"
+    "disguiseTitle": "Миттєво замаскувати екран під робочий документ",
+    "languageCountNotice": "50 мов світу • Миттєвий переклад",
+    "geoDetectionEnabled": "Автоматичне геовизначення увімкнено",
+    "clearSearch": "Очистити"
   },
   "hero": {
     "badge": "Безпечний прихисток у темряві",

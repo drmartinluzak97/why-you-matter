@@ -18,7 +18,10 @@ export const ru: TranslationDictionary = {
     "motivation": "Мотивация",
     "motivationTitle": "Explore deeper motivation & psychological reframing",
     "disguise": "Маскировка",
-    "disguiseTitle": "Disguise this screen as a work document immediately"
+    "disguiseTitle": "Disguise this screen as a work document immediately",
+    "languageCountNotice": "50 языков мира • Мгновенный перевод",
+    "geoDetectionEnabled": "Автоматическое геоопределение активно",
+    "clearSearch": "Очистить"
   },
   "hero": {
     "badge": "Пожалуйста, задержись на мгновение",

@@ -18,7 +18,10 @@ export const vi: TranslationDictionary = {
     "motivation": "Động Lực Sống",
     "motivationTitle": "Khám phá động lực sâu sắc và góc nhìn tâm lý",
     "disguise": "Ngụy Trang",
-    "disguiseTitle": "Ngụy trang màn hình thành tài liệu công việc ngay lập tức"
+    "disguiseTitle": "Ngụy trang màn hình thành tài liệu công việc ngay lập tức",
+    "languageCountNotice": "50 ngôn ngữ toàn cầu • Dịch tức thì",
+    "geoDetectionEnabled": "Tự động phát hiện vị trí địa lý",
+    "clearSearch": "Xóa"
   },
   "hero": {
     "badge": "Nơi Trú Ẩn An Toàn Trong Bóng Tối",

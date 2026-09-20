@@ -18,7 +18,10 @@ export const sw: TranslationDictionary = {
     "motivation": "Motisha",
     "motivationTitle": "Explore deeper motivation & psychological reframing",
     "disguise": "Kujificha",
-    "disguiseTitle": "Disguise this screen as a work document immediately"
+    "disguiseTitle": "Disguise this screen as a work document immediately",
+    "languageCountNotice": "Lugha 50 za Ulimwengu • Tafsiri ya Papo Hapo",
+    "geoDetectionEnabled": "Utambuzi wa Eneo Kiotomatiki Umewashwa",
+    "clearSearch": "Futa"
   },
   "hero": {
     "badge": "Tafadhali simama kwa dakika moja",

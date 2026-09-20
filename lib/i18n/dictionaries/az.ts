@@ -18,7 +18,10 @@ export const az: TranslationDictionary = {
     "motivation": "Motivasiya",
     "motivationTitle": "Explore deeper motivation & psychological reframing",
     "disguise": "Gizlənmə",
-    "disguiseTitle": "Disguise this screen as a work document immediately"
+    "disguiseTitle": "Disguise this screen as a work document immediately",
+    "languageCountNotice": "50 qlobal dil • Dərhal tərcümə",
+    "geoDetectionEnabled": "Avtomatik Geo-Təyinat Aktivdir",
+    "clearSearch": "Təmizlə"
   },
   "hero": {
     "badge": "Xahiş edirik bir anlıq dayan",

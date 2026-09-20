@@ -18,7 +18,10 @@ export const sr: TranslationDictionary = {
     "motivation": "Мотивација",
     "motivationTitle": "Explore deeper motivation & psychological reframing",
     "disguise": "Камуфлажа",
-    "disguiseTitle": "Disguise this screen as a work document immediately"
+    "disguiseTitle": "Disguise this screen as a work document immediately",
+    "languageCountNotice": "50 светских језика • Тренутни превод",
+    "geoDetectionEnabled": "Аутоматско препознавање локације активно",
+    "clearSearch": "Обриши"
   },
   "hero": {
     "badge": "Молим те застани на тренутак",

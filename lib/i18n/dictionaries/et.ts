@@ -18,7 +18,10 @@ export const et: TranslationDictionary = {
     "motivation": "Motivatsioon",
     "motivationTitle": "Explore deeper motivation & psychological reframing",
     "disguise": "Maskeering",
-    "disguiseTitle": "Disguise this screen as a work document immediately"
+    "disguiseTitle": "Disguise this screen as a work document immediately",
+    "languageCountNotice": "50 maailma keelt • Kohene tõlge",
+    "geoDetectionEnabled": "Automaatne asukoha tuvastamine aktiivne",
+    "clearSearch": "Tühjenda"
   },
   "hero": {
     "badge": "Palun peatu hetkeks",

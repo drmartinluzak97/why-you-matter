@@ -18,7 +18,10 @@ export const ms: TranslationDictionary = {
     "motivation": "Motivasi",
     "motivationTitle": "Explore deeper motivation & psychological reframing",
     "disguise": "Penyamaran",
-    "disguiseTitle": "Disguise this screen as a work document immediately"
+    "disguiseTitle": "Disguise this screen as a work document immediately",
+    "languageCountNotice": "50 Bahasa Global • Terjemahan Pantas",
+    "geoDetectionEnabled": "Pengesanan Geo Automatik Diaktifkan",
+    "clearSearch": "Kosongkan"
   },
   "hero": {
     "badge": "Sila berhenti seketika",

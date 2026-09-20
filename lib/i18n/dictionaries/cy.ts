@@ -18,7 +18,10 @@ export const cy: TranslationDictionary = {
     "motivation": "Cymhelliant",
     "motivationTitle": "Explore deeper motivation & psychological reframing",
     "disguise": "Cuddio",
-    "disguiseTitle": "Disguise this screen as a work document immediately"
+    "disguiseTitle": "Disguise this screen as a work document immediately",
+    "languageCountNotice": "50 Iaith Fyd-eang • Cyfieithu Ar Unwaith",
+    "geoDetectionEnabled": "Canfod Daearyddol Awtomatig Wedi'i Alluogi",
+    "clearSearch": "Clirio"
   },
   "hero": {
     "badge": "Aros am eiliad os gwelwch yn dda",

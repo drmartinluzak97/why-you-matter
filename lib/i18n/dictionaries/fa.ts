@@ -18,7 +18,10 @@ export const fa: TranslationDictionary = {
     "motivation": "انگیزه",
     "motivationTitle": "Explore deeper motivation & psychological reframing",
     "disguise": "استتار",
-    "disguiseTitle": "Disguise this screen as a work document immediately"
+    "disguiseTitle": "Disguise this screen as a work document immediately",
+    "languageCountNotice": "۵۰ زبان جهانی • ترجمه فوری",
+    "geoDetectionEnabled": "تشخیص خودکار موقعیت مکانی فعال است",
+    "clearSearch": "پاک کردن"
   },
   "hero": {
     "badge": "لطفاً برای یک لحظه درنگ کن",

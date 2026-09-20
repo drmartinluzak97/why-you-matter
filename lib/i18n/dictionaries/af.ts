@@ -18,7 +18,10 @@ export const af: TranslationDictionary = {
     "motivation": "Motivering",
     "motivationTitle": "Explore deeper motivation & psychological reframing",
     "disguise": "Kamoeflering",
-    "disguiseTitle": "Disguise this screen as a work document immediately"
+    "disguiseTitle": "Disguise this screen as a work document immediately",
+    "languageCountNotice": "50 wêreldtale • Onmiddellike vertaling",
+    "geoDetectionEnabled": "Outomatiese geo-opsporing geaktiveer",
+    "clearSearch": "Vee uit"
   },
   "hero": {
     "badge": "Bly asseblief net 'n oomblik",

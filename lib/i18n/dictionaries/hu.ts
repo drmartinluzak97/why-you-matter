@@ -18,7 +18,10 @@ export const hu: TranslationDictionary = {
     "motivation": "Motiváció",
     "motivationTitle": "Fedezd fel a mélyebb motivációt és pszichológiai szempontokat",
     "disguise": "Álcázás",
-    "disguiseTitle": "A képernyő azonnali álcázása munkadokumentumnak"
+    "disguiseTitle": "A képernyő azonnali álcázása munkadokumentumnak",
+    "languageCountNotice": "50 világnyelv • Azonnali fordítás",
+    "geoDetectionEnabled": "Automatikus helymeghatározás aktív",
+    "clearSearch": "Törlés"
   },
   "hero": {
     "badge": "Biztonságos Menedék a Sötétben",

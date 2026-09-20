@@ -18,7 +18,10 @@ export const zh: TranslationDictionary = {
     "motivation": "动机与坚持的理由",
     "motivationTitle": "探索更深层的心理重塑与人生视角",
     "disguise": "伪装模式",
-    "disguiseTitle": "立即将屏幕伪装成工作文档"
+    "disguiseTitle": "立即将屏幕伪装成工作文档",
+    "languageCountNotice": "50种全球语言 • 即时翻译",
+    "geoDetectionEnabled": "已启用自动地理位置检测",
+    "clearSearch": "清除"
   },
   "hero": {
     "badge": "黑暗中的安心庇护所",

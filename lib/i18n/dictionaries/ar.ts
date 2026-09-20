@@ -18,7 +18,10 @@ export const ar: TranslationDictionary = {
     "motivation": "الدافع والبقاء",
     "motivationTitle": "استكشف الدوافع العميقة والرؤى النفسية للحياة",
     "disguise": "تمويه الشاشة",
-    "disguiseTitle": "إخفاء هذه الشاشة فوراً وتحويلها لمستند عمل"
+    "disguiseTitle": "إخفاء هذه الشاشة فوراً وتحويلها لمستند عمل",
+    "languageCountNotice": "50 لغة عالمية • ترجمة فورية",
+    "geoDetectionEnabled": "تم تفعيل التحديد التلقائي للموقع",
+    "clearSearch": "مسح"
   },
   "hero": {
     "badge": "ملاذ آمن في عتمة اللحظة",

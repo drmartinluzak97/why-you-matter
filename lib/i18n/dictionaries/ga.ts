@@ -18,7 +18,10 @@ export const ga: TranslationDictionary = {
     "motivation": "Spreagadh",
     "motivationTitle": "Explore deeper motivation & psychological reframing",
     "disguise": "Clúdach",
-    "disguiseTitle": "Disguise this screen as a work document immediately"
+    "disguiseTitle": "Disguise this screen as a work document immediately",
+    "languageCountNotice": "50 Teanga Dhomhanda • Aistriúchán Láithreach",
+    "geoDetectionEnabled": "Geo-Bhrath Uathoibríoch Cumhasaithe",
+    "clearSearch": "Glan"
   },
   "hero": {
     "badge": "Stad ar feadh nóiméid, le do thoil",

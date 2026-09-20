@@ -18,7 +18,10 @@ export const tl: TranslationDictionary = {
     "motivation": "Motibasyon",
     "motivationTitle": "Explore deeper motivation & psychological reframing",
     "disguise": "Pagkukubli",
-    "disguiseTitle": "Disguise this screen as a work document immediately"
+    "disguiseTitle": "Disguise this screen as a work document immediately",
+    "languageCountNotice": "50 Wikang Pandaigdig • Agarang Pagsasalin",
+    "geoDetectionEnabled": "Naka-on ang Awtomatikong Geo-Detection",
+    "clearSearch": "Burahin"
   },
   "hero": {
     "badge": "Mangyaring huminto muna sandali",

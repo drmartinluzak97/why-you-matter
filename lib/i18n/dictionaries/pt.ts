@@ -18,7 +18,10 @@ export const pt: TranslationDictionary = {
     "motivation": "Motivação",
     "motivationTitle": "Explorar motivação profunda e perspectivas psicológicas",
     "disguise": "Disfarce",
-    "disguiseTitle": "Disfarçar esta tela como documento de trabalho imediatamente"
+    "disguiseTitle": "Disfarçar esta tela como documento de trabalho imediatamente",
+    "languageCountNotice": "50 idiomas globais • Tradução instantânea",
+    "geoDetectionEnabled": "Deteção geográfica automática ativada",
+    "clearSearch": "Limpar"
   },
   "hero": {
     "badge": "Um Santuário Seguro na Escuridão",

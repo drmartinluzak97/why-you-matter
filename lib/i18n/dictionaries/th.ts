@@ -18,7 +18,10 @@ export const th: TranslationDictionary = {
     "motivation": "แรงบันดาลใจ",
     "motivationTitle": "ค้นพบแรงบันดาลใจและมุมมองทางจิตวิทยาที่ลึกซึ้ง",
     "disguise": "พรางหน้าจอ",
-    "disguiseTitle": "พรางหน้าจอนี้เป็นเอกสารการทำงานทันที"
+    "disguiseTitle": "พรางหน้าจอนี้เป็นเอกสารการทำงานทันที",
+    "languageCountNotice": "50 ภาษาทั่วโลก • แปลทันที",
+    "geoDetectionEnabled": "เปิดใช้งานการตรวจจับตำแหน่งอัตโนมัติ",
+    "clearSearch": "ล้าง"
   },
   "hero": {
     "badge": "ที่หลบภัยอันอบอุ่นในวันที่มืดมน",

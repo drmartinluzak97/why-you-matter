@@ -18,7 +18,10 @@ export const no: TranslationDictionary = {
     "motivation": "Motivasjon",
     "motivationTitle": "Utforsk dypere motivasjon og psykologiske perspektiver",
     "disguise": "Kamuflasje",
-    "disguiseTitle": "Skjul denne skjermen som et arbeidsdokument umiddelbart"
+    "disguiseTitle": "Skjul denne skjermen som et arbeidsdokument umiddelbart",
+    "languageCountNotice": "50 globale språk • Umiddelbar oversettelse",
+    "geoDetectionEnabled": "Automatisk stedsgjenkjenning aktivert",
+    "clearSearch": "Tøm"
   },
   "hero": {
     "badge": "Et Trygt Fristed i Mørket",

@@ -18,7 +18,10 @@ export const cs: TranslationDictionary = {
     "motivation": "Motivace",
     "motivationTitle": "Prozkoumat hlubší motivaci a psychologické perspektivy",
     "disguise": "Maskování",
-    "disguiseTitle": "Okamžitě zamaskovat obrazovku jako pracovní dokument"
+    "disguiseTitle": "Okamžitě zamaskovat obrazovku jako pracovní dokument",
+    "languageCountNotice": "50 světových jazyků • Okamžitý překlad",
+    "geoDetectionEnabled": "Automatická geo-detekce aktivní",
+    "clearSearch": "Vymazat"
   },
   "hero": {
     "badge": "Bezpečné útočiště ve tmě",

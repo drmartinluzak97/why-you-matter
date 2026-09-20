@@ -18,7 +18,10 @@ export const ka: TranslationDictionary = {
     "motivation": "მოტივაცია",
     "motivationTitle": "Explore deeper motivation & psychological reframing",
     "disguise": "შენიღბვა",
-    "disguiseTitle": "Disguise this screen as a work document immediately"
+    "disguiseTitle": "Disguise this screen as a work document immediately",
+    "languageCountNotice": "50 მსოფლიო ენა • მყისიერი თარგმანი",
+    "geoDetectionEnabled": "ავტომატური გეო-დეტექცია ჩართულია",
+    "clearSearch": "გასუფთავება"
   },
   "hero": {
     "badge": "გთხოვ, შეჩერდი ერთი წამით",

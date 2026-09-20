@@ -18,7 +18,10 @@ export const hi: TranslationDictionary = {
     "motivation": "प्रेरणा",
     "motivationTitle": "गहरे दृष्टिकोण और जीवन की प्रेरणा तलाशें",
     "disguise": "स्क्रीन छिपाएं",
-    "disguiseTitle": "इस स्क्रीन को कार्य दस्तावेज़ के रूप में छिपाएं"
+    "disguiseTitle": "इस स्क्रीन को कार्य दस्तावेज़ के रूप में छिपाएं",
+    "languageCountNotice": "50 वैश्विक भाषाएं • त्वरित अनुवाद",
+    "geoDetectionEnabled": "स्वचालित स्थान पहचान सक्रिय",
+    "clearSearch": "साफ़ करें"
   },
   "hero": {
     "badge": "अंधेरे में एक सुरक्षित आश्रय",

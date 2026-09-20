@@ -18,7 +18,10 @@ export const ko: TranslationDictionary = {
     "motivation": "살아갈 이유 & 동기",
     "motivationTitle": "더 깊은 심리적 재구성 및 인생의 관점 탐색",
     "disguise": "화면 위장",
-    "disguiseTitle": "현재 화면을 업무 문서로 즉시 위장합니다"
+    "disguiseTitle": "현재 화면을 업무 문서로 즉시 위장합니다",
+    "languageCountNotice": "50개 글로벌 언어 • 즉시 번역",
+    "geoDetectionEnabled": "자동 위치 감지 활성화됨",
+    "clearSearch": "지우기"
   },
   "hero": {
     "badge": "어둠 속의 안전한 안식처",

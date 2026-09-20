@@ -18,7 +18,10 @@ export const sv: TranslationDictionary = {
     "motivation": "Motivation",
     "motivationTitle": "Utforska djupare motivation och psykologiska perspektiv",
     "disguise": "Kamouflage",
-    "disguiseTitle": "Dölj omedelbart denna skärm som ett arbetsdokument"
+    "disguiseTitle": "Dölj omedelbart denna skärm som ett arbetsdokument",
+    "languageCountNotice": "50 globala språk • Omedelbar översättning",
+    "geoDetectionEnabled": "Automatisk geodetektering aktiverad",
+    "clearSearch": "Rensa"
   },
   "hero": {
     "badge": "En Trygg Fristad i Mörkret",

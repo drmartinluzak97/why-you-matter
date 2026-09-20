@@ -18,7 +18,10 @@ export const nl: TranslationDictionary = {
     "motivation": "Motivatie",
     "motivationTitle": "Ontdek diepere motivatie en psychologische perspectieven",
     "disguise": "Camouflage",
-    "disguiseTitle": "Vermom dit scherm direct als werkdocument"
+    "disguiseTitle": "Vermom dit scherm direct als werkdocument",
+    "languageCountNotice": "50 wereldtalen • Directe vertaling",
+    "geoDetectionEnabled": "Automatische geo-detectie ingeschakeld",
+    "clearSearch": "Wissen"
   },
   "hero": {
     "badge": "Een Veilig Toevluchtsoord in het Donker",
