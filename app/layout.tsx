@@ -1,4 +1,6 @@
 import type { Metadata } from "next";
+import { Analytics } from "@vercel/analytics/next";
+import { UmamiAnalytics } from "@/components/umami-analytics";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -91,6 +93,8 @@ export default function RootLayout({
       </head>
       <body className="antialiased bg-[#070b14] text-slate-100 min-h-screen flex flex-col selection:bg-sky-500/30 selection:text-sky-200">
         {children}
+        <Analytics />
+        <UmamiAnalytics />
       </body>
     </html>
   );
