@@ -255,58 +255,58 @@ export const dz: TranslationDictionary = {
     "footerNotice": "hello@martinluzak.sk ལུ་ ཐད་ཀར་དུ་གཏང • མིང་མེད་སྙན་ཞུ་ལུ་རྒྱབ་སྐྱོར་ཡོད"
   },
   motivationPage: {
-    "backToHome": "← Back to Home & Crisis Help",
-    "badge": "Perspective Shift & Meaning • 101 Global Inspirations",
-    "titlePart1": "Why Your Existence ",
-    "titleHighlight": "Matters Profoundly",
-    "description": "When you are in the thick of exhaustion, perspective narrows. Here are grounded psychological principles and real human stories of those who turned extreme suffering into enduring purpose.",
-    "spotlightBadge": "Voice from Your Region",
-    "spotlightSelectCountry": "Select country:",
-    "spotlightAdversity": "Adversity Faced",
-    "spotlightTakeaway": "Takeaway for You Today",
-    "globalTitansTitle": "Global Titans of Resilience",
-    "globalTitansSubtitle": "Timeless figures who overcame unimaginable odds to light the path for humanity.",
-    "galleryTitle": "All Continental & European Figures",
-    "gallerySubtitle": "Explore inspiring stories from across Europe and the entire globe.",
-    "searchPlaceholder": "Search name or country...",
-    "continents": {
-      "all": "🌍 All",
-      "europe": "🏰 Europe",
-      "americas": "🌎 Americas",
-      "asia": "🌏 Asia",
-      "africa": "🏜️ Africa",
-      "oceania": "🌊 Oceania"
-    },
-    "pillars": {
-      "title": "3 Core Pillars of Resilience",
-      "badge": "Proven Principles",
-      "survivalTitle": "100% Survival Rate",
-      "survivalDesc": "You have survived every panic attack, every heartbreak, and every dark night you thought you wouldn't. Your resilience is already proven by facts.",
-      "noiseTitle": "Cognitive Noise vs. Truth",
-      "noiseDesc": "The brain is an evolutionary survival machine that exaggerates threat in times of stress. Anxiety and dark thoughts are false alarms, not objective reality.",
-      "chaptersTitle": "The Unwritten Chapters",
-      "chaptersDesc": "You cannot judge the entire book of your life by a single difficult chapter. The best people you will ever meet and the greatest laughs are still ahead.",
-      "alchemyTitle": "Alchemy of Pain (Sublimation)",
-      "alchemyDesc": "Great art, deep empathy, and groundbreaking resilience are born from people who have stood in the dark. Your pain can become your greatest creative superpower."
-    },
-    "sublimation": {
-      "title": "The Alchemy of Mind & Shadow",
-      "subtitle": "Transforming inner turmoil into understanding and creative power.",
-      "card1Title": "1. Thoughts Are Not Facts",
-      "card1Summary": "Most self-critical thoughts are not your own. They are old tape recordings from childhood or environment.",
-      "card1Detail": "As young children, we lacked critical filters. When someone spoke in anger or criticism, our subconscious recorded it as absolute truth. When you hear 'You are broken' or 'You are worthless', realize: that isn't you speaking. It is simply an outdated tape loop.",
-      "card2Title": "2. The Art of Sublimation (Alchemy)",
-      "card2Summary": "Your intense dark energy doesn't have to destroy you. It can be transmuted into creation.",
-      "card2Detail": "Sublimation is the psychological alchemy of converting raw instinct, taboo thoughts, and deep emotional pain into art, literature, physical power, or code. Creators didn't suppress their darkness—they channeled it into timeless works.",
-      "card3Title": "3. You Are the Sky, Not the Storm",
-      "card3Summary": "You are the conscious observer witnessing the storm, not the wreckage inside it.",
-      "card3Detail": "No matter how turbulent the clouds, thunder, or rain become, the sky itself is never harmed by the weather. Step back into the seat of the observer. Watch the sensations come and go without attaching your identity to them."
-    },
-    "cta": {
-      "title": "Need to ground yourself right now or talk to someone?",
-      "desc": "Take a slow, deep breath. You do not have to conquer the whole mountain today. Just the next minute.",
-      "crisisButton": "View Crisis Helplines",
-      "toolsButton": "Breathing & Grounding Tools"
-    }
+  "backToHome": "← ཁྱིམ་ནང་ལོག་ནི་དང་ དཀའ་ངལ་གྱི་གྲོགས་རམ་",
+  "badge": "མཐོང་ཚུལ་བསྒྱུར་བཅོས་དང་དོན་དག • འཛམ་གླིང་སེམས་ཤུགས་༡༠༡",
+  "titlePart1": "ཁྱོད་གནས་པའི་རྒྱུ་མཚན།",
+  "titleHighlight": "གནད་དོན་གཏིང་ཟབ་པོ།",
+  "description": "ཁྱོད་ཐང་ཆད་པའི་མཐུག་ཚད་ནང་ལུ་ཡོད་པའི་སྐབས་ མཐོང་ཚུལ་འདི་ ཕྲང་ཏང་ཏ་འགྱོཝ་ཨིན། འདི་ནང་ལུ་ སེམས་ཁམས་རིག་པའི་གཞི་རྩ་དང་ མི་གི་ལོ་རྒྱུས་ངོ་མ་ཚུ་ སྡུག་བསྔལ་སྦོམ་སྦེ་རང་ ཡུན་བརྟན་གྱི་དམིགས་ཡུལ་ལུ་འགྱུར་བཅོས་འབད་མི་ཚུ་གི་ ལོ་རྒྱུས་ཚུ་ཨིན།",
+  "spotlightBadge": "ཁྱོད་ཀྱི་ལུང་ཕྱོགས་ཀྱི་སྐད་གྲགས།",
+  "spotlightSelectCountry": "རྒྱལ་ཁབ་སེལ་འཐུ་འབད།:",
+  "spotlightAdversity": "དཀའ་ངལ་འཕྲད་པ།",
+  "spotlightTakeaway": "ད་རིས་ཁྱོད་ཀྱི་དོན་ལུ་འབག་འོང་",
+  "globalTitansTitle": "རྒྱལ་སྤྱིའི་བརྟན་ལྷིང་གི་ཊི་ཊན་",
+  "globalTitansSubtitle": "མི་རིགས་ཀྱི་ལམ་ལུ་འོད་མདངས་བཏོན་ནིའི་དོན་ལུ་ མནོ་བསམ་གཏང་མ་ཚུགས་པའི་ དཀའ་ངལ་ཚུ་ལས་བརྒལ་མི་ དུས་ཚོད་མེད་པའི་མི་ངོམ་ཚུ།",
+  "galleryTitle": "གླིང་ཆེན་དང་ཡུ་རོབ་ཀྱི་མི་སྣ་ཆ་མཉམ།",
+  "gallerySubtitle": "ཡུ་རོབ་དང་འཛམ་གླིང་ཡོངས་ལས་ སེམས་ཤུགས་བྱིན་པའི་སྒྲུང་ཚུ་ འཚོལ་ཞིབ་འབད།",
+  "searchPlaceholder": "མིང་ངམ་རྒྱལ་ཁབ་འཚོལ་...",
+  "continents": {
+    "all": "🌍 ཚང་མ།",
+    "europe": "🏰 ཡུ་རོབ།",
+    "americas": "🌎 ཨ་མི་རི་ཀ་",
+    "asia": "🌏 ཨེ་ཤི་ཡ།",
+    "africa": "🏜️ ཨཕ་རི་ཀ",
+    "oceania": "🌊 ཨོ་སི་ནི་ཡ་"
+  },
+  "pillars": {
+    "title": "3 བརྟན་ལྷིང་གི་རྩ་བ་",
+    "badge": "བདེན་དཔང་བྱས་པའི་གཞི་རྩ།",
+    "survivalTitle": "100% གསོན་ཚད་",
+    "survivalDesc": "ཁྱོད་ཀྱིས་ འདྲོག་བྱེལ་གྱི་ནད་གཞི་དང་ སེམས་ཁམས་ནད་གཞི་ དེ་ལས་ ཁྱོད་ཀྱིས་ མ་འབད་ཟེར་མནོ་མི་ མཚན་མོ་གནགཔོ་ག་ར་ལས་ ཐར་ཡོདཔ་ཨིན། ཁྱོད་ཀྱི་བརྟན་ཚུགས་འདི་ ཧེ་མ་ལས་རང་ བདེན་ཁུངས་ཚུ་གིས་ བདེན་ཁུངས་བཀལ་ཡོདཔ་ཨིན།",
+    "noiseTitle": "ཤེས་རྟོགས་སྐད་ཅོར་དང་བདེན་པ།",
+    "noiseDesc": "ཀླདཔ་འདི་ འཕེལ་འགྱུར་གྱི་ མི་ཚེ་གནས་ཐབས་འཕྲུལ་ཆས་ཅིག་ཨིནམ་ད་ འདི་གིས་ སེམས་ཁམས་གནོན་ཤུགས་ཀྱི་ དུས་ཚོད་ལུ་ ཉེན་ཁ་འདི་ ཚད་ལས་བརྒལ་བཏངམ་ཨིན། ཚ་གྱང་དང་ བསམ་བློ་གནགཔོ་ཚུ་ དངོས་ཡོད་དངོས་ཡོད་མེན་པར་ ཉེན་བརྡ་རྫུན་མ་ཨིན།",
+    "chaptersTitle": "མ་བྲིས་པའི་ལེའུ་ཚུ།",
+    "chaptersDesc": "ཁྱོད་ཀྱིས་ཁྱོད་རའི་མི་ཚེའི་ཀི་དེབ་ཆ་མཉམ་ལུ་ ལཱ་ཁག་ཅན་གྱི་ལེའུ་གཅིག་གིས་ དབྱེ་ཞིབ་འབད་མི་ཚུགས། ཁྱོད་ཀྱིས་མཐོང་མི་ མི་དྲག་ཤོས་དང་ གད་མོ་སྦོམ་ཤོས་ཚུ་ ད་ལྟོ་ཡང་ གདོང་ཁར་ཡོདཔ་ཨིན།",
+    "alchemyTitle": "ན་ཟུག་གི་ཨལ་ཀེ་མི་ (Sublimation)",
+    "alchemyDesc": "སྒྱུ་རྩལ་སྦོམ་དང་ གུས་ཞབས་གཏིང་ཟབ་ དེ་ལས་ གཞི་བཙུགས་ཀྱི་ བཟོད་བསྲན་ཚུ་ གནག་དུང་ནང་ ལོང་སྡོད་མི་ མི་ཚུ་ལས་ སྐྱེས་དོ་ཡོདཔ་ཨིན། ཁྱོད་ཀྱི་ན་ཟུག་འདི་ཁྱོད་ཀྱི་གསར་གཏོད་ཀྱི་སྟོབས་ཤུགས་ཆེ་ཤོས་ཅིག་ལུ་འགྱུར་ཚུགས།"
+  },
+  "sublimation": {
+    "title": "སེམས་དང་གྱིབ་མའི་ཨལ་ཀེ་མི་",
+    "subtitle": "ནང་སེམས་ཀྱི་ཟང་ཟིང་འདི་ ཧ་གོ་ཐངས་དང་ གསར་གཏོད་ཀྱི་སྟོབས་ཤུགས་ལུ་ བསྒྱུར་བཅོས་འབད་ནི།",
+    "card1Title": "1. བསམ་བློ་ནི་དོན་དངོས་མིན།",
+    "card1Summary": "རང་གིས་རང་ལུ་སྐྱོན་བརྗོད་འབད་བའི་བསམ་བློ་མང་ཤོས་རང་རང་གི་བསམ་བློ་མེན། དེ་ཚུ་ ཆུང་ཀུའི་སྐབས་དང་ ཡང་ན་ མཐའ་འཁོར་གྱི་ སྒྲ་བཟུང་རྙིངམ་ཚུ་ཨིན།",
+    "card1Detail": "ང་བཅས་ལུ་ ཨ་ལོ་ཆུང་ཀུ་སྦེ་སྡོདཔ་ད་ གལ་ཅན་གྱི་ཚགས་མ་ཚུ་མེདཔ་ཨིན། མི་གཅིག་གིས་ ཙིགཔ་ཟ་སྟེ་ ཡང་ན་ སྐྱོན་བརྗོད་འབད་དེ་ སླབ་པའི་སྐབས་ ང་བཅས་རའི་ འཚོར་སྣང་འོག་མ་གིས་ བདེན་པ་ཆ་ཚང་སྦེ་ ཐོ་བཀོད་འབདཝ་ཨིན། ཁྱོད་ཀྱིས་ 'ཁྱོད་ཆད་ཡོདཔ་' ཡང་ན་ 'ཁྱོད་རིན་ཐང་མེདཔ་' ཟེར་སླབ་པའི་སྐབས་ ཧ་གོ་དགོ། དེ་ཁྱོད་ཀྱིས་སླབ་མི་འདི་མེན། འདི་ དུས་ཚོད་རྫོགས་པའི་ མཐུད་མཚམས་བསྐྱར་ལོག་ཅིག་ཨིན།",
+    "card2Title": "2. འཕྱུར་བའི་སྒྱུ་རྩལ། (Alchemy)",
+    "card2Summary": "ཁྱོད་ཀྱི་ཤུགས་ཆེ་བའི་མུན་ནག་གི་ནུས་ཤུགས་ཀྱིས་ཁྱོད་ལུ་མེདཔ་བཏང་མི་དགོ། འདི་གསར་བསྐྲུན་ལུ་བསྒྱུར་བཅོས་འབད་ཚུགས།",
+    "card2Detail": "འཕར་ཚད་འདི་ སེམས་ཁམས་རིག་པའི་ རྫས་སྦྱོར་རིག་པ་ཅིག་ཨིནམ་དང་ འདི་ཡང་ རང་གཤིས་དང་ བཀག་དམ་གྱི་བསམ་བློ་ དེ་ལས་ སེམས་ཁམས་ཀྱི་ན་ཟུག་གཏིང་ཟབ་ཚུ་ སྒྱུ་རྩལ་དང་རྩོམ་རིག་ དེ་ལས་ གཟུགས་ཀྱི་སྟོབས་ཤུགས་དང་ ཡང་ན་ གསང་ཡིག་ཚུ་ལུ་ བསྒྱུར་བཅོས་འབདཝ་ཨིན། བཟོ་མི་ཚུ་གིས་ ཁོང་གི་གནག་དུང་འདི་ མར་ཕབ་མ་འབད་བར་ དུས་ཚོད་མེད་པའི་ལཱ་ཚུ་ནང་ བརྒྱུད་དེ་བཏང་ཡོདཔ་ཨིན།",
+    "card3Title": "3. ཁྱོད་ནི་ནམ་མཁའ་ཡིན་ལ་རླུང་འཚུབ་མིན།",
+    "card3Summary": "ཁྱོད་འདི་ རླུང་འཚུབ་འདི་ མཐོང་མི་ དྲན་ཤེས་ཅན་གྱི་བལྟ་རྟོག་པ་འདི་ཨིན་ དེ་གི་ནང་ན་ཡོད་པའི་ གྱང་ཤུལ་འདི་མེན།",
+    "card3Detail": "སྤྲིན་དང་ གློག་མེ་ ཆརཔ་ག་དེམ་ཅིག་ འུར་འབྱེལ་འཐབ་རུང་ གནམ་གཤིས་ཀྱིས་ གནམ་གཤིས་ལུ་ གནོད་པ་ག་ནི་ཡང་ མི་འབྱུང་། བལྟ་རྟོག་པ་གི་སྡོད་ཁྲི་ནང་ལུ་ ལོག་སྟེ་གོམ་པ་སྤོ། ཁྱོད་ཀྱི་ངོ་རྟགས་འདི་ཚུ་ལུ་མ་སྦྲགས་པར་ འཚོར་སྣང་ཚུ་འོང་ཞིནམ་ལས་ འགྱོཝ་བལྟ།"
+  },
+  "cta": {
+    "title": "ད་ལྟོ་ཁྱོད་རང་ གཞི་བཙུགས་འབད་དགོཔ་ཨིན་ན་ ཡང་ན་ མི་གཞན་དང་གཅིག་ཁར་ ཁ་སླབ་དགོཔ་ཨིན་ན?",
+    "desc": "དབུགས་འགོར་པོ་དང་གཏིང་ཟབ་པོ་བཏང་། ཁྱོད་ཀྱིས་ད་རེས་རི་ཆ་མཉམ་དབང་དུ་བསྡུ་མི་དགོ། སྐར་མ་ཤུལ་མམ་རྐྱངམ་གཅིག།",
+    "crisisButton": "དཀའ་ངལ་གྱི་རོགས་རམ་ཁ་པར་བལྟ།",
+    "toolsButton": "དབུགས་གཏོང་ལེན་དང་ས་གཞིའི་ལག་ཆ།"
   }
+}
 };

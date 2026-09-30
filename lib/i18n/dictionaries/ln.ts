@@ -255,58 +255,58 @@ export const ln: TranslationDictionary = {
     "footerNotice": "Kotinda mbala moko na hello@martinluzak.sk • Kopesa lapolo kozanga kombo endimami"
   },
   motivationPage: {
-    "backToHome": "← Back to Home & Crisis Help",
-    "badge": "Perspective Shift & Meaning • 101 Global Inspirations",
-    "titlePart1": "Why Your Existence ",
-    "titleHighlight": "Matters Profoundly",
-    "description": "When you are in the thick of exhaustion, perspective narrows. Here are grounded psychological principles and real human stories of those who turned extreme suffering into enduring purpose.",
-    "spotlightBadge": "Voice from Your Region",
-    "spotlightSelectCountry": "Select country:",
-    "spotlightAdversity": "Adversity Faced",
-    "spotlightTakeaway": "Takeaway for You Today",
-    "globalTitansTitle": "Global Titans of Resilience",
-    "globalTitansSubtitle": "Timeless figures who overcame unimaginable odds to light the path for humanity.",
-    "galleryTitle": "All Continental & European Figures",
-    "gallerySubtitle": "Explore inspiring stories from across Europe and the entire globe.",
-    "searchPlaceholder": "Search name or country...",
-    "continents": {
-      "all": "🌍 All",
-      "europe": "🏰 Europe",
-      "americas": "🌎 Americas",
-      "asia": "🌏 Asia",
-      "africa": "🏜️ Africa",
-      "oceania": "🌊 Oceania"
-    },
-    "pillars": {
-      "title": "3 Core Pillars of Resilience",
-      "badge": "Proven Principles",
-      "survivalTitle": "100% Survival Rate",
-      "survivalDesc": "You have survived every panic attack, every heartbreak, and every dark night you thought you wouldn't. Your resilience is already proven by facts.",
-      "noiseTitle": "Cognitive Noise vs. Truth",
-      "noiseDesc": "The brain is an evolutionary survival machine that exaggerates threat in times of stress. Anxiety and dark thoughts are false alarms, not objective reality.",
-      "chaptersTitle": "The Unwritten Chapters",
-      "chaptersDesc": "You cannot judge the entire book of your life by a single difficult chapter. The best people you will ever meet and the greatest laughs are still ahead.",
-      "alchemyTitle": "Alchemy of Pain (Sublimation)",
-      "alchemyDesc": "Great art, deep empathy, and groundbreaking resilience are born from people who have stood in the dark. Your pain can become your greatest creative superpower."
-    },
-    "sublimation": {
-      "title": "The Alchemy of Mind & Shadow",
-      "subtitle": "Transforming inner turmoil into understanding and creative power.",
-      "card1Title": "1. Thoughts Are Not Facts",
-      "card1Summary": "Most self-critical thoughts are not your own. They are old tape recordings from childhood or environment.",
-      "card1Detail": "As young children, we lacked critical filters. When someone spoke in anger or criticism, our subconscious recorded it as absolute truth. When you hear 'You are broken' or 'You are worthless', realize: that isn't you speaking. It is simply an outdated tape loop.",
-      "card2Title": "2. The Art of Sublimation (Alchemy)",
-      "card2Summary": "Your intense dark energy doesn't have to destroy you. It can be transmuted into creation.",
-      "card2Detail": "Sublimation is the psychological alchemy of converting raw instinct, taboo thoughts, and deep emotional pain into art, literature, physical power, or code. Creators didn't suppress their darkness—they channeled it into timeless works.",
-      "card3Title": "3. You Are the Sky, Not the Storm",
-      "card3Summary": "You are the conscious observer witnessing the storm, not the wreckage inside it.",
-      "card3Detail": "No matter how turbulent the clouds, thunder, or rain become, the sky itself is never harmed by the weather. Step back into the seat of the observer. Watch the sensations come and go without attaching your identity to them."
-    },
-    "cta": {
-      "title": "Need to ground yourself right now or talk to someone?",
-      "desc": "Take a slow, deep breath. You do not have to conquer the whole mountain today. Just the next minute.",
-      "crisisButton": "View Crisis Helplines",
-      "toolsButton": "Breathing & Grounding Tools"
-    }
+  "backToHome": "← Kozonga na Ndako & Lisalisi na Crise",
+  "badge": "Bobongwani ya makanisi & Ndimbola • 101 Ba inspirations ya mokili mobimba",
+  "titlePart1": "Pourquoi Bozali Na Yo",
+  "titleHighlight": "Makambo Ya Mozindo",
+  "description": "Ntango ozali na kati ya monene ya kolɛmba, lolenge ya kotalela makambo ekómaka moke. Tala mitinda ya psychologique oyo etongami na moboko mpe masolo ya solo ya bomoto ya baye babongoli mpasi ya kolekisa ndelo na mokano ya koumela.",
+  "spotlightBadge": "Mongongo ewuti na Région na Bino",
+  "spotlightSelectCountry": "Pona mboka:",
+  "spotlightAdversity": "Mikakatano Ekutani na yango",
+  "spotlightTakeaway": "Takeaway pona Yo Lelo",
+  "globalTitansTitle": "Titans mondiaux ya Résilience",
+  "globalTitansSubtitle": "Mituya oyo ezangi ntango oyo balongaki mikakatano oyo ekoki kokanisama te mpo na kongɛngisa nzela mpo na bomoto.",
+  "galleryTitle": "Ba Figures nionso ya Continental & Europe",
+  "gallerySubtitle": "Tala masolo ya bofuli uta na Europe mobimba mpe mokili mobimba.",
+  "searchPlaceholder": "Boluka kombo to mboka...",
+  "continents": {
+    "all": "🌍 Nyonso",
+    "europe": "🏰 Europe na mboka",
+    "americas": "🌎 Ba Amériques",
+    "asia": "🌏 Asie",
+    "africa": "🏜️ Afrique",
+    "oceania": "🌊 Océanie"
+  },
+  "pillars": {
+    "title": "3 Makonzí ya Moboko ya Bokasi",
+    "badge": "Mibeko oyo emonisami",
+    "survivalTitle": "100% Taux ya survie",
+    "survivalDesc": "Obiki na mpasi nyonso ya kobanga, motema mpasi nyonso, mpe butu nyonso ya molili oyo okanisaki ete okosala yango te. Résilience na yo esi e prouvé na ba faits.",
+    "noiseTitle": "Makɛlɛlɛ ya mayele vs. Bosolo",
+    "noiseDesc": "Bɔɔngɔ ezali masini ya kobika oyo euti na evolisyo mpe elekisaka ndelo na makama na ntango ya mitungisi. Mitungisi mpe makanisi ya molili ezali ba alarmes ya lokuta, kasi réalité objective te.",
+    "chaptersTitle": "Mikapo oyo ekomami te",
+    "chaptersDesc": "Okoki te kosambisa buku mobimba ya bomoi na yo na mokapo moko ya mpasi. Bato ya malamu koleka oyo okokutana na bango mpe maseki minene ezali naino liboso.",
+    "alchemyTitle": "Alchimie ya Pasi (Sublimation)",
+    "alchemyDesc": "Art monene, komitya na esika ya basusu na mozindo, mpe bokasi ya sika ebotami uta na bato oyo batelemaki na molili. Pasi na yo ekoki kokoma nguya na yo monene ya bokeli."
+  },
+  "sublimation": {
+    "title": "Alchimie ya Esprit & Ombre",
+    "subtitle": "Kobongola mobulungano ya kati na bososoli mpe nguya ya bokeli.",
+    "card1Title": "1. Makanisi Ezali Makambo Te",
+    "card1Summary": "Makanisi mingi ya komityola ezali ya yo moko te. Ezali ba enregistrements ya kala ya ba cassettes ya bomwana to ya environnement.",
+    "card1Detail": "Lokola tozalaki bana mike, tozalaki na ba filtres critiques te. Ntango moto moko alobaki na nkanda to na kotyola, subconscient na biso ekomaki yango lokola bosolo ya mobimba. Ntango oyoki ‘Obukani’ to ‘Ozali na ntina te’, yeba: yango nde ozali koloba te. Ezali kaka boucle ya bande oyo esilá ngala.",
+    "card2Title": "2. Art ya Sublimation (Alchimie)",
+    "card2Summary": "Energie na yo ya molili makasi esengeli te ebebisa yo. Ekoki kobongwana na bozalisi.",
+    "card2Detail": "Sublimation ezali alchimie psychologique ya kobongola instinct brut, makanisi ya taboo, mpe mpasi ya mayoki ya mozindo na art, mikanda, nguya ya nzoto, to code. Bazalisi bazalaki kokanga molili na bango te —bakɔtisaki yango na misala oyo ezangi ntango.",
+    "card3Title": "3. Ozali Likolo, Mopepe Te",
+    "card3Summary": "Ozali motali na bososoli oyo azali kotatola mopɛpɛ makasi, kasi te bitika oyo bizali na kati na yango.",
+    "card3Detail": "Ata soki mapata, nkake, to mbula ekómi mobulu ndenge nini, likoló yango moko ebebisamaka ata moke te na ntango ya ntango. Zongela kiti ya moto oyo azali kotala. Botala ba sensations eya pe ekende sans ko attache identité na yo na yango."
+  },
+  "cta": {
+    "title": "Esengeli omi grounder sikoyo to kosolola na mutu?",
+    "desc": "Pemá malɛmbɛmalɛmbɛ mpe na mozindo. Esengeli te kolonga ngomba mobimba lelo. Kaka na miniti oyo elandaki.",
+    "crisisButton": "Tala ba lignes d'aide ya crise",
+    "toolsButton": "Bisaleli ya kopema & ya kosala mabele"
   }
+}
 };

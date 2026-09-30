@@ -255,56 +255,58 @@ export const tr: TranslationDictionary = {
     "footerNotice": "Mesajınız gizlilikle ve öncelikle hello@martinluzak.sk adresine iletilecektir."
   },
   motivationPage: {
-      "backToHome": "← Ana Sayfaya ve Kriz Yardımına Dön",
-      "badge": "Acıyı anlama dönüştürmek • 101 küresel ilham",
-      "titlePart1": "Varlığın neden ",
-      "titleHighlight": "derin bir anlam taşıyor",
-      "description": "Tükenmişlik ve acı anlarında bakış açımız daralır. Burada, en karanlık sınavları aşıp ışığa ulaşan insanların gerçek hikayeleri ve kanıtlanmış psikolojik ilkeler yer alıyor.",
-      "spotlightBadge": "Bölgenden bir ses",
-      "spotlightSelectCountry": "Ülke seç:",
-      "spotlightAdversity": "Aşılan zorluk",
-      "spotlightTakeaway": "Bugün için öğüt",
-      "globalTitansTitle": "İçsel direncin küresel devleri",
-      "globalTitansSubtitle": "Hayal bile edilemeyecek zorlukları yenip insanlığa yol gösteren ölümsüz isimler.",
-      "galleryTitle": "Kıtalara ve Avrupa'ya göre kahramanlar",
-      "gallerySubtitle": "Tüm Avrupa ülkelerinden ve dünyanın dört bir yanından ilham veren hikayeleri keşfet.",
-      "searchPlaceholder": "Kişi veya ülke ara...",
-      "continents": {
-          "all": "🌍 Tümü",
-          "europe": "🏰 Avrupa",
-          "americas": "🌎 Amerika",
-          "asia": "🌏 Asya",
-          "africa": "🏜️ Afrika",
-          "oceania": "🌊 Okyanusya"
-      },
-      "pillars": {
-          "title": "Direncin 3 Temel Direği",
-          "badge": "Kanıtlanmış İlkeler",
-          "noiseTitle": "Bilişsel gürültü vs Gerçek",
-          "noiseDesc": "Beyin kriz anlarında tehlikeyi abartmaya meyillidir. Kaygı ve karanlık düşünceler sahte alarmlardır, gerçeklik değil.",
-          "chaptersTitle": "Yazılmamış sayfalar",
-          "chaptersDesc": "Hayat kitabının tamamını tek bir zorlu bölüme bakarak yargılayamazsın. En güzel günler ve en içten gülüşler henüz önünde.",
-          "alchemyTitle": "Acının simyası (Yüceltme)",
-          "alchemyDesc": "Büyük sanat ve derin empati karanlıkta durmuş insanlardan doğar. Acın senin en büyük gücüne dönüşebilir."
-      },
-      "sublimation": {
-          "title": "Zihnin ve Gölgenin Simyası",
-          "subtitle": "İçsel karmaşayı derin anlayışa ve yaratıcı güce dönüştürmek.",
-          "card1Title": "1. Düşünceler gerçekler değildir",
-          "card1Summary": "Öz eleştirel düşüncelerin çoğu sana ait değil, geçmişten kalan eski kayıtlardır.",
-          "card1Detail": "Çocukken eleştirel filtrelerimiz yoktu. 'Hiçbir şeye değmezsin' sesini duyduğunda hatırla: bu sen değilsin, sadece eski bir kaset.",
-          "card2Title": "2. Yüceltme sanatı",
-          "card2Summary": "Karanlık enerji seni yok etmek zorunda değil; üretime ve şefkate dönüştürülebilir.",
-          "card2Detail": "Yüceltme, ham acıyı sanata, güce veya başkalarına yardıma dönüştürür. Büyük ustalar karanlıklarını ölümsüz eserlere dönüştürdüler.",
-          "card3Title": "3. Sen gökyüzüsün, fırtına değil",
-          "card3Summary": "Sen fırtınanın içindeki enkaz değil, onu izleyen bilinçli gözlemcisin.",
-          "card3Detail": "Fırtına ne kadar şiddetli olursa olsun, gökyüzünün kendisi asla zarar görmez. Duygularını geçip giden bulutlar gibi izle."
-      },
-      "cta": {
-          "title": "Şu anda sakinleşmeye veya biriyle konuşmaya mı ihtiyacın var?",
-          "desc": "Derin bir nefes al. Bugün tüm hayatını çözmek zorunda değilsin. Sadece bu bir dakikayı atlatman yeterli.",
-          "crisisButton": "Kriz Destek Hatlarını Gör",
-          "toolsButton": "Nefes ve Topraklanma Egzersizleri"
-      }
+  "backToHome": "← Ana Sayfaya Geri Dön ve Kriz Yardımı",
+  "badge": "Perspektif Değişimi ve Anlam • 101 Küresel İlham",
+  "titlePart1": "Neden Varlığınız",
+  "titleHighlight": "Derinden Önemlidir",
+  "description": "Yorgunluğun doruğunda olduğunuzda perspektif daralır. İşte aşırı acıyı kalıcı bir amaca dönüştürenlerin temellendirilmiş psikolojik ilkeleri ve gerçek insan hikayeleri.",
+  "spotlightBadge": "Bölgenizden Ses",
+  "spotlightSelectCountry": "Ülke seçin:",
+  "spotlightAdversity": "Zorluklarla Karşılaşılan",
+  "spotlightTakeaway": "Bugün Size Paket Servis",
+  "globalTitansTitle": "Dayanıklılığın Küresel Titanları",
+  "globalTitansSubtitle": "İnsanlığın yolunu aydınlatmak için hayal edilemeyecek zorlukların üstesinden gelen zamansız figürler.",
+  "galleryTitle": "Tüm Kıta ve Avrupa Rakamları",
+  "gallerySubtitle": "Avrupa'nın ve dünyanın dört bir yanından ilham verici hikayeleri keşfedin.",
+  "searchPlaceholder": "Adı veya ülkeyi arayın...",
+  "continents": {
+    "all": "🌍 Hepsi",
+    "europe": "🏰 Avrupa",
+    "americas": "🌎 Amerika",
+    "asia": "🌏 Asya",
+    "africa": "🏜️ Afrika",
+    "oceania": "🌊 Okyanusya"
+  },
+  "pillars": {
+    "title": "Dayanıklılığın 3 Temel Sütunu",
+    "badge": "Kanıtlanmış İlkeler",
+    "survivalTitle": "%100 Hayatta Kalma Oranı",
+    "survivalDesc": "Her panik ataktan, her kalp kırıklığından ve başaramayacağınızı düşündüğünüz her karanlık geceden sağ çıktınız. Dayanıklılığınız zaten gerçeklerle kanıtlanmıştır.",
+    "noiseTitle": "Bilişsel Gürültü ve Gerçek",
+    "noiseDesc": "Beyin, stres zamanlarında tehdidi abartan evrimsel bir hayatta kalma makinesidir. Kaygı ve karanlık düşünceler yanlış alarmlardır, nesnel gerçeklik değildir.",
+    "chaptersTitle": "Yazılmamış Bölümler",
+    "chaptersDesc": "Hayatınızın tüm kitabını tek bir zor bölümle yargılayamazsınız. Tanışacağınız en iyi insanlar ve en güzel kahkahalar hâlâ önünüzde.",
+    "alchemyTitle": "Acının Simyası (Süblimasyon)",
+    "alchemyDesc": "Büyük sanat, derin empati ve çığır açan dayanıklılık, karanlıkta kalan insanlardan doğar. Acınız en büyük yaratıcı süper gücünüz olabilir."
+  },
+  "sublimation": {
+    "title": "Zihnin ve Gölgenin Simyası",
+    "subtitle": "İç kargaşayı anlayışa ve yaratıcı güce dönüştürmek.",
+    "card1Title": "1. Düşünceler Gerçek Değildir",
+    "card1Summary": "Özeleştirel düşüncelerin çoğu size ait değildir. Bunlar çocukluktan veya çevreden kalma eski kaset kayıtlarıdır.",
+    "card1Detail": "Küçük çocuklar olarak eleştirel filtrelerden yoksunduk. Birisi öfkeyle ya da eleştiriyle konuştuğunda bilinçaltımız bunu mutlak gerçek olarak kaydeder. 'Kırılmışsın' ya da 'Değersizsin' sözlerini duyduğunuzda farkına varın: konuşan siz değilsiniz. Bu sadece modası geçmiş bir bant döngüsüdür.",
+    "card2Title": "2. Süblimasyon Sanatı (Simya)",
+    "card2Summary": "Yoğun karanlık enerjinizin sizi yok etmesi gerekmiyor. Yaradılışa dönüştürülebilir.",
+    "card2Detail": "Yüceltme, ham içgüdüyü, tabu düşünceleri ve derin duygusal acıyı sanata, edebiyata, fiziksel güce veya koda dönüştürmenin psikolojik simyasıdır. Yaratıcılar karanlıklarını bastırmadılar; onu ebedi çalışmalara kanalize ettiler.",
+    "card3Title": "3. Sen Fırtına Değil, Gökyüzüsün",
+    "card3Summary": "Siz fırtınanın içindeki enkaza değil, fırtınaya tanık olan bilinçli gözlemcisiniz.",
+    "card3Detail": "Bulutlar, gök gürültüsü veya yağmur ne kadar çalkantılı olursa olsun, gökyüzü hava koşullarından asla zarar görmez. Gözlemci koltuğuna geri dönün. Kimliğinizi onlara bağlamadan duyumların gelip gitmesini izleyin."
+  },
+  "cta": {
+    "title": "Şu anda kendinizi topraklamanız mı yoksa birisiyle konuşmanız mı gerekiyor?",
+    "desc": "Yavaş, derin bir nefes alın. Bugün dağın tamamını fethetmek zorunda değilsiniz. Bir sonraki dakika.",
+    "crisisButton": "Kriz Yardım Hatlarını Görüntüleyin",
+    "toolsButton": "Solunum ve Topraklama Araçları"
   }
+}
 };

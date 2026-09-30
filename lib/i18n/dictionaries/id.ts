@@ -255,58 +255,58 @@ export const id: TranslationDictionary = {
     "footerNotice": "Pesan Anda ditangani dengan kerahasiaan penuh di hello@martinluzak.sk"
   },
   motivationPage: {
-    "backToHome": "← Back to Home & Crisis Help",
-    "badge": "Perspective Shift & Meaning • 101 Global Inspirations",
-    "titlePart1": "Why Your Existence ",
-    "titleHighlight": "Matters Profoundly",
-    "description": "When you are in the thick of exhaustion, perspective narrows. Here are grounded psychological principles and real human stories of those who turned extreme suffering into enduring purpose.",
-    "spotlightBadge": "Voice from Your Region",
-    "spotlightSelectCountry": "Select country:",
-    "spotlightAdversity": "Adversity Faced",
-    "spotlightTakeaway": "Takeaway for You Today",
-    "globalTitansTitle": "Global Titans of Resilience",
-    "globalTitansSubtitle": "Timeless figures who overcame unimaginable odds to light the path for humanity.",
-    "galleryTitle": "All Continental & European Figures",
-    "gallerySubtitle": "Explore inspiring stories from across Europe and the entire globe.",
-    "searchPlaceholder": "Search name or country...",
-    "continents": {
-      "all": "🌍 All",
-      "europe": "🏰 Europe",
-      "americas": "🌎 Americas",
-      "asia": "🌏 Asia",
-      "africa": "🏜️ Africa",
-      "oceania": "🌊 Oceania"
-    },
-    "pillars": {
-      "title": "3 Pilar Utama Ketahanan Jiwa",
-      "badge": "Prinsip Terbukti",
-      "survivalTitle": "100% Survival Rate",
-      "survivalDesc": "You have survived every panic attack, every heartbreak, and every dark night you thought you wouldn't. Your resilience is already proven by facts.",
-      "noiseTitle": "Cognitive Noise vs. Truth",
-      "noiseDesc": "The brain is an evolutionary survival machine that exaggerates threat in times of stress. Anxiety and dark thoughts are false alarms, not objective reality.",
-      "chaptersTitle": "The Unwritten Chapters",
-      "chaptersDesc": "You cannot judge the entire book of your life by a single difficult chapter. The best people you will ever meet and the greatest laughs are still ahead.",
-      "alchemyTitle": "Alchemy of Pain (Sublimation)",
-      "alchemyDesc": "Great art, deep empathy, and groundbreaking resilience are born from people who have stood in the dark. Your pain can become your greatest creative superpower."
-    },
-    "sublimation": {
-      "title": "The Alchemy of Mind & Shadow",
-      "subtitle": "Transforming inner turmoil into understanding and creative power.",
-      "card1Title": "1. Thoughts Are Not Facts",
-      "card1Summary": "Most self-critical thoughts are not your own. They are old tape recordings from childhood or environment.",
-      "card1Detail": "As young children, we lacked critical filters. When someone spoke in anger or criticism, our subconscious recorded it as absolute truth. When you hear 'You are broken' or 'You are worthless', realize: that isn't you speaking. It is simply an outdated tape loop.",
-      "card2Title": "2. The Art of Sublimation (Alchemy)",
-      "card2Summary": "Your intense dark energy doesn't have to destroy you. It can be transmuted into creation.",
-      "card2Detail": "Sublimation is the psychological alchemy of converting raw instinct, taboo thoughts, and deep emotional pain into art, literature, physical power, or code. Creators didn't suppress their darkness—they channeled it into timeless works.",
-      "card3Title": "3. You Are the Sky, Not the Storm",
-      "card3Summary": "You are the conscious observer witnessing the storm, not the wreckage inside it.",
-      "card3Detail": "No matter how turbulent the clouds, thunder, or rain become, the sky itself is never harmed by the weather. Step back into the seat of the observer. Watch the sensations come and go without attaching your identity to them."
-    },
-    "cta": {
-      "title": "Need to ground yourself right now or talk to someone?",
-      "desc": "Take a slow, deep breath. You do not have to conquer the whole mountain today. Just the next minute.",
-      "crisisButton": "View Crisis Helplines",
-      "toolsButton": "Breathing & Grounding Tools"
-    }
+  "backToHome": "← Kembali ke Rumah & Bantuan Krisis",
+  "badge": "Pergeseran Perspektif & Makna • 101 Inspirasi Global",
+  "titlePart1": "Mengapa Keberadaan Anda",
+  "titleHighlight": "Sangat Penting",
+  "description": "Saat Anda berada di tengah kelelahan, perspektif menyempit. Berikut adalah prinsip-prinsip psikologis yang mendasar dan kisah-kisah nyata dari orang-orang yang mengubah penderitaan ekstrem menjadi tujuan abadi.",
+  "spotlightBadge": "Suara dari Wilayah Anda",
+  "spotlightSelectCountry": "Pilih negara:",
+  "spotlightAdversity": "Kesulitan yang Dihadapi",
+  "spotlightTakeaway": "Takeaway untuk Anda Hari Ini",
+  "globalTitansTitle": "Raksasa Ketahanan Global",
+  "globalTitansSubtitle": "Tokoh-tokoh abadi yang mengatasi rintangan tak terbayangkan untuk menerangi jalan bagi umat manusia.",
+  "galleryTitle": "Semua Tokoh Kontinental & Eropa",
+  "gallerySubtitle": "Jelajahi kisah inspiratif dari seluruh Eropa dan seluruh dunia.",
+  "searchPlaceholder": "Cari nama atau negara...",
+  "continents": {
+    "all": "🌍 Semua",
+    "europe": "🏰 Eropa",
+    "americas": "🌎 Amerika",
+    "asia": "🌏 Asia",
+    "africa": "🏜️ Afrika",
+    "oceania": "🌊 Oseania"
+  },
+  "pillars": {
+    "title": "3 Pilar Inti Ketahanan",
+    "badge": "Prinsip Terbukti",
+    "survivalTitle": "Tingkat Kelangsungan Hidup 100%",
+    "survivalDesc": "Anda telah selamat dari setiap serangan panik, setiap patah hati, dan setiap malam gelap yang Anda pikir tidak akan terjadi. Ketahanan Anda sudah dibuktikan oleh fakta.",
+    "noiseTitle": "Kebisingan Kognitif vs. Kebenaran",
+    "noiseDesc": "Otak adalah mesin kelangsungan hidup evolusioner yang membesar-besarkan ancaman pada saat stres. Kecemasan dan pikiran gelap adalah peringatan palsu, bukan kenyataan objektif.",
+    "chaptersTitle": "Bab Tidak Tertulis",
+    "chaptersDesc": "Anda tidak dapat menilai keseluruhan kehidupan Anda hanya dengan satu bab yang sulit. Orang-orang terbaik yang pernah Anda temui dan tawa terhebat masih ada di depan.",
+    "alchemyTitle": "Alkimia Sakit (Sublimasi)",
+    "alchemyDesc": "Seni yang hebat, empati yang mendalam, dan ketahanan yang inovatif lahir dari orang-orang yang bertahan dalam kegelapan. Rasa sakit Anda bisa menjadi kekuatan kreatif terbesar Anda."
+  },
+  "sublimation": {
+    "title": "Alkimia Pikiran & Bayangan",
+    "subtitle": "Mengubah gejolak batin menjadi pemahaman dan daya kreatif.",
+    "card1Title": "1. Pikiran Bukanlah Fakta",
+    "card1Summary": "Kebanyakan pemikiran yang mengkritik diri sendiri bukanlah pemikiran Anda sendiri. Itu adalah rekaman kaset lama dari masa kanak-kanak atau lingkungan.",
+    "card1Detail": "Sebagai anak kecil, kita kekurangan filter kritis. Ketika seseorang berbicara dalam keadaan marah atau mengkritik, alam bawah sadar kita mencatatnya sebagai kebenaran mutlak. Saat Anda mendengar 'Kamu hancur' atau 'Kamu tidak berharga', sadarilah: bukan itu yang kamu katakan. Ini hanyalah sebuah loop rekaman yang ketinggalan jaman.",
+    "card2Title": "2. Seni Sublimasi (Alkimia)",
+    "card2Summary": "Energi gelap Anda yang kuat tidak harus menghancurkan Anda. Itu dapat diubah menjadi ciptaan.",
+    "card2Detail": "Sublimasi adalah alkimia psikologis yang mengubah naluri mentah, pikiran tabu, dan rasa sakit emosional yang mendalam menjadi seni, sastra, kekuatan fisik, atau kode. Para pencipta tidak menekan kegelapan mereka—mereka menyalurkannya ke dalam karya-karya yang tak lekang oleh waktu.",
+    "card3Title": "3. Kamu Adalah Langit, Bukan Badai",
+    "card3Summary": "Anda adalah pengamat sadar yang menyaksikan badai tersebut, bukan puing-puing di dalamnya.",
+    "card3Detail": "Betapapun bergejolaknya awan, guntur, atau hujan, langit tidak pernah terpengaruh oleh cuaca. Kembali ke kursi pengamat. Saksikan sensasi datang dan pergi tanpa melekatkan identitas Anda padanya."
+  },
+  "cta": {
+    "title": "Perlu menenangkan diri sekarang atau berbicara dengan seseorang?",
+    "desc": "Tarik napas perlahan dan dalam. Anda tidak harus menaklukkan seluruh gunung hari ini. Menit berikutnya.",
+    "crisisButton": "Lihat Saluran Bantuan Krisis",
+    "toolsButton": "Alat Pernapasan & Grounding"
   }
+}
 };

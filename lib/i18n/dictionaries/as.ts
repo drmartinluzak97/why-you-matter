@@ -255,58 +255,58 @@ export const as: TranslationDictionary = {
     "footerNotice": "hello@martinluzak.sk লৈ পোনপটীয়া প্ৰেৰণ • বেনামী ৰিপৰ্টিং সমৰ্থিত"
   },
   motivationPage: {
-    "backToHome": "← Back to Home & Crisis Help",
-    "badge": "Perspective Shift & Meaning • 101 Global Inspirations",
-    "titlePart1": "Why Your Existence ",
-    "titleHighlight": "Matters Profoundly",
-    "description": "When you are in the thick of exhaustion, perspective narrows. Here are grounded psychological principles and real human stories of those who turned extreme suffering into enduring purpose.",
-    "spotlightBadge": "Voice from Your Region",
-    "spotlightSelectCountry": "Select country:",
-    "spotlightAdversity": "Adversity Faced",
-    "spotlightTakeaway": "Takeaway for You Today",
-    "globalTitansTitle": "Global Titans of Resilience",
-    "globalTitansSubtitle": "Timeless figures who overcame unimaginable odds to light the path for humanity.",
-    "galleryTitle": "All Continental & European Figures",
-    "gallerySubtitle": "Explore inspiring stories from across Europe and the entire globe.",
-    "searchPlaceholder": "Search name or country...",
-    "continents": {
-      "all": "🌍 All",
-      "europe": "🏰 Europe",
-      "americas": "🌎 Americas",
-      "asia": "🌏 Asia",
-      "africa": "🏜️ Africa",
-      "oceania": "🌊 Oceania"
-    },
-    "pillars": {
-      "title": "3 Core Pillars of Resilience",
-      "badge": "Proven Principles",
-      "survivalTitle": "100% Survival Rate",
-      "survivalDesc": "You have survived every panic attack, every heartbreak, and every dark night you thought you wouldn't. Your resilience is already proven by facts.",
-      "noiseTitle": "Cognitive Noise vs. Truth",
-      "noiseDesc": "The brain is an evolutionary survival machine that exaggerates threat in times of stress. Anxiety and dark thoughts are false alarms, not objective reality.",
-      "chaptersTitle": "The Unwritten Chapters",
-      "chaptersDesc": "You cannot judge the entire book of your life by a single difficult chapter. The best people you will ever meet and the greatest laughs are still ahead.",
-      "alchemyTitle": "Alchemy of Pain (Sublimation)",
-      "alchemyDesc": "Great art, deep empathy, and groundbreaking resilience are born from people who have stood in the dark. Your pain can become your greatest creative superpower."
-    },
-    "sublimation": {
-      "title": "The Alchemy of Mind & Shadow",
-      "subtitle": "Transforming inner turmoil into understanding and creative power.",
-      "card1Title": "1. Thoughts Are Not Facts",
-      "card1Summary": "Most self-critical thoughts are not your own. They are old tape recordings from childhood or environment.",
-      "card1Detail": "As young children, we lacked critical filters. When someone spoke in anger or criticism, our subconscious recorded it as absolute truth. When you hear 'You are broken' or 'You are worthless', realize: that isn't you speaking. It is simply an outdated tape loop.",
-      "card2Title": "2. The Art of Sublimation (Alchemy)",
-      "card2Summary": "Your intense dark energy doesn't have to destroy you. It can be transmuted into creation.",
-      "card2Detail": "Sublimation is the psychological alchemy of converting raw instinct, taboo thoughts, and deep emotional pain into art, literature, physical power, or code. Creators didn't suppress their darkness—they channeled it into timeless works.",
-      "card3Title": "3. You Are the Sky, Not the Storm",
-      "card3Summary": "You are the conscious observer witnessing the storm, not the wreckage inside it.",
-      "card3Detail": "No matter how turbulent the clouds, thunder, or rain become, the sky itself is never harmed by the weather. Step back into the seat of the observer. Watch the sensations come and go without attaching your identity to them."
-    },
-    "cta": {
-      "title": "Need to ground yourself right now or talk to someone?",
-      "desc": "Take a slow, deep breath. You do not have to conquer the whole mountain today. Just the next minute.",
-      "crisisButton": "View Crisis Helplines",
-      "toolsButton": "Breathing & Grounding Tools"
-    }
+  "backToHome": "← ঘৰলৈ উভতি যাবলৈ & সংকটত সহায়",
+  "badge": "দৃষ্টিভংগীৰ পৰিৱৰ্তন আৰু অৰ্থ • ১০১ টা বিশ্বব্যাপী প্ৰেৰণা",
+  "titlePart1": "তোমাৰ অস্তিত্ব কিয়",
+  "titleHighlight": "গভীৰভাৱে বিষয়",
+  "description": "যেতিয়া আপুনি ক্লান্তিৰ ডাঠত থাকে, তেতিয়া দৃষ্টিভংগী সংকীৰ্ণ হৈ পৰে। ইয়াত চৰম দুখ-কষ্টক চিৰস্থায়ী উদ্দেশ্যলৈ ৰূপান্তৰিত কৰাসকলৰ ভিত্তিহীন মানসিক নীতি আৰু বাস্তৱ মানৱীয় কাহিনী আগবঢ়োৱা হৈছে।",
+  "spotlightBadge": "আপোনাৰ অঞ্চলৰ পৰা কণ্ঠ",
+  "spotlightSelectCountry": "দেশ নিৰ্বাচন কৰক:",
+  "spotlightAdversity": "প্ৰতিকূলতাৰ সন্মুখীন হ'ল",
+  "spotlightTakeaway": "আজি আপোনাৰ বাবে টেক-এৱে",
+  "globalTitansTitle": "গ্লোবেল টাইটানছ অৱ ৰেজিলিয়েন্স",
+  "globalTitansSubtitle": "মানৱতাৰ বাবে পথ পোহৰাই তুলিবলৈ কল্পনাতীত বিপদ অতিক্ৰম কৰা কালজয়ী ব্যক্তিত্ব।",
+  "galleryTitle": "সকলো মহাদেশীয় আৰু ইউৰোপীয় সংখ্যা",
+  "gallerySubtitle": "সমগ্ৰ ইউৰোপ আৰু সমগ্ৰ বিশ্বৰ পৰা প্ৰেৰণাদায়ক কাহিনীসমূহ অন্বেষণ কৰক।",
+  "searchPlaceholder": "নাম বা দেশ সন্ধান কৰক...",
+  "continents": {
+    "all": "🌍 সকলো",
+    "europe": "🏰 ইউৰোপ",
+    "americas": "🌎 আমেৰিকাত",
+    "asia": "🌏 এছিয়া",
+    "africa": "🏜️ আফ্ৰিকা",
+    "oceania": "🌊 ওচেনিয়া"
+  },
+  "pillars": {
+    "title": "স্থিতিস্থাপকতাৰ ৩ টা মূল স্তম্ভ",
+    "badge": "প্ৰমাণিত নীতি",
+    "survivalTitle": "১০০% জীয়াই থকাৰ হাৰ",
+    "survivalDesc": "আপুনি প্ৰতিটো পেনিক এটেক, প্ৰতিটো হৃদয় বিদাৰক, আৰু প্ৰতিটো অন্ধকাৰ ৰাতিৰ পৰা বাচি গৈছে যিটো আপুনি নাভাবিব বুলি ভাবিছিল। আপোনাৰ স্থিতিস্থাপকতা ইতিমধ্যে তথ্যৰ দ্বাৰা প্ৰমাণিত হৈছে।",
+    "noiseTitle": "জ্ঞানমূলক শব্দ বনাম সত্য",
+    "noiseDesc": "মগজু হৈছে এক বিৱৰ্তনশীল জীয়াই থকাৰ যন্ত্ৰ যিয়ে মানসিক চাপৰ সময়ত ভাবুকিৰ অতিৰঞ্জিত কৰে। উদ্বেগ আৰু অন্ধকাৰ চিন্তাবোৰ মিছা এলাৰ্ম, বস্তুনিষ্ঠ বাস্তৱ নহয়।",
+    "chaptersTitle": "অলিখিত অধ্যায়বোৰ",
+    "chaptersDesc": "আপুনি আপোনাৰ জীৱনৰ সমগ্ৰ কিতাপখনক এটা কঠিন অধ্যায়ৰ দ্বাৰা বিচাৰ কৰিব নোৱাৰে। আপুনি কেতিয়াও লগ পোৱা শ্ৰেষ্ঠ মানুহ আৰু আটাইতকৈ ডাঙৰ হাঁহিবোৰ এতিয়াও আগবাঢ়ি আছে।",
+    "alchemyTitle": "বিষৰ ৰসায়ন (উচ্চতা)",
+    "alchemyDesc": "মহান শিল্প, গভীৰ সহানুভূতি, আৰু যুগান্তকাৰী স্থিতিস্থাপকতাৰ জন্ম হয় আন্ধাৰত থিয় দিয়া মানুহৰ পৰা। আপোনাৰ যন্ত্ৰণা আপোনাৰ সৰ্বশ্ৰেষ্ঠ সৃষ্টিশীল মহাশক্তি হৈ পৰিব পাৰে।"
+  },
+  "sublimation": {
+    "title": "মন আৰু ছাঁৰ ৰসায়ন",
+    "subtitle": "আভ্যন্তৰীণ অস্থিৰতাক বুজাবুজি আৰু সৃষ্টিশীল শক্তিলৈ ৰূপান্তৰ কৰা।",
+    "card1Title": "1. চিন্তাবোৰ তথ্য নহয়",
+    "card1Summary": "বেছিভাগ আত্মসমালোচনামূলক চিন্তাই আপোনাৰ নিজৰ নহয়। শৈশৱ বা পৰিৱেশৰ পুৰণি টেপ ৰেকৰ্ডিং।",
+    "card1Detail": "সৰু ল’ৰা-ছোৱালী হিচাপে আমাৰ জটিল ফিল্টাৰৰ অভাৱ আছিল। কোনোবাই খঙত বা সমালোচনা কৰি কথা ক’লে আমাৰ অৱচেতন মনটোৱে তাক নিৰপেক্ষ সত্য বুলি লিপিবদ্ধ কৰিছিল। যেতিয়া আপুনি ‘আপুনি ভাঙি গৈছে’ বা ‘আপুনি অমূল্য’ শুনিব, তেতিয়া উপলব্ধি কৰক: সেইটো আপুনি কোৱা নাই। ই কেৱল এটা পুৰণি টেপ লুপ।",
+    "card2Title": "২.উৰ্ধ্বগামীকৰণৰ কলা (ৰসায়ন বিজ্ঞান)",
+    "card2Summary": "আপোনাৰ তীব্ৰ অন্ধকাৰ শক্তিয়ে আপোনাক ধ্বংস কৰিব নালাগে। ইয়াক সৃষ্টিলৈ ৰূপান্তৰিত কৰিব পাৰি।",
+    "card2Detail": "কেঁচা প্ৰবৃত্তি, নিষিদ্ধ চিন্তা আৰু গভীৰ আৱেগিক যন্ত্ৰণাক শিল্প, সাহিত্য, শাৰীৰিক শক্তি বা সংহিতালৈ ৰূপান্তৰিত কৰাৰ মানসিক ৰসায়ন হৈছে চাবলিমেচন। সৃষ্টিকৰ্তাসকলে তেওঁলোকৰ আন্ধাৰক দমন কৰা নাছিল—তেওঁলোকে ইয়াক কালজয়ী কামলৈ চেনেল কৰিছিল।",
+    "card3Title": "৩.তুমি আকাশ, ধুমুহা নহয়",
+    "card3Summary": "আপুনি ধুমুহাৰ সাক্ষী হোৱা সচেতন পৰ্যবেক্ষক, ইয়াৰ ভিতৰৰ ধ্বংসাৱশেষ নহয়।",
+    "card3Detail": "ডাৱৰ, বজ্ৰপাত বা বৰষুণ যিমানেই অশান্ত নহওক কিয়, আকাশখনেই কেতিয়াও বতৰৰ ক্ষতি নহয়। পৰ্যবেক্ষকৰ আসনত আকৌ খোজ দিয়ক। সংবেদনবোৰৰ লগত নিজৰ পৰিচয় সংলগ্ন নকৰাকৈ অহা-যোৱা কৰা চাওক।"
+  },
+  "cta": {
+    "title": "এতিয়াই নিজকে গ্ৰাউণ্ড কৰাৰ প্ৰয়োজন আছে নে কাৰোবাৰ লগত কথা পাতিব লাগিব?",
+    "desc": "লাহে লাহে দীঘলকৈ উশাহ এটা লওক। আজি গোটেই পৰ্বত জয় কৰিব নালাগে। মাত্ৰ পিছৰ মিনিটত।",
+    "crisisButton": "সংকট হেল্পলাইন চাওক",
+    "toolsButton": "শ্বাস-প্ৰশ্বাস আৰু মাটিত স্থাপন কৰা সঁজুলি"
   }
+}
 };

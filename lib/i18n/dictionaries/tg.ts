@@ -255,58 +255,58 @@ export const tg: TranslationDictionary = {
     "footerNotice": "Интиқоли мустақим ба hello@martinluzak.sk • Гузоришҳои беном дастгирӣ мешаванд"
   },
   motivationPage: {
-    "backToHome": "← Back to Home & Crisis Help",
-    "badge": "Perspective Shift & Meaning • 101 Global Inspirations",
-    "titlePart1": "Why Your Existence ",
-    "titleHighlight": "Matters Profoundly",
-    "description": "When you are in the thick of exhaustion, perspective narrows. Here are grounded psychological principles and real human stories of those who turned extreme suffering into enduring purpose.",
-    "spotlightBadge": "Voice from Your Region",
-    "spotlightSelectCountry": "Select country:",
-    "spotlightAdversity": "Adversity Faced",
-    "spotlightTakeaway": "Takeaway for You Today",
-    "globalTitansTitle": "Global Titans of Resilience",
-    "globalTitansSubtitle": "Timeless figures who overcame unimaginable odds to light the path for humanity.",
-    "galleryTitle": "All Continental & European Figures",
-    "gallerySubtitle": "Explore inspiring stories from across Europe and the entire globe.",
-    "searchPlaceholder": "Search name or country...",
-    "continents": {
-      "all": "🌍 All",
-      "europe": "🏰 Europe",
-      "americas": "🌎 Americas",
-      "asia": "🌏 Asia",
-      "africa": "🏜️ Africa",
-      "oceania": "🌊 Oceania"
-    },
-    "pillars": {
-      "title": "3 Сутуни Асосии Устуворӣ",
-      "badge": "Принсипҳои Исботшуда",
-      "survivalTitle": "100% Survival Rate",
-      "survivalDesc": "You have survived every panic attack, every heartbreak, and every dark night you thought you wouldn't. Your resilience is already proven by facts.",
-      "noiseTitle": "Cognitive Noise vs. Truth",
-      "noiseDesc": "The brain is an evolutionary survival machine that exaggerates threat in times of stress. Anxiety and dark thoughts are false alarms, not objective reality.",
-      "chaptersTitle": "The Unwritten Chapters",
-      "chaptersDesc": "You cannot judge the entire book of your life by a single difficult chapter. The best people you will ever meet and the greatest laughs are still ahead.",
-      "alchemyTitle": "Alchemy of Pain (Sublimation)",
-      "alchemyDesc": "Great art, deep empathy, and groundbreaking resilience are born from people who have stood in the dark. Your pain can become your greatest creative superpower."
-    },
-    "sublimation": {
-      "title": "The Alchemy of Mind & Shadow",
-      "subtitle": "Transforming inner turmoil into understanding and creative power.",
-      "card1Title": "1. Thoughts Are Not Facts",
-      "card1Summary": "Most self-critical thoughts are not your own. They are old tape recordings from childhood or environment.",
-      "card1Detail": "As young children, we lacked critical filters. When someone spoke in anger or criticism, our subconscious recorded it as absolute truth. When you hear 'You are broken' or 'You are worthless', realize: that isn't you speaking. It is simply an outdated tape loop.",
-      "card2Title": "2. The Art of Sublimation (Alchemy)",
-      "card2Summary": "Your intense dark energy doesn't have to destroy you. It can be transmuted into creation.",
-      "card2Detail": "Sublimation is the psychological alchemy of converting raw instinct, taboo thoughts, and deep emotional pain into art, literature, physical power, or code. Creators didn't suppress their darkness—they channeled it into timeless works.",
-      "card3Title": "3. You Are the Sky, Not the Storm",
-      "card3Summary": "You are the conscious observer witnessing the storm, not the wreckage inside it.",
-      "card3Detail": "No matter how turbulent the clouds, thunder, or rain become, the sky itself is never harmed by the weather. Step back into the seat of the observer. Watch the sensations come and go without attaching your identity to them."
-    },
-    "cta": {
-      "title": "Need to ground yourself right now or talk to someone?",
-      "desc": "Take a slow, deep breath. You do not have to conquer the whole mountain today. Just the next minute.",
-      "crisisButton": "View Crisis Helplines",
-      "toolsButton": "Breathing & Grounding Tools"
-    }
+  "backToHome": "← Бозгашт ба хона & Кӯмаки бӯҳрон",
+  "badge": "Тағйирёбии дурнамо ва маънои • 101 Илҳомҳои глобалӣ",
+  "titlePart1": "Чаро мавҷудияти шумо",
+  "titleHighlight": "Муҳим аст",
+  "description": "Вақте ки шумо дар ғафси хастагӣ ҳастед, дурнамо танг мешавад. Дар ин ҷо принсипҳои асосноки равонӣ ва ҳикояҳои воқеии инсонии онҳое ҳастанд, ки ранҷу азоби шадидро ба ҳадафи устувор табдил додаанд.",
+  "spotlightBadge": "Овоз аз минтақаи шумо",
+  "spotlightSelectCountry": "Кишвар интихоб кунед:",
+  "spotlightAdversity": "Мушкилот дучор шуд",
+  "spotlightTakeaway": "Имрӯз барои шумо",
+  "globalTitansTitle": "Титанҳои ҷаҳонии устуворӣ",
+  "globalTitansSubtitle": "Симоҳои бебаҳо, ки душвориҳои тасаввурнашавандаро паси сар карда, роҳи башариятро равшан карданд.",
+  "galleryTitle": "Ҳама рақамҳои континенталӣ ва аврупоӣ",
+  "gallerySubtitle": "Ҳикояҳои илҳомбахшро аз саросари Аврупо ва тамоми ҷаҳон омӯзед.",
+  "searchPlaceholder": "Ном ё кишварро ҷустуҷӯ кунед...",
+  "continents": {
+    "all": "🌍 Ҳама",
+    "europe": "🏰 Аврупо",
+    "americas": "🌎 Амрико",
+    "asia": "🌏 Осиё",
+    "africa": "🏜️ Африка",
+    "oceania": "🌊 Океания"
+  },
+  "pillars": {
+    "title": "3 Сутунҳои асосии устуворӣ",
+    "badge": "Принсипҳои исботшуда",
+    "survivalTitle": "100% Меъёри зиндамонӣ",
+    "survivalDesc": "Шумо аз ҳар ҳамлаи воҳима, ҳар як дарди дил ва ҳар шаби торик, ки гумон мекардед, наҷот додаед. Устувор будани шумо аллакай бо фактхо исбот шудааст.",
+    "noiseTitle": "Садои маърифатӣ бар зидди ҳақиқат",
+    "noiseDesc": "Майна як мошини эволютсионии зиндамонӣ аст, ки таҳдидро дар замони стресс муболиға мекунад. Ташвиш ва фикрҳои торик ҳушдорҳои бардурӯғ мебошанд, на воқеияти объективӣ.",
+    "chaptersTitle": "Бобхои нонавишта",
+    "chaptersDesc": "Шумо наметавонед тамоми китоби ҳаёти худро бо як боби душвор доварӣ кунед. Беҳтарин одамоне, ки шумо ҳамеша вохӯред ва хандаҳои бузург ҳанӯз дар пешанд.",
+    "alchemyTitle": "Алхимияи дард (Сублиматсия)",
+    "alchemyDesc": "Санъати бузург, ҳамдардии амиқ ва устувории бунёдӣ аз одамоне таваллуд мешаванд, ки дар торикӣ истода буданд. Дарди шумо метавонад бузургтарин қудрати эҷодии шумо гардад."
+  },
+  "sublimation": {
+    "title": "Алхимияи ақл ва соя",
+    "subtitle": "Табдил додани нооромиҳои ботинӣ ба фаҳмиш ва қудрати эҷодӣ.",
+    "card1Title": "1. Андешаҳо далел нестанд",
+    "card1Summary": "Аксари фикрҳои худтанқидӣ аз они шумо нестанд. Онҳо сабтҳои навори кӯҳна аз кӯдакӣ ё муҳити зист мебошанд.",
+    "card1Detail": "Дар синни хурдсолӣ мо филтрҳои муҳим надоштем. Вақте ки касе бо ғазаб ё танқид сухан мегуфт, зери шуури мо онро ҳамчун ҳақиқати мутлақ сабт мекард. Вақте ки шумо \"Шумо шикастаед\" ё \"Шумо беарзишед\" -ро мешунавед, дарк кунед: ин шумо намегӯед. Ин танҳо як ҳалқаи навори кӯҳна аст.",
+    "card2Title": "2. Санъати сублиматсия (Алхимия)",
+    "card2Summary": "Энергияи торикии шадиди шумо набояд шуморо нобуд кунад. Онро ба офариниш табдил додан мумкин аст.",
+    "card2Detail": "Сублиматсия як алхимияи равонии табдил додани инстинктҳои хом, фикрҳои мамнӯъ ва дарди амиқи эмотсионалӣ ба санъат, адабиёт, қувваи ҷисмонӣ ё код мебошад. Эҷодкорон торикии худро пахш накарданд - онҳо онро ба корҳои абадӣ равона карданд.",
+    "card3Title": "3. Шумо Осмон ҳастед, на тӯфон",
+    "card3Summary": "Шумо нозири бошуур ҳастед, ки шоҳиди тӯфон ҳастед, на харобаҳои дохили он.",
+    "card3Detail": "Новобаста аз он ки абрҳо, раъду барқ ​​ё борон чӣ қадар ноором шаванд, ба худи осмон ҳеҷ гоҳ аз обу ҳаво зарар намерасонад. Ба курсии нозир баргардед. Бубинед, ки ҳиссиётҳо меоянд ва мераванд, бидуни пайваст кардани шахсияти шумо ба онҳо."
+  },
+  "cta": {
+    "title": "Дарҳол худро ба замин андохтан лозим аст ё бо касе сӯҳбат кунед?",
+    "desc": "Оҳиста-оҳиста чуқур нафас олинг. Имрӯз ба шумо лозим нест, ки тамоми кӯҳро фатҳ кунед. Танҳо дақиқаи оянда.",
+    "crisisButton": "Дидани телефонҳои боварӣ оид ба бӯҳрон",
+    "toolsButton": "Асбобҳои нафаскашӣ ва заминсозӣ"
   }
+}
 };

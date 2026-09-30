@@ -255,58 +255,58 @@ export const rw: TranslationDictionary = {
     "footerNotice": "Kohereza bitaziguye kuri hello@martinluzak.sk • Gutanga raporo utavuze izina birashoboka"
   },
   motivationPage: {
-    "backToHome": "← Back to Home & Crisis Help",
-    "badge": "Perspective Shift & Meaning • 101 Global Inspirations",
-    "titlePart1": "Why Your Existence ",
-    "titleHighlight": "Matters Profoundly",
-    "description": "When you are in the thick of exhaustion, perspective narrows. Here are grounded psychological principles and real human stories of those who turned extreme suffering into enduring purpose.",
-    "spotlightBadge": "Voice from Your Region",
-    "spotlightSelectCountry": "Select country:",
-    "spotlightAdversity": "Adversity Faced",
-    "spotlightTakeaway": "Takeaway for You Today",
-    "globalTitansTitle": "Global Titans of Resilience",
-    "globalTitansSubtitle": "Timeless figures who overcame unimaginable odds to light the path for humanity.",
-    "galleryTitle": "All Continental & European Figures",
-    "gallerySubtitle": "Explore inspiring stories from across Europe and the entire globe.",
-    "searchPlaceholder": "Search name or country...",
-    "continents": {
-      "all": "🌍 All",
-      "europe": "🏰 Europe",
-      "americas": "🌎 Americas",
-      "asia": "🌏 Asia",
-      "africa": "🏜️ Africa",
-      "oceania": "🌊 Oceania"
-    },
-    "pillars": {
-      "title": "Inkingi 3 Z'ingenzi zo Kwihangana",
-      "badge": "Amahame Yemejwe",
-      "survivalTitle": "100% Survival Rate",
-      "survivalDesc": "You have survived every panic attack, every heartbreak, and every dark night you thought you wouldn't. Your resilience is already proven by facts.",
-      "noiseTitle": "Cognitive Noise vs. Truth",
-      "noiseDesc": "The brain is an evolutionary survival machine that exaggerates threat in times of stress. Anxiety and dark thoughts are false alarms, not objective reality.",
-      "chaptersTitle": "The Unwritten Chapters",
-      "chaptersDesc": "You cannot judge the entire book of your life by a single difficult chapter. The best people you will ever meet and the greatest laughs are still ahead.",
-      "alchemyTitle": "Alchemy of Pain (Sublimation)",
-      "alchemyDesc": "Great art, deep empathy, and groundbreaking resilience are born from people who have stood in the dark. Your pain can become your greatest creative superpower."
-    },
-    "sublimation": {
-      "title": "The Alchemy of Mind & Shadow",
-      "subtitle": "Transforming inner turmoil into understanding and creative power.",
-      "card1Title": "1. Thoughts Are Not Facts",
-      "card1Summary": "Most self-critical thoughts are not your own. They are old tape recordings from childhood or environment.",
-      "card1Detail": "As young children, we lacked critical filters. When someone spoke in anger or criticism, our subconscious recorded it as absolute truth. When you hear 'You are broken' or 'You are worthless', realize: that isn't you speaking. It is simply an outdated tape loop.",
-      "card2Title": "2. The Art of Sublimation (Alchemy)",
-      "card2Summary": "Your intense dark energy doesn't have to destroy you. It can be transmuted into creation.",
-      "card2Detail": "Sublimation is the psychological alchemy of converting raw instinct, taboo thoughts, and deep emotional pain into art, literature, physical power, or code. Creators didn't suppress their darkness—they channeled it into timeless works.",
-      "card3Title": "3. You Are the Sky, Not the Storm",
-      "card3Summary": "You are the conscious observer witnessing the storm, not the wreckage inside it.",
-      "card3Detail": "No matter how turbulent the clouds, thunder, or rain become, the sky itself is never harmed by the weather. Step back into the seat of the observer. Watch the sensations come and go without attaching your identity to them."
-    },
-    "cta": {
-      "title": "Need to ground yourself right now or talk to someone?",
-      "desc": "Take a slow, deep breath. You do not have to conquer the whole mountain today. Just the next minute.",
-      "crisisButton": "View Crisis Helplines",
-      "toolsButton": "Breathing & Grounding Tools"
-    }
+  "backToHome": "Garuka Murugo & Crisis Ifasha",
+  "badge": "Guhindura Ibitekerezo & Ibisobanuro • 101 Ibitekerezo Byisi",
+  "titlePart1": "Impamvu Kubaho kwawe",
+  "titleHighlight": "Ibintu Byimbitse",
+  "description": "Iyo uri mubyibushye byo kunanirwa, kureba kure. Hano hari amahame ya psychologiya hamwe ninkuru zabantu zabantu bahinduye imibabaro ikabije intego irambye.",
+  "spotlightBadge": "Ijwi riva mukarere kawe",
+  "spotlightSelectCountry": "Hitamo igihugu:",
+  "spotlightAdversity": "Ingorane zahuye nazo",
+  "spotlightTakeaway": "Kwifata Kuriwe Uyu munsi",
+  "globalTitansTitle": "Titans yisi yose yo kwihangana",
+  "globalTitansSubtitle": "Imibare itajegajega yatsinze ibintu bidashoboka kugirango imurikire inzira yubumuntu.",
+  "galleryTitle": "Imibare Yose Yumugabane & Burayi",
+  "gallerySubtitle": "Shakisha inkuru zishimishije ziturutse mu Burayi no ku isi yose.",
+  "searchPlaceholder": "Shakisha izina cyangwa igihugu ...",
+  "continents": {
+    "all": "🌍 Byose",
+    "europe": "🏰 Uburayi",
+    "americas": "Amerika",
+    "asia": "🌏 Aziya",
+    "africa": "🏜️ Afurika",
+    "oceania": "🌊 Oceania"
+  },
+  "pillars": {
+    "title": "Inkingi 3 Zibanze zo Kwihangana",
+    "badge": "Amahame yemejwe",
+    "survivalTitle": "Igipimo cyo Kurokoka 100%",
+    "survivalDesc": "Warokotse igitero cyose cyubwoba, intimba zose, nijoro ryose ryijimye wibwiraga ko utazabikora. Kwihangana kwawe bimaze kugaragazwa nukuri.",
+    "noiseTitle": "Urusaku rwubwenge nukuri",
+    "noiseDesc": "Ubwonko ni imashini irokoka ubwihindurize ikabiriza iterabwoba mugihe cy'imihangayiko. Amaganya n'ibitekerezo byijimye ni impuruza y'ibinyoma, ntabwo ari ibintu bifatika.",
+    "chaptersTitle": "Ibice bitanditse",
+    "chaptersDesc": "Ntushobora gucira urubanza igitabo cyose cyubuzima bwawe igice kimwe kigoye. Abantu beza muzahura kandi guseka cyane biracyari imbere.",
+    "alchemyTitle": "Alchemy yububabare (Sublimation)",
+    "alchemyDesc": "Ubuhanzi bukomeye, impuhwe zimbitse, hamwe no kwihangana gukomeye biva kubantu bahagaze mu mwijima. Ububabare bwawe burashobora kuba imbaraga zawe zikomeye zo guhanga."
+  },
+  "sublimation": {
+    "title": "Alchemy Yubwenge & Igicucu",
+    "subtitle": "Guhindura imvururu zimbere mubwumvikane nimbaraga zo guhanga.",
+    "card1Title": "1. Ibitekerezo ntabwo arukuri",
+    "card1Summary": "Ibitekerezo byinshi byo kwikinisha ntabwo ari ibyawe. Nibintu byafashwe amajwi kuva mubwana cyangwa ibidukikije.",
+    "card1Detail": "Nkabana bato, twabuze gushungura. Iyo umuntu yavuganye uburakari cyangwa kunegura, subconscious yacu yabyanditse nkukuri kwuzuye. Iyo wumvise 'Wavunitse' cyangwa 'Nta gaciro ufite', menya: ntabwo aribyo uvuga. Nibisanzwe byafashwe amajwi.",
+    "card2Title": "2. Ubuhanzi bwa Sublimation (Alchemy)",
+    "card2Summary": "Imbaraga zawe zijimye ntizigomba kukurimbura. Irashobora kwanduzwa mu byaremwe.",
+    "card2Detail": "Sublimation ni alchemy ya psychologiya yo guhindura imitekerereze mbisi, ibitekerezo bya kirazira, nububabare bukabije bwamarangamutima mubuhanzi, ubuvanganzo, imbaraga z'umubiri, cyangwa code. Abaremye ntibigeze bahagarika umwijima wabo - babinyujije mubikorwa bitajyanye n'igihe.",
+    "card3Title": "3. Uri Ijuru, Ntabwo Umuyaga",
+    "card3Summary": "Wowe uri indorerezi uzi neza umuyaga, ntabwo ibisigazwa biri imbere.",
+    "card3Detail": "Nubwo ibicu, inkuba, cyangwa imvura bihindagurika gute, ikirere ubwacyo nticyigera cyangizwa nikirere. Subira mu cyicaro cy'indorerezi. Reba ibyiyumvo biza kandi ugende utabashyizeho umwirondoro wawe."
+  },
+  "cta": {
+    "title": "Ukeneye kwihagararaho nonaha cyangwa kuvugana numuntu?",
+    "desc": "Fata umwuka utinze, wimbitse. Ntugomba gutsinda umusozi wose uyumunsi. Umunota ukurikira.",
+    "crisisButton": "Reba Ubufasha bwa Crisis",
+    "toolsButton": "Guhumeka & Ibikoresho"
   }
+}
 };

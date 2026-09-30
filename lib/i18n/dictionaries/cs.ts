@@ -255,56 +255,58 @@ export const cs: TranslationDictionary = {
     "footerNotice": "Přímé odeslání na hello@martinluzak.sk • Možnost anonymního hlášení"
   },
   motivationPage: {
-      "backToHome": "← Zpět na hlavní stránku a krizové linky",
-      "badge": "Přeměna bolesti ve smysl • 101 světových inspirací",
-      "titlePart1": "Proč na tvém životě ",
-      "titleHighlight": "hluboce záleží",
-      "description": "Když procházíme těžkým obdobím, mysl se zúží na bolest. Zde jsou ověřené psychologické pilíře a skutečné příběhy lidí, kteří prošli nejtemnějšími zkouškami.",
-      "spotlightBadge": "Hlas z tvého regionu",
-      "spotlightSelectCountry": "Vybrat zemi:",
-      "spotlightAdversity": "Překonaná zkouška",
-      "spotlightTakeaway": "Poselství pro tvůj dnešní den",
-      "globalTitansTitle": "Globální velikáni lidské nezlomnosti",
-      "globalTitansSubtitle": "Osobnosti, které překonaly nepředstavitelné překážky a inspirují celý svět.",
-      "galleryTitle": "Galerie hrdinů podle kontinentů",
-      "gallerySubtitle": "Objev inspirativní příběhy z každé evropské země a všech koutů světa.",
-      "searchPlaceholder": "Hledat osobnost nebo zemi...",
-      "continents": {
-          "all": "🌍 Vše",
-          "europe": "🏰 Evropa",
-          "americas": "🌎 Amerika",
-          "asia": "🌏 Asie",
-          "africa": "🏜️ Afrika",
-          "oceania": "🌊 Oceánie"
-      },
-      "pillars": {
-          "title": "3 Základní Pilíře Odolnosti",
-          "badge": "Ověřené principy",
-          "noiseTitle": "Kognitivní šum vs. Realita",
-          "noiseDesc": "Mozek je evoluční nástroj, který v krizi zveličuje nebezpečí. Úzkost a temné myšlenky jsou falešný poplach, nikoli objektivní realita.",
-          "chaptersTitle": "Nenapsané kapitoly",
-          "chaptersDesc": "Nemůžeš hodnotit celou knihu svého života podle jediné těžké kapitoly. Ti nejlepší lidé a nejupřímnější smích tě teprve čekají.",
-          "alchemyTitle": "Alchymie bolesti (Sublimace)",
-          "alchemyDesc": "Velké umění, hluboká empatie a nezlomná síla se rodí u lidí, kteří stáli ve tmě. Tvá bolest se může stát tvou největší předností."
-      },
-      "sublimation": {
-          "title": "Alchymie mysli a stínu",
-          "subtitle": "Přeměna vnitřního chaosu v hluboké porozumění a tvůrčí sílu.",
-          "card1Title": "1. Myšlenky nejsou fakta",
-          "card1Summary": "Většina sebekritických myšlenek nepochází od tebe, jsou to jen staré nahrávky z minulosti.",
-          "card1Detail": "Jako děti jsme neměli kritické filtry. Když slyšíš 'Nic neznamenáš', uvědom si: to nemluví tvé pravé já, je to jen stará zaseknutá páska.",
-          "card2Title": "2. Umění sublimace",
-          "card2Summary": "Temná energie tě nemusí zničit – může být přetavena v tvořivost a soucit.",
-          "card2Detail": "Sublimace je psychologická přeměna syrové bolesti v umění, literaturu, sílu nebo pomoc druhým. Velcí tvůrci svou temnotu přetavili v nesmrtelná díla.",
-          "card3Title": "3. Ty jsi obloha, ne bouře",
-          "card3Summary": "Jsi vědomý pozorovatel bouře, nikoli troska uprostřed ní.",
-          "card3Detail": "Bez ohledu na to, jak divoké jsou blesky a déšť, samotné obloze počasí neublíží. Udělej krok zpět a pozoruj emoce jako mraky, které přicházejí a odcházejí."
-      },
-      "cta": {
-          "title": "Potřebuješ se právě teď uklidnit nebo si s někým promluvit?",
-          "desc": "Zhluboka se nadechni. Nemusíš vyřešit celý svůj život dnes. Stačí zvládnout tuto jednu minutu.",
-          "crisisButton": "Zobrazit krizové linky pomoci",
-          "toolsButton": "Dýchací a uklidňující cvičení"
-      }
+  "backToHome": "← Zpět na Home & Crisis Help",
+  "badge": "Perspektivní posun a význam • 101 globálních inspirací",
+  "titlePart1": "Proč vaše existence",
+  "titleHighlight": "Hluboce záleží",
+  "description": "Když jste v silném vyčerpání, perspektiva se zužuje. Zde jsou zakotvené psychologické principy a skutečné lidské příběhy těch, kteří proměnili extrémní utrpení v trvalý účel.",
+  "spotlightBadge": "Hlas z vašeho regionu",
+  "spotlightSelectCountry": "Vyberte zemi:",
+  "spotlightAdversity": "Čelí proti nepřízni",
+  "spotlightTakeaway": "Takeaway for You Today",
+  "globalTitansTitle": "Global Titans of Resilience",
+  "globalTitansSubtitle": "Nadčasové postavy, které překonaly nepředstavitelné překážky, aby osvětlily cestu lidstvu.",
+  "galleryTitle": "Všechny kontinentální a evropské údaje",
+  "gallerySubtitle": "Prozkoumejte inspirativní příběhy z celé Evropy a celého světa.",
+  "searchPlaceholder": "Hledat jméno nebo zemi...",
+  "continents": {
+    "all": "🌍 Všechny",
+    "europe": "🏰 Evropa",
+    "americas": "🌎 Amerika",
+    "asia": "🌏 Asie",
+    "africa": "🏜️ Afrika",
+    "oceania": "🌊 Oceánie"
+  },
+  "pillars": {
+    "title": "3 hlavní pilíře odolnosti",
+    "badge": "Osvědčené principy",
+    "survivalTitle": "100% míra přežití",
+    "survivalDesc": "Přežili jste každý záchvat paniky, každé zlomené srdce a každou temnou noc, o které jste si mysleli, že to neuděláte. Vaše odolnost je již prokázána fakty.",
+    "noiseTitle": "Kognitivní šum vs. pravda",
+    "noiseDesc": "Mozek je evoluční stroj na přežití, který v dobách stresu zveličuje ohrožení. Úzkost a temné myšlenky jsou falešné poplachy, nikoli objektivní realita.",
+    "chaptersTitle": "Nepsané kapitoly",
+    "chaptersDesc": "Nemůžete soudit celou knihu svého života podle jediné obtížné kapitoly. Nejlepší lidé, které kdy potkáte, a největší smích vás stále čekají.",
+    "alchemyTitle": "Alchymie bolesti (sublimace)",
+    "alchemyDesc": "Velké umění, hluboká empatie a průlomová odolnost se rodí z lidí, kteří stáli ve tmě. Vaše bolest se může stát vaší největší tvůrčí superschopností."
+  },
+  "sublimation": {
+    "title": "Alchymie mysli a stínu",
+    "subtitle": "Přeměna vnitřního neklidu v porozumění a tvořivou sílu.",
+    "card1Title": "1. Myšlenky nejsou fakta",
+    "card1Summary": "Většina sebekritických myšlenek není vaše. Jsou to staré magnetofonové nahrávky z dětství nebo prostředí.",
+    "card1Detail": "Jako malé děti nám chyběly kritické filtry. Když někdo mluvil v hněvu nebo kritice, naše podvědomí to zaznamenalo jako absolutní pravdu. Když uslyšíte „Jsi zlomený“ nebo „Jsi bezcenný“, uvědomte si: to nemluvíte vy. Je to prostě zastaralá pásková smyčka.",
+    "card2Title": "2. Umění sublimace (Alchymie)",
+    "card2Summary": "Vaše intenzivní temná energie vás nemusí ničit. Může se proměnit ve stvoření.",
+    "card2Detail": "Sublimace je psychologická alchymie přeměny surového instinktu, tabuizovaných myšlenek a hluboké emocionální bolesti v umění, literaturu, fyzickou sílu nebo kód. Tvůrci svou temnotu nepotlačili – nasměrovali ji do nadčasových děl.",
+    "card3Title": "3. Ty jsi nebe, ne bouře",
+    "card3Summary": "Jste vědomým pozorovatelem, který je svědkem bouře, ne troskami uvnitř ní.",
+    "card3Detail": "Bez ohledu na to, jak rozbouřené jsou mraky, hromy nebo déšť, samotné obloze počasí nikdy neublíží. Ustupte zpět do křesla pozorovatele. Sledujte, jak pocity přicházejí a odcházejí, aniž byste k nim připojovali svou identitu."
+  },
+  "cta": {
+    "title": "Potřebujete se hned teď uzemnit nebo si s někým promluvit?",
+    "desc": "Pomalu se zhluboka nadechněte. Dnes nemusíte zdolat celou horu. Hned další minutu.",
+    "crisisButton": "Zobrazit linky pomoci krizové pomoci",
+    "toolsButton": "Dýchací a uzemňovací nástroje"
   }
+}
 };

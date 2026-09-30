@@ -255,58 +255,58 @@ export const ro: TranslationDictionary = {
     "footerNotice": "Mesajul tău este tratat cu maximă discreție și prioritate la hello@martinluzak.sk"
   },
   motivationPage: {
-    "backToHome": "← Back to Home & Crisis Help",
-    "badge": "Perspective Shift & Meaning • 101 Global Inspirations",
-    "titlePart1": "Why Your Existence ",
-    "titleHighlight": "Matters Profoundly",
-    "description": "When you are in the thick of exhaustion, perspective narrows. Here are grounded psychological principles and real human stories of those who turned extreme suffering into enduring purpose.",
-    "spotlightBadge": "Voice from Your Region",
-    "spotlightSelectCountry": "Select country:",
-    "spotlightAdversity": "Adversity Faced",
-    "spotlightTakeaway": "Takeaway for You Today",
-    "globalTitansTitle": "Global Titans of Resilience",
-    "globalTitansSubtitle": "Timeless figures who overcame unimaginable odds to light the path for humanity.",
-    "galleryTitle": "All Continental & European Figures",
-    "gallerySubtitle": "Explore inspiring stories from across Europe and the entire globe.",
-    "searchPlaceholder": "Search name or country...",
-    "continents": {
-      "all": "🌍 All",
-      "europe": "🏰 Europe",
-      "americas": "🌎 Americas",
-      "asia": "🌏 Asia",
-      "africa": "🏜️ Africa",
-      "oceania": "🌊 Oceania"
-    },
-    "pillars": {
-      "title": "3 Piloni Fundamentali ai Rezilienței",
-      "badge": "Principii Dovedite",
-      "survivalTitle": "100% Survival Rate",
-      "survivalDesc": "You have survived every panic attack, every heartbreak, and every dark night you thought you wouldn't. Your resilience is already proven by facts.",
-      "noiseTitle": "Cognitive Noise vs. Truth",
-      "noiseDesc": "The brain is an evolutionary survival machine that exaggerates threat in times of stress. Anxiety and dark thoughts are false alarms, not objective reality.",
-      "chaptersTitle": "The Unwritten Chapters",
-      "chaptersDesc": "You cannot judge the entire book of your life by a single difficult chapter. The best people you will ever meet and the greatest laughs are still ahead.",
-      "alchemyTitle": "Alchemy of Pain (Sublimation)",
-      "alchemyDesc": "Great art, deep empathy, and groundbreaking resilience are born from people who have stood in the dark. Your pain can become your greatest creative superpower."
-    },
-    "sublimation": {
-      "title": "The Alchemy of Mind & Shadow",
-      "subtitle": "Transforming inner turmoil into understanding and creative power.",
-      "card1Title": "1. Thoughts Are Not Facts",
-      "card1Summary": "Most self-critical thoughts are not your own. They are old tape recordings from childhood or environment.",
-      "card1Detail": "As young children, we lacked critical filters. When someone spoke in anger or criticism, our subconscious recorded it as absolute truth. When you hear 'You are broken' or 'You are worthless', realize: that isn't you speaking. It is simply an outdated tape loop.",
-      "card2Title": "2. The Art of Sublimation (Alchemy)",
-      "card2Summary": "Your intense dark energy doesn't have to destroy you. It can be transmuted into creation.",
-      "card2Detail": "Sublimation is the psychological alchemy of converting raw instinct, taboo thoughts, and deep emotional pain into art, literature, physical power, or code. Creators didn't suppress their darkness—they channeled it into timeless works.",
-      "card3Title": "3. You Are the Sky, Not the Storm",
-      "card3Summary": "You are the conscious observer witnessing the storm, not the wreckage inside it.",
-      "card3Detail": "No matter how turbulent the clouds, thunder, or rain become, the sky itself is never harmed by the weather. Step back into the seat of the observer. Watch the sensations come and go without attaching your identity to them."
-    },
-    "cta": {
-      "title": "Need to ground yourself right now or talk to someone?",
-      "desc": "Take a slow, deep breath. You do not have to conquer the whole mountain today. Just the next minute.",
-      "crisisButton": "View Crisis Helplines",
-      "toolsButton": "Breathing & Grounding Tools"
-    }
+  "backToHome": "← Înapoi la Acasă și Ajutor în caz de criză",
+  "badge": "Schimbarea perspectivei și sensul • 101 de inspirații globale",
+  "titlePart1": "De ce existența ta",
+  "titleHighlight": "Contează profund",
+  "description": "Când ești în plin epuizare, perspectiva se îngustează. Aici sunt întemeiate principii psihologice și povești umane reale ale celor care au transformat suferința extremă în scop de durată.",
+  "spotlightBadge": "Voce din regiunea ta",
+  "spotlightSelectCountry": "Selectați țara:",
+  "spotlightAdversity": "Adversitatea cu care se confruntă",
+  "spotlightTakeaway": "Takeaway pentru tine azi",
+  "globalTitansTitle": "Titanii Globali ai Rezilienței",
+  "globalTitansSubtitle": "Figuri atemporale care au depășit șanse de neimaginat pentru a lumina calea omenirii.",
+  "galleryTitle": "Toate cifrele continentale și europene",
+  "gallerySubtitle": "Explorați povești inspiratoare din toată Europa și din întreaga lume.",
+  "searchPlaceholder": "Căutați numele sau țara...",
+  "continents": {
+    "all": "🌍 Toate",
+    "europe": "🏰 Europa",
+    "americas": "🌎 Americi",
+    "asia": "🌏 Asia",
+    "africa": "🏜️ Africa",
+    "oceania": "🌊 Oceania"
+  },
+  "pillars": {
+    "title": "3 piloni de bază ai rezilienței",
+    "badge": "Principii dovedite",
+    "survivalTitle": "Rata de supraviețuire 100%",
+    "survivalDesc": "Ai supraviețuit fiecărui atac de panică, fiecărei dureri de inimă și fiecărei nopți întunecate în care credeai că nu o vei face. Reziliența ta este deja dovedită prin fapte.",
+    "noiseTitle": "Zgomotul cognitiv vs. Adevar",
+    "noiseDesc": "Creierul este o mașină de supraviețuire evolutivă care exagerează amenințarea în perioadele de stres. Anxietatea și gândurile întunecate sunt alarme false, nu realitate obiectivă.",
+    "chaptersTitle": "Capitolele nescrise",
+    "chaptersDesc": "Nu poți judeca întreaga carte a vieții tale după un singur capitol dificil. Cei mai buni oameni pe care îi veți întâlni vreodată și cele mai mari râsete sunt încă înainte.",
+    "alchemyTitle": "Alchimia durerii (sublimarea)",
+    "alchemyDesc": "Artă minunată, empatie profundă și rezistență inovatoare se nasc din oameni care au stat în întuneric. Durerea ta poate deveni cea mai mare superputere creatoare a ta."
+  },
+  "sublimation": {
+    "title": "Alchimia minții și umbrei",
+    "subtitle": "Transformarea tulburărilor interioare în înțelegere și putere creatoare.",
+    "card1Title": "1. Gândurile nu sunt fapte",
+    "card1Summary": "Majoritatea gândurilor autocritice nu sunt ale tale. Sunt înregistrări vechi din copilărie sau din mediu.",
+    "card1Detail": "În copilărie, ne lipseau filtrele critice. Când cineva vorbea cu furie sau critică, subconștientul nostru a înregistrat-o ca adevăr absolut. Când auziți „Ești stricat” sau „Nu ai valoare”, realiză-te: asta nu vorbești. Este pur și simplu o buclă de bandă învechită.",
+    "card2Title": "2. Arta sublimării (Alchimia)",
+    "card2Summary": "Energia ta întunecată intensă nu trebuie să te distrugă. Poate fi transmutat în creație.",
+    "card2Detail": "Sublimarea este alchimia psihologică a transformării instinctului brut, a gândurilor tabu și a durerii emoționale profunde în artă, literatură, putere fizică sau cod. Creatorii nu și-au suprimat întunericul, ci l-au canalizat în lucrări atemporale.",
+    "card3Title": "3. Tu ești cerul, nu furtuna",
+    "card3Summary": "Tu ești observatorul conștient care este martor la furtună, nu la epava din interiorul ei.",
+    "card3Detail": "Indiferent cât de turbulenți devin norii, tunetele sau ploaia, cerul în sine nu este niciodată afectat de vreme. Întoarce-te pe scaunul observatorului. Urmăriți senzațiile care vin și pleacă fără a le atașa identitatea."
+  },
+  "cta": {
+    "title": "Aveți nevoie să vă împământați chiar acum sau să vorbiți cu cineva?",
+    "desc": "Respirați lent și adânc. Nu trebuie să cucerești tot muntele astăzi. Doar în următorul minut.",
+    "crisisButton": "Vizualizați liniile de asistență pentru criză",
+    "toolsButton": "Instrumente de respirație și împământare"
   }
+}
 };

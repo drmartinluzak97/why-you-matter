@@ -255,58 +255,58 @@ export const wo: TranslationDictionary = {
     "footerNotice": "Yónnee bu dëggu ci hello@martinluzak.sk • Yebis bu amul tur am na kàttan"
   },
   motivationPage: {
-    "backToHome": "← Back to Home & Crisis Help",
-    "badge": "Perspective Shift & Meaning • 101 Global Inspirations",
-    "titlePart1": "Why Your Existence ",
-    "titleHighlight": "Matters Profoundly",
-    "description": "When you are in the thick of exhaustion, perspective narrows. Here are grounded psychological principles and real human stories of those who turned extreme suffering into enduring purpose.",
-    "spotlightBadge": "Voice from Your Region",
-    "spotlightSelectCountry": "Select country:",
-    "spotlightAdversity": "Adversity Faced",
-    "spotlightTakeaway": "Takeaway for You Today",
-    "globalTitansTitle": "Global Titans of Resilience",
-    "globalTitansSubtitle": "Timeless figures who overcame unimaginable odds to light the path for humanity.",
-    "galleryTitle": "All Continental & European Figures",
-    "gallerySubtitle": "Explore inspiring stories from across Europe and the entire globe.",
-    "searchPlaceholder": "Search name or country...",
-    "continents": {
-      "all": "🌍 All",
-      "europe": "🏰 Europe",
-      "americas": "🌎 Americas",
-      "asia": "🌏 Asia",
-      "africa": "🏜️ Africa",
-      "oceania": "🌊 Oceania"
-    },
-    "pillars": {
-      "title": "3 Core Pillars of Resilience",
-      "badge": "Proven Principles",
-      "survivalTitle": "100% Survival Rate",
-      "survivalDesc": "You have survived every panic attack, every heartbreak, and every dark night you thought you wouldn't. Your resilience is already proven by facts.",
-      "noiseTitle": "Cognitive Noise vs. Truth",
-      "noiseDesc": "The brain is an evolutionary survival machine that exaggerates threat in times of stress. Anxiety and dark thoughts are false alarms, not objective reality.",
-      "chaptersTitle": "The Unwritten Chapters",
-      "chaptersDesc": "You cannot judge the entire book of your life by a single difficult chapter. The best people you will ever meet and the greatest laughs are still ahead.",
-      "alchemyTitle": "Alchemy of Pain (Sublimation)",
-      "alchemyDesc": "Great art, deep empathy, and groundbreaking resilience are born from people who have stood in the dark. Your pain can become your greatest creative superpower."
-    },
-    "sublimation": {
-      "title": "The Alchemy of Mind & Shadow",
-      "subtitle": "Transforming inner turmoil into understanding and creative power.",
-      "card1Title": "1. Thoughts Are Not Facts",
-      "card1Summary": "Most self-critical thoughts are not your own. They are old tape recordings from childhood or environment.",
-      "card1Detail": "As young children, we lacked critical filters. When someone spoke in anger or criticism, our subconscious recorded it as absolute truth. When you hear 'You are broken' or 'You are worthless', realize: that isn't you speaking. It is simply an outdated tape loop.",
-      "card2Title": "2. The Art of Sublimation (Alchemy)",
-      "card2Summary": "Your intense dark energy doesn't have to destroy you. It can be transmuted into creation.",
-      "card2Detail": "Sublimation is the psychological alchemy of converting raw instinct, taboo thoughts, and deep emotional pain into art, literature, physical power, or code. Creators didn't suppress their darkness—they channeled it into timeless works.",
-      "card3Title": "3. You Are the Sky, Not the Storm",
-      "card3Summary": "You are the conscious observer witnessing the storm, not the wreckage inside it.",
-      "card3Detail": "No matter how turbulent the clouds, thunder, or rain become, the sky itself is never harmed by the weather. Step back into the seat of the observer. Watch the sensations come and go without attaching your identity to them."
-    },
-    "cta": {
-      "title": "Need to ground yourself right now or talk to someone?",
-      "desc": "Take a slow, deep breath. You do not have to conquer the whole mountain today. Just the next minute.",
-      "crisisButton": "View Crisis Helplines",
-      "toolsButton": "Breathing & Grounding Tools"
-    }
+  "backToHome": "← Dellu ci kër gi & Ndimbal ci jafe-jafe",
+  "badge": "Coppite ci gis-gis ak lu muy tekki • 101 Royuwaayi àdduna",
+  "titlePart1": "Lu tax nga am",
+  "titleHighlight": "Mbir yu am solo",
+  "description": "Soo nekkee ci coono bu metti, sa gis-gis dafay wàññeeku. Lii dafay wane njàngale yu am solo ci wàllu xel ak jaar-jaari nit ñu dëggu ñi soppi tiis wu metti wi def ko luy yàgg.",
+  "spotlightBadge": "Baatu Sa Réew",
+  "spotlightSelectCountry": "Tannal réew mi:",
+  "spotlightAdversity": "Jafe-jafe yi ñu jànkoonteel",
+  "spotlightTakeaway": "Takeaway ngir yaw tay",
+  "globalTitansTitle": "Titans global yu dëgër",
+  "globalTitansSubtitle": "Nit ñu amul àpp, daan jafe-jafe yu kenn mënul xalaat ngir leeral yoonu doomi aadama yi.",
+  "galleryTitle": "Lépp lu jëm ci Continental ak Europe",
+  "gallerySubtitle": "Xoolal jaar-jaar yu am solo yu bawoo Europe ak àdduna bi yépp.",
+  "searchPlaceholder": "Seetal tur wala réew...",
+  "continents": {
+    "all": "🌍 Ñépp",
+    "europe": "🏰 Europe",
+    "americas": "🌎 Amérique yi",
+    "asia": "🌏 Asie",
+    "africa": "🏜️ Afrique",
+    "oceania": "🌊 Océanie"
+  },
+  "pillars": {
+    "title": "3 ponk yu am solo ci dëgër",
+    "badge": "Njàngale yuñ firndeel",
+    "survivalTitle": "100% Taux de Survie",
+    "survivalDesc": "Mucc nga ci bépp panique, bépp naqar xol, ak bépp guddi bu lëndëm boo yaakaaroon ni doo ko mucc. Li am mooy firndeel sa pastéef.",
+    "noiseTitle": "Bruit cognitif ak dëgg",
+    "noiseDesc": "Yuur gi masin la buy mucc, te dafay juum ci jafe-jafe yi ci jamonoy stress. Njàqare ak xalaat yu lëndëm ay njuumte lañu, duñu dëggantaan.",
+    "chaptersTitle": "Chapitre yi ñu bindul",
+    "chaptersDesc": "Mën nga àtte téere sa dundu yépp ci benn chapitre bu jafe. Nit ñi gëna baax yoo musa dajeel ak reetaan yu gëna mag ñu ngi ci kanam.",
+    "alchemyTitle": "Alchimie du douleur (sublimation)",
+    "alchemyDesc": "Art bu mag, xolu yërmaande bu xóot, ak baña bàyyi xel, ñu ngi juddoo ci nit ñu taxaw ci lëndëm. Sa metit mënna nekk sa dooley sos lu gëna mag."
+  },
+  "sublimation": {
+    "title": "Alchimie bu xel ak lëndëm",
+    "subtitle": "Soppi jafe-jafe yi ci biir nit ñi ñu nekk xam-xam ak dooley sos lu bees.",
+    "card1Title": "1. Xalaat Du Dëgg",
+    "card1Summary": "Li gëna bari ci xalaati ŋàññi sa bopp bokkul ak xalaat yi nga xalaat. Kaset yu yàgg lañu yuñ enregistre ci xale wala ci environmaa bi.",
+    "card1Detail": "Bi nuy xale amoon nu ay filtre yu am solo. Su amee ku wax ak mer wala ŋàññi, sunu subconscient daf koy bind ni dëgg gu mat sëkk. Soo déggee 'Danga yàqu' wala 'Yaw amul benn njariñ', xamleen: loolu du yaw ngay wax. Du lenn ludul benn bouclage bu màgget.",
+    "card2Title": "2. Art de sublimation (alchimie)",
+    "card2Summary": "Sa energie bu lëndëm bu tar bi warul la yàq. Mën nañu ko soppi def ko mbindéef.",
+    "card2Detail": "Sublimation mooy alchimie psychologique biy soppi yëg-yëg bu ñor, xalaat yuñ tere, ak metit wu xóot wi ci art, literature, dooley yaram, wala kode. Defarkat yi tëju wuñu seen lëndëm—dañu ko dugal ci liggéey yudul jeex.",
+    "card3Title": "3. Yaay Asamaan, Du Tàngale",
+    "card3Summary": "Yaay xool taw bi ak sa xel, du yaa ngi seede mbalit mi ci biir.",
+    "card3Detail": "Ak niir yi, dënd yi, wala taw yi mëna doon, asamaan ci boppam du musa am benn loraange ci klimaa bi. Dellu ci toogukaay bi ngay seetaan. Xoolal yëg-yëg yi ñuy dem ak di ñëw te doo teg sa dàntite ci ñoom."
+  },
+  "cta": {
+    "title": "Danga bëgga ground sa bopp leegi wala nga waxtaan ak keneen?",
+    "desc": "Noyyil ndànk, bu baax. War nga daan tundu wi yépp tay. Ci simili bi ci topp.",
+    "crisisButton": "Xoolal liñuy jàppale ci jafe-jafe",
+    "toolsButton": "Jumtukaayi noyyi ak suuf"
   }
+}
 };

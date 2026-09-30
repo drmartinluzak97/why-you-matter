@@ -255,58 +255,58 @@ export const lb: TranslationDictionary = {
     "footerNotice": "Direkt Liwwerung un hello@martinluzak.sk • Anonym Meldung ënnerstëtzt"
   },
   motivationPage: {
-    "backToHome": "← Back to Home & Crisis Help",
-    "badge": "Perspective Shift & Meaning • 101 Global Inspirations",
-    "titlePart1": "Why Your Existence ",
-    "titleHighlight": "Matters Profoundly",
-    "description": "When you are in the thick of exhaustion, perspective narrows. Here are grounded psychological principles and real human stories of those who turned extreme suffering into enduring purpose.",
-    "spotlightBadge": "Voice from Your Region",
-    "spotlightSelectCountry": "Select country:",
-    "spotlightAdversity": "Adversity Faced",
-    "spotlightTakeaway": "Takeaway for You Today",
-    "globalTitansTitle": "Global Titans of Resilience",
-    "globalTitansSubtitle": "Timeless figures who overcame unimaginable odds to light the path for humanity.",
-    "galleryTitle": "All Continental & European Figures",
-    "gallerySubtitle": "Explore inspiring stories from across Europe and the entire globe.",
-    "searchPlaceholder": "Search name or country...",
-    "continents": {
-      "all": "🌍 All",
-      "europe": "🏰 Europe",
-      "americas": "🌎 Americas",
-      "asia": "🌏 Asia",
-      "africa": "🏜️ Africa",
-      "oceania": "🌊 Oceania"
-    },
-    "pillars": {
-      "title": "3 Grondsailen vun der Widderstandsfäegkeet",
-      "badge": "Bewisen Prinzipien",
-      "survivalTitle": "100% Survival Rate",
-      "survivalDesc": "You have survived every panic attack, every heartbreak, and every dark night you thought you wouldn't. Your resilience is already proven by facts.",
-      "noiseTitle": "Cognitive Noise vs. Truth",
-      "noiseDesc": "The brain is an evolutionary survival machine that exaggerates threat in times of stress. Anxiety and dark thoughts are false alarms, not objective reality.",
-      "chaptersTitle": "The Unwritten Chapters",
-      "chaptersDesc": "You cannot judge the entire book of your life by a single difficult chapter. The best people you will ever meet and the greatest laughs are still ahead.",
-      "alchemyTitle": "Alchemy of Pain (Sublimation)",
-      "alchemyDesc": "Great art, deep empathy, and groundbreaking resilience are born from people who have stood in the dark. Your pain can become your greatest creative superpower."
-    },
-    "sublimation": {
-      "title": "The Alchemy of Mind & Shadow",
-      "subtitle": "Transforming inner turmoil into understanding and creative power.",
-      "card1Title": "1. Thoughts Are Not Facts",
-      "card1Summary": "Most self-critical thoughts are not your own. They are old tape recordings from childhood or environment.",
-      "card1Detail": "As young children, we lacked critical filters. When someone spoke in anger or criticism, our subconscious recorded it as absolute truth. When you hear 'You are broken' or 'You are worthless', realize: that isn't you speaking. It is simply an outdated tape loop.",
-      "card2Title": "2. The Art of Sublimation (Alchemy)",
-      "card2Summary": "Your intense dark energy doesn't have to destroy you. It can be transmuted into creation.",
-      "card2Detail": "Sublimation is the psychological alchemy of converting raw instinct, taboo thoughts, and deep emotional pain into art, literature, physical power, or code. Creators didn't suppress their darkness—they channeled it into timeless works.",
-      "card3Title": "3. You Are the Sky, Not the Storm",
-      "card3Summary": "You are the conscious observer witnessing the storm, not the wreckage inside it.",
-      "card3Detail": "No matter how turbulent the clouds, thunder, or rain become, the sky itself is never harmed by the weather. Step back into the seat of the observer. Watch the sensations come and go without attaching your identity to them."
-    },
-    "cta": {
-      "title": "Need to ground yourself right now or talk to someone?",
-      "desc": "Take a slow, deep breath. You do not have to conquer the whole mountain today. Just the next minute.",
-      "crisisButton": "View Crisis Helplines",
-      "toolsButton": "Breathing & Grounding Tools"
-    }
+  "backToHome": "← Back to Home & Krisehëllef",
+  "badge": "Perspektiv Verréckelung & Bedeitung • 101 Global Inspiratiounen",
+  "titlePart1": "Firwat Är Existenz",
+  "titleHighlight": "Matten déif",
+  "description": "Wann Dir am décke vun Erschöpfung sinn, Perspektiv schmuel. Hei sinn gegrënnt psychologesch Prinzipien a richteg mënschlech Geschichte vun deenen, déi extrem Leed an dauerhaften Zweck ëmgewandelt hunn.",
+  "spotlightBadge": "Stëmm aus Ärer Regioun",
+  "spotlightSelectCountry": "Wielt Land:",
+  "spotlightAdversity": "Adversity konfrontéiert",
+  "spotlightTakeaway": "Takeaway fir Iech Haut",
+  "globalTitansTitle": "Global Titans of Resilience",
+  "globalTitansSubtitle": "Zäitlos Figuren déi onvirstellbar Chancen iwwerwonne fir de Wee fir d'Mënschheet ze beliichten.",
+  "galleryTitle": "All Continental & Europäesch Figuren",
+  "gallerySubtitle": "Entdeckt inspiréierend Geschichten aus ganz Europa an aus der ganzer Welt.",
+  "searchPlaceholder": "Sichen Numm oder Land ...",
+  "continents": {
+    "all": "🌍 All",
+    "europe": "🏰 Europa",
+    "americas": "🌎 Amerika",
+    "asia": "🌏 Asien",
+    "africa": "🏜️ Afrika",
+    "oceania": "🌊 Ozeanien"
+  },
+  "pillars": {
+    "title": "3 Kär Piliere vun Widderstandsfäegkeet",
+    "badge": "Bewisen Prinzipien",
+    "survivalTitle": "100% Iwwerliewe Taux",
+    "survivalDesc": "Dir hutt all Panikattack, all Häerzschlag, an all däischter Nuecht iwwerlieft, déi Dir geduecht hutt Dir géift net. Är Widderstandsfäegkeet ass scho vu Fakte bewisen.",
+    "noiseTitle": "Kognitiv Kaméidi vs Wourecht",
+    "noiseDesc": "D'Gehir ass eng evolutiv Iwwerliewensmaschinn déi Bedrohung an Zäite vu Stress iwwerdriwwen. Besuergnëss an donkel Gedanken si falsch Alarm, net objektiv Realitéit.",
+    "chaptersTitle": "Déi ongeschriwwe Kapitelen",
+    "chaptersDesc": "Dir kënnt net dat ganzt Buch vun Ärem Liewen no engem eenzege schwéiere Kapitel beurteelen. Déi bescht Leit déi Dir jeemools begéint an déi gréisste Laachen sinn nach virun.",
+    "alchemyTitle": "Alchemy of Pain (Sublimatioun)",
+    "alchemyDesc": "Grouss Konscht, déif Empathie, a banebriechend Widderstandsfäegkeet ginn aus Leit gebuer, déi am Däischteren stoungen. Äre Péng kann Är gréisste kreativ Supermuecht ginn."
+  },
+  "sublimation": {
+    "title": "D'Alchimie vum Geescht & Schatten",
+    "subtitle": "Transforméiert banneschten Onrou a Verständnis a kreativ Kraaft.",
+    "card1Title": "1. Gedanken sinn net Fakten",
+    "card1Summary": "Déi meescht selbstkritesch Gedanken sinn net Är eege. Si sinn al Kassettopnamen aus Kandheet oder Ëmfeld.",
+    "card1Detail": "Als kleng Kanner hu mir kritesch Filtere gefeelt. Wann een a Roserei oder Kritik geschwat huet, huet eisen Ënnerbewosstsinn et als absolut Wourecht opgeholl. Wann Dir héiert 'Dir sidd gebrach' oder 'Dir sidd wäertlos', mierken: dat schwätzt net. Et ass einfach eng verouderte Bandschleife.",
+    "card2Title": "2. D'Konscht vun der Sublimatioun (Alchimie)",
+    "card2Summary": "Är intensiv donkel Energie muss dech net zerstéieren. Et kann an d'Schafung transforméiert ginn.",
+    "card2Detail": "Sublimatioun ass déi psychologesch Alchimie fir rauen Instinkt, tabu Gedanken, an déif emotional Péng an Konscht, Literatur, kierperlech Kraaft oder Code ëmzewandelen. D'Creatoren hunn hir Däischtert net ënnerdréckt - si hunn et an zäitlos Wierker kanaliséiert.",
+    "card3Title": "3. Dir sidd den Himmel, net de Stuerm",
+    "card3Summary": "Dir sidd de bewosst Beobachter deen de Stuerm Zeien, net de Wrack dran.",
+    "card3Detail": "Egal wéi turbulent d'Wolleken, den Donner oder de Reen ginn, den Himmel selwer gëtt ni vum Wieder beschiedegt. Schrëtt zréck an de Sëtz vum Beobachter. Kuckt d'Sensatioune kommen a goen ouni Är Identitéit un hinnen ze befestigen."
+  },
+  "cta": {
+    "title": "Braucht Dir Iech elo direkt ze Buedem oder mat engem ze schwätzen?",
+    "desc": "Huelt e luesen, déif Otem. Dir musst haut net de ganze Bierg eroberen. Just déi nächst Minutt.",
+    "crisisButton": "View Kris Helplines",
+    "toolsButton": "Atmungs- a Buedemtools"
   }
+}
 };

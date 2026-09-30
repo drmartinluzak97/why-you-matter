@@ -255,58 +255,58 @@ export const ca: TranslationDictionary = {
     "footerNotice": "Enviament directe a hello@martinluzak.sk • Informes anònims admesos"
   },
   motivationPage: {
-    "backToHome": "← Back to Home & Crisis Help",
-    "badge": "Perspective Shift & Meaning • 101 Global Inspirations",
-    "titlePart1": "Why Your Existence ",
-    "titleHighlight": "Matters Profoundly",
-    "description": "When you are in the thick of exhaustion, perspective narrows. Here are grounded psychological principles and real human stories of those who turned extreme suffering into enduring purpose.",
-    "spotlightBadge": "Voice from Your Region",
-    "spotlightSelectCountry": "Select country:",
-    "spotlightAdversity": "Adversity Faced",
-    "spotlightTakeaway": "Takeaway for You Today",
-    "globalTitansTitle": "Global Titans of Resilience",
-    "globalTitansSubtitle": "Timeless figures who overcame unimaginable odds to light the path for humanity.",
-    "galleryTitle": "All Continental & European Figures",
-    "gallerySubtitle": "Explore inspiring stories from across Europe and the entire globe.",
-    "searchPlaceholder": "Search name or country...",
-    "continents": {
-      "all": "🌍 All",
-      "europe": "🏰 Europe",
-      "americas": "🌎 Americas",
-      "asia": "🌏 Asia",
-      "africa": "🏜️ Africa",
-      "oceania": "🌊 Oceania"
-    },
-    "pillars": {
-      "title": "3 Pilars Fonamentals de la Resiliència",
-      "badge": "Principis Demostrats",
-      "survivalTitle": "100% Survival Rate",
-      "survivalDesc": "You have survived every panic attack, every heartbreak, and every dark night you thought you wouldn't. Your resilience is already proven by facts.",
-      "noiseTitle": "Cognitive Noise vs. Truth",
-      "noiseDesc": "The brain is an evolutionary survival machine that exaggerates threat in times of stress. Anxiety and dark thoughts are false alarms, not objective reality.",
-      "chaptersTitle": "The Unwritten Chapters",
-      "chaptersDesc": "You cannot judge the entire book of your life by a single difficult chapter. The best people you will ever meet and the greatest laughs are still ahead.",
-      "alchemyTitle": "Alchemy of Pain (Sublimation)",
-      "alchemyDesc": "Great art, deep empathy, and groundbreaking resilience are born from people who have stood in the dark. Your pain can become your greatest creative superpower."
-    },
-    "sublimation": {
-      "title": "The Alchemy of Mind & Shadow",
-      "subtitle": "Transforming inner turmoil into understanding and creative power.",
-      "card1Title": "1. Thoughts Are Not Facts",
-      "card1Summary": "Most self-critical thoughts are not your own. They are old tape recordings from childhood or environment.",
-      "card1Detail": "As young children, we lacked critical filters. When someone spoke in anger or criticism, our subconscious recorded it as absolute truth. When you hear 'You are broken' or 'You are worthless', realize: that isn't you speaking. It is simply an outdated tape loop.",
-      "card2Title": "2. The Art of Sublimation (Alchemy)",
-      "card2Summary": "Your intense dark energy doesn't have to destroy you. It can be transmuted into creation.",
-      "card2Detail": "Sublimation is the psychological alchemy of converting raw instinct, taboo thoughts, and deep emotional pain into art, literature, physical power, or code. Creators didn't suppress their darkness—they channeled it into timeless works.",
-      "card3Title": "3. You Are the Sky, Not the Storm",
-      "card3Summary": "You are the conscious observer witnessing the storm, not the wreckage inside it.",
-      "card3Detail": "No matter how turbulent the clouds, thunder, or rain become, the sky itself is never harmed by the weather. Step back into the seat of the observer. Watch the sensations come and go without attaching your identity to them."
-    },
-    "cta": {
-      "title": "Need to ground yourself right now or talk to someone?",
-      "desc": "Take a slow, deep breath. You do not have to conquer the whole mountain today. Just the next minute.",
-      "crisisButton": "View Crisis Helplines",
-      "toolsButton": "Breathing & Grounding Tools"
-    }
+  "backToHome": "← Tornar a Inici i Ajuda de Crisi",
+  "badge": "Canvi de perspectiva i significat • 101 inspiracions globals",
+  "titlePart1": "Per què la teva existència",
+  "titleHighlight": "Importa profundament",
+  "description": "Quan estàs enmig de l'esgotament, la perspectiva s'estreny. Aquí hi ha principis psicològics fonamentats i històries humanes reals d'aquells que van convertir el patiment extrem en un propòsit durador.",
+  "spotlightBadge": "Veu de la teva regió",
+  "spotlightSelectCountry": "Seleccioneu el país:",
+  "spotlightAdversity": "Adversitat enfrontada",
+  "spotlightTakeaway": "Menjar per a tu avui",
+  "globalTitansTitle": "Titans globals de la resiliència",
+  "globalTitansSubtitle": "Figures atemporals que van superar les probabilitats inimaginables per il·luminar el camí de la humanitat.",
+  "galleryTitle": "Totes les xifres continentals i europees",
+  "gallerySubtitle": "Exploreu històries inspiradores d'arreu d'Europa i de tot el món.",
+  "searchPlaceholder": "Cerca nom o país...",
+  "continents": {
+    "all": "🌍 Tots",
+    "europe": "🏰 Europa",
+    "americas": "🌎 Amèrica",
+    "asia": "🌏 Àsia",
+    "africa": "🏜️ Àfrica",
+    "oceania": "🌊 Oceania"
+  },
+  "pillars": {
+    "title": "3 pilars bàsics de la resiliència",
+    "badge": "Principis provats",
+    "survivalTitle": "Taxa de supervivència del 100%",
+    "survivalDesc": "Has sobreviscut a cada atac de pànic, a cada desamor i a cada nit fosca que pensaves que no ho faries. La teva resistència ja està demostrada pels fets.",
+    "noiseTitle": "Soroll cognitiu vs. veritat",
+    "noiseDesc": "El cervell és una màquina de supervivència evolutiva que exagera l'amenaça en temps d'estrès. L'ansietat i els pensaments foscos són falses alarmes, no una realitat objectiva.",
+    "chaptersTitle": "Els capítols no escrits",
+    "chaptersDesc": "No pots jutjar tot el llibre de la teva vida per un únic capítol difícil. La millor gent que coneixeràs i les més grans rialles encara estan per davant.",
+    "alchemyTitle": "Alquímia del dolor (sublimació)",
+    "alchemyDesc": "Un gran art, una profunda empatia i una resiliència innovadora neixen de persones que s'han quedat a les fosques. El teu dolor pot esdevenir el teu superpoder creatiu més gran."
+  },
+  "sublimation": {
+    "title": "L'alquímia de la ment i l'ombra",
+    "subtitle": "Transformar l'agitació interior en comprensió i poder creatiu.",
+    "card1Title": "1. Els pensaments no són fets",
+    "card1Summary": "La majoria dels pensaments autocrítics no són els vostres. Són gravacions antigues de la infància o de l'entorn.",
+    "card1Detail": "De nens petits, ens faltaven filtres crítics. Quan algú parlava amb ràbia o crítica, el nostre subconscient ho registrava com a veritat absoluta. Quan escolteu \"Estàs trencat\" o \"No vals per res\", adona't: això no estàs parlant. És simplement un bucle de cinta obsolet.",
+    "card2Title": "2. L'art de la sublimació (alquímia)",
+    "card2Summary": "La teva intensa energia fosca no t'ha de destruir. Es pot transmutar en creació.",
+    "card2Detail": "La sublimació és l'alquímia psicològica de convertir l'instint cru, els pensaments tabú i el dolor emocional profund en art, literatura, poder físic o codi. Els creadors no van suprimir la seva foscor, sinó que la van canalitzar en obres atemporals.",
+    "card3Title": "3. Tu ets el cel, no la tempesta",
+    "card3Summary": "Vostè és l'observador conscient que presencia la tempesta, no les restes que hi ha al seu interior.",
+    "card3Detail": "Per molt turbulents que siguin els núvols, els trons o la pluja, el cel en si no es veu mai perjudicat pel clima. Torneu al seient de l'observador. Mira com les sensacions van i vénen sense adjuntar-hi la teva identitat."
+  },
+  "cta": {
+    "title": "Necessites posar-te a terra ara mateix o parlar amb algú?",
+    "desc": "Pren una respiració lenta i profunda. Avui no cal conquerir tota la muntanya. Just el minut següent.",
+    "crisisButton": "Veure les línies d'ajuda per a crisi",
+    "toolsButton": "Eines de respiració i connexió a terra"
   }
+}
 };

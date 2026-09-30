@@ -255,58 +255,58 @@ export const cy: TranslationDictionary = {
     "footerNotice": "Direct delivery to hello@martinluzak.sk • Anonymous reporting supported"
   },
   motivationPage: {
-    "backToHome": "← Back to Home & Crisis Help",
-    "badge": "Perspective Shift & Meaning • 101 Global Inspirations",
-    "titlePart1": "Why Your Existence ",
-    "titleHighlight": "Matters Profoundly",
-    "description": "When you are in the thick of exhaustion, perspective narrows. Here are grounded psychological principles and real human stories of those who turned extreme suffering into enduring purpose.",
-    "spotlightBadge": "Voice from Your Region",
-    "spotlightSelectCountry": "Select country:",
-    "spotlightAdversity": "Adversity Faced",
-    "spotlightTakeaway": "Takeaway for You Today",
-    "globalTitansTitle": "Global Titans of Resilience",
-    "globalTitansSubtitle": "Timeless figures who overcame unimaginable odds to light the path for humanity.",
-    "galleryTitle": "All Continental & European Figures",
-    "gallerySubtitle": "Explore inspiring stories from across Europe and the entire globe.",
-    "searchPlaceholder": "Search name or country...",
-    "continents": {
-      "all": "🌍 All",
-      "europe": "🏰 Europe",
-      "americas": "🌎 Americas",
-      "asia": "🌏 Asia",
-      "africa": "🏜️ Africa",
-      "oceania": "🌊 Oceania"
-    },
-    "pillars": {
-      "title": "3 Phrif Golofn Cydnerthedd",
-      "badge": "Egwyddorion Profedig",
-      "survivalTitle": "100% Survival Rate",
-      "survivalDesc": "You have survived every panic attack, every heartbreak, and every dark night you thought you wouldn't. Your resilience is already proven by facts.",
-      "noiseTitle": "Cognitive Noise vs. Truth",
-      "noiseDesc": "The brain is an evolutionary survival machine that exaggerates threat in times of stress. Anxiety and dark thoughts are false alarms, not objective reality.",
-      "chaptersTitle": "The Unwritten Chapters",
-      "chaptersDesc": "You cannot judge the entire book of your life by a single difficult chapter. The best people you will ever meet and the greatest laughs are still ahead.",
-      "alchemyTitle": "Alchemy of Pain (Sublimation)",
-      "alchemyDesc": "Great art, deep empathy, and groundbreaking resilience are born from people who have stood in the dark. Your pain can become your greatest creative superpower."
-    },
-    "sublimation": {
-      "title": "The Alchemy of Mind & Shadow",
-      "subtitle": "Transforming inner turmoil into understanding and creative power.",
-      "card1Title": "1. Thoughts Are Not Facts",
-      "card1Summary": "Most self-critical thoughts are not your own. They are old tape recordings from childhood or environment.",
-      "card1Detail": "As young children, we lacked critical filters. When someone spoke in anger or criticism, our subconscious recorded it as absolute truth. When you hear 'You are broken' or 'You are worthless', realize: that isn't you speaking. It is simply an outdated tape loop.",
-      "card2Title": "2. The Art of Sublimation (Alchemy)",
-      "card2Summary": "Your intense dark energy doesn't have to destroy you. It can be transmuted into creation.",
-      "card2Detail": "Sublimation is the psychological alchemy of converting raw instinct, taboo thoughts, and deep emotional pain into art, literature, physical power, or code. Creators didn't suppress their darkness—they channeled it into timeless works.",
-      "card3Title": "3. You Are the Sky, Not the Storm",
-      "card3Summary": "You are the conscious observer witnessing the storm, not the wreckage inside it.",
-      "card3Detail": "No matter how turbulent the clouds, thunder, or rain become, the sky itself is never harmed by the weather. Step back into the seat of the observer. Watch the sensations come and go without attaching your identity to them."
-    },
-    "cta": {
-      "title": "Need to ground yourself right now or talk to someone?",
-      "desc": "Take a slow, deep breath. You do not have to conquer the whole mountain today. Just the next minute.",
-      "crisisButton": "View Crisis Helplines",
-      "toolsButton": "Breathing & Grounding Tools"
-    }
+  "backToHome": "← Nôl i'r Cartref a Chymorth mewn Argyfwng",
+  "badge": "Safbwynt Safbwynt ac Ystyr • 101 o Ysbrydoliaeth Fyd-eang",
+  "titlePart1": "Pam Eich Bodolaeth",
+  "titleHighlight": "Materion Dwys",
+  "description": "Pan fyddwch yn y trwch o flinder, mae persbectif yn culhau. Dyma egwyddorion seicolegol sylfaenol a straeon dynol go iawn am y rhai a drodd dioddefaint eithafol yn bwrpas parhaol.",
+  "spotlightBadge": "Llais o'ch Rhanbarth",
+  "spotlightSelectCountry": "Dewiswch wlad:",
+  "spotlightAdversity": "Adfyd a Wynebwyd",
+  "spotlightTakeaway": "Tecawe i Chi Heddiw",
+  "globalTitansTitle": "Titans Gwydnwch Byd-eang",
+  "globalTitansSubtitle": "Ffigurau oesol a oresgynnodd ods annirnadwy i oleuo'r llwybr i ddynoliaeth.",
+  "galleryTitle": "Pob Ffigur Cyfandirol ac Ewropeaidd",
+  "gallerySubtitle": "Archwiliwch straeon ysbrydoledig o bob rhan o Ewrop a'r byd i gyd.",
+  "searchPlaceholder": "Chwilio enw neu wlad...",
+  "continents": {
+    "all": "🌍 Pawb",
+    "europe": "🏰 Ewrop",
+    "americas": "🌎 Americas",
+    "asia": "🌏 Asia",
+    "africa": "🏜️ Affrica",
+    "oceania": "🌊 Oceania"
+  },
+  "pillars": {
+    "title": "3 Colofn Graidd Cydnerthedd",
+    "badge": "Egwyddorion Profedig",
+    "survivalTitle": "Cyfradd Goroesi 100%",
+    "survivalDesc": "Rydych chi wedi goroesi pob pwl o banig, pob torcalon, a phob noson dywyll roeddech chi'n meddwl na fyddech chi. Mae eich gwytnwch eisoes wedi'i brofi gan ffeithiau.",
+    "noiseTitle": "Sŵn Gwybyddol vs Gwirionedd",
+    "noiseDesc": "Mae'r ymennydd yn beiriant goroesi esblygiadol sy'n gorliwio bygythiad ar adegau o straen. Camrybuddion yw gorbryder a meddyliau tywyll, nid realiti gwrthrychol.",
+    "chaptersTitle": "Y Penodau Anysgrifenedig",
+    "chaptersDesc": "Ni allwch farnu llyfr cyfan eich bywyd trwy un bennod anodd. Mae'r bobl orau y byddwch chi byth yn cwrdd â nhw a'r chwerthin mwyaf o'ch blaen o hyd.",
+    "alchemyTitle": "Alcemi Poen (Sublimation)",
+    "alchemyDesc": "Mae celf wych, empathi dwfn, a gwydnwch arloesol yn cael eu geni gan bobl sydd wedi sefyll yn y tywyllwch. Gall eich poen ddod yn bŵer creadigol mwyaf i chi."
+  },
+  "sublimation": {
+    "title": "Alcemi'r Meddwl a'r Cysgod",
+    "subtitle": "Trawsnewid cythrwfl mewnol yn ddealltwriaeth a phŵer creadigol.",
+    "card1Title": "1. Nid Ffeithiau Yw Meddyliau",
+    "card1Summary": "Nid yw'r rhan fwyaf o feddyliau hunanfeirniadol yn eiddo i chi. Maent yn hen recordiadau tâp o blentyndod neu amgylchedd.",
+    "card1Detail": "Fel plant ifanc, nid oedd gennym ni hidlwyr critigol. Pan siaradodd rhywun mewn dicter neu feirniadaeth, roedd ein hisymwybod yn ei gofnodi fel gwirionedd absoliwt. Pan glywch 'Rydych chi wedi torri' neu 'Rydych chi'n ddiwerth', sylweddolwch: nid chi sy'n siarad. Yn syml, dolen dâp hen ffasiwn ydyw.",
+    "card2Title": "2. Celfyddyd sychdarthiad (Alcemi)",
+    "card2Summary": "Nid oes rhaid i'ch egni tywyll dwys eich dinistrio. Gellir ei drosglwyddo i'r greadigaeth.",
+    "card2Detail": "Mae sychdarthiad yn alcemi seicolegol o drawsnewid greddf amrwd, meddyliau tabŵ, a phoen emosiynol dwfn yn gelf, llenyddiaeth, pŵer corfforol, neu god. Nid oedd y crewyr yn atal eu tywyllwch - maent yn ei sianelu i waith bythol.",
+    "card3Title": "3. Ti Yw'r Awyr, Nid y Storm",
+    "card3Summary": "Chi yw'r sylwedydd ymwybodol sy'n dyst i'r storm, nid y llongddrylliad y tu mewn iddi.",
+    "card3Detail": "Ni waeth pa mor gythryblus y daw'r cymylau, y taranau, neu'r glaw, ni chaiff yr awyr ei hun byth ei niweidio gan y tywydd. Camwch yn ôl i sedd yr arsylwr. Gwyliwch y synhwyrau yn mynd a dod heb gysylltu eich hunaniaeth â nhw."
+  },
+  "cta": {
+    "title": "Eisiau dirio'ch hun ar hyn o bryd neu siarad â rhywun?",
+    "desc": "Cymerwch anadl araf, dwfn. Does dim rhaid i chi goncro'r mynydd cyfan heddiw. Dim ond y funud nesaf.",
+    "crisisButton": "Gweld Llinellau Cymorth Argyfwng",
+    "toolsButton": "Offer Anadlu a Sylfaen"
   }
+}
 };

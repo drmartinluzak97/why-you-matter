@@ -255,58 +255,58 @@ export const hy: TranslationDictionary = {
     "footerNotice": "Direct delivery to hello@martinluzak.sk • Anonymous reporting supported"
   },
   motivationPage: {
-    "backToHome": "← Back to Home & Crisis Help",
-    "badge": "Perspective Shift & Meaning • 101 Global Inspirations",
-    "titlePart1": "Why Your Existence ",
-    "titleHighlight": "Matters Profoundly",
-    "description": "When you are in the thick of exhaustion, perspective narrows. Here are grounded psychological principles and real human stories of those who turned extreme suffering into enduring purpose.",
-    "spotlightBadge": "Voice from Your Region",
-    "spotlightSelectCountry": "Select country:",
-    "spotlightAdversity": "Adversity Faced",
-    "spotlightTakeaway": "Takeaway for You Today",
-    "globalTitansTitle": "Global Titans of Resilience",
-    "globalTitansSubtitle": "Timeless figures who overcame unimaginable odds to light the path for humanity.",
-    "galleryTitle": "All Continental & European Figures",
-    "gallerySubtitle": "Explore inspiring stories from across Europe and the entire globe.",
-    "searchPlaceholder": "Search name or country...",
-    "continents": {
-      "all": "🌍 All",
-      "europe": "🏰 Europe",
-      "americas": "🌎 Americas",
-      "asia": "🌏 Asia",
-      "africa": "🏜️ Africa",
-      "oceania": "🌊 Oceania"
-    },
-    "pillars": {
-      "title": "Տոկունության 3 Հիմնական Սյուներ",
-      "badge": "Ապացուցված Սկզբունքներ",
-      "survivalTitle": "100% Survival Rate",
-      "survivalDesc": "You have survived every panic attack, every heartbreak, and every dark night you thought you wouldn't. Your resilience is already proven by facts.",
-      "noiseTitle": "Cognitive Noise vs. Truth",
-      "noiseDesc": "The brain is an evolutionary survival machine that exaggerates threat in times of stress. Anxiety and dark thoughts are false alarms, not objective reality.",
-      "chaptersTitle": "The Unwritten Chapters",
-      "chaptersDesc": "You cannot judge the entire book of your life by a single difficult chapter. The best people you will ever meet and the greatest laughs are still ahead.",
-      "alchemyTitle": "Alchemy of Pain (Sublimation)",
-      "alchemyDesc": "Great art, deep empathy, and groundbreaking resilience are born from people who have stood in the dark. Your pain can become your greatest creative superpower."
-    },
-    "sublimation": {
-      "title": "The Alchemy of Mind & Shadow",
-      "subtitle": "Transforming inner turmoil into understanding and creative power.",
-      "card1Title": "1. Thoughts Are Not Facts",
-      "card1Summary": "Most self-critical thoughts are not your own. They are old tape recordings from childhood or environment.",
-      "card1Detail": "As young children, we lacked critical filters. When someone spoke in anger or criticism, our subconscious recorded it as absolute truth. When you hear 'You are broken' or 'You are worthless', realize: that isn't you speaking. It is simply an outdated tape loop.",
-      "card2Title": "2. The Art of Sublimation (Alchemy)",
-      "card2Summary": "Your intense dark energy doesn't have to destroy you. It can be transmuted into creation.",
-      "card2Detail": "Sublimation is the psychological alchemy of converting raw instinct, taboo thoughts, and deep emotional pain into art, literature, physical power, or code. Creators didn't suppress their darkness—they channeled it into timeless works.",
-      "card3Title": "3. You Are the Sky, Not the Storm",
-      "card3Summary": "You are the conscious observer witnessing the storm, not the wreckage inside it.",
-      "card3Detail": "No matter how turbulent the clouds, thunder, or rain become, the sky itself is never harmed by the weather. Step back into the seat of the observer. Watch the sensations come and go without attaching your identity to them."
-    },
-    "cta": {
-      "title": "Need to ground yourself right now or talk to someone?",
-      "desc": "Take a slow, deep breath. You do not have to conquer the whole mountain today. Just the next minute.",
-      "crisisButton": "View Crisis Helplines",
-      "toolsButton": "Breathing & Grounding Tools"
-    }
+  "backToHome": "← Վերադառնալ տուն և ճգնաժամային օգնություն",
+  "badge": "Perspective Shift & Meaning • 101 Global Inspirations",
+  "titlePart1": "Ինչու՞ քո գոյությունը",
+  "titleHighlight": "Խորապես կարևոր է",
+  "description": "Երբ հոգնածության մեջ ես, հեռանկարը նեղանում է: Ահա հիմնավորված հոգեբանական սկզբունքներ և իրական մարդկային պատմություններ նրանց մասին, ովքեր ծայրահեղ տառապանքը վերածել են հարատև նպատակի:",
+  "spotlightBadge": "Ձայն ձեր տարածաշրջանից",
+  "spotlightSelectCountry": "Ընտրել երկիրը՝",
+  "spotlightAdversity": "Դժբախտության առջև",
+  "spotlightTakeaway": "Takeaway for you today",
+  "globalTitansTitle": "Ճկունության համաշխարհային տիտաններ",
+  "globalTitansSubtitle": "Հավերժական գործիչներ, ովքեր հաղթահարեցին աներևակայելի շանսեր՝ լուսավորելու մարդկության ճանապարհը:",
+  "galleryTitle": "Բոլոր մայրցամաքային և եվրոպական գործիչները",
+  "gallerySubtitle": "Բացահայտեք ոգեշնչող պատմություններ ամբողջ Եվրոպայից և ամբողջ աշխարհից:",
+  "searchPlaceholder": "Որոնել անունը կամ երկիրը...",
+  "continents": {
+    "all": "🌍 Բոլորը",
+    "europe": "🏰 Եվրոպա",
+    "americas": "🌎 Ամերիկաներ",
+    "asia": "🌏 Ասիա",
+    "africa": "🏜️ Աֆրիկա",
+    "oceania": "🌊 Օվկիանիա"
+  },
+  "pillars": {
+    "title": "Ճկունության 3 հիմնական սյուներ",
+    "badge": "Ապացուցված սկզբունքներ",
+    "survivalTitle": "100% գոյատևման մակարդակ",
+    "survivalDesc": "Դուք վերապրել եք ամեն խուճապի հարձակում, յուրաքանչյուր սրտխառնոց և ամեն մութ գիշեր, որ մտածում էիք, որ չեք անի: Ձեր տոկունությունն արդեն ապացուցված է փաստերով։",
+    "noiseTitle": "Ճանաչողական աղմուկ ընդդեմ ճշմարտության",
+    "noiseDesc": "Ուղեղը էվոլյուցիոն գոյատևման մեքենա է, որը չափազանցնում է սպառնալիքը սթրեսի ժամանակ: Անհանգստությունն ու մութ մտքերը կեղծ ահազանգեր են, ոչ թե օբյեկտիվ իրականություն:",
+    "chaptersTitle": "Չգրված գլուխները",
+    "chaptersDesc": "Դուք չեք կարող դատել ձեր կյանքի ամբողջ գիրքը մեկ դժվար գլխով: Լավագույն մարդիկ, որոնց դուք երբևէ կհանդիպեք, և ամենամեծ ծիծաղը դեռ առջևում են:",
+    "alchemyTitle": "Ցավի ալքիմիա (սուբլիմացիա)",
+    "alchemyDesc": "Մեծ արվեստը, խորը կարեկցանքը և բեկումնային ճկունությունը ծնվում են մթության մեջ կանգնած մարդկանցից: Ձեր ցավը կարող է դառնալ ձեր ամենամեծ ստեղծագործական գերուժը:"
+  },
+  "sublimation": {
+    "title": "The Alchemy of Mind & Shadow",
+    "subtitle": "Ներքին իրարանցումը փոխակերպելով հասկացողության և ստեղծագործական ուժի:",
+    "card1Title": "1. Մտքերը փաստեր չեն",
+    "card1Summary": "Ինքնաքննադատական ​​մտքերի մեծ մասը ձերը չէ: Դրանք մանկության կամ շրջակա միջավայրի հին ձայնագրություններ են։",
+    "card1Detail": "Որպես փոքր երեխաներ, մենք չունեինք քննադատական ​​զտիչներ: Երբ ինչ-որ մեկը խոսում էր զայրույթով կամ քննադատությամբ, մեր ենթագիտակցությունը դա արձանագրում էր որպես բացարձակ ճշմարտություն: Երբ լսում ես «Դու կոտրված ես» կամ «Դու անարժեք ես», հասկացիր՝ դա դու չես խոսում: Դա պարզապես հնացած ժապավենի օղակ է:",
+    "card2Title": "2. Սուբլիմացիայի արվեստը (ալքիմիա)",
+    "card2Summary": "Պարտադիր չէ, որ ձեր ինտենսիվ մութ էներգիան ոչնչացնի ձեզ: Այն կարող է վերածվել ստեղծագործության:",
+    "card2Detail": "Սուբլիմացիան հում բնազդը, տաբու մտքերը և խոր հուզական ցավը արվեստի, գրականության, ֆիզիկական ուժի կամ կոդի վերածելու հոգեբանական ալքիմիա է: Ստեղծողները չեն ճնշել իրենց խավարը, նրանք այն ուղղել են դեպի հավերժական ստեղծագործություններ:",
+    "card3Title": "3. Դու երկինք ես, ոչ թե փոթորիկ",
+    "card3Summary": "Դուք գիտակից դիտորդն եք, ով ականատես է լինում փոթորկին, ոչ թե դրա ներսում գտնվող բեկորներին:",
+    "card3Detail": "Անկախ նրանից, թե որքան ամպամած են դառնում ամպերը, ամպրոպը կամ անձրևը, եղանակը երբեք չի տուժում ինքնին երկնքին։ Վերադարձեք դիտորդի նստատեղին: Դիտեք, թե ինչպես են սենսացիաները գալիս ու գնում՝ առանց ձեր ինքնությունը դրանց կցելու:"
+  },
+  "cta": {
+    "title": "Հենց հիմա պե՞տք է ձեզ հիմնավորել, թե՞ ինչ-որ մեկի հետ խոսել:",
+    "desc": "Դանդաղ, խորը շունչ քաշեք: Այսօր պետք չէ ամբողջ լեռը նվաճել։ Հենց հաջորդ րոպեին:",
+    "crisisButton": "Դիտել ճգնաժամային օգնության գծերը",
+    "toolsButton": "Շնչառական և հիմնավորող գործիքներ"
   }
+}
 };

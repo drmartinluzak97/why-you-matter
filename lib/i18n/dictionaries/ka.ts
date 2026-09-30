@@ -255,58 +255,58 @@ export const ka: TranslationDictionary = {
     "footerNotice": "Direct delivery to hello@martinluzak.sk • Anonymous reporting supported"
   },
   motivationPage: {
-    "backToHome": "← Back to Home & Crisis Help",
-    "badge": "Perspective Shift & Meaning • 101 Global Inspirations",
-    "titlePart1": "Why Your Existence ",
-    "titleHighlight": "Matters Profoundly",
-    "description": "When you are in the thick of exhaustion, perspective narrows. Here are grounded psychological principles and real human stories of those who turned extreme suffering into enduring purpose.",
-    "spotlightBadge": "Voice from Your Region",
-    "spotlightSelectCountry": "Select country:",
-    "spotlightAdversity": "Adversity Faced",
-    "spotlightTakeaway": "Takeaway for You Today",
-    "globalTitansTitle": "Global Titans of Resilience",
-    "globalTitansSubtitle": "Timeless figures who overcame unimaginable odds to light the path for humanity.",
-    "galleryTitle": "All Continental & European Figures",
-    "gallerySubtitle": "Explore inspiring stories from across Europe and the entire globe.",
-    "searchPlaceholder": "Search name or country...",
-    "continents": {
-      "all": "🌍 All",
-      "europe": "🏰 Europe",
-      "americas": "🌎 Americas",
-      "asia": "🌏 Asia",
-      "africa": "🏜️ Africa",
-      "oceania": "🌊 Oceania"
-    },
-    "pillars": {
-      "title": "გამძლეობის 3 ძირითადი საყრდენი",
-      "badge": "დადასტურებული პრინციპები",
-      "survivalTitle": "100% Survival Rate",
-      "survivalDesc": "You have survived every panic attack, every heartbreak, and every dark night you thought you wouldn't. Your resilience is already proven by facts.",
-      "noiseTitle": "Cognitive Noise vs. Truth",
-      "noiseDesc": "The brain is an evolutionary survival machine that exaggerates threat in times of stress. Anxiety and dark thoughts are false alarms, not objective reality.",
-      "chaptersTitle": "The Unwritten Chapters",
-      "chaptersDesc": "You cannot judge the entire book of your life by a single difficult chapter. The best people you will ever meet and the greatest laughs are still ahead.",
-      "alchemyTitle": "Alchemy of Pain (Sublimation)",
-      "alchemyDesc": "Great art, deep empathy, and groundbreaking resilience are born from people who have stood in the dark. Your pain can become your greatest creative superpower."
-    },
-    "sublimation": {
-      "title": "The Alchemy of Mind & Shadow",
-      "subtitle": "Transforming inner turmoil into understanding and creative power.",
-      "card1Title": "1. Thoughts Are Not Facts",
-      "card1Summary": "Most self-critical thoughts are not your own. They are old tape recordings from childhood or environment.",
-      "card1Detail": "As young children, we lacked critical filters. When someone spoke in anger or criticism, our subconscious recorded it as absolute truth. When you hear 'You are broken' or 'You are worthless', realize: that isn't you speaking. It is simply an outdated tape loop.",
-      "card2Title": "2. The Art of Sublimation (Alchemy)",
-      "card2Summary": "Your intense dark energy doesn't have to destroy you. It can be transmuted into creation.",
-      "card2Detail": "Sublimation is the psychological alchemy of converting raw instinct, taboo thoughts, and deep emotional pain into art, literature, physical power, or code. Creators didn't suppress their darkness—they channeled it into timeless works.",
-      "card3Title": "3. You Are the Sky, Not the Storm",
-      "card3Summary": "You are the conscious observer witnessing the storm, not the wreckage inside it.",
-      "card3Detail": "No matter how turbulent the clouds, thunder, or rain become, the sky itself is never harmed by the weather. Step back into the seat of the observer. Watch the sensations come and go without attaching your identity to them."
-    },
-    "cta": {
-      "title": "Need to ground yourself right now or talk to someone?",
-      "desc": "Take a slow, deep breath. You do not have to conquer the whole mountain today. Just the next minute.",
-      "crisisButton": "View Crisis Helplines",
-      "toolsButton": "Breathing & Grounding Tools"
-    }
+  "backToHome": "← დაბრუნება სახლში და კრიზისის დახმარება",
+  "badge": "პერსპექტივის ცვლა და მნიშვნელობა • 101 გლობალური შთაგონება",
+  "titlePart1": "რატომ შენი არსებობა",
+  "titleHighlight": "ღრმა მნიშვნელობა აქვს",
+  "description": "როცა დაღლილობის ფაზაში ხარ, პერსპექტივა ვიწროვდება. აქ არის დასაბუთებული ფსიქოლოგიური პრინციპები და რეალური ადამიანური ისტორიები მათზე, ვინც უკიდურესი ტანჯვა გამძლე მიზნად აქცია.",
+  "spotlightBadge": "ხმა თქვენი რეგიონიდან",
+  "spotlightSelectCountry": "აირჩიეთ ქვეყანა:",
+  "spotlightAdversity": "უბედურების წინაშე",
+  "spotlightTakeaway": "Takeaway თქვენთვის დღეს",
+  "globalTitansTitle": "მდგრადობის გლობალური ტიტანები",
+  "globalTitansSubtitle": "მარადიული ფიგურები, რომლებმაც გადალახეს წარმოუდგენელი შანსები კაცობრიობისთვის ბილიკის გასანათებლად.",
+  "galleryTitle": "ყველა კონტინენტური და ევროპული ფიგურა",
+  "gallerySubtitle": "გამოიკვლიეთ შთამაგონებელი ისტორიები ევროპისა და მთელი მსოფლიოდან.",
+  "searchPlaceholder": "მოძებნეთ სახელი ან ქვეყანა...",
+  "continents": {
+    "all": "🌍 ყველა",
+    "europe": "🏰 ევროპა",
+    "americas": "🌎 ამერიკა",
+    "asia": "🌏 აზია",
+    "africa": "🏜️ აფრიკა",
+    "oceania": "🌊 ოკეანია"
+  },
+  "pillars": {
+    "title": "გამძლეობის 3 ძირითადი საყრდენი",
+    "badge": "დადასტურებული პრინციპები",
+    "survivalTitle": "100% გადარჩენის მაჩვენებელი",
+    "survivalDesc": "თქვენ გადაურჩა ყველა პანიკის შეტევას, ყოველ გულისტკივილს და ყოველ ბნელ ღამეს, რომელზედაც ფიქრობდით, რომ არ გადაიტანდით. თქვენი გამძლეობა უკვე დადასტურებულია ფაქტებით.",
+    "noiseTitle": "შემეცნებითი ხმაური სიმართლის წინააღმდეგ",
+    "noiseDesc": "ტვინი არის ევოლუციური გადარჩენის მანქანა, რომელიც აზვიადებს საფრთხეს სტრესის დროს. შფოთვა და ბნელი აზრები ცრუ განგაშია და არა ობიექტური რეალობა.",
+    "chaptersTitle": "დაუწერელი თავები",
+    "chaptersDesc": "თქვენ არ შეგიძლიათ განსაჯოთ თქვენი ცხოვრების მთელი წიგნი ერთი რთული თავით. საუკეთესო ადამიანები, რომლებსაც ოდესმე შეხვდებით და ყველაზე დიდი სიცილი ჯერ კიდევ წინ არის.",
+    "alchemyTitle": "ტკივილის ალქიმია (სუბლიმაცია)",
+    "alchemyDesc": "დიდი ხელოვნება, ღრმა თანაგრძნობა და ინოვაციური გამძლეობა იბადება იმ ადამიანებისგან, რომლებიც იდგნენ სიბნელეში. თქვენი ტკივილი შეიძლება გახდეს თქვენი უდიდესი შემოქმედებითი სუპერ ძალა."
+  },
+  "sublimation": {
+    "title": "გონების და ჩრდილის ალქიმია",
+    "subtitle": "შინაგანი არეულობის გარდაქმნა გაგებასა და შემოქმედებით ძალაში.",
+    "card1Title": "1. აზრები არ არის ფაქტები",
+    "card1Summary": "თვითკრიტიკული აზრების უმეტესობა არ არის თქვენი. ეს არის ბავშვობის ან გარემოს ძველი ჩანაწერები.",
+    "card1Detail": "ბავშვობაში კრიტიკული ფილტრები გვაკლდა. როდესაც ვინმე ბრაზით ან კრიტიკით საუბრობდა, ჩვენი ქვეცნობიერი ამას აბსოლუტურ სიმართლედ აღწერდა. როდესაც გესმით \"გატეხილი ხარ\" ან \"უსარგებლო ხარ\", გააცნობიერე: ეს შენ არ ლაპარაკობ. ეს უბრალოდ მოძველებული ფირის მარყუჟია.",
+    "card2Title": "2. სუბლიმაციის ხელოვნება (ალქიმია)",
+    "card2Summary": "თქვენმა ინტენსიურმა ბნელმა ენერგიამ არ უნდა დაგღუპოს. ის შეიძლება გადაიზარდოს შემოქმედებაში.",
+    "card2Detail": "სუბლიმაცია არის ნედლი ინსტინქტის, ტაბუდადებული აზრების და ღრმა ემოციური ტკივილის ხელოვნებად, ლიტერატურად, ფიზიკურ ძალად ან კოდად გადაქცევის ფსიქოლოგიური ალქიმია. შემქმნელებმა არ დათრგუნეს თავიანთი სიბნელე - მათ ის გადაიტანეს მარადიულ ნაწარმოებებში.",
+    "card3Title": "3. შენ ხარ ცა და არა ქარიშხალი",
+    "card3Summary": "თქვენ ხართ შეგნებული დამკვირვებელი, რომელიც ქარიშხლის მოწმე ხართ და არა მასში არსებული ნანგრევები.",
+    "card3Detail": "რაც არ უნდა მღელვარე იყოს ღრუბლები, ჭექა-ქუხილი ან წვიმა, თავად ცას არასდროს აზიანებს ამინდი. დაბრუნდით დამკვირვებლის სავარძელში. უყურეთ შეგრძნებებს, რომლებიც მოდიან და მიდიან თქვენი პირადობის მიმაგრების გარეშე."
+  },
+  "cta": {
+    "title": "ახლავე გჭირდებათ საკუთარი თავის დასაბუთება თუ ვინმესთან საუბარი?",
+    "desc": "ამოისუნთქეთ ნელი, ღრმად. თქვენ არ გჭირდებათ დღეს მთელი მთის დაპყრობა. მხოლოდ მომდევნო წუთს.",
+    "crisisButton": "კრიზისის დახმარების ხაზების ნახვა",
+    "toolsButton": "სუნთქვისა და დასამიწების ხელსაწყოები"
   }
+}
 };

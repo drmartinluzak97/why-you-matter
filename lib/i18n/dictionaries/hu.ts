@@ -255,56 +255,58 @@ export const hu: TranslationDictionary = {
     "footerNotice": "Üzenetedet diszkréten és kiemelt prioritással kezeljük a hello@martinluzak.sk címen."
   },
   motivationPage: {
-      "backToHome": "← Vissza a főoldalra és a krízisvonalakhoz",
-      "badge": "Fájdalom átalakítása értelemmé • 101 globális inspiráció",
-      "titlePart1": "Miért számít mélyen ",
-      "titleHighlight": "a te létezésed",
-      "description": "Amikor kimerültek vagyunk, a látókörünk beszűkül. Itt megalapozott pszichológiai elveket és igaz történeteket találsz olyan emberekről, akik a legsötétebb próbákat is túlélték.",
-      "spotlightBadge": "Hang a te régiódból",
-      "spotlightSelectCountry": "Ország kiválasztása:",
-      "spotlightAdversity": "Leküzdött megpróbáltatás",
-      "spotlightTakeaway": "Útravaló a mai napra",
-      "globalTitansTitle": "A lelki állóképesség világóriásai",
-      "globalTitansSubtitle": "Példaképek, akik elképzelhetetlen akadályokat győztek le, és utat mutatnak az emberiségnek.",
-      "galleryTitle": "Hősök galériája kontinensek szerint",
-      "gallerySubtitle": "Fedezz fel inspiráló történeteket Európa minden országából és a világ sarkaiból.",
-      "searchPlaceholder": "Név vagy ország keresése...",
-      "continents": {
-          "all": "🌍 Mind",
-          "europe": "🏰 Európa",
-          "americas": "🌎 Amerika",
-          "asia": "🌏 Ázsia",
-          "africa": "🏜️ Afrika",
-          "oceania": "🌊 Óceánia"
-      },
-      "pillars": {
-          "title": "A Lelki Ellenállóképesség 3 Alappillére",
-          "badge": "Bevált Elvek",
-          "noiseTitle": "Kognitív zaj vs. Valóság",
-          "noiseDesc": "Az agy stressz idején felnagyítja a fenyegetést. A szorongás és a sötét gondolatok téves riasztások, nem a valóság.",
-          "chaptersTitle": "Megíratlan fejezetek",
-          "chaptersDesc": "Nem ítélheted meg az egész életed könyvét egyetlen nehéz fejezet alapján. A legszebb pillanatok még előtted állnak.",
-          "alchemyTitle": "A fájdalom alkímiája (Szublimáció)",
-          "alchemyDesc": "A nagyszerű művészet és az empátia azokból születik, akik megjárták a sötétséget. A fájdalmad erővé alakulhat."
-      },
-      "sublimation": {
-          "title": "Az Elme és az Árnyék Alkímiája",
-          "subtitle": "Belső káosz átalakítása mély megértéssé és alkotóerővé.",
-          "card1Title": "1. A gondolatok nem tények",
-          "card1Summary": "A legtöbb önkritikus gondolat nem a te hangod, csupán régi múltbéli felvétel.",
-          "card1Detail": "Gyerekként nem voltak szűrőink. Ha azt hallod 'Semmit sem érsz', tudd: ez csak egy elakadt régi szalag.",
-          "card2Title": "2. A szublimáció művészete",
-          "card2Summary": "A nehéz energiának nem kell elpusztítania – alkotássá és együttérzéssé formálható.",
-          "card2Detail": "A szublimáció a fájdalmat művészetté és mások megsegítésévé alakítja. A legnagyobb alkotók a sötétségből építettek remekműveket.",
-          "card3Title": "3. Te vagy az ég, nem a vihar",
-          "card3Summary": "Te a vihar tudatos megfigyelője vagy, nem pedig annak romjai.",
-          "card3Detail": "Bármilyen heves a vihar, maga az égbolt sosem sérül. Lépj hátra, és figyeld az érzelmeket átvonuló felhőkként."
-      },
-      "cta": {
-          "title": "Szeretnél most megnyugodni vagy beszélni valakivel?",
-          "desc": "Végy egy mély lélegzetet. Nem kell ma megoldanod az egész életedet. Elég ezt az egyetlen percet átvészelned.",
-          "crisisButton": "Krízis segélyvonalak megtekintése",
-          "toolsButton": "Légző- és leföldelő gyakorlatok"
-      }
+  "backToHome": "← Vissza a kezdőlapra & Válságsegítség",
+  "badge": "Perspektívaváltás és jelentés • 101 globális inspiráció",
+  "titlePart1": "Miért az Ön létezése",
+  "titleHighlight": "Alaposan számít",
+  "description": "Amikor a kimerültségben vagy, a perspektíva beszűkül. Íme megalapozott pszichológiai elvek és valós emberi történetek azokról, akik az extrém szenvedést tartós céllá változtatták.",
+  "spotlightBadge": "Hang az Ön régiójából",
+  "spotlightSelectCountry": "Válasszon országot:",
+  "spotlightAdversity": "A csapások",
+  "spotlightTakeaway": "Elvihető még ma",
+  "globalTitansTitle": "Global Titans of Resilience",
+  "globalTitansSubtitle": "Időtlen figurák, akik elképzelhetetlen esélyeket tettek le, hogy megvilágítsák az emberiség útját.",
+  "galleryTitle": "Minden kontinentális és európai adat",
+  "gallerySubtitle": "Fedezzen fel inspiráló történeteket Európa-szerte és az egész világról.",
+  "searchPlaceholder": "Név vagy ország keresése...",
+  "continents": {
+    "all": "🌍 Mind",
+    "europe": "🏰 Európa",
+    "americas": "🌎 Amerika",
+    "asia": "🌏 Ázsia",
+    "africa": "🏜️ Afrika",
+    "oceania": "🌊 Óceánia"
+  },
+  "pillars": {
+    "title": "A reziliencia 3 alappillére",
+    "badge": "Bevált elvek",
+    "survivalTitle": "100%-os túlélési arány",
+    "survivalDesc": "Túléltél minden pánikrohamot, minden szívfájdalmat, és minden sötét éjszakát, amiről azt hitted, hogy nem. Az ön ellenálló képességét már tények igazolják.",
+    "noiseTitle": "Kognitív zaj kontra igazság",
+    "noiseDesc": "Az agy egy evolúciós túlélési gépezet, amely stressz idején eltúlozza a fenyegetést. A szorongás és a sötét gondolatok hamis riasztások, nem objektív valóság.",
+    "chaptersTitle": "Az íratlan fejezetek",
+    "chaptersDesc": "Nem ítélheted meg életed egész könyvét egyetlen nehéz fejezet alapján. A legjobb emberek, akikkel valaha találkozni fogtok, és a legnagyobb nevetés még előtte áll.",
+    "alchemyTitle": "A fájdalom alkímiája (szublimáció)",
+    "alchemyDesc": "A nagy művészet, a mély empátia és az úttörő rugalmasság olyan emberekből születik, akik a sötétben álltak. A fájdalmad a legnagyobb kreatív szupererőddé válhat."
+  },
+  "sublimation": {
+    "title": "Az elme és árnyék alkímiája",
+    "subtitle": "A belső zűrzavar megértéssé és teremtő erővé alakítása.",
+    "card1Title": "1. A gondolatok nem tények",
+    "card1Summary": "A legtöbb önkritikus gondolat nem a sajátja. Ezek régi magnófelvételek gyerekkorból vagy környezetből.",
+    "card1Detail": "Kisgyerekként hiányoztak a kritikus szűrők. Ha valaki dühösen vagy kritizálva beszélt, tudatalattink abszolút igazságként rögzítette. Amikor azt hallod, hogy „összetörtél” vagy „értéktelen vagy”, vedd észre: nem te beszélsz. Ez egyszerűen egy elavult szalaghurok.",
+    "card2Title": "2. A szublimáció művészete (alkímia)",
+    "card2Summary": "Az intenzív sötét energiádnak nem kell elpusztítania téged. Átalakítható teremtéssé.",
+    "card2Detail": "A szublimáció a nyers ösztön, a tabu gondolatok és a mély érzelmi fájdalom művészetté, irodalommá, fizikai erővé vagy kóddá alakításának pszichológiai alkímiája. Az alkotók nem nyomták el sötétségüket – időtlen alkotásokba terelték azt.",
+    "card3Title": "3. Te vagy az ég, nem a vihar",
+    "card3Summary": "Te vagy a tudatos megfigyelő, aki a vihar szemtanúja, nem pedig a benne lévő roncsok.",
+    "card3Detail": "Bármilyen viharossá válnak is a felhők, mennydörgés vagy eső, magát az eget soha nem károsítja az időjárás. Lépjen vissza a megfigyelő székébe. Nézze meg, hogyan jönnek és mennek az érzések anélkül, hogy hozzájuk kötné a személyazonosságát."
+  },
+  "cta": {
+    "title": "Most azonnal le kell földelnie magát, vagy beszélnie kell valakivel?",
+    "desc": "Vegyünk egy lassú, mély lélegzetet. Ma nem kell az egész hegyet meghódítani. Csak a következő percben.",
+    "crisisButton": "Válságszolgálati segélyvonalak megtekintése",
+    "toolsButton": "Légző és földelő eszközök"
   }
+}
 };

@@ -255,58 +255,58 @@ export const ha: TranslationDictionary = {
     "footerNotice": "Isarwa kai tsaye zuwa hello@martinluzak.sk • Ana karɓar rahoton da ba a bayyana suna ba"
   },
   motivationPage: {
-    "backToHome": "← Back to Home & Crisis Help",
-    "badge": "Perspective Shift & Meaning • 101 Global Inspirations",
-    "titlePart1": "Why Your Existence ",
-    "titleHighlight": "Matters Profoundly",
-    "description": "When you are in the thick of exhaustion, perspective narrows. Here are grounded psychological principles and real human stories of those who turned extreme suffering into enduring purpose.",
-    "spotlightBadge": "Voice from Your Region",
-    "spotlightSelectCountry": "Select country:",
-    "spotlightAdversity": "Adversity Faced",
-    "spotlightTakeaway": "Takeaway for You Today",
-    "globalTitansTitle": "Global Titans of Resilience",
-    "globalTitansSubtitle": "Timeless figures who overcame unimaginable odds to light the path for humanity.",
-    "galleryTitle": "All Continental & European Figures",
-    "gallerySubtitle": "Explore inspiring stories from across Europe and the entire globe.",
-    "searchPlaceholder": "Search name or country...",
-    "continents": {
-      "all": "🌍 All",
-      "europe": "🏰 Europe",
-      "americas": "🌎 Americas",
-      "asia": "🌏 Asia",
-      "africa": "🏜️ Africa",
-      "oceania": "🌊 Oceania"
-    },
-    "pillars": {
-      "title": "Manya Rukunai 3 Na Juriya",
-      "badge": "Tabbattattun Ka'idoji",
-      "survivalTitle": "100% Survival Rate",
-      "survivalDesc": "You have survived every panic attack, every heartbreak, and every dark night you thought you wouldn't. Your resilience is already proven by facts.",
-      "noiseTitle": "Cognitive Noise vs. Truth",
-      "noiseDesc": "The brain is an evolutionary survival machine that exaggerates threat in times of stress. Anxiety and dark thoughts are false alarms, not objective reality.",
-      "chaptersTitle": "The Unwritten Chapters",
-      "chaptersDesc": "You cannot judge the entire book of your life by a single difficult chapter. The best people you will ever meet and the greatest laughs are still ahead.",
-      "alchemyTitle": "Alchemy of Pain (Sublimation)",
-      "alchemyDesc": "Great art, deep empathy, and groundbreaking resilience are born from people who have stood in the dark. Your pain can become your greatest creative superpower."
-    },
-    "sublimation": {
-      "title": "The Alchemy of Mind & Shadow",
-      "subtitle": "Transforming inner turmoil into understanding and creative power.",
-      "card1Title": "1. Thoughts Are Not Facts",
-      "card1Summary": "Most self-critical thoughts are not your own. They are old tape recordings from childhood or environment.",
-      "card1Detail": "As young children, we lacked critical filters. When someone spoke in anger or criticism, our subconscious recorded it as absolute truth. When you hear 'You are broken' or 'You are worthless', realize: that isn't you speaking. It is simply an outdated tape loop.",
-      "card2Title": "2. The Art of Sublimation (Alchemy)",
-      "card2Summary": "Your intense dark energy doesn't have to destroy you. It can be transmuted into creation.",
-      "card2Detail": "Sublimation is the psychological alchemy of converting raw instinct, taboo thoughts, and deep emotional pain into art, literature, physical power, or code. Creators didn't suppress their darkness—they channeled it into timeless works.",
-      "card3Title": "3. You Are the Sky, Not the Storm",
-      "card3Summary": "You are the conscious observer witnessing the storm, not the wreckage inside it.",
-      "card3Detail": "No matter how turbulent the clouds, thunder, or rain become, the sky itself is never harmed by the weather. Step back into the seat of the observer. Watch the sensations come and go without attaching your identity to them."
-    },
-    "cta": {
-      "title": "Need to ground yourself right now or talk to someone?",
-      "desc": "Take a slow, deep breath. You do not have to conquer the whole mountain today. Just the next minute.",
-      "crisisButton": "View Crisis Helplines",
-      "toolsButton": "Breathing & Grounding Tools"
-    }
+  "backToHome": "← Komawa Gida & Taimakon Rikici",
+  "badge": "Juya Hali & Ma'ana • 101 Wahayi na Duniya",
+  "titlePart1": "Me Yasa Kasancewar Ku",
+  "titleHighlight": "Al'amura a zahiri",
+  "description": "Lokacin da kake cikin lokacin gajiya, hangen nesa yana raguwa. Anan akwai tushen ƙa'idodin tunani da labarun ɗan adam na waɗanda suka juya matsananciyar wahala zuwa maƙasudin dindindin.",
+  "spotlightBadge": "Muryar yankinku",
+  "spotlightSelectCountry": "Zaɓi ƙasa:",
+  "spotlightAdversity": "An Fuskanci Masifu",
+  "spotlightTakeaway": "Takeaway a gare ku a yau",
+  "globalTitansTitle": "Titans na Duniya na Resilience",
+  "globalTitansSubtitle": "Ƙididdiga marasa lokaci waɗanda suka ci nasara da rashin misaltuwa don haskaka hanyar ɗan adam.",
+  "galleryTitle": "Duk Ƙididdiga na Nahiyoyi & Turai",
+  "gallerySubtitle": "Binciko labarai masu ban sha'awa daga ko'ina cikin Turai da duk duniya.",
+  "searchPlaceholder": "Bincika suna ko ƙasa...",
+  "continents": {
+    "all": "🌍 Duk",
+    "europe": "🏰 Turai",
+    "americas": "🌎 Amurka",
+    "asia": "🌏 Asiya",
+    "africa": "🏜️ Afirka",
+    "oceania": "🌊 Oceania"
+  },
+  "pillars": {
+    "title": "3 Mahimman Tushen Jurewa",
+    "badge": "Ka'idodin Tabbatarwa",
+    "survivalTitle": "100% Yawan Tsira",
+    "survivalDesc": "Kun tsira daga duk wani harin firgici, kowane ɓarnar zuciya, da kowane dare mai duhu da kuke tunanin ba za ku yi ba. An riga an tabbatar da juriyar ku ta gaskiya.",
+    "noiseTitle": "Hayaniyar Fahimta vs Gaskiya",
+    "noiseDesc": "Kwakwalwa wata na'ura ce ta tsira wanda ke kara girman barazana a lokutan damuwa. Damuwa da duhun tunani ƙararrawa na ƙarya ne, ba ainihin gaskiya ba.",
+    "chaptersTitle": "Rubutun da ba a rubuta ba",
+    "chaptersDesc": "Ba za ku iya yin hukunci da dukan littafin rayuwarku da babi ɗaya mai wahala ba. Mafi kyawun mutanen da za ku taɓa saduwa da su kuma mafi girman dariya har yanzu suna gaba.",
+    "alchemyTitle": "Alchemy na Pain (Sublimation)",
+    "alchemyDesc": "Babban fasaha, tausayi mai zurfi, da juriya mai ban sha'awa an haife su daga mutanen da suka tsaya a cikin duhu. Ciwon ku na iya zama babban ƙarfin ku na kere kere."
+  },
+  "sublimation": {
+    "title": "The Alchemy of Mind & Shadow",
+    "subtitle": "Canza hargitsi na ciki zuwa fahimta da ikon kirkira.",
+    "card1Title": "1. Tunani Ba Gaskiya bane",
+    "card1Summary": "Yawancin tunanin kai ba naka bane. Tsofaffin rikodin kaset ne daga ƙuruciya ko muhalli.",
+    "card1Detail": "A matsayinmu na yara ƙanana, ba mu da matattara mai mahimmanci. Lokacin da wani ya yi magana cikin fushi ko suka, hankalinmu ya rubuta shi a matsayin cikakkiyar gaskiya. Lokacin da kuka ji 'An karye' ko 'Ba ku da amfani', ku gane: ba haka kuke magana ba. Kawai madaukin tef ɗin da ya gabata.",
+    "card2Title": "2. The Art of Sublimation (Alchemy)",
+    "card2Summary": "Ƙarfin duhun ku ba dole ne ya halaka ku ba. Ana iya canzawa zuwa halitta.",
+    "card2Detail": "Sublimation shine ilimin tunani na tunani na jujjuya danyen ilhami, tunani mara kyau, da zurfafa jin zafi cikin fasaha, adabi, ikon jiki, ko lamba. Masu yin halitta ba su danne duhunsu ba—sun sanya shi cikin ayyukan maras lokaci.",
+    "card3Title": "3. Kai ne Sama, Ba Guguwa ba",
+    "card3Summary": "Kai ne mai lura da hankali ke shaida guguwar, ba tarkacen da ke cikinta ba.",
+    "card3Detail": "Duk yadda gajimare, tsawa, ko ruwan sama suka yi hargitsi, sararin samaniyar kanta ba ta taɓa cutar da yanayin ba. Komawa cikin wurin zama na mai kallo. Kalli abubuwan da ke zuwa su tafi ba tare da haɗa ainihin ku a kansu ba."
+  },
+  "cta": {
+    "title": "Kuna buƙatar yin ƙasa a yanzu ko magana da wani?",
+    "desc": "Yi numfashi a hankali. Ba lallai ne ka ci dukan dutsen a yau ba. Kawai minti na gaba.",
+    "crisisButton": "Duba Layin Taimakon Rikici",
+    "toolsButton": "Numfashi & Kayayyakin Kasa"
   }
+}
 };

@@ -255,58 +255,58 @@ export const th: TranslationDictionary = {
     "footerNotice": "ข้อความของคุณจะได้รับการดูแลอย่างเป็นความลับสูงสุดที่ hello@martinluzak.sk"
   },
   motivationPage: {
-    "backToHome": "← Back to Home & Crisis Help",
-    "badge": "Perspective Shift & Meaning • 101 Global Inspirations",
-    "titlePart1": "Why Your Existence ",
-    "titleHighlight": "Matters Profoundly",
-    "description": "When you are in the thick of exhaustion, perspective narrows. Here are grounded psychological principles and real human stories of those who turned extreme suffering into enduring purpose.",
-    "spotlightBadge": "Voice from Your Region",
-    "spotlightSelectCountry": "Select country:",
-    "spotlightAdversity": "Adversity Faced",
-    "spotlightTakeaway": "Takeaway for You Today",
-    "globalTitansTitle": "Global Titans of Resilience",
-    "globalTitansSubtitle": "Timeless figures who overcame unimaginable odds to light the path for humanity.",
-    "galleryTitle": "All Continental & European Figures",
-    "gallerySubtitle": "Explore inspiring stories from across Europe and the entire globe.",
-    "searchPlaceholder": "Search name or country...",
-    "continents": {
-      "all": "🌍 All",
-      "europe": "🏰 Europe",
-      "americas": "🌎 Americas",
-      "asia": "🌏 Asia",
-      "africa": "🏜️ Africa",
-      "oceania": "🌊 Oceania"
-    },
-    "pillars": {
-      "title": "3 เสาหลักแห่งความเข้มแข็ง",
-      "badge": "หลักการที่พิสูจน์แล้ว",
-      "survivalTitle": "100% Survival Rate",
-      "survivalDesc": "You have survived every panic attack, every heartbreak, and every dark night you thought you wouldn't. Your resilience is already proven by facts.",
-      "noiseTitle": "Cognitive Noise vs. Truth",
-      "noiseDesc": "The brain is an evolutionary survival machine that exaggerates threat in times of stress. Anxiety and dark thoughts are false alarms, not objective reality.",
-      "chaptersTitle": "The Unwritten Chapters",
-      "chaptersDesc": "You cannot judge the entire book of your life by a single difficult chapter. The best people you will ever meet and the greatest laughs are still ahead.",
-      "alchemyTitle": "Alchemy of Pain (Sublimation)",
-      "alchemyDesc": "Great art, deep empathy, and groundbreaking resilience are born from people who have stood in the dark. Your pain can become your greatest creative superpower."
-    },
-    "sublimation": {
-      "title": "The Alchemy of Mind & Shadow",
-      "subtitle": "Transforming inner turmoil into understanding and creative power.",
-      "card1Title": "1. Thoughts Are Not Facts",
-      "card1Summary": "Most self-critical thoughts are not your own. They are old tape recordings from childhood or environment.",
-      "card1Detail": "As young children, we lacked critical filters. When someone spoke in anger or criticism, our subconscious recorded it as absolute truth. When you hear 'You are broken' or 'You are worthless', realize: that isn't you speaking. It is simply an outdated tape loop.",
-      "card2Title": "2. The Art of Sublimation (Alchemy)",
-      "card2Summary": "Your intense dark energy doesn't have to destroy you. It can be transmuted into creation.",
-      "card2Detail": "Sublimation is the psychological alchemy of converting raw instinct, taboo thoughts, and deep emotional pain into art, literature, physical power, or code. Creators didn't suppress their darkness—they channeled it into timeless works.",
-      "card3Title": "3. You Are the Sky, Not the Storm",
-      "card3Summary": "You are the conscious observer witnessing the storm, not the wreckage inside it.",
-      "card3Detail": "No matter how turbulent the clouds, thunder, or rain become, the sky itself is never harmed by the weather. Step back into the seat of the observer. Watch the sensations come and go without attaching your identity to them."
-    },
-    "cta": {
-      "title": "Need to ground yourself right now or talk to someone?",
-      "desc": "Take a slow, deep breath. You do not have to conquer the whole mountain today. Just the next minute.",
-      "crisisButton": "View Crisis Helplines",
-      "toolsButton": "Breathing & Grounding Tools"
-    }
+  "backToHome": "← กลับไปที่หน้าแรกและความช่วยเหลือในช่วงวิกฤต",
+  "badge": "การเปลี่ยนแปลงมุมมองและความหมาย • 101 แรงบันดาลใจระดับโลก",
+  "titlePart1": "ทำไมคุณถึงมีอยู่",
+  "titleHighlight": "เรื่องลึกซึ้ง",
+  "description": "เมื่อคุณตกอยู่ในความเหนื่อยล้า มุมมองจะแคบลง ต่อไปนี้เป็นหลักการทางจิตวิทยาที่มีพื้นฐานและเรื่องราวของมนุษย์จริงเกี่ยวกับผู้ที่เปลี่ยนความทุกข์ทรมานแสนสาหัสให้กลายเป็นเป้าหมายที่ยั่งยืน",
+  "spotlightBadge": "เสียงจากภูมิภาคของคุณ",
+  "spotlightSelectCountry": "เลือกประเทศ:",
+  "spotlightAdversity": "เผชิญกับความทุกข์ยาก",
+  "spotlightTakeaway": "ซื้อกลับบ้านเพื่อคุณวันนี้",
+  "globalTitansTitle": "ยักษ์ใหญ่แห่งความยืดหยุ่นระดับโลก",
+  "globalTitansSubtitle": "บุคคลเหนือกาลเวลาผู้เอาชนะอุปสรรคที่คาดไม่ถึงเพื่อชี้ทางสู่มนุษยชาติ",
+  "galleryTitle": "ตัวเลขทวีปและยุโรปทั้งหมด",
+  "gallerySubtitle": "สำรวจเรื่องราวที่สร้างแรงบันดาลใจจากทั่วยุโรปและทั่วโลก",
+  "searchPlaceholder": "ค้นหาชื่อหรือประเทศ...",
+  "continents": {
+    "all": "🌍 ทั้งหมด",
+    "europe": "🏰 ยุโรป",
+    "americas": "✈ อเมริกา",
+    "asia": "🌏 เอเชีย",
+    "africa": "🏜️ แอฟริกา",
+    "oceania": "🌊 โอเชียเนีย"
+  },
+  "pillars": {
+    "title": "3 เสาหลักแห่งความยืดหยุ่น",
+    "badge": "หลักการที่พิสูจน์แล้ว",
+    "survivalTitle": "อัตราการรอดชีวิต 100%",
+    "survivalDesc": "คุณรอดพ้นจากอาการตื่นตระหนก ทุกความอกหัก และทุกคืนอันมืดมนที่คุณคิดว่าจะไม่รอด ความยืดหยุ่นของคุณได้รับการพิสูจน์แล้วจากข้อเท็จจริง",
+    "noiseTitle": "เสียงทางปัญญากับความจริง",
+    "noiseDesc": "สมองเป็นเครื่องจักรเพื่อการเอาชีวิตรอดที่มีวิวัฒนาการซึ่งเกินจริงถึงภัยคุกคามในช่วงเวลาแห่งความเครียด ความวิตกกังวลและความคิดที่มืดมนเป็นสัญญาณเตือนที่ผิดพลาด ไม่ใช่ความเป็นจริงตามวัตถุประสงค์",
+    "chaptersTitle": "บทที่ไม่ได้เขียน",
+    "chaptersDesc": "คุณไม่สามารถตัดสินหนังสือทั้งเล่มในชีวิตของคุณด้วยบทที่ยากลำบากเพียงบทเดียวได้ คนที่ดีที่สุดที่คุณเคยพบ และเสียงหัวเราะที่ยิ่งใหญ่ที่สุดยังคงอยู่ข้างหน้า",
+    "alchemyTitle": "การเล่นแร่แปรธาตุแห่งความเจ็บปวด (ระเหิด)",
+    "alchemyDesc": "ศิลปะที่ยิ่งใหญ่ ความเห็นอกเห็นใจอย่างลึกซึ้ง และความยืดหยุ่นที่ก้าวล้ำล้วนเกิดจากผู้คนที่ยืนอยู่ในความมืด ความเจ็บปวดของคุณอาจกลายเป็นพลังสร้างสรรค์ที่ยิ่งใหญ่ที่สุดของคุณได้"
+  },
+  "sublimation": {
+    "title": "การเล่นแร่แปรธาตุของจิตใจและเงา",
+    "subtitle": "เปลี่ยนความวุ่นวายภายในให้เป็นความเข้าใจและพลังสร้างสรรค์",
+    "card1Title": "1. ความคิดไม่ใช่ข้อเท็จจริง",
+    "card1Summary": "ความคิดแบบวิพากษ์วิจารณ์ตนเองส่วนใหญ่ไม่ใช่ของคุณเอง เป็นเทปบันทึกเก่าสมัยวัยเด็กหรือสิ่งแวดล้อม",
+    "card1Detail": "ในฐานะเด็กๆ เราขาดตัวกรองที่สำคัญ เมื่อมีคนพูดด้วยความโกรธหรือวิพากษ์วิจารณ์ จิตใต้สำนึกของเราบันทึกว่าเป็นความจริงที่สมบูรณ์ เมื่อคุณได้ยินคำว่า 'คุณพัง' หรือ 'คุณไร้ค่า' ให้ตระหนักไว้ว่านั่นไม่ใช่สิ่งที่คุณพูด มันเป็นเพียงเทปลูปที่ล้าสมัย",
+    "card2Title": "2. ศิลปะแห่งการระเหิด (การเล่นแร่แปรธาตุ)",
+    "card2Summary": "พลังงานมืดอันเข้มข้นของคุณไม่จำเป็นต้องทำลายคุณ สามารถแปลงเป็นการสร้างสรรค์ได้",
+    "card2Detail": "การระเหิดคือการเล่นแร่แปรธาตุทางจิตวิทยาในการแปลงสัญชาตญาณดิบ ความคิดต้องห้าม และความเจ็บปวดทางอารมณ์ที่ลึกซึ้งให้กลายเป็นงานศิลปะ วรรณกรรม พลังทางกายภาพ หรือรหัส ผู้สร้างไม่ได้ระงับความมืดมิดของตน—แต่พวกเขาถ่ายทอดมันไปสู่ผลงานเหนือกาลเวลา",
+    "card3Title": "3. คุณคือท้องฟ้า ไม่ใช่พายุ",
+    "card3Summary": "คุณเป็นผู้สังเกตการณ์อย่างมีสติที่เห็นพายุ ไม่ใช่ซากปรักหักพังที่อยู่ข้างใน",
+    "card3Detail": "ไม่ว่าเมฆ ฟ้าร้อง หรือฝนจะปั่นป่วนเพียงใด ท้องฟ้าเองก็ไม่เคยได้รับอันตรายจากสภาพอากาศ ก้าวกลับเข้าไปในที่นั่งของผู้สังเกตการณ์ รับชมความรู้สึกต่างๆ ที่เกิดขึ้นและผ่านไปโดยไม่ยึดติดกับตัวตนของคุณ"
+  },
+  "cta": {
+    "title": "จำเป็นต้องกักตัวเองตอนนี้หรือคุยกับใครสักคน?",
+    "desc": "หายใจเข้าลึกๆ ช้าๆ วันนี้คุณไม่จำเป็นต้องพิชิตทั้งภูเขา เพียงนาทีถัดไป",
+    "crisisButton": "ดูสายด่วนช่วยเหลือในช่วงวิกฤต",
+    "toolsButton": "เครื่องมือช่วยหายใจและต่อสายดิน"
   }
+}
 };

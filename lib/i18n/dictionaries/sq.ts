@@ -255,58 +255,58 @@ export const sq: TranslationDictionary = {
     "footerNotice": "Dërgesë direkte tek hello@martinluzak.sk • Mbështetet raportimi anonim"
   },
   motivationPage: {
-    "backToHome": "← Back to Home & Crisis Help",
-    "badge": "Perspective Shift & Meaning • 101 Global Inspirations",
-    "titlePart1": "Why Your Existence ",
-    "titleHighlight": "Matters Profoundly",
-    "description": "When you are in the thick of exhaustion, perspective narrows. Here are grounded psychological principles and real human stories of those who turned extreme suffering into enduring purpose.",
-    "spotlightBadge": "Voice from Your Region",
-    "spotlightSelectCountry": "Select country:",
-    "spotlightAdversity": "Adversity Faced",
-    "spotlightTakeaway": "Takeaway for You Today",
-    "globalTitansTitle": "Global Titans of Resilience",
-    "globalTitansSubtitle": "Timeless figures who overcame unimaginable odds to light the path for humanity.",
-    "galleryTitle": "All Continental & European Figures",
-    "gallerySubtitle": "Explore inspiring stories from across Europe and the entire globe.",
-    "searchPlaceholder": "Search name or country...",
-    "continents": {
-      "all": "🌍 All",
-      "europe": "🏰 Europe",
-      "americas": "🌎 Americas",
-      "asia": "🌏 Asia",
-      "africa": "🏜️ Africa",
-      "oceania": "🌊 Oceania"
-    },
-    "pillars": {
-      "title": "3 Shtyllat Kryesore të Qëndrueshmërisë",
-      "badge": "Parime të Provuara",
-      "survivalTitle": "100% Survival Rate",
-      "survivalDesc": "You have survived every panic attack, every heartbreak, and every dark night you thought you wouldn't. Your resilience is already proven by facts.",
-      "noiseTitle": "Cognitive Noise vs. Truth",
-      "noiseDesc": "The brain is an evolutionary survival machine that exaggerates threat in times of stress. Anxiety and dark thoughts are false alarms, not objective reality.",
-      "chaptersTitle": "The Unwritten Chapters",
-      "chaptersDesc": "You cannot judge the entire book of your life by a single difficult chapter. The best people you will ever meet and the greatest laughs are still ahead.",
-      "alchemyTitle": "Alchemy of Pain (Sublimation)",
-      "alchemyDesc": "Great art, deep empathy, and groundbreaking resilience are born from people who have stood in the dark. Your pain can become your greatest creative superpower."
-    },
-    "sublimation": {
-      "title": "The Alchemy of Mind & Shadow",
-      "subtitle": "Transforming inner turmoil into understanding and creative power.",
-      "card1Title": "1. Thoughts Are Not Facts",
-      "card1Summary": "Most self-critical thoughts are not your own. They are old tape recordings from childhood or environment.",
-      "card1Detail": "As young children, we lacked critical filters. When someone spoke in anger or criticism, our subconscious recorded it as absolute truth. When you hear 'You are broken' or 'You are worthless', realize: that isn't you speaking. It is simply an outdated tape loop.",
-      "card2Title": "2. The Art of Sublimation (Alchemy)",
-      "card2Summary": "Your intense dark energy doesn't have to destroy you. It can be transmuted into creation.",
-      "card2Detail": "Sublimation is the psychological alchemy of converting raw instinct, taboo thoughts, and deep emotional pain into art, literature, physical power, or code. Creators didn't suppress their darkness—they channeled it into timeless works.",
-      "card3Title": "3. You Are the Sky, Not the Storm",
-      "card3Summary": "You are the conscious observer witnessing the storm, not the wreckage inside it.",
-      "card3Detail": "No matter how turbulent the clouds, thunder, or rain become, the sky itself is never harmed by the weather. Step back into the seat of the observer. Watch the sensations come and go without attaching your identity to them."
-    },
-    "cta": {
-      "title": "Need to ground yourself right now or talk to someone?",
-      "desc": "Take a slow, deep breath. You do not have to conquer the whole mountain today. Just the next minute.",
-      "crisisButton": "View Crisis Helplines",
-      "toolsButton": "Breathing & Grounding Tools"
-    }
+  "backToHome": "← Kthehu tek shtëpia dhe ndihma e krizës",
+  "badge": "Ndryshimi i këndvështrimit dhe kuptimi • 101 Frymëzime globale",
+  "titlePart1": "Pse ekzistenca juaj",
+  "titleHighlight": "Ka rëndësi të thellë",
+  "description": "Kur jeni në rraskapitje, perspektiva ngushtohet. Këtu janë të bazuara parimet psikologjike dhe historitë e vërteta njerëzore të atyre që e kthyen vuajtjen ekstreme në qëllim të qëndrueshëm.",
+  "spotlightBadge": "Zë nga Rajoni juaj",
+  "spotlightSelectCountry": "Zgjidh shtetin:",
+  "spotlightAdversity": "Përballë fatkeqësisë",
+  "spotlightTakeaway": "Takeaway për ju sot",
+  "globalTitansTitle": "Titanet Globale të Rezistencës",
+  "globalTitansSubtitle": "Figura të përjetshme që kapërcejnë shanse të paimagjinueshme për t'i ndriçuar rrugën njerëzimit.",
+  "galleryTitle": "Të gjitha figurat kontinentale dhe evropiane",
+  "gallerySubtitle": "Eksploroni histori frymëzuese nga e gjithë Evropa dhe i gjithë globi.",
+  "searchPlaceholder": "Kërko emrin ose shtetin...",
+  "continents": {
+    "all": "🌍 Të gjitha",
+    "europe": "🏰 Evropë",
+    "americas": "🌎 Amerikat",
+    "asia": "🌏 Azi",
+    "africa": "🏜️ Afrikë",
+    "oceania": "🌊 Oqeani"
+  },
+  "pillars": {
+    "title": "3 shtyllat kryesore të qëndrueshmërisë",
+    "badge": "Parimet e provuara",
+    "survivalTitle": "Shkalla e mbijetesës 100%",
+    "survivalDesc": "Ju keni mbijetuar çdo sulm paniku, çdo thyerje zemre dhe çdo natë të errët që keni menduar se nuk do ta bënit. Qëndrueshmëria juaj është vërtetuar tashmë me fakte.",
+    "noiseTitle": "Zhurma njohëse kundrejt së vërtetës",
+    "noiseDesc": "Truri është një makinë evolucionare e mbijetesës që ekzagjeron kërcënimin në kohë stresi. Ankthi dhe mendimet e errëta janë alarme të rreme, jo realitet objektiv.",
+    "chaptersTitle": "Kapitujt e pashkruar",
+    "chaptersDesc": "Ju nuk mund të gjykoni të gjithë librin e jetës suaj me një kapitull të vetëm të vështirë. Njerëzit më të mirë që do të takoni ndonjëherë dhe të qeshurat më të mëdha janë ende përpara.",
+    "alchemyTitle": "Alkimia e Dhimbjes (Sublimimi)",
+    "alchemyDesc": "Arti i madh, ndjeshmëria e thellë dhe elasticiteti novator lindin nga njerëzit që kanë qëndruar në errësirë. Dhimbja juaj mund të bëhet superfuqia juaj më e madhe krijuese."
+  },
+  "sublimation": {
+    "title": "Alkimia e mendjes dhe hijes",
+    "subtitle": "Transformimi i trazirave të brendshme në mirëkuptim dhe fuqi krijuese.",
+    "card1Title": "1. Mendimet nuk janë fakte",
+    "card1Summary": "Shumica e mendimeve vetëkritike nuk janë tuajat. Janë regjistrime të vjetra në kasetë nga fëmijëria apo mjedisi.",
+    "card1Detail": "Si fëmijë të vegjël, na mungonin filtrat kritikë. Kur dikush fliste me zemërim ose kritikë, nënndërgjegjja jonë e regjistronte atë si të vërtetë absolute. Kur dëgjoni 'Je i thyer' ose 'Ti je i pavlerë', kupto: kjo nuk po flet. Është thjesht një lak i vjetëruar.",
+    "card2Title": "2. Arti i sublimimit (Alkimia)",
+    "card2Summary": "Energjia juaj e errët intensive nuk ka pse t'ju shkatërrojë. Mund të shndërrohet në krijim.",
+    "card2Detail": "Sublimimi është alkimia psikologjike e shndërrimit të instinktit të papërpunuar, mendimeve tabu dhe dhimbjes së thellë emocionale në art, letërsi, fuqi fizike ose kod. Krijuesit nuk e ndrydhën errësirën e tyre - ata e kanalizuan atë në vepra të përjetshme.",
+    "card3Title": "3. Ti je qielli, jo stuhia",
+    "card3Summary": "Ju jeni vëzhguesi i ndërgjegjshëm që dëshmoni stuhinë, jo rrënojat brenda saj.",
+    "card3Detail": "Pavarësisht se sa të trazuara bëhen retë, bubullimat apo shiu, vetë qielli nuk dëmtohet kurrë nga moti. Kthehuni përsëri në vendin e vëzhguesit. Shikoni ndjesitë që vijnë e shkojnë pa ia bashkangjitur atyre identitetin tuaj."
+  },
+  "cta": {
+    "title": "Keni nevojë të tokëzoni veten tani apo të flisni me dikë?",
+    "desc": "Merrni frymë thellë dhe të ngadaltë. Ju nuk keni pse të pushtoni të gjithë malin sot. Vetëm në minutën tjetër.",
+    "crisisButton": "Shiko linjat e ndihmës për krizën",
+    "toolsButton": "Mjetet e frymëmarrjes dhe tokëzimit"
   }
+}
 };

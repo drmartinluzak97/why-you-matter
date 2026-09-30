@@ -255,56 +255,58 @@ export const sv: TranslationDictionary = {
     "footerNotice": "Ditt meddelande hanteras med full diskretion på hello@martinluzak.sk"
   },
   motivationPage: {
-      "backToHome": "← Tillbaka till start & krishjälp",
-      "badge": "Att förvandla smärta till mening • 101 globala inspirationer",
-      "titlePart1": "Varför din existens ",
-      "titleHighlight": "har djup betydelse",
-      "description": "När utmattningen är som störst krymper perspektivet. Här finner du beprövade psykologiska principer och sanna berättelser om människor som övervunnit mörkret.",
-      "spotlightBadge": "Röst från din region",
-      "spotlightSelectCountry": "Välj land:",
-      "spotlightAdversity": "Övervunnen prövning",
-      "spotlightTakeaway": "Insikt för din dag",
-      "globalTitansTitle": "Globala giganter av motståndskraft",
-      "globalTitansSubtitle": "Tidlösa personligheter som övervann ofattbara hinder och inspirerar världen.",
-      "galleryTitle": "Galleri per kontinent och Europa",
-      "gallerySubtitle": "Upptäck inspirerande berättelser från varje europeiskt land och hela världen.",
-      "searchPlaceholder": "Sök person eller land...",
-      "continents": {
-          "all": "🌍 Alla",
-          "europe": "🏰 Europa",
-          "americas": "🌎 Amerika",
-          "asia": "🌏 Asien",
-          "africa": "🏜️ Afrika",
-          "oceania": "🌊 Oceanien"
-      },
-      "pillars": {
-          "title": "3 Grundpelare för Motståndskraft",
-          "badge": "Beprövade Principer",
-          "noiseTitle": "Kognitivt brus vs Verklighet",
-          "noiseDesc": "Hjärnan överdriver faror under stress. Ångest och mörka tankar är falska larm, inte objektiv verklighet.",
-          "chaptersTitle": "Oskrivna kapitel",
-          "chaptersDesc": "Du kan inte döma hela boken om ditt liv efter ett enda svårt kapitel. De bästa stunderna ligger fortfarande framför dig.",
-          "alchemyTitle": "Smärtans alkemi (Sublimering)",
-          "alchemyDesc": "Stor konst och djup empati föds hos dem som stått i mörkret. Din smärta kan bli din största styrka."
-      },
-      "sublimation": {
-          "title": "Sinnets och Skuggans Alkemi",
-          "subtitle": "Förvandla inre kaos till djup förståelse och skapande kraft.",
-          "card1Title": "1. Tankar är inte fakta",
-          "card1Summary": "De flesta självkritiska tankar tillhör inte ditt sanna jag, det är gamla inspelningar.",
-          "card1Detail": "Som barn saknade vi filter. När du hör 'Du är värdelös', inse att det bara är ett gammalt band som spelas upp.",
-          "card2Title": "2. Konsten att sublimera",
-          "card2Summary": "Mörka känslor behöver inte förgöra dig; de kan förvandlas till skapande och omtanke.",
-          "card2Detail": "Sublimering omvandlar smärta till konst, styrka eller hjälp till andra. De största skaparna formade mästerverk ur sitt mörker.",
-          "card3Title": "3. Du är himlen, inte stormen",
-          "card3Summary": "Du är den medvetna observatören av stormen, inte vrakspillrorna i den.",
-          "card3Detail": "Oavsett hur mörka molnen är förblir himlen oskadd. Betrakta dina känslor som passerande moln."
-      },
-      "cta": {
-          "title": "Behöver du lugna ner dig just nu eller prata med någon?",
-          "desc": "Ta ett djupt andetag. Du behöver inte lösa hela ditt liv idag. Det räcker att ta sig igenom denna enda minut.",
-          "crisisButton": "Visa stödlinjer vid kris",
-          "toolsButton": "Andnings- och jordningsövningar"
-      }
+  "backToHome": "← Tillbaka till Hem & Kris Hjälp",
+  "badge": "Perspektivskifte & mening • 101 globala inspirationer",
+  "titlePart1": "Varför din existens",
+  "titleHighlight": "Saker djupt",
+  "description": "När du är i tjock av utmattning, blir perspektivet smalare. Här finns grundade psykologiska principer och verkliga mänskliga berättelser om dem som förvandlade extremt lidande till bestående syfte.",
+  "spotlightBadge": "Röst från din region",
+  "spotlightSelectCountry": "Välj land:",
+  "spotlightAdversity": "Motgångar",
+  "spotlightTakeaway": "Takeaway för dig idag",
+  "globalTitansTitle": "Global Titans of Resilience",
+  "globalTitansSubtitle": "Tidlösa figurer som övervann ofattbara odds för att lysa upp vägen för mänskligheten.",
+  "galleryTitle": "Alla kontinentala och europeiska siffror",
+  "gallerySubtitle": "Utforska inspirerande berättelser från hela Europa och hela världen.",
+  "searchPlaceholder": "Sök namn eller land...",
+  "continents": {
+    "all": "🌍 Alla",
+    "europe": "🏰 Europa",
+    "americas": "🌎 Amerika",
+    "asia": "🌏 Asien",
+    "africa": "🏜️ Afrika",
+    "oceania": "🌊 Oceanien"
+  },
+  "pillars": {
+    "title": "3 kärnpelare för motståndskraft",
+    "badge": "Beprövade principer",
+    "survivalTitle": "100 % överlevnadsgrad",
+    "survivalDesc": "Du har överlevt varje panikattack, varje hjärtesorg och varje mörk natt du trodde att du inte skulle göra. Din motståndskraft är redan bevisad av fakta.",
+    "noiseTitle": "Kognitivt brus vs sanning",
+    "noiseDesc": "Hjärnan är en evolutionär överlevnadsmaskin som överdriver hot i tider av stress. Ångest och mörka tankar är falska larm, inte objektiv verklighet.",
+    "chaptersTitle": "De oskrivna kapitlen",
+    "chaptersDesc": "Du kan inte bedöma hela ditt livs bok efter ett enda svårt kapitel. De bästa människorna du någonsin kommer att träffa och de största skratten är fortfarande framför dig.",
+    "alchemyTitle": "Alchemy of Pain (sublimering)",
+    "alchemyDesc": "Stor konst, djup empati och banbrytande motståndskraft föds från människor som har stått i mörkret. Din smärta kan bli din största kreativa superkraft."
+  },
+  "sublimation": {
+    "title": "The Alchemy of Mind & Shadow",
+    "subtitle": "Förvandla inre kaos till förståelse och kreativ kraft.",
+    "card1Title": "1. Tankar är inte fakta",
+    "card1Summary": "De flesta självkritiska tankar är inte dina egna. De är gamla bandinspelningar från barndomen eller miljön.",
+    "card1Detail": "Som små barn saknade vi kritiska filter. När någon talade i ilska eller kritik, registrerade vårt undermedvetna det som absolut sanning. När du hör \"Du är trasig\" eller \"Du är värdelös\", inse: det är inte du som talar. Det är helt enkelt en föråldrad tejpslinga.",
+    "card2Title": "2. Konsten att sublimera (alkemi)",
+    "card2Summary": "Din intensiva mörka energi behöver inte förstöra dig. Det kan omvandlas till skapelse.",
+    "card2Detail": "Sublimering är den psykologiska alkemin att omvandla rå instinkt, tabutankar och djup känslomässig smärta till konst, litteratur, fysisk kraft eller kod. Skapare undertryckte inte sitt mörker – de kanaliserade det till tidlösa verk.",
+    "card3Title": "3. Du är himlen, inte stormen",
+    "card3Summary": "Du är den medvetna observatören som bevittnar stormen, inte vraket inuti den.",
+    "card3Detail": "Oavsett hur turbulenta molnen, åskan eller regnet blir, skadas inte himlen själv av vädret. Gå tillbaka in i observatörens säte. Se förnimmelserna komma och gå utan att fästa din identitet vid dem."
+  },
+  "cta": {
+    "title": "Behöver du jorda dig själv just nu eller prata med någon?",
+    "desc": "Ta ett långsamt, djupt andetag. Du behöver inte erövra hela berget idag. Bara nästa minut.",
+    "crisisButton": "Visa krishjälplinjer",
+    "toolsButton": "Andnings- och jordningsverktyg"
   }
+}
 };

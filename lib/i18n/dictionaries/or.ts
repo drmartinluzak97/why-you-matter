@@ -255,58 +255,58 @@ export const or: TranslationDictionary = {
     "footerNotice": "hello@martinluzak.sk କୁ ସିଧାସଳଖ ପ୍ରେରଣ • ଅଜ୍ଞାତ ରିପୋର୍ଟିଂ ସମର୍ଥିତ"
   },
   motivationPage: {
-    "backToHome": "← Back to Home & Crisis Help",
-    "badge": "Perspective Shift & Meaning • 101 Global Inspirations",
-    "titlePart1": "Why Your Existence ",
-    "titleHighlight": "Matters Profoundly",
-    "description": "When you are in the thick of exhaustion, perspective narrows. Here are grounded psychological principles and real human stories of those who turned extreme suffering into enduring purpose.",
-    "spotlightBadge": "Voice from Your Region",
-    "spotlightSelectCountry": "Select country:",
-    "spotlightAdversity": "Adversity Faced",
-    "spotlightTakeaway": "Takeaway for You Today",
-    "globalTitansTitle": "Global Titans of Resilience",
-    "globalTitansSubtitle": "Timeless figures who overcame unimaginable odds to light the path for humanity.",
-    "galleryTitle": "All Continental & European Figures",
-    "gallerySubtitle": "Explore inspiring stories from across Europe and the entire globe.",
-    "searchPlaceholder": "Search name or country...",
-    "continents": {
-      "all": "🌍 All",
-      "europe": "🏰 Europe",
-      "americas": "🌎 Americas",
-      "asia": "🌏 Asia",
-      "africa": "🏜️ Africa",
-      "oceania": "🌊 Oceania"
-    },
-    "pillars": {
-      "title": "ସ୍ଥିରତାର ୩ଟି ମୁଖ୍ୟ ସ୍ତମ୍ଭ",
-      "badge": "ପ୍ରମାଣିତ ନୀତି",
-      "survivalTitle": "100% Survival Rate",
-      "survivalDesc": "You have survived every panic attack, every heartbreak, and every dark night you thought you wouldn't. Your resilience is already proven by facts.",
-      "noiseTitle": "Cognitive Noise vs. Truth",
-      "noiseDesc": "The brain is an evolutionary survival machine that exaggerates threat in times of stress. Anxiety and dark thoughts are false alarms, not objective reality.",
-      "chaptersTitle": "The Unwritten Chapters",
-      "chaptersDesc": "You cannot judge the entire book of your life by a single difficult chapter. The best people you will ever meet and the greatest laughs are still ahead.",
-      "alchemyTitle": "Alchemy of Pain (Sublimation)",
-      "alchemyDesc": "Great art, deep empathy, and groundbreaking resilience are born from people who have stood in the dark. Your pain can become your greatest creative superpower."
-    },
-    "sublimation": {
-      "title": "The Alchemy of Mind & Shadow",
-      "subtitle": "Transforming inner turmoil into understanding and creative power.",
-      "card1Title": "1. Thoughts Are Not Facts",
-      "card1Summary": "Most self-critical thoughts are not your own. They are old tape recordings from childhood or environment.",
-      "card1Detail": "As young children, we lacked critical filters. When someone spoke in anger or criticism, our subconscious recorded it as absolute truth. When you hear 'You are broken' or 'You are worthless', realize: that isn't you speaking. It is simply an outdated tape loop.",
-      "card2Title": "2. The Art of Sublimation (Alchemy)",
-      "card2Summary": "Your intense dark energy doesn't have to destroy you. It can be transmuted into creation.",
-      "card2Detail": "Sublimation is the psychological alchemy of converting raw instinct, taboo thoughts, and deep emotional pain into art, literature, physical power, or code. Creators didn't suppress their darkness—they channeled it into timeless works.",
-      "card3Title": "3. You Are the Sky, Not the Storm",
-      "card3Summary": "You are the conscious observer witnessing the storm, not the wreckage inside it.",
-      "card3Detail": "No matter how turbulent the clouds, thunder, or rain become, the sky itself is never harmed by the weather. Step back into the seat of the observer. Watch the sensations come and go without attaching your identity to them."
-    },
-    "cta": {
-      "title": "Need to ground yourself right now or talk to someone?",
-      "desc": "Take a slow, deep breath. You do not have to conquer the whole mountain today. Just the next minute.",
-      "crisisButton": "View Crisis Helplines",
-      "toolsButton": "Breathing & Grounding Tools"
-    }
+  "backToHome": "Home ଘରକୁ ଫେରନ୍ତୁ ଏବଂ ସଙ୍କଟ ସହାୟତା",
+  "badge": "ଦୃଷ୍ଟିକୋଣ ପରିବର୍ତ୍ତନ ଏବଂ ଅର୍ଥ • 101 ଗ୍ଲୋବାଲ୍ ପ୍ରେରଣା",
+  "titlePart1": "ତୁମର ବିଦ୍ୟମାନ କାହିଁକି",
+  "titleHighlight": "ଗଭୀର ବିଷୟ",
+  "description": "ଯେତେବେଳେ ତୁମେ କ୍ଲାନ୍ତର ଘନ ଅବସ୍ଥାରେ ଥାଅ, ଦୃଷ୍ଟିକୋଣ ସଂକୀର୍ଣ୍ଣ ହୁଏ | ଏଠାରେ ମୂଳ ମାନସିକ ନୀତି ଏବଂ ପ୍ରକୃତ ମାନବ କାହାଣୀ ଅଛି ଯେଉଁମାନେ ଅତ୍ୟଧିକ ଯନ୍ତ୍ରଣାକୁ ସ୍ଥାୟୀ ଉଦ୍ଦେଶ୍ୟରେ ପରିଣତ କରିଥିଲେ |",
+  "spotlightBadge": "ତୁମର ଅଞ୍ଚଳରୁ ସ୍ୱର",
+  "spotlightSelectCountry": "ଦେଶ ଚୟନ କରନ୍ତୁ:",
+  "spotlightAdversity": "ପ୍ରତିକୂଳ ପରିସ୍ଥିତିର ସମ୍ମୁଖୀନ",
+  "spotlightTakeaway": "ଆଜି ତୁମ ପାଇଁ ନିଆଯିବା",
+  "globalTitansTitle": "ଗ୍ଲୋବାଲ୍ ଟାଇଟାନ୍ସ ଅଫ୍ ରିସିଲିଏନ୍ସ",
+  "globalTitansSubtitle": "ମାନବିକତା ପାଇଁ ପଥକୁ ଆଲୋକିତ କରିବା ପାଇଁ ଅବାଞ୍ଛିତ ଅଡୁଆକୁ ଅତିକ୍ରମ କରିଥିବା ସମୟହୀନ ବ୍ୟକ୍ତିବିଶେଷ |",
+  "galleryTitle": "ସମସ୍ତ କଣ୍ଟିନେଣ୍ଟାଲ୍ ଏବଂ ୟୁରୋପୀୟ ଚିତ୍ର",
+  "gallerySubtitle": "ୟୁରୋପ ଏବଂ ସମଗ୍ର ପୃଥିବୀରୁ ପ୍ରେରଣାଦାୟକ କାହାଣୀଗୁଡିକ ଏକ୍ସପ୍ଲୋର୍ କରନ୍ତୁ |",
+  "searchPlaceholder": "ନାମ କିମ୍ବା ଦେଶ ଖୋଜ ...",
+  "continents": {
+    "all": "🌍 ସମସ୍ତ",
+    "europe": "🏰 ୟୁରୋପ",
+    "americas": "🌎 ଆମେରିକୀୟ",
+    "asia": "🌏 ଏସିଆ",
+    "africa": "🏜️ ଆଫ୍ରିକା",
+    "oceania": "🌊 ଓସେନିଆ"
+  },
+  "pillars": {
+    "title": "3 ସ୍ଥିରତାର ମୂଳ ସ୍ତମ୍ଭ",
+    "badge": "ପ୍ରମାଣିତ ନୀତି",
+    "survivalTitle": "100% ବଞ୍ଚିବାର ହାର",
+    "survivalDesc": "ଆପଣ ପ୍ରତ୍ୟେକ ଆତଙ୍କିତ ଆକ୍ରମଣ, ପ୍ରତ୍ୟେକ ହୃଦୟ ବିଦାରକ ଏବଂ ପ୍ରତ୍ୟେକ ଅନ୍ଧକାର ରାତିରେ ଆପଣ ବଞ୍ଚିଛନ୍ତି ବୋଲି ଭାବିଛନ୍ତି | ତୁମର ସ୍ଥିରତା ତଥ୍ୟ ଦ୍ୱାରା ପ୍ରମାଣିତ ହୋଇସାରିଛି |",
+    "noiseTitle": "ଜ୍ଞାନ ଶବ୍ଦ ବନାମ ସତ୍ୟ",
+    "noiseDesc": "ମସ୍ତିଷ୍କ ହେଉଛି ଏକ ବିବର୍ତ୍ତନଶୀଳ ବଞ୍ଚାଅ ଯନ୍ତ୍ର ଯାହା ଚାପ ସମୟରେ ବିପଦକୁ ଅତିରିକ୍ତ କରିଥାଏ | ଚିନ୍ତା ଏବଂ ଅନ୍ଧକାର ଚିନ୍ତାଧାରା ହେଉଛି ମିଥ୍ୟା ଆଲାର୍ମ, ଅବଜେକ୍ଟିଭ୍ ବାସ୍ତବତା ନୁହେଁ |",
+    "chaptersTitle": "ଅବିଭାଜିତ ଅଧ୍ୟାୟ",
+    "chaptersDesc": "ତୁମେ ତୁମର ଜୀବନର ପୁରା ପୁସ୍ତକକୁ ଗୋଟିଏ କଷ୍ଟଦାୟକ ଅଧ୍ୟାୟ ଦ୍ୱାରା ବିଚାର କରିପାରିବ ନାହିଁ | ତୁମେ କେବେ ଭଲ ଲୋକଙ୍କୁ ଭେଟିବ ଏବଂ ସବୁଠୁ ବଡ ହସ ଆଗରେ ଅଛି |",
+    "alchemyTitle": "ଆଲକେମି ଅଫ୍ ଯନ୍ତ୍ରଣା (ସବଲିମେସନ୍)",
+    "alchemyDesc": "ମହାନ କଳା, ଗଭୀର ସହାନୁଭୂତି, ଏବଂ ଭୂମିପୂଜନ ସ୍ଥିରତା ଅନ୍ଧକାରରେ ଠିଆ ହୋଇଥିବା ଲୋକଙ୍କଠାରୁ ଜନ୍ମ ଗ୍ରହଣ କରେ | ତୁମର ଯନ୍ତ୍ରଣା ତୁମର ସର୍ବଶ୍ରେଷ୍ଠ ସୃଜନଶୀଳ ଶକ୍ତି ହୋଇପାରେ |"
+  },
+  "sublimation": {
+    "title": "ମନ ଏବଂ ଛାୟାର ଆଲକେମି",
+    "subtitle": "ବୁ understanding ିବା ଏବଂ ସୃଜନଶୀଳ ଶକ୍ତିରେ ଆଭ୍ୟନ୍ତରୀଣ ଅଶାନ୍ତିର ରୂପାନ୍ତର |",
+    "card1Title": "1। ଚିନ୍ତାଧାରା ତଥ୍ୟ ନୁହେଁ",
+    "card1Summary": "ଅଧିକାଂଶ ଆତ୍ମ ସମାଲୋଚନାକାରୀ ଚିନ୍ତାଧାରା ଆପଣଙ୍କର ନୁହେଁ | ସେଗୁଡ଼ିକ ପିଲାଦିନ କିମ୍ବା ପରିବେଶରୁ ପୁରୁଣା ଟେପ୍ ରେକର୍ଡିଂ |",
+    "card1Detail": "ଛୋଟ ପିଲା ଭାବରେ, ଆମର ଜଟିଳ ଫିଲ୍ଟରର ଅଭାବ ଥିଲା | ଯେତେବେଳେ କେହି କ୍ରୋଧ କିମ୍ବା ସମାଲୋଚନାରେ କଥା ହେଲେ, ଆମର ଅବଚେତନା ଏହାକୁ ସମ୍ପୂର୍ଣ୍ଣ ସତ୍ୟ ଭାବରେ ରେକର୍ଡ କଲା | ଯେତେବେଳେ ତୁମେ 'ତୁମେ ଭାଙ୍ଗି ଯାଇଛ' କିମ୍ବା 'ତୁମେ ମୂଲ୍ୟହୀନ' ଶୁଣିବ, ହୃଦୟଙ୍ଗମ କର: ତାହା ତୁମେ କହୁ ନାହଁ | ଏହା କେବଳ ଏକ ପୁରୁଣା ଟେପ୍ ଲୁପ୍ |",
+    "card2Title": "2। ଆର୍ଟ ଅଫ୍ ସବ୍ଲିମିସନ୍ (ଆଲକେମି)",
+    "card2Summary": "ତୁମର ତୀବ୍ର ଅନ୍ଧକାର ଶକ୍ତି ତୁମକୁ ନଷ୍ଟ କରିବାକୁ ପଡିବ ନାହିଁ | ଏହାକୁ ସୃଷ୍ଟିରେ ସ୍ଥାନାନ୍ତର କରାଯାଇପାରେ |",
+    "card2Detail": "କଞ୍ଚା ପ୍ରବୃତ୍ତି, ନିଷେଧ ଚିନ୍ତାଧାରା ଏବଂ ଗଭୀର ଭାବପ୍ରବଣତାକୁ କଳା, ସାହିତ୍ୟ, ଶାରୀରିକ ଶକ୍ତି, କିମ୍ବା ସଂକେତରେ ପରିଣତ କରିବାର ସବଲିମେସନ୍ ହେଉଛି ମାନସିକ ସ୍ତରରେ | ସୃଷ୍ଟିକର୍ତ୍ତାମାନେ ସେମାନଙ୍କର ଅନ୍ଧକାରକୁ ଦମନ କଲେ ନାହିଁ - ସେମାନେ ଏହାକୁ କାଳଜୟୀ କାର୍ଯ୍ୟରେ ପରିଣତ କଲେ |",
+    "card3Title": "3। ତୁମେ ଆକାଶ, orm ଡ ନୁହେଁ",
+    "card3Summary": "ତୁମେ ସଚେତନ ପର୍ଯ୍ୟବେକ୍ଷକ the ଡ଼ର ସାକ୍ଷୀ, ଏହା ଭିତରେ ଥିବା ଧ୍ୱଂସାବଶେଷ ନୁହେଁ |",
+    "card3Detail": "ମେଘ, ବଜ୍ରପାତ କିମ୍ବା ବର୍ଷା ଯେତେ ଅଶାନ୍ତ ହୋଇଯାଏ, ପାଗ ଦ୍ୱାରା ଆକାଶ ନିଜେ କଦାପି କ୍ଷତିଗ୍ରସ୍ତ ହୁଏ ନାହିଁ | ପର୍ଯ୍ୟବେକ୍ଷକଙ୍କ ଆସନକୁ ଫେରିଯାଅ | ସେନ୍ସେସ୍ ଗୁଡିକ ଦେଖନ୍ତୁ ଏବଂ ସେମାନଙ୍କ ପରିଚୟକୁ ସଂଲଗ୍ନ ନକରି ଯାଆନ୍ତୁ |"
+  },
+  "cta": {
+    "title": "ବର୍ତ୍ତମାନ ନିଜକୁ ଭୂମିରେ ରଖିବା କିମ୍ବା କାହା ସହିତ କଥା ହେବା ଆବଶ୍ୟକ?",
+    "desc": "ଏକ ଧୀର, ଗଭୀର ନିଶ୍ୱାସ ନିଅନ୍ତୁ | ଆଜି ଆପଣଙ୍କୁ ପୁରା ପର୍ବତକୁ ଜୟ କରିବାକୁ ପଡିବ ନାହିଁ | ପରବର୍ତ୍ତୀ ମିନିଟ୍ |",
+    "crisisButton": "ସଙ୍କଟ ହେଲ୍ପଲାଇନଗୁଡିକ ଦେଖନ୍ତୁ",
+    "toolsButton": "ବ୍ରହ୍ମ ଏବଂ ଗ୍ରାଉଣ୍ଡ୍ ଉପକରଣଗୁଡିକ |"
   }
+}
 };

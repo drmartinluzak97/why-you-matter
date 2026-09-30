@@ -255,58 +255,58 @@ export const sn: TranslationDictionary = {
     "footerNotice": "Kutumirwa kwakananga ku hello@martinluzak.sk • Kumhan'ara usingazivikanwe kunotsigirwa"
   },
   motivationPage: {
-    "backToHome": "← Back to Home & Crisis Help",
-    "badge": "Perspective Shift & Meaning • 101 Global Inspirations",
-    "titlePart1": "Why Your Existence ",
-    "titleHighlight": "Matters Profoundly",
-    "description": "When you are in the thick of exhaustion, perspective narrows. Here are grounded psychological principles and real human stories of those who turned extreme suffering into enduring purpose.",
-    "spotlightBadge": "Voice from Your Region",
-    "spotlightSelectCountry": "Select country:",
-    "spotlightAdversity": "Adversity Faced",
-    "spotlightTakeaway": "Takeaway for You Today",
-    "globalTitansTitle": "Global Titans of Resilience",
-    "globalTitansSubtitle": "Timeless figures who overcame unimaginable odds to light the path for humanity.",
-    "galleryTitle": "All Continental & European Figures",
-    "gallerySubtitle": "Explore inspiring stories from across Europe and the entire globe.",
-    "searchPlaceholder": "Search name or country...",
-    "continents": {
-      "all": "🌍 All",
-      "europe": "🏰 Europe",
-      "americas": "🌎 Americas",
-      "asia": "🌏 Asia",
-      "africa": "🏜️ Africa",
-      "oceania": "🌊 Oceania"
-    },
-    "pillars": {
-      "title": "Mbiru 3 Huru dzekushinga",
-      "badge": "Mitemo Yakaratidzwa",
-      "survivalTitle": "100% Survival Rate",
-      "survivalDesc": "You have survived every panic attack, every heartbreak, and every dark night you thought you wouldn't. Your resilience is already proven by facts.",
-      "noiseTitle": "Cognitive Noise vs. Truth",
-      "noiseDesc": "The brain is an evolutionary survival machine that exaggerates threat in times of stress. Anxiety and dark thoughts are false alarms, not objective reality.",
-      "chaptersTitle": "The Unwritten Chapters",
-      "chaptersDesc": "You cannot judge the entire book of your life by a single difficult chapter. The best people you will ever meet and the greatest laughs are still ahead.",
-      "alchemyTitle": "Alchemy of Pain (Sublimation)",
-      "alchemyDesc": "Great art, deep empathy, and groundbreaking resilience are born from people who have stood in the dark. Your pain can become your greatest creative superpower."
-    },
-    "sublimation": {
-      "title": "The Alchemy of Mind & Shadow",
-      "subtitle": "Transforming inner turmoil into understanding and creative power.",
-      "card1Title": "1. Thoughts Are Not Facts",
-      "card1Summary": "Most self-critical thoughts are not your own. They are old tape recordings from childhood or environment.",
-      "card1Detail": "As young children, we lacked critical filters. When someone spoke in anger or criticism, our subconscious recorded it as absolute truth. When you hear 'You are broken' or 'You are worthless', realize: that isn't you speaking. It is simply an outdated tape loop.",
-      "card2Title": "2. The Art of Sublimation (Alchemy)",
-      "card2Summary": "Your intense dark energy doesn't have to destroy you. It can be transmuted into creation.",
-      "card2Detail": "Sublimation is the psychological alchemy of converting raw instinct, taboo thoughts, and deep emotional pain into art, literature, physical power, or code. Creators didn't suppress their darkness—they channeled it into timeless works.",
-      "card3Title": "3. You Are the Sky, Not the Storm",
-      "card3Summary": "You are the conscious observer witnessing the storm, not the wreckage inside it.",
-      "card3Detail": "No matter how turbulent the clouds, thunder, or rain become, the sky itself is never harmed by the weather. Step back into the seat of the observer. Watch the sensations come and go without attaching your identity to them."
-    },
-    "cta": {
-      "title": "Need to ground yourself right now or talk to someone?",
-      "desc": "Take a slow, deep breath. You do not have to conquer the whole mountain today. Just the next minute.",
-      "crisisButton": "View Crisis Helplines",
-      "toolsButton": "Breathing & Grounding Tools"
-    }
+  "backToHome": "← Back to Home & Crisis Help",
+  "badge": "Perspective Shift & Meaning • 101 Global Inspirations",
+  "titlePart1": "Sei Uripo",
+  "titleHighlight": "Nyaya Dzesviro",
+  "description": "Kana uri mukati mekuneta, maonero anoita zvishoma. Heano nheyo dzepfungwa dzakadzika uye nyaya dzechokwadi dzevanhu dzeavo vakashandura kutambura kwakanyanya kuita chinangwa chekutsungirira.",
+  "spotlightBadge": "Izwi rinobva kuNzvimbo Yako",
+  "spotlightSelectCountry": "Sarudza nyika:",
+  "spotlightAdversity": "Matambudziko",
+  "spotlightTakeaway": "Takeaway for You Today",
+  "globalTitansTitle": "Global Titans of Resilience",
+  "globalTitansSubtitle": "Zviverengero zvisingagumi zvakakunda zvisingafungidzike kuti zvivhenekere nzira yevanhu.",
+  "galleryTitle": "All Continental & European Figures",
+  "gallerySubtitle": "Ongorora nyaya dzinokurudzira kubva kuEurope nepasi rose.",
+  "searchPlaceholder": "Tsvaga zita kana nyika...",
+  "continents": {
+    "all": "🌍 Zvese",
+    "europe": "🏰 Europe",
+    "americas": "🌎 Americas",
+    "asia": "🌏 Asia",
+    "africa": "🏜️ Africa",
+    "oceania": "🌊 Oceania"
+  },
+  "pillars": {
+    "title": "3 Mbiru Dzakakosha dzekutsungirira",
+    "badge": "Proven Principles",
+    "survivalTitle": "100% Kupona Mwero",
+    "survivalDesc": "Iwe wakapona kurwiswa kwese kwekutya, kushungurudzika kwese, uye husiku hwese hwerima hwawaifunga kuti haungadaro. Kushingirira kwako kunotoratidzwa nechokwadi.",
+    "noiseTitle": "Cognitive Noise vs. Chokwadi",
+    "noiseDesc": "Uropi imuchina wekupona wekushanduka-shanduka unowedzeredza kutyisidzira munguva dzekushushikana. Kuzvidya mwoyo nepfungwa dzakasvibirira zviyedzo zvenhema, kwete chokwadi chaicho.",
+    "chaptersTitle": "Zvitsauko Zvisina Kunyorwa",
+    "chaptersDesc": "Iwe haugone kutonga bhuku rese rehupenyu hwako nechitsauko chimwe chakaoma. Vanhu vakanakisa vauchasangana navo uye kuseka kukuru kuchiri kumberi.",
+    "alchemyTitle": "Alchemy of Pain (Sublimation)",
+    "alchemyDesc": "Hunyanzvi hukuru, tsitsi dzakadzama, uye kusimba kwepasi kunozvarwa kubva kuvanhu vakamira murima. Marwadzo ako anogona kuve simba rako guru rekugadzira."
+  },
+  "sublimation": {
+    "title": "The Alchemy of Mind & Shadow",
+    "subtitle": "Kushandura kusagadzikana kwemukati mukunzwisisa uye simba rekugadzira.",
+    "card1Title": "1. Pfungwa hadzisi Chokwadi",
+    "card1Summary": "Mifungo yakawanda yekuzvishora haisi yako. Iwo marekodhi ekare ekare kubva paudiki kana nharaunda.",
+    "card1Detail": "Sevana vaduku, takanga tisina masefa anokosha. Kana mumwe munhu akataura nehasha kana kushoropodza, pfungwa yedu yainyora sechokwadi chakakwana. Paunonzwa kuti 'Watyoka' kana 'Hauna kukosha', ziva: handiwe uri kutaura. Ingori yechinyakare tepi loop.",
+    "card2Title": "2. The Art of Sublimation (Alchemy)",
+    "card2Summary": "Simba rako guru rerima harifanire kukuparadza. Inogona kushandurirwa mukusika.",
+    "card2Detail": "Sublimation ndiyo yepfungwa alchemy yekushandura mbishi hunhu, taboo pfungwa, uye kurwadziwa kwakadzika kwepamoyo kuita art, mabhuku, simba remuviri, kana kodhi. Vasiki havana kudzvinyirira rima ravo—vakaripinza mumabasa asingagumi.",
+    "card3Title": "3. Ndimi Denga, Kwete Dutu",
+    "card3Summary": "Iwe ndiwe mucherechedzi ari kuona dutu, kwete kuparara kuri mukati maro.",
+    "card3Detail": "Pasinei nokuti makore, mabhanan’ana, kana kuti mvura zvingaita sei, denga pacharo harimbokuvadzwi nemamiriro okunze. Dzokera kuchigaro chemucherechedzi. Tarisa manzwiro anouya uye oenda usina kubatanidza chitupa chako kwavari."
+  },
+  "cta": {
+    "title": "Unoda kuzvimisa iko zvino kana kutaura nemumwe munhu?",
+    "desc": "Tora zvishoma, kufema kwakadzika. Haufanire kukunda gomo rose nhasi. Ingori miniti inotevera.",
+    "crisisButton": "View Crisis Helplines",
+    "toolsButton": "Kufema & Grounding Zvishandiso"
   }
+}
 };

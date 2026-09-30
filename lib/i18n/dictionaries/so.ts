@@ -255,58 +255,58 @@ export const so: TranslationDictionary = {
     "footerNotice": "Toos ugu dir hello@martinluzak.sk • Warbixin qarsoodi ah waa la taageerayaa"
   },
   motivationPage: {
-    "backToHome": "← Back to Home & Crisis Help",
-    "badge": "Perspective Shift & Meaning • 101 Global Inspirations",
-    "titlePart1": "Why Your Existence ",
-    "titleHighlight": "Matters Profoundly",
-    "description": "When you are in the thick of exhaustion, perspective narrows. Here are grounded psychological principles and real human stories of those who turned extreme suffering into enduring purpose.",
-    "spotlightBadge": "Voice from Your Region",
-    "spotlightSelectCountry": "Select country:",
-    "spotlightAdversity": "Adversity Faced",
-    "spotlightTakeaway": "Takeaway for You Today",
-    "globalTitansTitle": "Global Titans of Resilience",
-    "globalTitansSubtitle": "Timeless figures who overcame unimaginable odds to light the path for humanity.",
-    "galleryTitle": "All Continental & European Figures",
-    "gallerySubtitle": "Explore inspiring stories from across Europe and the entire globe.",
-    "searchPlaceholder": "Search name or country...",
-    "continents": {
-      "all": "🌍 All",
-      "europe": "🏰 Europe",
-      "americas": "🌎 Americas",
-      "asia": "🌏 Asia",
-      "africa": "🏜️ Africa",
-      "oceania": "🌊 Oceania"
-    },
-    "pillars": {
-      "title": "3 Tiir oo Muhiim u ah Adkaysiga",
-      "badge": "Mabaadi'da La Xaqiijiyay",
-      "survivalTitle": "100% Survival Rate",
-      "survivalDesc": "You have survived every panic attack, every heartbreak, and every dark night you thought you wouldn't. Your resilience is already proven by facts.",
-      "noiseTitle": "Cognitive Noise vs. Truth",
-      "noiseDesc": "The brain is an evolutionary survival machine that exaggerates threat in times of stress. Anxiety and dark thoughts are false alarms, not objective reality.",
-      "chaptersTitle": "The Unwritten Chapters",
-      "chaptersDesc": "You cannot judge the entire book of your life by a single difficult chapter. The best people you will ever meet and the greatest laughs are still ahead.",
-      "alchemyTitle": "Alchemy of Pain (Sublimation)",
-      "alchemyDesc": "Great art, deep empathy, and groundbreaking resilience are born from people who have stood in the dark. Your pain can become your greatest creative superpower."
-    },
-    "sublimation": {
-      "title": "The Alchemy of Mind & Shadow",
-      "subtitle": "Transforming inner turmoil into understanding and creative power.",
-      "card1Title": "1. Thoughts Are Not Facts",
-      "card1Summary": "Most self-critical thoughts are not your own. They are old tape recordings from childhood or environment.",
-      "card1Detail": "As young children, we lacked critical filters. When someone spoke in anger or criticism, our subconscious recorded it as absolute truth. When you hear 'You are broken' or 'You are worthless', realize: that isn't you speaking. It is simply an outdated tape loop.",
-      "card2Title": "2. The Art of Sublimation (Alchemy)",
-      "card2Summary": "Your intense dark energy doesn't have to destroy you. It can be transmuted into creation.",
-      "card2Detail": "Sublimation is the psychological alchemy of converting raw instinct, taboo thoughts, and deep emotional pain into art, literature, physical power, or code. Creators didn't suppress their darkness—they channeled it into timeless works.",
-      "card3Title": "3. You Are the Sky, Not the Storm",
-      "card3Summary": "You are the conscious observer witnessing the storm, not the wreckage inside it.",
-      "card3Detail": "No matter how turbulent the clouds, thunder, or rain become, the sky itself is never harmed by the weather. Step back into the seat of the observer. Watch the sensations come and go without attaching your identity to them."
-    },
-    "cta": {
-      "title": "Need to ground yourself right now or talk to someone?",
-      "desc": "Take a slow, deep breath. You do not have to conquer the whole mountain today. Just the next minute.",
-      "crisisButton": "View Crisis Helplines",
-      "toolsButton": "Breathing & Grounding Tools"
-    }
+  "backToHome": "← Ku laabo Guriga & Caawinta Qalalaasaha",
+  "badge": "Isbedelka Aragtida & Macnaha • 101 Dhiirigelineed oo caalami ah",
+  "titlePart1": "Maxaa Jiritaankaaga",
+  "titleHighlight": "Arrimaha Dhabta ah",
+  "description": "Marka aad ku jirto daal badan, aragtidu way sii yaraanaysaa. Halkan waxaa ah mabaadi'da nafsiyeed ee salka ku haya iyo sheekooyinka aadanaha ee dhabta ah ee kuwa u beddelay silica xad dhaafka ah ujeedo waara.",
+  "spotlightBadge": "Codka Gobolkaaga",
+  "spotlightSelectCountry": "Dooro waddan:",
+  "spotlightAdversity": "Dhibaato soo food saartay",
+  "spotlightTakeaway": "Qaadashada Maanta",
+  "globalTitansTitle": "Titans Global of Resilience",
+  "globalTitansSubtitle": "Shakhsiyaad aan wakhti lahayn oo ka soo gudbay jaanisyo aan la qiyaasi karin si ay u iftiimiyaan dariiqa aadanaha.",
+  "galleryTitle": "Dhammaan Sawirrada Qaaradda & Yurub",
+  "gallerySubtitle": "Sahaminta sheekooyinka dhiirigelinta leh ee Yurub oo dhan iyo adduunka oo dhan.",
+  "searchPlaceholder": "Raadi magaca ama dalka...",
+  "continents": {
+    "all": "🌍 Dhammaan",
+    "europe": "🏰 Yurub",
+    "americas": "🌎 Ameerika",
+    "asia": "🌏 Aasiya",
+    "africa": "🏜️ Afrika",
+    "oceania": "🌊 Oceania"
+  },
+  "pillars": {
+    "title": "3 Tiirarka ubucda ee adkeysiga",
+    "badge": "Mabaadi'da la xaqiijiyay",
+    "survivalTitle": "100% heerka badbaadada",
+    "survivalDesc": "Waxaad ka badbaaday weerar kasta oo argagax leh, qalbi jab kasta, iyo habeen kasta oo mugdi ah oo aad moodday inaadan yeeli doonin. Adkeysigaaga waxaa horeyba u caddeeyey xaqiiqooyin.",
+    "noiseTitle": "Guuxa garashada vs. Runta",
+    "noiseDesc": "Maskaxdu waa mashiinka badbaadada korriinka taasoo buunbuunisay khatarta waqtiyada walaaca. Welwelka iyo fikradaha mugdiga ah waa digniino been abuur ah, ma aha xaqiiqo dhab ah.",
+    "chaptersTitle": "Qaybaha aan la qorin",
+    "chaptersDesc": "Buuga noloshaada oo dhan kuma xukumi kartid hal cutub oo adag. Dadka ugu fiican ee aad waligaa la kulmi doonto iyo qosolka ugu wayni ayaa wali kaa horeeya.",
+    "alchemyTitle": "Alchemy of Pain (Sublimation)",
+    "alchemyDesc": "Farshaxan weyn, naxariis qoto dheer, iyo adkeysi qotodheer ayaa ka dhashay dadka mugdiga ku istaagay. Xanuunkaagu wuxuu noqon karaa awoodaada hal-abuurka ugu weyn."
+  },
+  "sublimation": {
+    "title": "Alchemy of Maskaxda & Hadhka",
+    "subtitle": "U beddelashada qalalaasaha gudaha una beddelo faham iyo awood halabuureed.",
+    "card1Title": "1. Fikirka Maaha Xaqiiqo",
+    "card1Summary": "Inta badan fikradaha is-naqdintu maaha kuwa adiga kuu gaar ah. Waa cajalado duug ah oo laga soo bilaabo carruurnimada ama deegaanka.",
+    "card1Detail": "Carruur yaryar ahaan, waxa naga maqnaa filtarrada muhiimka ah. Marka qof ku hadlo cadho ama dhaleecayn, miyir-qabkayaga ayaa u diiwaan geliyay run buuxda. Markaad maqasho 'waad jabtay' ama 'Waxaad tahay wax aan qiimo lahayn', garwaaqso: taasi maahan adiga oo hadlaya. Si fudud waa cajalad duuban oo duugowday.",
+    "card2Title": "2. Farshaxanka Sublimation (Alchemy)",
+    "card2Summary": "Tamartaada madow maaha inay ku burburiso. Waxa loo bedeli karaa abuurista.",
+    "card2Detail": "Sublimation waa alchemy cilmi nafsi ah oo u beddela dareen cayriin, fikradaha xaaraanta ah, iyo xanuunka shucuureed qoto dheer ee farshaxanka, suugaanta, awooda jireed, ama koodka. Abuurayaashu ma ay xakameynin gudcurkooda - waxay u gudbiyeen shaqooyin aan waqti lahayn.",
+    "card3Title": "3. Adigu Samo ayaad Tahay ee ma aha Dabaylaha",
+    "card3Summary": "Adiga ayaa ah kormeeraha miyirka leh ee markhaatiga u ah duufaanta, ma aha burburka gudaha ku jira.",
+    "card3Detail": "Si kasta oo ay daruuraha, onkodka iyo roobku u noqdaanba, samada lafteedu weligeed cimiladu waxba uma dhimayso. Ku noqo kursiga goobjoogaha. U fiirso dareenka soo socda oo tag adoon ku dhejin aqoonsigaaga iyaga."
+  },
+  "cta": {
+    "title": "Ma u baahan tahay inaad hadda is dejiso ama qof la hadasho?",
+    "desc": "Si tartiib ah u neefso. Looma baahna inaad maanta buurta oo dhan qabsato. Kaliya daqiiqadda xigta.",
+    "crisisButton": "Daawo Khadadka Caawinta Xiisada",
+    "toolsButton": "Qalabka Neefsashada & Dhulka"
   }
+}
 };

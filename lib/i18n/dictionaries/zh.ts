@@ -255,56 +255,58 @@ export const zh: TranslationDictionary = {
     "footerNotice": "您的信息将被严格保密并高优先级处理：hello@martinluzak.sk"
   },
   motivationPage: {
-      "backToHome": "← 返回首页与危机援助",
-      "badge": "将痛苦转化为意义 • 101个全球灵感",
-      "titlePart1": "为什么你的存在 ",
-      "titleHighlight": "至关重要",
-      "description": "当我们处于极度疲惫与痛苦时，视野容易变得狭窄。这里汇聚了战胜至暗时刻的人们的真实故事，以及被证实的心理学支柱，助你重拾希望。",
-      "spotlightBadge": "来自你所在地区的声音",
-      "spotlightSelectCountry": "选择国家/地区:",
-      "spotlightAdversity": "历经的磨难",
-      "spotlightTakeaway": "今日启示",
-      "globalTitansTitle": "不屈不挠的全球巨擘",
-      "globalTitansSubtitle": "克服了常人无法想象的困境、为人类照亮前路的时代楷模。",
-      "galleryTitle": "按各大洲与欧洲分类的英雄画廊",
-      "gallerySubtitle": "探索来自欧洲各邦及世界每个角落的鼓舞人心的故事。",
-      "searchPlaceholder": "搜索姓名或国家...",
-      "continents": {
-          "all": "🌍 全部",
-          "europe": "🏰 欧洲",
-          "americas": "🌎 美洲",
-          "asia": "🌏 亚洲",
-          "africa": "🏜️ 非洲",
-          "oceania": "🌊 大洋洲"
-      },
-      "pillars": {
-          "title": "韧性的3大核心支柱",
-          "badge": "经证实的原则",
-          "noiseTitle": "认知噪音 vs 现实真相",
-          "noiseDesc": "大脑是进化的生存机器，在压力下容易无限放大危险。焦虑和消极念头只是虚假警报，并非客观事实。",
-          "chaptersTitle": "尚未书写的人生篇章",
-          "chaptersDesc": "你不能仅凭人生中最艰难的一个章节就为整本书下定论。最美好的相遇与最真挚的笑容，仍在前方等你。",
-          "alchemyTitle": "痛苦的炼金术（升华）",
-          "alchemyDesc": "伟大的艺术、深沉的同理心与不屈的韧性，皆诞生于曾在黑暗中伫立的人。你的苦难终将转化为巨大的力量。"
-      },
-      "sublimation": {
-          "title": "心灵与阴影的炼金术",
-          "subtitle": "将内心的波澜转化为深刻的领悟与创造的动力。",
-          "card1Title": "1. 念头并非事实",
-          "card1Summary": "大多数自我批判的念头并非出自你的本质，而是童年或外界留下的旧录音。",
-          "card1Detail": "幼年时的我们缺乏批判性过滤。当听到否定之词时，潜意识便当成了绝对真理。当你再次听到自我贬低的声音时，请记住：那不是真实的你，只是过时的磁带。",
-          "card2Title": "2. 升华的艺术（心智炼金）",
-          "card2Summary": "沉重的黑暗能量不必毁灭你，它可以被转化为创造力与慈悲。",
-          "card2Detail": "升华是一种心理炼金术，将深切的伤痛转化为艺术、文字、行动力或对他人的关怀。最杰出的创作者不是压抑黑暗，而是将其熔铸为不朽之作。",
-          "card3Title": "3. 你是天空，而非风暴",
-          "card3Summary": "你是静观风暴的觉察者，而不是风暴中的残骸。",
-          "card3Detail": "无论乌云、雷电和狂风多么猛烈，天空本身从未受损。退后一步，成为安静的观察者，注视情绪像云朵一样来去。"
-      },
-      "cta": {
-          "title": "现在需要平复心情或找人倾诉吗？",
-          "desc": "深呼吸。你不需要在今天解决人生的所有难题，只要安然度过这一分钟就足够了。",
-          "crisisButton": "查看危机求助热线",
-          "toolsButton": "呼吸与身心稳定练习"
-      }
+  "backToHome": "← 返回主页和危机帮助",
+  "badge": "视角转变与意义 • 101 个全球灵感",
+  "titlePart1": "为什么你存在",
+  "titleHighlight": "意义深远",
+  "description": "当你极度疲惫时，视野就会变得狭窄。这里有一些扎根的心理学原理和真实的人类故事，讲述了那些将极端痛苦转化为持久目标的人。",
+  "spotlightBadge": "来自您所在地区的声音",
+  "spotlightSelectCountry": "选择国家：",
+  "spotlightAdversity": "面对逆境",
+  "spotlightTakeaway": "今天为您送上外卖",
+  "globalTitansTitle": "全球韧性泰坦",
+  "globalTitansSubtitle": "永恒的人物克服了难以想象的困难，照亮了人类的道路。",
+  "galleryTitle": "所有大陆和欧洲人物",
+  "gallerySubtitle": "探索来自欧洲和全球各地的鼓舞人心的故事。",
+  "searchPlaceholder": "搜索名称或国家/地区...",
+  "continents": {
+    "all": "🌍全部",
+    "europe": "🏰 欧洲",
+    "americas": "🌎 美洲",
+    "asia": "🌏 亚洲",
+    "africa": "🏜️非洲",
+    "oceania": "🌊 大洋洲"
+  },
+  "pillars": {
+    "title": "复原力的 3 个核心支柱",
+    "badge": "经过验证的原则",
+    "survivalTitle": "100% 存活率",
+    "survivalDesc": "你已经度过了每一次惊恐发作、每一次心碎以及每一个你认为不会的黑夜。你的韧性已经被事实证明了。",
+    "noiseTitle": "认知噪音与真相",
+    "noiseDesc": "大脑是一个进化的生存机器，在压力时期会夸大威胁。焦虑和阴暗的想法都是虚惊一场，而不是客观现实。",
+    "chaptersTitle": "不成文的章节",
+    "chaptersDesc": "你不能用一个困难的章节来评判你人生的整本书。你将遇到的最好的人以及最伟大的笑声仍在前方。",
+    "alchemyTitle": "痛苦炼金术（升华）",
+    "alchemyDesc": "伟大的艺术、深刻的同理心和突破性的韧性都诞生于那些站在黑暗中的人们。你的痛苦可以成为你最大的创造力。"
+  },
+  "sublimation": {
+    "title": "心灵与影子的炼金术",
+    "subtitle": "将内心的混乱转化为理解力和创造力。",
+    "card1Title": "1.想法不是事实",
+    "card1Summary": "大多数自我批评的想法都不是你自己的。它们是童年或环境中的旧磁带录音。",
+    "card1Detail": "作为年幼的孩子，我们缺乏批判性的过滤器。当有人愤怒或批评时，我们的潜意识会将其记录为绝对真理。当你听到“你崩溃了”或“你一文不值”时，要意识到：那不是你在说话。它只是一个过时的磁带循环。",
+    "card2Title": "2. 升华艺术（炼金术）",
+    "card2Summary": "你强烈的黑暗能量并不一定会摧毁你。它可以转化为创造。",
+    "card2Detail": "升华是将原始本能、禁忌思想和深刻的情感痛苦转化为艺术、文学、体力或代码的心理炼金术。创作者并没有压抑他们的黑暗——他们将其转化为永恒的作品。",
+    "card3Title": "3. 你是天空，不是风暴",
+    "card3Summary": "你是目睹风暴的有意识的观察者，而不是风暴中的残骸。",
+    "card3Detail": "无论云、雷、雨变得多么狂暴，天空本身都不会受到天气的影响。回到观察者的座位上。观察感觉的来来去去，而不将你的身份附加到它们上。"
+  },
+  "cta": {
+    "title": "现在需要让自己接地气或与某人交谈吗？",
+    "desc": "缓慢地深呼吸。今天你不必征服整座山。就在下一分钟。",
+    "crisisButton": "查看危机求助热线",
+    "toolsButton": "呼吸和接地工具"
   }
+}
 };

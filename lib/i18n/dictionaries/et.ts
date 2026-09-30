@@ -255,56 +255,58 @@ export const et: TranslationDictionary = {
     "footerNotice": "Direct delivery to hello@martinluzak.sk • Anonymous reporting supported"
   },
   motivationPage: {
-      "backToHome": "← Tillbaka till start & krishjälp",
-      "badge": "Att förvandla smärta till mening • 101 globala inspirationer",
-      "titlePart1": "Varför din existens ",
-      "titleHighlight": "har djup betydelse",
-      "description": "När utmattningen är som störst krymper perspektivet. Här finner du beprövade psykologiska principer och sanna berättelser om människor som övervunnit mörkret.",
-      "spotlightBadge": "Röst från din region",
-      "spotlightSelectCountry": "Välj land:",
-      "spotlightAdversity": "Övervunnen prövning",
-      "spotlightTakeaway": "Insikt för din dag",
-      "globalTitansTitle": "Globala giganter av motståndskraft",
-      "globalTitansSubtitle": "Tidlösa personligheter som övervann ofattbara hinder och inspirerar världen.",
-      "galleryTitle": "Galleri per kontinent och Europa",
-      "gallerySubtitle": "Upptäck inspirerande berättelser från varje europeiskt land och hela världen.",
-      "searchPlaceholder": "Sök person eller land...",
-      "continents": {
-          "all": "🌍 Alla",
-          "europe": "🏰 Europa",
-          "americas": "🌎 Amerika",
-          "asia": "🌏 Asien",
-          "africa": "🏜️ Afrika",
-          "oceania": "🌊 Oceanien"
-      },
-      "pillars": {
-          "title": "3 Grundpelare för Motståndskraft",
-          "badge": "Beprövade Principer",
-          "noiseTitle": "Kognitivt brus vs Verklighet",
-          "noiseDesc": "Hjärnan överdriver faror under stress. Ångest och mörka tankar är falska larm, inte objektiv verklighet.",
-          "chaptersTitle": "Oskrivna kapitel",
-          "chaptersDesc": "Du kan inte döma hela boken om ditt liv efter ett enda svårt kapitel. De bästa stunderna ligger fortfarande framför dig.",
-          "alchemyTitle": "Smärtans alkemi (Sublimering)",
-          "alchemyDesc": "Stor konst och djup empati föds hos dem som stått i mörkret. Din smärta kan bli din största styrka."
-      },
-      "sublimation": {
-          "title": "Sinnets och Skuggans Alkemi",
-          "subtitle": "Förvandla inre kaos till djup förståelse och skapande kraft.",
-          "card1Title": "1. Tankar är inte fakta",
-          "card1Summary": "De flesta självkritiska tankar tillhör inte ditt sanna jag, det är gamla inspelningar.",
-          "card1Detail": "Som barn saknade vi filter. När du hör 'Du är värdelös', inse att det bara är ett gammalt band som spelas upp.",
-          "card2Title": "2. Konsten att sublimera",
-          "card2Summary": "Mörka känslor behöver inte förgöra dig; de kan förvandlas till skapande och omtanke.",
-          "card2Detail": "Sublimering omvandlar smärta till konst, styrka eller hjälp till andra. De största skaparna formade mästerverk ur sitt mörker.",
-          "card3Title": "3. Du är himlen, inte stormen",
-          "card3Summary": "Du är den medvetna observatören av stormen, inte vrakspillrorna i den.",
-          "card3Detail": "Oavsett hur mörka molnen är förblir himlen oskadd. Betrakta dina känslor som passerande moln."
-      },
-      "cta": {
-          "title": "Behöver du lugna ner dig just nu eller prata med någon?",
-          "desc": "Ta ett djupt andetag. Du behöver inte lösa hela ditt liv idag. Det räcker att ta sig igenom denna enda minut.",
-          "crisisButton": "Visa stödlinjer vid kris",
-          "toolsButton": "Andnings- och jordningsövningar"
-      }
+  "backToHome": "← Tagasi avalehele & Kriisiabi",
+  "badge": "Perspektiivi muutus ja tähendus • 101 globaalset inspiratsiooni",
+  "titlePart1": "Miks teie olemasolu",
+  "titleHighlight": "Tähtis on sügav",
+  "description": "Kui olete täis kurnatust, siis perspektiiv kitseneb. Siin on põhjendatud psühholoogilised põhimõtted ja tõelised inimlikud lood neist, kes muutsid äärmuslikud kannatused püsivaks eesmärgiks.",
+  "spotlightBadge": "Hääl teie piirkonnast",
+  "spotlightSelectCountry": "Vali riik:",
+  "spotlightAdversity": "Raskused silmitsi",
+  "spotlightTakeaway": "Sulle täna kaasa võtta",
+  "globalTitansTitle": "Ülemaailmsed vastupidavuse titaanid",
+  "globalTitansSubtitle": "Ajatud tegelased, kes ületasid kujuteldamatuid raskusi, et valgustada inimkonna tee.",
+  "galleryTitle": "Kõik mandri ja Euroopa näitajad",
+  "gallerySubtitle": "Avastage inspireerivaid lugusid kogu Euroopast ja kogu maailmast.",
+  "searchPlaceholder": "Otsi nime või riigi kohta...",
+  "continents": {
+    "all": "🌍 Kõik",
+    "europe": "🏰 Euroopa",
+    "americas": "🌎 Ameerika",
+    "asia": "🌏 Aasia",
+    "africa": "🏜️ Aafrika",
+    "oceania": "🌊 Okeaania"
+  },
+  "pillars": {
+    "title": "Vastupidavuse kolm põhisammast",
+    "badge": "Tõestatud põhimõtted",
+    "survivalTitle": "100% ellujäämismäär",
+    "survivalDesc": "Olete üle elanud iga paanikahoo, iga südamevalu ja iga pimeda öö, millest arvasite, et ei ela. Teie vastupidavust tõestavad juba faktid.",
+    "noiseTitle": "Kognitiivne müra vs tõde",
+    "noiseDesc": "Aju on evolutsiooniline ellujäämismasin, mis liialdab ohtu stressi ajal. Ärevus ja tumedad mõtted on valehäired, mitte objektiivne reaalsus.",
+    "chaptersTitle": "Kirjutamata peatükid",
+    "chaptersDesc": "Sa ei saa hinnata kogu oma elu raamatut ühe raske peatüki järgi. Parimad inimesed, keda sa kunagi kohtad, ja suurimad naerud on veel ees.",
+    "alchemyTitle": "Valu alkeemia (sublimatsioon)",
+    "alchemyDesc": "Suur kunst, sügav empaatia ja murranguline vastupidavus sünnivad inimestest, kes on pimeduses seisnud. Teie valust võib saada teie suurim loominguline superjõud."
+  },
+  "sublimation": {
+    "title": "The Alchemy of Mind & Shadow",
+    "subtitle": "Sisemise segaduse muutmine mõistmiseks ja loovaks jõuks.",
+    "card1Title": "1. Mõtted pole faktid",
+    "card1Summary": "Most self-critical thoughts are not your own. Need on vanad lindistused lapsepõlvest või keskkonnast.",
+    "card1Detail": "As young children, we lacked critical filters. Kui keegi rääkis vihaselt või kritiseerides, salvestas meie alateadvus selle absoluutse tõena. Kui kuulete \"Sa oled katki\" või \"Sa oled väärtusetu\", mõistke: see pole teie. It is simply an outdated tape loop.",
+    "card2Title": "2. The Art of Sublimation (Alchemy)",
+    "card2Summary": "Sinu intensiivne tume energia ei pea sind hävitama. It can be transmuted into creation.",
+    "card2Detail": "Sublimatsioon on psühholoogiline alkeemia, mille abil muundatakse toored instinktid, tabumõtted ja sügav emotsionaalne valu kunstiks, kirjanduseks, füüsiliseks jõuks või koodiks. Loojad ei surunud oma pimedust alla – nad suunasid selle ajatuteks teosteks.",
+    "card3Title": "3. You Are the Sky, Not the Storm",
+    "card3Summary": "Olete teadlik vaatleja, kes on tormi tunnistajaks, mitte selle sees olevatele rusudele.",
+    "card3Detail": "Ükskõik kui segaseks pilved, äike või vihm ka ei muutuks, ei kahjusta ilm kunagi taevast ennast. Step back into the seat of the observer. Vaadake, kuidas sensatsioonid tulevad ja lähevad, ilma et kinnitaksite neile oma identiteeti."
+  },
+  "cta": {
+    "title": "Kas vajate end kohe maandada või kellegagi rääkida?",
+    "desc": "Take a slow, deep breath. Täna ei pea te tervet mäge vallutama. Just the next minute.",
+    "crisisButton": "View Crisis Helplines",
+    "toolsButton": "Hingamis- ja maandustööriistad"
   }
+}
 };

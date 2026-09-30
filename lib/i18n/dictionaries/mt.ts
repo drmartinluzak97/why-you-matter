@@ -255,58 +255,58 @@ export const mt: TranslationDictionary = {
     "footerNotice": "Konsenja diretta lil hello@martinluzak.sk • Rappurtar anonimu appoġġjat"
   },
   motivationPage: {
-    "backToHome": "← Back to Home & Crisis Help",
-    "badge": "Perspective Shift & Meaning • 101 Global Inspirations",
-    "titlePart1": "Why Your Existence ",
-    "titleHighlight": "Matters Profoundly",
-    "description": "When you are in the thick of exhaustion, perspective narrows. Here are grounded psychological principles and real human stories of those who turned extreme suffering into enduring purpose.",
-    "spotlightBadge": "Voice from Your Region",
-    "spotlightSelectCountry": "Select country:",
-    "spotlightAdversity": "Adversity Faced",
-    "spotlightTakeaway": "Takeaway for You Today",
-    "globalTitansTitle": "Global Titans of Resilience",
-    "globalTitansSubtitle": "Timeless figures who overcame unimaginable odds to light the path for humanity.",
-    "galleryTitle": "All Continental & European Figures",
-    "gallerySubtitle": "Explore inspiring stories from across Europe and the entire globe.",
-    "searchPlaceholder": "Search name or country...",
-    "continents": {
-      "all": "🌍 All",
-      "europe": "🏰 Europe",
-      "americas": "🌎 Americas",
-      "asia": "🌏 Asia",
-      "africa": "🏜️ Africa",
-      "oceania": "🌊 Oceania"
-    },
-    "pillars": {
-      "title": "3 Pilastri Ewlenin tar-Reżiljenza",
-      "badge": "Prinċipji Ppruvati",
-      "survivalTitle": "100% Survival Rate",
-      "survivalDesc": "You have survived every panic attack, every heartbreak, and every dark night you thought you wouldn't. Your resilience is already proven by facts.",
-      "noiseTitle": "Cognitive Noise vs. Truth",
-      "noiseDesc": "The brain is an evolutionary survival machine that exaggerates threat in times of stress. Anxiety and dark thoughts are false alarms, not objective reality.",
-      "chaptersTitle": "The Unwritten Chapters",
-      "chaptersDesc": "You cannot judge the entire book of your life by a single difficult chapter. The best people you will ever meet and the greatest laughs are still ahead.",
-      "alchemyTitle": "Alchemy of Pain (Sublimation)",
-      "alchemyDesc": "Great art, deep empathy, and groundbreaking resilience are born from people who have stood in the dark. Your pain can become your greatest creative superpower."
-    },
-    "sublimation": {
-      "title": "The Alchemy of Mind & Shadow",
-      "subtitle": "Transforming inner turmoil into understanding and creative power.",
-      "card1Title": "1. Thoughts Are Not Facts",
-      "card1Summary": "Most self-critical thoughts are not your own. They are old tape recordings from childhood or environment.",
-      "card1Detail": "As young children, we lacked critical filters. When someone spoke in anger or criticism, our subconscious recorded it as absolute truth. When you hear 'You are broken' or 'You are worthless', realize: that isn't you speaking. It is simply an outdated tape loop.",
-      "card2Title": "2. The Art of Sublimation (Alchemy)",
-      "card2Summary": "Your intense dark energy doesn't have to destroy you. It can be transmuted into creation.",
-      "card2Detail": "Sublimation is the psychological alchemy of converting raw instinct, taboo thoughts, and deep emotional pain into art, literature, physical power, or code. Creators didn't suppress their darkness—they channeled it into timeless works.",
-      "card3Title": "3. You Are the Sky, Not the Storm",
-      "card3Summary": "You are the conscious observer witnessing the storm, not the wreckage inside it.",
-      "card3Detail": "No matter how turbulent the clouds, thunder, or rain become, the sky itself is never harmed by the weather. Step back into the seat of the observer. Watch the sensations come and go without attaching your identity to them."
-    },
-    "cta": {
-      "title": "Need to ground yourself right now or talk to someone?",
-      "desc": "Take a slow, deep breath. You do not have to conquer the whole mountain today. Just the next minute.",
-      "crisisButton": "View Crisis Helplines",
-      "toolsButton": "Breathing & Grounding Tools"
-    }
+  "backToHome": "← Lura għad-Dar u Għajnuna għall-Kriżi",
+  "badge": "Bidla tal-Perspettiva u Tifsira • 101 Ispirazzjonijiet Globali",
+  "titlePart1": "Għaliex l-Eżistenza Tiegħek",
+  "titleHighlight": "Jgħodd Profondament",
+  "description": "Meta tkun fil-ħxuna tal-eżawriment, il-perspettiva tidjieq. Hawn huma prinċipji psikoloġiċi msejsa u stejjer umani reali ta 'dawk li bidlu tbatija estrema fi skop dejjiemi.",
+  "spotlightBadge": "Leħen mir-Reġjun Tiegħek",
+  "spotlightSelectCountry": "Agħżel pajjiż:",
+  "spotlightAdversity": "Avversità Iffaċċjata",
+  "spotlightTakeaway": "Takeaway Għalik Illum",
+  "globalTitansTitle": "Titans Globali tar-Reżiljenza",
+  "globalTitansSubtitle": "Figuri prontezza li għelbu odds inkonċepibbli biex jixegħlu t-triq għall-umanità.",
+  "galleryTitle": "Iċ-Ċifri Kontinentali u Ewropej kollha",
+  "gallerySubtitle": "Esplora stejjer ta' ispirazzjoni minn madwar l-Ewropa u mid-dinja kollha.",
+  "searchPlaceholder": "Fittex l-isem jew il-pajjiż...",
+  "continents": {
+    "all": "🌍 Kollha",
+    "europe": "🏰 Ewropa",
+    "americas": "🌎 L-Amerika",
+    "asia": "🌏 Asja",
+    "africa": "🏜️ L-Afrika",
+    "oceania": "🌊 L-Oċeanja"
+  },
+  "pillars": {
+    "title": "3 Pilastri Ewlenin tar-Reżiljenza",
+    "badge": "Prinċipji Ppruvati",
+    "survivalTitle": "100% Rata ta' Sopravivenza",
+    "survivalDesc": "Int għejt għal kull attakk ta’ paniku, kull qtugħ ta’ qalb, u kull lejl mudlam li ħsibt li ma tkunx. Ir-reżiljenza tiegħek hija diġà ppruvata bil-fatti.",
+    "noiseTitle": "Storbju Konjittiv vs Verità",
+    "noiseDesc": "Il-moħħ huwa magna ta 'sopravivenza evoluzzjonarja li tesaġera t-theddida fi żminijiet ta' stress. L-ansjetà u l-ħsibijiet mudlama huma allarmi foloz, mhux realtà oġġettiva.",
+    "chaptersTitle": "Il-Kapitoli Mhux Miktuba",
+    "chaptersDesc": "Ma tistax tiġġudika l-ktieb kollu ta’ ħajtek b’kapitlu wieħed diffiċli. L-aqwa nies li qatt se tiltaqa' magħhom u l-akbar daħk għadhom quddiem.",
+    "alchemyTitle": "Alchemy of Pain (Sublimazzjoni)",
+    "alchemyDesc": "Arti kbira, empatija profonda, u reżiljenza innovattiva jitwieldu minn nies li qagħdu fid-dlam. L-uġigħ tiegħek jista 'jsir l-akbar superpotenza kreattiva tiegħek."
+  },
+  "sublimation": {
+    "title": "The Alchemy of Mind & Shadow",
+    "subtitle": "It-trasformazzjoni tat-taqlib ta' ġewwa f'fehim u qawwa kreattiva.",
+    "card1Title": "1. Il-Ħsibijiet Mhumiex Fatti",
+    "card1Summary": "Ħafna ħsibijiet awtokritiċi mhumiex tiegħek. Huma tape recordings qodma mit-tfulija jew mill-ambjent.",
+    "card1Detail": "Bħala tfal żgħar, kellna filtri kritiċi. Meta xi ħadd tkellem b'rabja jew kritika, is-subkonxju tagħna rreġistraha bħala verità assoluta. Meta tisma 'Int miksur' jew 'Int ma tiswa' xejn', irrealizza: mhux int qed titkellem. Huwa sempliċiment tape loop skadut.",
+    "card2Title": "2. L-Arti tas-Sublimazzjoni (Alkimija)",
+    "card2Summary": "L-enerġija skura intensa tiegħek m'għandhiex għalfejn teqredek. Jista 'jiġi mibdul fil-ħolqien.",
+    "card2Detail": "Is-sublimazzjoni hija l-alkimija psikoloġika li tikkonverti istint mhux maħdum, ħsibijiet tabù, u uġigħ emozzjonali profond f'arti, letteratura, qawwa fiżika jew kodiċi. Il-​ħallieqa ma rażżnux id-​dlam tagħhom—dawn wassluh f’xogħlijiet taʼ żmien.",
+    "card3Title": "3. Int Is-Sema, Mhux il-Maltempata",
+    "card3Summary": "Int l-osservatur konxju li qed jara l-maltemp, mhux it-tifrik ġewwa fih.",
+    "card3Detail": "Ma jimpurtax kemm isiru turbolenti s-sħab, ir-ragħad, jew ix-xita, is-sema innifsu qatt ma jsir ħsara mit-temp. Erġa 'lura fis-sedil tal-osservatur. Ara s-sensazzjonijiet ġejjin u jmorru mingħajr ma tehmeż l-identità tiegħek magħhom."
+  },
+  "cta": {
+    "title": "Għandek bżonn tgħaqqad lilek innifsek bħalissa jew tkellem lil xi ħadd?",
+    "desc": "Ħu nifs bil-mod u fil-fond. M'għandekx għalfejn tirbaħ il-muntanja kollha llum. Biss il-minuta li jmiss.",
+    "crisisButton": "Ara l-Linji ta' għajnuna għall-Kriżi",
+    "toolsButton": "Għodod tan-nifs u tal-art"
   }
+}
 };

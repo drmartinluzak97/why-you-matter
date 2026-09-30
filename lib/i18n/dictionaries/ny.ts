@@ -255,58 +255,58 @@ export const ny: TranslationDictionary = {
     "footerNotice": "Kuperekedwa mwachindunji ku hello@martinluzak.sk • Kutchula mosadziwika kumathandizidwa"
   },
   motivationPage: {
-    "backToHome": "← Back to Home & Crisis Help",
-    "badge": "Perspective Shift & Meaning • 101 Global Inspirations",
-    "titlePart1": "Why Your Existence ",
-    "titleHighlight": "Matters Profoundly",
-    "description": "When you are in the thick of exhaustion, perspective narrows. Here are grounded psychological principles and real human stories of those who turned extreme suffering into enduring purpose.",
-    "spotlightBadge": "Voice from Your Region",
-    "spotlightSelectCountry": "Select country:",
-    "spotlightAdversity": "Adversity Faced",
-    "spotlightTakeaway": "Takeaway for You Today",
-    "globalTitansTitle": "Global Titans of Resilience",
-    "globalTitansSubtitle": "Timeless figures who overcame unimaginable odds to light the path for humanity.",
-    "galleryTitle": "All Continental & European Figures",
-    "gallerySubtitle": "Explore inspiring stories from across Europe and the entire globe.",
-    "searchPlaceholder": "Search name or country...",
-    "continents": {
-      "all": "🌍 All",
-      "europe": "🏰 Europe",
-      "americas": "🌎 Americas",
-      "asia": "🌏 Asia",
-      "africa": "🏜️ Africa",
-      "oceania": "🌊 Oceania"
-    },
-    "pillars": {
-      "title": "Mizati 3 Yaikulu Yolimba Mtima",
-      "badge": "Mfundo Zotsimikizika",
-      "survivalTitle": "100% Survival Rate",
-      "survivalDesc": "You have survived every panic attack, every heartbreak, and every dark night you thought you wouldn't. Your resilience is already proven by facts.",
-      "noiseTitle": "Cognitive Noise vs. Truth",
-      "noiseDesc": "The brain is an evolutionary survival machine that exaggerates threat in times of stress. Anxiety and dark thoughts are false alarms, not objective reality.",
-      "chaptersTitle": "The Unwritten Chapters",
-      "chaptersDesc": "You cannot judge the entire book of your life by a single difficult chapter. The best people you will ever meet and the greatest laughs are still ahead.",
-      "alchemyTitle": "Alchemy of Pain (Sublimation)",
-      "alchemyDesc": "Great art, deep empathy, and groundbreaking resilience are born from people who have stood in the dark. Your pain can become your greatest creative superpower."
-    },
-    "sublimation": {
-      "title": "The Alchemy of Mind & Shadow",
-      "subtitle": "Transforming inner turmoil into understanding and creative power.",
-      "card1Title": "1. Thoughts Are Not Facts",
-      "card1Summary": "Most self-critical thoughts are not your own. They are old tape recordings from childhood or environment.",
-      "card1Detail": "As young children, we lacked critical filters. When someone spoke in anger or criticism, our subconscious recorded it as absolute truth. When you hear 'You are broken' or 'You are worthless', realize: that isn't you speaking. It is simply an outdated tape loop.",
-      "card2Title": "2. The Art of Sublimation (Alchemy)",
-      "card2Summary": "Your intense dark energy doesn't have to destroy you. It can be transmuted into creation.",
-      "card2Detail": "Sublimation is the psychological alchemy of converting raw instinct, taboo thoughts, and deep emotional pain into art, literature, physical power, or code. Creators didn't suppress their darkness—they channeled it into timeless works.",
-      "card3Title": "3. You Are the Sky, Not the Storm",
-      "card3Summary": "You are the conscious observer witnessing the storm, not the wreckage inside it.",
-      "card3Detail": "No matter how turbulent the clouds, thunder, or rain become, the sky itself is never harmed by the weather. Step back into the seat of the observer. Watch the sensations come and go without attaching your identity to them."
-    },
-    "cta": {
-      "title": "Need to ground yourself right now or talk to someone?",
-      "desc": "Take a slow, deep breath. You do not have to conquer the whole mountain today. Just the next minute.",
-      "crisisButton": "View Crisis Helplines",
-      "toolsButton": "Breathing & Grounding Tools"
-    }
+  "backToHome": "← Bwererani Kunyumba & Thandizo Lamavuto",
+  "badge": "Perspective Shift & Tanthauzo • 101 Global Inspirations",
+  "titlePart1": "Chifukwa Chimene Mulipo",
+  "titleHighlight": "Nkhani Zachikulu",
+  "description": "Mukakhala mu kutopa kwambiri, malingaliro amachepa. Nazi mfundo zokhazikika zamaganizidwe ndi nkhani zenizeni za anthu za iwo omwe adasandutsa kuzunzika kwakukulu kukhala cholinga chokhalitsa.",
+  "spotlightBadge": "Mawu ochokera Kudera Lanu",
+  "spotlightSelectCountry": "Sankhani dziko:",
+  "spotlightAdversity": "Mavuto Akukumana nawo",
+  "spotlightTakeaway": "Chotengera Kwa Inu Masiku Ano",
+  "globalTitansTitle": "Global Titans of Resilience",
+  "globalTitansSubtitle": "Ziwerengero zosatha zomwe zidapambana zovuta zosayerekezeka kuti ziwunikire njira ya anthu.",
+  "galleryTitle": "Zithunzi Zonse Zaku Continental & European",
+  "gallerySubtitle": "Onani nkhani zolimbikitsa zochokera ku Europe konse komanso padziko lonse lapansi.",
+  "searchPlaceholder": "Sakani dzina kapena dziko...",
+  "continents": {
+    "all": "🌍 Zonse",
+    "europe": "🏰 Europe",
+    "americas": "🌎 Amereka",
+    "asia": "🌏 Asia",
+    "africa": "🏜️ Africa",
+    "oceania": "🌊 Oceania"
+  },
+  "pillars": {
+    "title": "3 Mizati Yachikulu Chakupirira",
+    "badge": "Mfundo Zotsimikiziridwa",
+    "survivalTitle": "Kupulumuka kwa 100%",
+    "survivalDesc": "Mwapulumuka mantha aliwonse, kusweka mtima kulikonse, ndi usiku uliwonse wamdima womwe mumaganiza kuti simungatero. Kulimba mtima kwanu kwatsimikiziridwa kale ndi zowona.",
+    "noiseTitle": "Phokoso Lachidziwitso vs. Choonadi",
+    "noiseDesc": "Ubongo ndi makina opulumutsira osinthika omwe amawonjezera chiopsezo panthawi yamavuto. Nkhawa ndi malingaliro amdima ndi machenjezo abodza, osati zenizeni zenizeni.",
+    "chaptersTitle": "Mitu Yosalembedwa",
+    "chaptersDesc": "Simungathe kuweruza buku lonse la moyo wanu ndi mutu umodzi wovuta. Anthu abwino kwambiri omwe mungakumane nawo komanso kuseka kwakukulu kuli patsogolo.",
+    "alchemyTitle": "Alchemy of Pain (Sublimation)",
+    "alchemyDesc": "Luso lalikulu, chifundo chakuya, ndi kulimba mtima kwakukulu zimabadwa kuchokera kwa anthu omwe adayima mumdima. Ululu wanu ukhoza kukhala mphamvu yanu yolenga kwambiri."
+  },
+  "sublimation": {
+    "title": "The Alchemy of Mind & Shadow",
+    "subtitle": "Kusintha chisokonezo chamkati kukhala kumvetsetsa ndi mphamvu zolenga.",
+    "card1Title": "1. Maganizo Siwowona",
+    "card1Summary": "Maganizo ambiri odziimba mlandu si anu. Ndi matepi akale akale kuyambira ali mwana kapena chilengedwe.",
+    "card1Detail": "Monga ana aang’ono, tinalibe zosefera zovuta. Munthu akamalankhula mokwiya kapena kutidzudzula, chikumbumtima chathu chinkalemba kuti ndi zoona zenizeni. Mukamva kuti 'Wasweka' kapena 'Ndiwe wopanda pake', zindikirani kuti si inu amene mukuyankhula. Ndi chidule chachikale cha tepi.",
+    "card2Title": "2. Art of Sublimation (Alchemy)",
+    "card2Summary": "Mphamvu zanu zamdima zakuda siziyenera kukuwonongani. Ikhoza kusinthidwa kukhala chilengedwe.",
+    "card2Detail": "Sublimation ndi psychological alchemy yosinthira chibadwa, malingaliro osasangalatsa, komanso ululu wakuzama wamalingaliro kukhala luso, zolemba, mphamvu zakuthupi, kapena code. Olenga sanatsendereze mdima wawo—anauloŵetsa m’ntchito zosatha.",
+    "card3Title": "3. Ndinu Kumwamba, Osati Mkuntho",
+    "card3Summary": "Ndinu amene mukuwona mkuntho, osati zowononga mkati mwake.",
+    "card3Detail": "Ngakhale mitambo, mabingu, kapena mvula zikhale za chipwirikiti chotani, thambo lenilenilo siliwonongeka ndi nyengo. Bwererani pampando wa wopenyerera. Yang'anani zomverera zikubwera ndikupita popanda kuphatikizira chidziwitso chanu kwa iwo."
+  },
+  "cta": {
+    "title": "Kodi muyenera kudziletsa nokha kapena kulankhula ndi winawake?",
+    "desc": "Pumani pang'onopang'ono, mozama. Simuyenera kugonjetsa phiri lonse lero. Mphindi yotsatira yokha.",
+    "crisisButton": "Onani Mafoni Othandizira Pamavuto",
+    "toolsButton": "Zida Zopumira & Pansi"
   }
+}
 };

@@ -255,58 +255,58 @@ export const lt: TranslationDictionary = {
     "footerNotice": "Direct delivery to hello@martinluzak.sk • Anonymous reporting supported"
   },
   motivationPage: {
-    "backToHome": "← Back to Home & Crisis Help",
-    "badge": "Perspective Shift & Meaning • 101 Global Inspirations",
-    "titlePart1": "Why Your Existence ",
-    "titleHighlight": "Matters Profoundly",
-    "description": "When you are in the thick of exhaustion, perspective narrows. Here are grounded psychological principles and real human stories of those who turned extreme suffering into enduring purpose.",
-    "spotlightBadge": "Voice from Your Region",
-    "spotlightSelectCountry": "Select country:",
-    "spotlightAdversity": "Adversity Faced",
-    "spotlightTakeaway": "Takeaway for You Today",
-    "globalTitansTitle": "Global Titans of Resilience",
-    "globalTitansSubtitle": "Timeless figures who overcame unimaginable odds to light the path for humanity.",
-    "galleryTitle": "All Continental & European Figures",
-    "gallerySubtitle": "Explore inspiring stories from across Europe and the entire globe.",
-    "searchPlaceholder": "Search name or country...",
-    "continents": {
-      "all": "🌍 All",
-      "europe": "🏰 Europe",
-      "americas": "🌎 Americas",
-      "asia": "🌏 Asia",
-      "africa": "🏜️ Africa",
-      "oceania": "🌊 Oceania"
-    },
-    "pillars": {
-      "title": "3 Pagrindiniai Atsparumo Ramščiai",
-      "badge": "Patikrinti Principai",
-      "survivalTitle": "100% Survival Rate",
-      "survivalDesc": "You have survived every panic attack, every heartbreak, and every dark night you thought you wouldn't. Your resilience is already proven by facts.",
-      "noiseTitle": "Cognitive Noise vs. Truth",
-      "noiseDesc": "The brain is an evolutionary survival machine that exaggerates threat in times of stress. Anxiety and dark thoughts are false alarms, not objective reality.",
-      "chaptersTitle": "The Unwritten Chapters",
-      "chaptersDesc": "You cannot judge the entire book of your life by a single difficult chapter. The best people you will ever meet and the greatest laughs are still ahead.",
-      "alchemyTitle": "Alchemy of Pain (Sublimation)",
-      "alchemyDesc": "Great art, deep empathy, and groundbreaking resilience are born from people who have stood in the dark. Your pain can become your greatest creative superpower."
-    },
-    "sublimation": {
-      "title": "The Alchemy of Mind & Shadow",
-      "subtitle": "Transforming inner turmoil into understanding and creative power.",
-      "card1Title": "1. Thoughts Are Not Facts",
-      "card1Summary": "Most self-critical thoughts are not your own. They are old tape recordings from childhood or environment.",
-      "card1Detail": "As young children, we lacked critical filters. When someone spoke in anger or criticism, our subconscious recorded it as absolute truth. When you hear 'You are broken' or 'You are worthless', realize: that isn't you speaking. It is simply an outdated tape loop.",
-      "card2Title": "2. The Art of Sublimation (Alchemy)",
-      "card2Summary": "Your intense dark energy doesn't have to destroy you. It can be transmuted into creation.",
-      "card2Detail": "Sublimation is the psychological alchemy of converting raw instinct, taboo thoughts, and deep emotional pain into art, literature, physical power, or code. Creators didn't suppress their darkness—they channeled it into timeless works.",
-      "card3Title": "3. You Are the Sky, Not the Storm",
-      "card3Summary": "You are the conscious observer witnessing the storm, not the wreckage inside it.",
-      "card3Detail": "No matter how turbulent the clouds, thunder, or rain become, the sky itself is never harmed by the weather. Step back into the seat of the observer. Watch the sensations come and go without attaching your identity to them."
-    },
-    "cta": {
-      "title": "Need to ground yourself right now or talk to someone?",
-      "desc": "Take a slow, deep breath. You do not have to conquer the whole mountain today. Just the next minute.",
-      "crisisButton": "View Crisis Helplines",
-      "toolsButton": "Breathing & Grounding Tools"
-    }
+  "backToHome": "← Grįžti į titulinį ir krizių pagalba",
+  "badge": "Perspektyvos pokytis ir prasmė • 101 pasaulinis įkvėpimas",
+  "titlePart1": "Kodėl tavo egzistavimas",
+  "titleHighlight": "Labai svarbu",
+  "description": "Kai esi išsekęs, perspektyva susiaurėja. Čia pateikiami pagrįsti psichologiniai principai ir tikros žmogiškos istorijos apie tuos, kurie nepaprastą kančią pavertė ilgalaikiu tikslu.",
+  "spotlightBadge": "Balsas iš jūsų regiono",
+  "spotlightSelectCountry": "Pasirinkite šalį:",
+  "spotlightAdversity": "Nelaimės",
+  "spotlightTakeaway": "Išsinešti šiandien",
+  "globalTitansTitle": "Global Titans of Resilience",
+  "globalTitansSubtitle": "Nesenstančios figūros, kurios įveikė neįsivaizduojamus šansus, kad nušviestų žmonijos kelią.",
+  "galleryTitle": "Visos žemyno ir Europos skaičiai",
+  "gallerySubtitle": "Naršykite įkvepiančias istorijas iš visos Europos ir viso pasaulio.",
+  "searchPlaceholder": "Ieškokite pavadinimo arba šalies...",
+  "continents": {
+    "all": "🌍 Viskas",
+    "europe": "🏰 Europa",
+    "americas": "🌎 Amerika",
+    "asia": "🌏 Azija",
+    "africa": "🏜️ Afrika",
+    "oceania": "🌊 Okeanija"
+  },
+  "pillars": {
+    "title": "3 pagrindiniai atsparumo ramsčiai",
+    "badge": "Patvirtinti principai",
+    "survivalTitle": "100 % išgyvenamumas",
+    "survivalDesc": "Jūs išgyvenote kiekvieną panikos priepuolį, kiekvieną širdies skausmą ir kiekvieną tamsią naktį, kai manėte, kad to neišgyvensite. Jūsų atsparumas jau įrodytas faktais.",
+    "noiseTitle": "Kognityvinis triukšmas prieš tiesą",
+    "noiseDesc": "Smegenys yra evoliucinė išgyvenimo mašina, kuri padidina grėsmę streso metu. Nerimas ir tamsios mintys yra klaidingi pavojaus signalai, o ne objektyvi tikrovė.",
+    "chaptersTitle": "Nerašyti skyriai",
+    "chaptersDesc": "Negalite vertinti visos savo gyvenimo knygos pagal vieną sunkų skyrių. Geriausi žmonės, kuriuos kada nors sutiksite, ir didžiausi juokai dar laukia.",
+    "alchemyTitle": "Skausmo alchemija (sublimacija)",
+    "alchemyDesc": "Puikus menas, gili empatija ir novatoriškas atsparumas gimsta iš žmonių, kurie stovėjo tamsoje. Jūsų skausmas gali tapti jūsų didžiausia kūrybine supergalia."
+  },
+  "sublimation": {
+    "title": "Proto ir šešėlio alchemija",
+    "subtitle": "Vidinį neramumą paverčiant supratimu ir kūrybine galia.",
+    "card1Title": "1. Mintys nėra faktai",
+    "card1Summary": "Dauguma savikritiškų minčių nėra jūsų. Tai seni vaikystės ar aplinkos įrašai.",
+    "card1Detail": "Vaikystėje mums trūko kritinių filtrų. Kai kas nors kalbėjo supykęs ar kritikuodamas, mūsų pasąmonė tai užfiksavo kaip absoliučią tiesą. Išgirdę „Tu sulaužytas“ arba „Tu esi bevertis“, suprask: tai ne tu kalbi. Tai tiesiog pasenusi juostos kilpa.",
+    "card2Title": "2. Sublimacijos menas (alchemija)",
+    "card2Summary": "Jūsų intensyvi tamsioji energija neturi jūsų sunaikinti. Jis gali būti paverstas kūryba.",
+    "card2Detail": "Sublimacija yra psichologinė alchemija, kai neapdorotas instinktas, tabu mintys ir gilus emocinis skausmas paverčiamas menu, literatūra, fizine galia ar kodu. Kūrėjai neslopino savo tamsos – jie nukreipė ją į nesenstančius kūrinius.",
+    "card3Title": "3. Tu esi dangus, o ne audra",
+    "card3Summary": "Jūs esate sąmoningas stebėtojas, matantis audrą, o ne nuolaužas joje.",
+    "card3Detail": "Kad ir kokie audringi būtų debesys, perkūnija ar lietus, pačiam dangui niekada nekenkia oras. Grįžkite į stebėtojo vietą. Stebėkite, kaip pojūčiai ateina ir praeina, neprisirišdami prie jų savo tapatybės."
+  },
+  "cta": {
+    "title": "Reikia dabar įžeminti save ar pasikalbėti su kuo nors?",
+    "desc": "Lėtai, giliai įkvėpkite. Šiandien jums nereikia užkariauti viso kalno. Tik kitą minutę.",
+    "crisisButton": "Peržiūrėkite pagalbos linijas dėl krizių",
+    "toolsButton": "Kvėpavimo ir įžeminimo įrankiai"
   }
+}
 };

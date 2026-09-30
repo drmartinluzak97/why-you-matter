@@ -255,56 +255,58 @@ export const fi: TranslationDictionary = {
     "footerNotice": "Viestisi käsitellään täysin luottamuksellisesti osoitteessa hello@martinluzak.sk"
   },
   motivationPage: {
-      "backToHome": "← Tillbaka till start & krishjälp",
-      "badge": "Att förvandla smärta till mening • 101 globala inspirationer",
-      "titlePart1": "Varför din existens ",
-      "titleHighlight": "har djup betydelse",
-      "description": "När utmattningen är som störst krymper perspektivet. Här finner du beprövade psykologiska principer och sanna berättelser om människor som övervunnit mörkret.",
-      "spotlightBadge": "Röst från din region",
-      "spotlightSelectCountry": "Välj land:",
-      "spotlightAdversity": "Övervunnen prövning",
-      "spotlightTakeaway": "Insikt för din dag",
-      "globalTitansTitle": "Globala giganter av motståndskraft",
-      "globalTitansSubtitle": "Tidlösa personligheter som övervann ofattbara hinder och inspirerar världen.",
-      "galleryTitle": "Galleri per kontinent och Europa",
-      "gallerySubtitle": "Upptäck inspirerande berättelser från varje europeiskt land och hela världen.",
-      "searchPlaceholder": "Sök person eller land...",
-      "continents": {
-          "all": "🌍 Alla",
-          "europe": "🏰 Europa",
-          "americas": "🌎 Amerika",
-          "asia": "🌏 Asien",
-          "africa": "🏜️ Afrika",
-          "oceania": "🌊 Oceanien"
-      },
-      "pillars": {
-          "title": "3 Grundpelare för Motståndskraft",
-          "badge": "Beprövade Principer",
-          "noiseTitle": "Kognitivt brus vs Verklighet",
-          "noiseDesc": "Hjärnan överdriver faror under stress. Ångest och mörka tankar är falska larm, inte objektiv verklighet.",
-          "chaptersTitle": "Oskrivna kapitel",
-          "chaptersDesc": "Du kan inte döma hela boken om ditt liv efter ett enda svårt kapitel. De bästa stunderna ligger fortfarande framför dig.",
-          "alchemyTitle": "Smärtans alkemi (Sublimering)",
-          "alchemyDesc": "Stor konst och djup empati föds hos dem som stått i mörkret. Din smärta kan bli din största styrka."
-      },
-      "sublimation": {
-          "title": "Sinnets och Skuggans Alkemi",
-          "subtitle": "Förvandla inre kaos till djup förståelse och skapande kraft.",
-          "card1Title": "1. Tankar är inte fakta",
-          "card1Summary": "De flesta självkritiska tankar tillhör inte ditt sanna jag, det är gamla inspelningar.",
-          "card1Detail": "Som barn saknade vi filter. När du hör 'Du är värdelös', inse att det bara är ett gammalt band som spelas upp.",
-          "card2Title": "2. Konsten att sublimera",
-          "card2Summary": "Mörka känslor behöver inte förgöra dig; de kan förvandlas till skapande och omtanke.",
-          "card2Detail": "Sublimering omvandlar smärta till konst, styrka eller hjälp till andra. De största skaparna formade mästerverk ur sitt mörker.",
-          "card3Title": "3. Du är himlen, inte stormen",
-          "card3Summary": "Du är den medvetna observatören av stormen, inte vrakspillrorna i den.",
-          "card3Detail": "Oavsett hur mörka molnen är förblir himlen oskadd. Betrakta dina känslor som passerande moln."
-      },
-      "cta": {
-          "title": "Behöver du lugna ner dig just nu eller prata med någon?",
-          "desc": "Ta ett djupt andetag. Du behöver inte lösa hela ditt liv idag. Det räcker att ta sig igenom denna enda minut.",
-          "crisisButton": "Visa stödlinjer vid kris",
-          "toolsButton": "Andnings- och jordningsövningar"
-      }
+  "backToHome": "← Takaisin etusivulle & Crisis Help",
+  "badge": "Perspektiivin muutos ja merkitys • 101 maailmanlaajuista inspiraatiota",
+  "titlePart1": "Miksi olemassaolosi",
+  "titleHighlight": "Syvällisiä asioita",
+  "description": "Kun olet uupumuksen vallassa, perspektiivi kapenee. Tässä on perusteltuja psykologisia periaatteita ja todellisia inhimillisiä tarinoita niistä, jotka muuttivat äärimmäisen kärsimyksen pysyväksi tarkoitukseksi.",
+  "spotlightBadge": "Ääni alueeltasi",
+  "spotlightSelectCountry": "Valitse maa:",
+  "spotlightAdversity": "Vastoinkäymiset",
+  "spotlightTakeaway": "Takeaway sinulle tänään",
+  "globalTitansTitle": "Global Titans of Resilience",
+  "globalTitansSubtitle": "Ajattomia hahmoja, jotka voittivat käsittämättömät mahdollisuudet valaistakseen polun ihmiskunnalle.",
+  "galleryTitle": "Kaikki Manner- ja Euroopan luvut",
+  "gallerySubtitle": "Tutustu inspiroiviin tarinoihin eri puolilta Eurooppaa ja koko maailmaa.",
+  "searchPlaceholder": "Hae nimi tai maa...",
+  "continents": {
+    "all": "🌍 Kaikki",
+    "europe": "🏰 Eurooppa",
+    "americas": "🌎 Amerikka",
+    "asia": "🌏 Aasia",
+    "africa": "🏜️ Afrikka",
+    "oceania": "🌊 Oseania"
+  },
+  "pillars": {
+    "title": "3 kestävyyden peruspilaria",
+    "badge": "Todistetut periaatteet",
+    "survivalTitle": "100 % eloonjäämisprosentti",
+    "survivalDesc": "Olet selvinnyt jokaisesta paniikkikohtauksesta, jokaisesta sydänsuruista ja jokaisesta pimeästä yöstä, josta luulit, ettet selviäisi. Joustavuutesi on jo todistettu faktoilla.",
+    "noiseTitle": "Kognitiivinen melu vs. totuus",
+    "noiseDesc": "Aivot ovat evoluutionaarinen selviytymiskone, joka liioittelee uhkaa stressin aikoina. Ahdistus ja synkät ajatukset ovat vääriä hälytyksiä, eivät objektiivista todellisuutta.",
+    "chaptersTitle": "Kirjoittamattomat luvut",
+    "chaptersDesc": "Et voi arvioida koko elämäsi kirjaa yhden vaikean luvun perusteella. Parhaat ihmiset, joita koskaan tapaat, ja suurimmat naurut ovat vielä edessä.",
+    "alchemyTitle": "Kivun alkemia (sublimaatio)",
+    "alchemyDesc": "Suuri taide, syvä empatia ja uraauurtava joustavuus syntyvät ihmisistä, jotka ovat seisoneet pimeässä. Kivustasi voi tulla suurin luova supervoimasi."
+  },
+  "sublimation": {
+    "title": "Mielen ja varjon alkemia",
+    "subtitle": "Muuttaa sisäinen myllerrys ymmärrykseksi ja luovaksi voimaksi.",
+    "card1Title": "1. Ajatukset eivät ole tosiasioita",
+    "card1Summary": "Useimmat itsekriittiset ajatukset eivät ole omiasi. Ne ovat vanhoja nauhoitteita lapsuudesta tai ympäristöstä.",
+    "card1Detail": "Pieninä lapsina meiltä puuttui kriittisiä suodattimia. Kun joku puhui vihassa tai kritisoinnissa, alitajuntamme kirjasi sen absoluuttiseksi totuudeksi. Kun kuulet 'Olet rikki' tai 'Olet arvoton', ymmärrä: se ei ole sinä. Se on yksinkertaisesti vanhentunut nauhasilmukka.",
+    "card2Title": "2. Sublimoinnin taito (alkemia)",
+    "card2Summary": "Voimakkaan pimeän energiasi ei tarvitse tuhota sinua. Se voidaan muuntaa luomukseksi.",
+    "card2Detail": "Sublimaatio on psykologista alkemiaa, jossa raaka vaisto, tabu-ajatukset ja syvä tunnetuska muunnetaan taiteeksi, kirjallisuudeksi, fyysiseksi voimaksi tai koodiksi. Luojat eivät tukahduttaneet pimeyttään – he kanavoivat sen ajattomiin teoksiin.",
+    "card3Title": "3. Olet taivas, et myrsky",
+    "card3Summary": "Olet tietoinen tarkkailija, joka todistaa myrskyä, et sen sisällä olevaa hylkyä.",
+    "card3Detail": "Riippumatta siitä, kuinka myrskyisä pilvet, ukkonen tai sade muuttuvat, sää ei koskaan vahingoita taivasta. Astu takaisin tarkkailijan istuimelle. Katso, miten sensaatiot tulevat ja menevät liittämättä niihin henkilöllisyyttäsi."
+  },
+  "cta": {
+    "title": "Pitääkö maadoittaa itsesi nyt tai puhua jonkun kanssa?",
+    "desc": "Hengitä hitaasti, syvään. Sinun ei tarvitse valloittaa koko vuorta tänään. Vasta seuraavalla minuutilla.",
+    "crisisButton": "Näytä Crisis Helplines",
+    "toolsButton": "Hengitys- ja maadoitustyökalut"
   }
+}
 };

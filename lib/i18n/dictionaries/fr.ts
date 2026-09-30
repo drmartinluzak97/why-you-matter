@@ -255,56 +255,58 @@ export const fr: TranslationDictionary = {
     "footerNotice": "Envoi direct à hello@martinluzak.sk • Signalement anonyme possible"
   },
   motivationPage: {
-      "backToHome": "← Retour à l'accueil & Aide de crise",
-      "badge": "Transformer la douleur en sens • 101 inspirations mondiales",
-      "titlePart1": "Pourquoi votre existence ",
-      "titleHighlight": "compte profondément",
-      "description": "Dans les moments de grande détresse, l'esprit rétrécit sa vision. Voici des principes psychologiques solides et des récits d'êtres humains qui ont traversé l'obscurité pour trouver la lumière.",
-      "spotlightBadge": "Voix de votre région",
-      "spotlightSelectCountry": "Sélectionner un pays :",
-      "spotlightAdversity": "Épreuve surmontée",
-      "spotlightTakeaway": "Enseignement pour aujourd'hui",
-      "globalTitansTitle": "Géants universels de la résilience",
-      "globalTitansSubtitle": "Des figures intemporelles qui ont surmonté l'impossible et éclairé l'humanité.",
-      "galleryTitle": "Galerie des héros par continents",
-      "gallerySubtitle": "Découvrez des histoires inspirantes d'Europe et du monde entier.",
-      "searchPlaceholder": "Rechercher une personnalité ou un pays...",
-      "continents": {
-          "all": "🌍 Tous",
-          "europe": "🏰 Europe",
-          "americas": "🌎 Amériques",
-          "asia": "🌏 Asie",
-          "africa": "🏜️ Afrique",
-          "oceania": "🌊 Océanie"
-      },
-      "pillars": {
-          "title": "3 Piliers Fondamentaux de la Résilience",
-          "badge": "Principes Éprouvés",
-          "noiseTitle": "Bruit cognitif vs Réalité",
-          "noiseDesc": "Le cerveau est une machine de survie qui amplifie le danger en période de crise. L'anxiété et les pensées sombres sont de fausses alertes, pas la réalité objective.",
-          "chaptersTitle": "Les chapitres non écrits",
-          "chaptersDesc": "On ne juge pas un livre entier sur un seul chapitre difficile. Les plus belles rencontres et les plus sincères éclats de rire sont encore devant vous.",
-          "alchemyTitle": "Alchimie de la douleur (Sublimation)",
-          "alchemyDesc": "Le grand art, l'empathie profonde et la résilience naissent souvent chez ceux qui ont connu l'obscurité. Votre douleur peut devenir une source de force."
-      },
-      "sublimation": {
-          "title": "L'Alchimie de l'Esprit et de l'Ombre",
-          "subtitle": "Transformer le chaos intérieur en compréhension et en puissance créatrice.",
-          "card1Title": "1. Les pensées ne sont pas des faits",
-          "card1Summary": "La plupart des pensées d'autocritique ne viennent pas de vous, ce sont de vieux enregistrements.",
-          "card1Detail": "Enfants, nous n'avions pas de filtres critiques. Lorsque vous entendez 'Tu ne vaux rien', comprenez que ce n'est pas votre voix véritable, mais une ancienne bande sonore.",
-          "card2Title": "2. L'art de la sublimation",
-          "card2Summary": "L'énergie sombre n'a pas à vous détruire. Elle peut être transmutée en création et compassion.",
-          "card2Detail": "La sublimation convertit la douleur brute en art, littérature ou dévouement envers les autres. Les grands créateurs ont façonné leur obscurité en œuvres durables.",
-          "card3Title": "3. Vous êtes le ciel, pas la tempête",
-          "card3Summary": "Vous êtes l'observateur conscient de la tempête, non les débris qu'elle emporte.",
-          "card3Detail": "Quelle que soit la violence des nuages et de la foudre, le ciel lui-même demeure intact. Observez vos émotions passer comme de simples nuages."
-      },
-      "cta": {
-          "title": "Besoin de vous apaiser ou de parler à quelqu'un dès maintenant ?",
-          "desc": "Respirez profondément. Vous n'avez pas à résoudre toute votre vie aujourd'hui. Il suffit de traverser cette seule minute.",
-          "crisisButton": "Voir les lignes d'écoute d'urgence",
-          "toolsButton": "Exercices de respiration et ancrage"
-      }
+  "backToHome": "← Retour à l'accueil et à l'aide en cas de crise",
+  "badge": "Changement de perspective et signification • 101 inspirations mondiales",
+  "titlePart1": "Pourquoi votre existence",
+  "titleHighlight": "compte profondément",
+  "description": "Lorsque vous êtes au plus fort de l’épuisement, la perspective se rétrécit. Voici des principes psychologiques fondés et des histoires humaines réelles de ceux qui ont transformé des souffrances extrêmes en un objectif durable.",
+  "spotlightBadge": "Voix de votre région",
+  "spotlightSelectCountry": "Sélectionnez le pays :",
+  "spotlightAdversity": "Adversité confrontée",
+  "spotlightTakeaway": "À emporter pour vous aujourd'hui",
+  "globalTitansTitle": "Titans mondiaux de la résilience",
+  "globalTitansSubtitle": "Des personnages intemporels qui ont surmonté des obstacles inimaginables pour éclairer le chemin de l’humanité.",
+  "galleryTitle": "Tous les chiffres continentaux et européens",
+  "gallerySubtitle": "Découvrez des histoires inspirantes de toute l’Europe et du monde entier.",
+  "searchPlaceholder": "Rechercher un nom ou un pays...",
+  "continents": {
+    "all": "🌍 Tous",
+    "europe": "🏰 Europe",
+    "americas": "🌎 Amériques",
+    "asia": "🌏 Asie",
+    "africa": "🏜️Afrique",
+    "oceania": "🌊 Océanie"
+  },
+  "pillars": {
+    "title": "3 piliers fondamentaux de la résilience",
+    "badge": "Principes éprouvés",
+    "survivalTitle": "Taux de survie de 100 %",
+    "survivalDesc": "Vous avez survécu à chaque crise de panique, à chaque chagrin et à chaque nuit noire où vous pensiez que vous ne le feriez pas. Votre résilience est déjà prouvée par les faits.",
+    "noiseTitle": "Bruit cognitif vs vérité",
+    "noiseDesc": "Le cerveau est une machine de survie évolutive qui exagère les menaces en période de stress. L’anxiété et les pensées sombres sont de fausses alarmes et non une réalité objective.",
+    "chaptersTitle": "Les chapitres non écrits",
+    "chaptersDesc": "Vous ne pouvez pas juger le livre entier de votre vie par un seul chapitre difficile. Les meilleures personnes que vous rencontrerez jamais et les plus grands rires vous attendent encore.",
+    "alchemyTitle": "Alchimie de la douleur (Sublimation)",
+    "alchemyDesc": "Le grand art, une profonde empathie et une résilience révolutionnaire naissent de personnes qui se sont tenues dans le noir. Votre douleur peut devenir votre plus grand super pouvoir créatif."
+  },
+  "sublimation": {
+    "title": "L'alchimie de l'esprit et de l'ombre",
+    "subtitle": "Transformer les troubles intérieurs en compréhension et en pouvoir créatif.",
+    "card1Title": "1. Les pensées ne sont pas des faits",
+    "card1Summary": "La plupart des pensées autocritiques ne sont pas les vôtres. Il s'agit d'anciens enregistrements sur cassette de l'enfance ou de l'environnement.",
+    "card1Detail": "En tant que jeunes enfants, nous manquions de filtres critiques. Lorsque quelqu’un parlait avec colère ou critique, notre subconscient l’enregistrait comme une vérité absolue. Lorsque vous entendez « Vous êtes brisé » ou « Vous ne valez rien », réalisez : ce n’est pas vous qui parlez. Il s’agit simplement d’une boucle de bande obsolète.",
+    "card2Title": "2. L'art de la sublimation (alchimie)",
+    "card2Summary": "Votre intense énergie sombre n’a pas besoin de vous détruire. Il peut être transmué en création.",
+    "card2Detail": "La sublimation est l'alchimie psychologique consistant à convertir l'instinct brut, les pensées tabous et la douleur émotionnelle profonde en art, littérature, pouvoir physique ou code. Les créateurs n’ont pas supprimé leur obscurité : ils l’ont canalisée dans des œuvres intemporelles.",
+    "card3Title": "3. Vous êtes le ciel, pas la tempête",
+    "card3Summary": "Vous êtes l’observateur conscient qui est témoin de la tempête, et non des débris qu’elle contient.",
+    "card3Detail": "Peu importe la turbulence des nuages, du tonnerre ou de la pluie, le ciel lui-même n'est jamais endommagé par la météo. Remontez dans le siège de l’observateur. Regardez les sensations aller et venir sans y attacher votre identité."
+  },
+  "cta": {
+    "title": "Besoin de vous ancrer maintenant ou de parler à quelqu'un ?",
+    "desc": "Respirez lentement et profondément. Vous n'êtes pas obligé de conquérir toute la montagne aujourd'hui. Juste la minute suivante.",
+    "crisisButton": "Voir les lignes d'assistance en cas de crise",
+    "toolsButton": "Outils de respiration et de mise à la terre"
   }
+}
 };

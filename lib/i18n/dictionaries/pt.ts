@@ -255,56 +255,58 @@ export const pt: TranslationDictionary = {
     "footerNotice": "Sua mensagem é enviada com total discrição e prioridade para hello@martinluzak.sk"
   },
   motivationPage: {
-      "backToHome": "← Voltar ao início e ajuda de emergência",
-      "badge": "Transformar a dor em propósito • 101 inspirações globais",
-      "titlePart1": "Por que a sua existência ",
-      "titleHighlight": "tem um valor profundo",
-      "description": "Nos momentos de exaustão, a perspetiva estreita-se. Aqui encontra princípios psicológicos sólidos e histórias reais de quem transformou a escuridão em luz.",
-      "spotlightBadge": "Voz da sua região",
-      "spotlightSelectCountry": "Selecionar país:",
-      "spotlightAdversity": "Adversidade superada",
-      "spotlightTakeaway": "Mensagem para hoje",
-      "globalTitansTitle": "Titãs mundiais da resiliência",
-      "globalTitansSubtitle": "Figuras intemporais que superaram desafios inimagináveis e iluminam a humanidade.",
-      "galleryTitle": "Galeria de heróis por continentes",
-      "gallerySubtitle": "Descubra histórias inspiradoras de toda a Europa e dos cantos do mundo.",
-      "searchPlaceholder": "Pesquisar nome ou país...",
-      "continents": {
-          "all": "🌍 Todos",
-          "europe": "🏰 Europa",
-          "americas": "🌎 Américas",
-          "asia": "🌏 Ásia",
-          "africa": "🏜️ África",
-          "oceania": "🌊 Oceânia"
-      },
-      "pillars": {
-          "title": "3 Pilares Fundamentais da Resiliência",
-          "badge": "Princípios Comprovados",
-          "noiseTitle": "Ruído cognitivo vs Realidade",
-          "noiseDesc": "O cérebro é uma máquina de sobrevivência que amplia ameaças no stress. Pensamentos escuros são alarmes falsos, não a realidade.",
-          "chaptersTitle": "Capítulos por escrever",
-          "chaptersDesc": "Não podes julgar o livro inteiro da tua vida por um único capítulo difícil. Os melhores risos ainda estão por vir.",
-          "alchemyTitle": "Alquimia da dor (Sublimação)",
-          "alchemyDesc": "A grande arte e a profunda empatia nascem naqueles que estiveram na escuridão. A tua dor pode tornar-se força."
-      },
-      "sublimation": {
-          "title": "A Alquimia da Mente e da Sombra",
-          "subtitle": "Transformar o turbilhão interior em sabedoria e poder criativo.",
-          "card1Title": "1. Pensamentos não são factos",
-          "card1Summary": "A maioria dos pensamentos autocríticos são apenas gravações antigas do passado.",
-          "card1Detail": "Em crianças absorvemos tudo sem filtros. Quando ouves 'Não vales nada', compreende que é apenas uma gravação antiga.",
-          "card2Title": "2. A arte da sublimação",
-          "card2Summary": "A energia pesada não tem de te destruir: pode ser transformada em criação e compaixão.",
-          "card2Detail": "A sublimação converte o sofrimento em arte, força e apoio ao próximo. Os grandes mestres forjaram obras a partir da escuridão.",
-          "card3Title": "3. Tu és o céu, não a tempestade",
-          "card3Summary": "Tu és o observador consciente da tempestade, não os destroços nela.",
-          "card3Detail": "Não importa a força do vento e dos relâmpagos, o céu permanece intacto. Observa as emoções como nuvens passageiras."
-      },
-      "cta": {
-          "title": "Precisa de se acalmar agora ou falar com alguém?",
-          "desc": "Respire fundo. Não precisa de resolver toda a sua vida hoje. Basta ultrapassar este minuto.",
-          "crisisButton": "Ver linhas de apoio em crise",
-          "toolsButton": "Exercícios de respiração e ancoragem"
-      }
+  "backToHome": "← Voltar para casa e ajuda em crises",
+  "badge": "Mudança de Perspectiva e Significado • 101 Inspirações Globais",
+  "titlePart1": "Por que sua existência",
+  "titleHighlight": "É profundamente importante",
+  "description": "Quando você está exausto, a perspectiva se estreita. Aqui estão princípios psicológicos fundamentados e histórias humanas reais daqueles que transformaram o sofrimento extremo em um propósito duradouro.",
+  "spotlightBadge": "Voz da sua região",
+  "spotlightSelectCountry": "Selecione o país:",
+  "spotlightAdversity": "Adversidades Enfrentadas",
+  "spotlightTakeaway": "Takeaway para você hoje",
+  "globalTitansTitle": "Titãs Globais da Resiliência",
+  "globalTitansSubtitle": "Figuras atemporais que superaram dificuldades inimagináveis ​​para iluminar o caminho da humanidade.",
+  "galleryTitle": "Todos os números continentais e europeus",
+  "gallerySubtitle": "Explore histórias inspiradoras de toda a Europa e de todo o mundo.",
+  "searchPlaceholder": "Pesquise nome ou país...",
+  "continents": {
+    "all": "🌍 Todos",
+    "europe": "🏰 Europa",
+    "americas": "🌎 Américas",
+    "asia": "🌏 Ásia",
+    "africa": "🏜️África",
+    "oceania": "🌊Oceânia"
+  },
+  "pillars": {
+    "title": "3 Pilares Fundamentais da Resiliência",
+    "badge": "Princípios Comprovados",
+    "survivalTitle": "Taxa de sobrevivência de 100%",
+    "survivalDesc": "Você sobreviveu a todos os ataques de pânico, a todos os desgostos e a todas as noites escuras que pensou que não sobreviveria. Sua resiliência já está comprovada pelos fatos.",
+    "noiseTitle": "Ruído Cognitivo vs. Verdade",
+    "noiseDesc": "O cérebro é uma máquina evolutiva de sobrevivência que exagera a ameaça em momentos de estresse. Ansiedade e pensamentos sombrios são alarmes falsos, não realidade objetiva.",
+    "chaptersTitle": "Os capítulos não escritos",
+    "chaptersDesc": "Você não pode julgar todo o livro da sua vida por um único capítulo difícil. As melhores pessoas que você já conheceu e as maiores risadas ainda estão por vir.",
+    "alchemyTitle": "Alquimia da Dor (Sublimação)",
+    "alchemyDesc": "Grande arte, profunda empatia e resiliência inovadora nascem de pessoas que permaneceram no escuro. Sua dor pode se tornar seu maior superpoder criativo."
+  },
+  "sublimation": {
+    "title": "A Alquimia da Mente e da Sombra",
+    "subtitle": "Transformando a turbulência interna em compreensão e poder criativo.",
+    "card1Title": "1. Pensamentos não são fatos",
+    "card1Summary": "A maioria dos pensamentos autocríticos não são seus. São gravações antigas da infância ou do ambiente.",
+    "card1Detail": "Quando crianças, não tínhamos filtros críticos. Quando alguém falava com raiva ou crítica, nosso subconsciente registrava isso como verdade absoluta. Quando você ouvir 'Você está quebrado' ou 'Você não vale nada', perceba: não é você quem está falando. É simplesmente um loop de fita desatualizado.",
+    "card2Title": "2. A Arte da Sublimação (Alquimia)",
+    "card2Summary": "Sua intensa energia escura não precisa destruir você. Pode ser transmutado em criação.",
+    "card2Detail": "A sublimação é a alquimia psicológica de converter instinto bruto, pensamentos tabu e dor emocional profunda em arte, literatura, poder físico ou código. Os criadores não suprimiram a sua escuridão – canalizaram-na para obras intemporais.",
+    "card3Title": "3. Você é o céu, não a tempestade",
+    "card3Summary": "Você é o observador consciente que testemunha a tempestade, não os destroços dentro dela.",
+    "card3Detail": "Não importa quão turbulentas as nuvens, os trovões ou a chuva se tornem, o céu em si nunca é prejudicado pelo clima. Volte para o assento do observador. Observe as sensações irem e virem sem vincular sua identidade a elas."
+  },
+  "cta": {
+    "title": "Precisa se aterrar agora ou conversar com alguém?",
+    "desc": "Respire lenta e profundamente. Você não precisa conquistar a montanha inteira hoje. Só no minuto seguinte.",
+    "crisisButton": "Ver linhas de ajuda para crises",
+    "toolsButton": "Ferramentas de respiração e aterramento"
   }
+}
 };

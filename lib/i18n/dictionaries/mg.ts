@@ -255,58 +255,58 @@ export const mg: TranslationDictionary = {
     "footerNotice": "Fandefasana mivantana any amin'ny hello@martinluzak.sk • Azo atao ny mitatitra tsy mitonona anarana"
   },
   motivationPage: {
-    "backToHome": "← Back to Home & Crisis Help",
-    "badge": "Perspective Shift & Meaning • 101 Global Inspirations",
-    "titlePart1": "Why Your Existence ",
-    "titleHighlight": "Matters Profoundly",
-    "description": "When you are in the thick of exhaustion, perspective narrows. Here are grounded psychological principles and real human stories of those who turned extreme suffering into enduring purpose.",
-    "spotlightBadge": "Voice from Your Region",
-    "spotlightSelectCountry": "Select country:",
-    "spotlightAdversity": "Adversity Faced",
-    "spotlightTakeaway": "Takeaway for You Today",
-    "globalTitansTitle": "Global Titans of Resilience",
-    "globalTitansSubtitle": "Timeless figures who overcame unimaginable odds to light the path for humanity.",
-    "galleryTitle": "All Continental & European Figures",
-    "gallerySubtitle": "Explore inspiring stories from across Europe and the entire globe.",
-    "searchPlaceholder": "Search name or country...",
-    "continents": {
-      "all": "🌍 All",
-      "europe": "🏰 Europe",
-      "americas": "🌎 Americas",
-      "asia": "🌏 Asia",
-      "africa": "🏜️ Africa",
-      "oceania": "🌊 Oceania"
-    },
-    "pillars": {
-      "title": "Andry 3 Lehibe amin'ny Fiaretana",
-      "badge": "Foto-kevitra Voaporofo",
-      "survivalTitle": "100% Survival Rate",
-      "survivalDesc": "You have survived every panic attack, every heartbreak, and every dark night you thought you wouldn't. Your resilience is already proven by facts.",
-      "noiseTitle": "Cognitive Noise vs. Truth",
-      "noiseDesc": "The brain is an evolutionary survival machine that exaggerates threat in times of stress. Anxiety and dark thoughts are false alarms, not objective reality.",
-      "chaptersTitle": "The Unwritten Chapters",
-      "chaptersDesc": "You cannot judge the entire book of your life by a single difficult chapter. The best people you will ever meet and the greatest laughs are still ahead.",
-      "alchemyTitle": "Alchemy of Pain (Sublimation)",
-      "alchemyDesc": "Great art, deep empathy, and groundbreaking resilience are born from people who have stood in the dark. Your pain can become your greatest creative superpower."
-    },
-    "sublimation": {
-      "title": "The Alchemy of Mind & Shadow",
-      "subtitle": "Transforming inner turmoil into understanding and creative power.",
-      "card1Title": "1. Thoughts Are Not Facts",
-      "card1Summary": "Most self-critical thoughts are not your own. They are old tape recordings from childhood or environment.",
-      "card1Detail": "As young children, we lacked critical filters. When someone spoke in anger or criticism, our subconscious recorded it as absolute truth. When you hear 'You are broken' or 'You are worthless', realize: that isn't you speaking. It is simply an outdated tape loop.",
-      "card2Title": "2. The Art of Sublimation (Alchemy)",
-      "card2Summary": "Your intense dark energy doesn't have to destroy you. It can be transmuted into creation.",
-      "card2Detail": "Sublimation is the psychological alchemy of converting raw instinct, taboo thoughts, and deep emotional pain into art, literature, physical power, or code. Creators didn't suppress their darkness—they channeled it into timeless works.",
-      "card3Title": "3. You Are the Sky, Not the Storm",
-      "card3Summary": "You are the conscious observer witnessing the storm, not the wreckage inside it.",
-      "card3Detail": "No matter how turbulent the clouds, thunder, or rain become, the sky itself is never harmed by the weather. Step back into the seat of the observer. Watch the sensations come and go without attaching your identity to them."
-    },
-    "cta": {
-      "title": "Need to ground yourself right now or talk to someone?",
-      "desc": "Take a slow, deep breath. You do not have to conquer the whole mountain today. Just the next minute.",
-      "crisisButton": "View Crisis Helplines",
-      "toolsButton": "Breathing & Grounding Tools"
-    }
+  "backToHome": "← Miverina any an-trano & Fanampiana amin'ny krizy",
+  "badge": "Fiovan'ny fomba fijery sy dikany • 101 Fanentanana Maneran-tany",
+  "titlePart1": "Nahoana no misy anao",
+  "titleHighlight": "Zava-dehibe",
+  "description": "Rehefa ao anatin'ny faharerahana ianao, dia tery ny fomba fijery. Ireto misy foto-kevitra ara-psikolojika miorim-paka sy tantaran'olombelona tena izy momba ireo izay nanova ny fijaliana mafy ho tanjona maharitra.",
+  "spotlightBadge": "Feo avy amin'ny Faritrao",
+  "spotlightSelectCountry": "Fidio firenena:",
+  "spotlightAdversity": "Fahoriana niatrika",
+  "spotlightTakeaway": "Takeaway ho anao anio",
+  "globalTitansTitle": "Global Titans of Resilience",
+  "globalTitansSubtitle": "Tarehimarika tsy manam-potoana izay naharesy ireo olana tsy takatry ny saina mba hanazava ny lalana ho an'ny olombelona.",
+  "galleryTitle": "Ireo tarehimarika kaontinanta sy Eoropeana rehetra",
+  "gallerySubtitle": "Tadiavo ireo tantara manainga fanahy avy any Eoropa sy eran'izao tontolo izao.",
+  "searchPlaceholder": "Karoka anarana na firenena...",
+  "continents": {
+    "all": "🌍 Rehetra",
+    "europe": "🏰 Eoropa",
+    "americas": "🌎 Amerika",
+    "asia": "🌏 Azia",
+    "africa": "🏜️ Afrika",
+    "oceania": "🌊 Oseania"
+  },
+  "pillars": {
+    "title": "Andry fototra 3 amin'ny faharetana",
+    "badge": "Fitsipika voaporofo",
+    "survivalTitle": "100% tahan'ny fahavelomana",
+    "survivalDesc": "Tafavoaka velona tamin'ny fanafihan-dahalo rehetra ianao, ny ratram-po rehetra, ary ny alina maizina rehetra izay noheverinao fa tsy ho vitanao. Efa voaporofon’ny zava-misy ny faharetanao.",
+    "noiseTitle": "Fitabatabana Kognitive vs. Fahamarinana",
+    "noiseDesc": "Ny atidoha dia milina velona evolisiona izay manitatra ny fandrahonana amin'ny fotoan-tsarotra. Fanairana diso ny fanahiana sy ny eritreritra maizina, fa tsy ny zava-misy marina.",
+    "chaptersTitle": "Ny toko tsy voasoratra",
+    "chaptersDesc": "Tsy afaka mitsara ny boky manontolo amin'ny fiainanao amin'ny toko sarotra iray ianao. Ny olona tsara indrindra ho hitanao ary ny fihomehezana lehibe indrindra dia mbola eo aloha.",
+    "alchemyTitle": "Alchemy of Pain (Sublimation)",
+    "alchemyDesc": "Ny zavakanto lehibe, ny fiaraha-miory lalina, ary ny fahavononana mivoatra dia teraka avy amin'ireo olona nijoro tao anaty haizina. Ny fanaintainanao dia mety ho lasa hery lehibe indrindra amin'ny famoronana anao."
+  },
+  "sublimation": {
+    "title": "The Alchemy of Mind & Shadow",
+    "subtitle": "Manova ny korontana anaty ho lasa fahatakarana sy hery mamorona.",
+    "card1Title": "1. Tsy zava-misy ny eritreritra",
+    "card1Summary": "Ny ankamaroan'ny eritreritra mitsikera tena dia tsy anao. Izy ireo dia horonam-peo tranainy hatramin'ny fahazazana na ny tontolo iainana.",
+    "card1Detail": "Fony mbola kely izahay dia tsy nanana sivana mitsikera. Rehefa nisy olona niteny tamin'ny fahatezerana na fanakianana, dia nandrakitra izany ho fahamarinana tanteraka ny tsy fahatsiarovan-tenantsika. Rehefa mandre ianao hoe: 'Potika ianao' na 'Tsy misy vidiny ianao', dia fantaro hoe: tsy ianao no miteny izany. Loko kasety efa lany andro fotsiny izy io.",
+    "card2Title": "2. Ny zava-kanto ny Sublimation (Alchemy)",
+    "card2Summary": "Tsy voatery hanimba anao ny herinao maizina. Azo avadika ho famoronana.",
+    "card2Detail": "Ny sublimation dia ny alchemy ara-psikolojika amin'ny famadihana ny instinct manta, ny eritreritra fady ary ny fanaintainan'ny fihetseham-po lalina ho zavakanto, literatiora, hery ara-batana, na code. Tsy nosakanan'ny Mpamorona ny haizina fa nampita izany ho amin'ny asa tsy mety lany andro.",
+    "card3Title": "3. Ianao no lanitra fa tsy ny tafio-drivotra",
+    "card3Summary": "Ianao no mpandinika misaina manatri-maso ny tafio-drivotra, fa tsy ny potika ao anatiny.",
+    "card3Detail": "Na mikorontana toy inona aza ny rahona, ny kotroka, na ny orana, ny lanitra mihitsy dia tsy manimba ny toetrandro. Hiverina any amin'ny sezan'ny mpandinika. Jereo ny fahatsapana tonga sy mandeha nefa tsy ampifandraisina amin'izy ireo ny maha-izy anao."
+  },
+  "cta": {
+    "title": "Mila mijoro amin'izao fotoana izao ve ianao sa miresaka amin'olona?",
+    "desc": "Maka rivotra miadana sy lalina. Tsy voatery handresy ny tendrombohitra manontolo ianao anio. Ny minitra manaraka fotsiny.",
+    "crisisButton": "Jereo ny zotra fanampiana amin'ny krizy",
+    "toolsButton": "Fitaovam-pisefoana & Fandehanana"
   }
+}
 };

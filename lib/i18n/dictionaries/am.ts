@@ -255,58 +255,58 @@ export const am: TranslationDictionary = {
     "footerNotice": "በቀጥታ ወደ hello@martinluzak.sk መላክ • ማንነትን ሳይገልጹ ሪፖርት ማድረግ ይቻላል"
   },
   motivationPage: {
-    "backToHome": "← Back to Home & Crisis Help",
-    "badge": "Perspective Shift & Meaning • 101 Global Inspirations",
-    "titlePart1": "Why Your Existence ",
-    "titleHighlight": "Matters Profoundly",
-    "description": "When you are in the thick of exhaustion, perspective narrows. Here are grounded psychological principles and real human stories of those who turned extreme suffering into enduring purpose.",
-    "spotlightBadge": "Voice from Your Region",
-    "spotlightSelectCountry": "Select country:",
-    "spotlightAdversity": "Adversity Faced",
-    "spotlightTakeaway": "Takeaway for You Today",
-    "globalTitansTitle": "Global Titans of Resilience",
-    "globalTitansSubtitle": "Timeless figures who overcame unimaginable odds to light the path for humanity.",
-    "galleryTitle": "All Continental & European Figures",
-    "gallerySubtitle": "Explore inspiring stories from across Europe and the entire globe.",
-    "searchPlaceholder": "Search name or country...",
-    "continents": {
-      "all": "🌍 All",
-      "europe": "🏰 Europe",
-      "americas": "🌎 Americas",
-      "asia": "🌏 Asia",
-      "africa": "🏜️ Africa",
-      "oceania": "🌊 Oceania"
-    },
-    "pillars": {
-      "title": "3 የመቋቋም ዋና ምሰሶዎች",
-      "badge": "የተረጋገጡ መርሆዎች",
-      "survivalTitle": "100% Survival Rate",
-      "survivalDesc": "You have survived every panic attack, every heartbreak, and every dark night you thought you wouldn't. Your resilience is already proven by facts.",
-      "noiseTitle": "Cognitive Noise vs. Truth",
-      "noiseDesc": "The brain is an evolutionary survival machine that exaggerates threat in times of stress. Anxiety and dark thoughts are false alarms, not objective reality.",
-      "chaptersTitle": "The Unwritten Chapters",
-      "chaptersDesc": "You cannot judge the entire book of your life by a single difficult chapter. The best people you will ever meet and the greatest laughs are still ahead.",
-      "alchemyTitle": "Alchemy of Pain (Sublimation)",
-      "alchemyDesc": "Great art, deep empathy, and groundbreaking resilience are born from people who have stood in the dark. Your pain can become your greatest creative superpower."
-    },
-    "sublimation": {
-      "title": "The Alchemy of Mind & Shadow",
-      "subtitle": "Transforming inner turmoil into understanding and creative power.",
-      "card1Title": "1. Thoughts Are Not Facts",
-      "card1Summary": "Most self-critical thoughts are not your own. They are old tape recordings from childhood or environment.",
-      "card1Detail": "As young children, we lacked critical filters. When someone spoke in anger or criticism, our subconscious recorded it as absolute truth. When you hear 'You are broken' or 'You are worthless', realize: that isn't you speaking. It is simply an outdated tape loop.",
-      "card2Title": "2. The Art of Sublimation (Alchemy)",
-      "card2Summary": "Your intense dark energy doesn't have to destroy you. It can be transmuted into creation.",
-      "card2Detail": "Sublimation is the psychological alchemy of converting raw instinct, taboo thoughts, and deep emotional pain into art, literature, physical power, or code. Creators didn't suppress their darkness—they channeled it into timeless works.",
-      "card3Title": "3. You Are the Sky, Not the Storm",
-      "card3Summary": "You are the conscious observer witnessing the storm, not the wreckage inside it.",
-      "card3Detail": "No matter how turbulent the clouds, thunder, or rain become, the sky itself is never harmed by the weather. Step back into the seat of the observer. Watch the sensations come and go without attaching your identity to them."
-    },
-    "cta": {
-      "title": "Need to ground yourself right now or talk to someone?",
-      "desc": "Take a slow, deep breath. You do not have to conquer the whole mountain today. Just the next minute.",
-      "crisisButton": "View Crisis Helplines",
-      "toolsButton": "Breathing & Grounding Tools"
-    }
+  "backToHome": "← ወደ ቤት መመለስ እና የችግር ጊዜ እገዛ",
+  "badge": "የአመለካከት ለውጥ እና ትርጉም • 101 ዓለም አቀፍ አነሳሶች",
+  "titlePart1": "ለምን መኖርህ",
+  "titleHighlight": "ጉዳዩን በጥልቀት ይከታተሉ",
+  "description": "በድካም ውስጥ ስትሆን፣ እይታው እየጠበበ ይሄዳል። እዚህ ላይ የተመሰረቱ የስነ-ልቦና መርሆዎች እና አስከፊ ስቃይ ወደ ዘላቂ አላማ የቀየሩ ሰዎች እውነተኛ የሰው ታሪኮች አሉ።",
+  "spotlightBadge": "ድምፅ ከክልላችሁ",
+  "spotlightSelectCountry": "ሀገር ምረጥ፡",
+  "spotlightAdversity": "መከራ ገጠመው",
+  "spotlightTakeaway": "ዛሬ ለናንተ ይውሰዳ",
+  "globalTitansTitle": "ግሎባል ቲታኖች የመቋቋም ችሎታ",
+  "globalTitansSubtitle": "ለሰው ልጅ መንገዱን ለማብራት የማይታሰቡ ዕድሎችን ያሸነፉ ዘመን የማይሽራቸው ሰዎች።",
+  "galleryTitle": "ሁሉም ኮንቲኔንታል እና አውሮፓ ምስሎች",
+  "gallerySubtitle": "ከመላው አውሮፓ እና ከመላው አለም አነቃቂ ታሪኮችን ያስሱ።",
+  "searchPlaceholder": "ስም ወይስ ሀገር...",
+  "continents": {
+    "all": "🌍 ሁሉም",
+    "europe": "🏰 አውሮፓ",
+    "americas": "🌎 አሜሪካ",
+    "asia": "🌏 እስያ",
+    "africa": "🏜️ አፍሪካ",
+    "oceania": "🌊 ኦሺኒያ"
+  },
+  "pillars": {
+    "title": "3 ዋና ዋና የጽናት ምሰሶዎች",
+    "badge": "የተረጋገጡ መርሆዎች",
+    "survivalTitle": "100% የመዳን መጠን",
+    "survivalDesc": "ከእያንዳንዱ የፍርሃት ጥቃት፣ ከእያንዳንዱ የልብ ስብራት፣ እና እንደማታስበው በምታስበው በእያንዳንዱ ጨለማ ምሽት ተርፈሃል። የአንተ ጽናት አስቀድሞ በእውነታዎች ተረጋግጧል።",
+    "noiseTitle": "የእውቀት ጫጫታ vs እውነት",
+    "noiseDesc": "አእምሮ በጭንቀት ጊዜ ስጋትን የሚያጋን የዝግመተ ለውጥ ማዳን ማሽን ነው። ጭንቀት እና ጨለማ ሀሳቦች የውሸት ማንቂያዎች እንጂ ተጨባጭ እውነታዎች አይደሉም።",
+    "chaptersTitle": "ያልተፃፉ ምዕራፎች",
+    "chaptersDesc": "የሕይወትህን መጽሐፍ በአንድ አስቸጋሪ ምዕራፍ ልትፈርድ አትችልም። የሚያገኟቸው ምርጥ ሰዎች እና ታላላቅ ሳቅዎች አሁንም ወደፊት ናቸው።",
+    "alchemyTitle": "Alchemy of Pain (Sublimation)",
+    "alchemyDesc": "ታላቅ ጥበብ፣ ጥልቅ ርኅራኄ እና መሠረታዊ ጽናትን የሚወለዱት በጨለማ ውስጥ ከቆሙት ሰዎች ነው። ህመምዎ የእርስዎ ታላቅ የፈጠራ ልዕለ ኃያል ሊሆን ይችላል።"
+  },
+  "sublimation": {
+    "title": "የአዕምሮ እና የጥላው አልኬሚ",
+    "subtitle": "ውስጣዊ ብጥብጥ ወደ መረዳት እና የፈጠራ ኃይል መለወጥ.",
+    "card1Title": "1. ሃሳቦች እውነታዎች አይደሉም",
+    "card1Summary": "አብዛኞቹ ራስን መተቻቸት የራስህ አይደሉም። ከልጅነት ወይም ከአካባቢው የቆዩ የቴፕ ቅጂዎች ናቸው.",
+    "card1Detail": "ትንንሽ ልጆች እንደመሆናችን መጠን ወሳኝ ማጣሪያዎች አልነበረንም። አንድ ሰው በቁጣ ወይም በትችት ሲናገር፣ የእኛ ንቃተ ህሊና እንደ ፍፁም እውነት ዘግቦታል። 'ተበላሽተሃል' ወይም 'ከንቱ ነህ' ስትሰማ፣ ተገነዘብ፡ የምትናገረው አይደለም። በቀላሉ ጊዜው ያለፈበት የቴፕ ምልልስ ነው።",
+    "card2Title": "2. የሱብሊሜሽን ጥበብ (አልኬሚ)",
+    "card2Summary": "የጨለማ ጉልበትህ ሊያጠፋህ አይገባም። ወደ ፍጥረት ሊተላለፍ ይችላል.",
+    "card2Detail": "Sublimation ጥሬ ደመ-ነፍስን፣ የተከለከሉ ሃሳቦችን እና ጥልቅ የስሜት ህመምን ወደ ስነ-ጥበብ፣ ስነ-ጽሁፍ፣ አካላዊ ሃይል ወይም ኮድ የመቀየር ስነ-ልቦናዊ አልኬሚ ነው። ፈጣሪዎች ጨለማቸውን አልገፉትም - ወደ ጊዜ የማይሽረው ስራ አስገቡት።",
+    "card3Title": "3. አንተ ሰማይ እንጂ ማዕበሉ አይደለህም",
+    "card3Summary": "አውሎ ነፋሱን የምታዩት ነቅተህ ተመልካች እንጂ በውስጡ ያለውን ፍርስራሽ አይደለህም።",
+    "card3Detail": "ደመና፣ ነጎድጓድ ወይም ዝናብ የቱንም ያህል ውዥንብር ቢፈጠር ሰማዩ ራሱ በአየር ሁኔታ አይጎዳም። ወደ ተመልካቹ መቀመጫ ተመለስ። ማንነትህን ከነሱ ጋር ሳታያያዝ ስሜቶቹ ሲመጡ እና ሲሄዱ ተመልከት።"
+  },
+  "cta": {
+    "title": "አሁኑኑ እራስዎን ማፍረስ ወይም ከአንድ ሰው ጋር መነጋገር ይፈልጋሉ?",
+    "desc": "በቀስታ ፣ በጥልቀት ይተንፍሱ። ዛሬ ተራራውን ሁሉ ማሸነፍ አያስፈልግም። የሚቀጥለው ደቂቃ ብቻ።",
+    "crisisButton": "የችግር እርዳታ መስመሮችን ይመልከቱ",
+    "toolsButton": "የአተነፋፈስ እና የመሬት ላይ መሳሪያዎች"
   }
+}
 };

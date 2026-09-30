@@ -255,58 +255,58 @@ export const yo: TranslationDictionary = {
     "footerNotice": "Fífiránṣẹ́ tààràtà sí hello@martinluzak.sk • A gba ìròyìn láì sọ orúkọ láàyè"
   },
   motivationPage: {
-    "backToHome": "← Back to Home & Crisis Help",
-    "badge": "Perspective Shift & Meaning • 101 Global Inspirations",
-    "titlePart1": "Why Your Existence ",
-    "titleHighlight": "Matters Profoundly",
-    "description": "When you are in the thick of exhaustion, perspective narrows. Here are grounded psychological principles and real human stories of those who turned extreme suffering into enduring purpose.",
-    "spotlightBadge": "Voice from Your Region",
-    "spotlightSelectCountry": "Select country:",
-    "spotlightAdversity": "Adversity Faced",
-    "spotlightTakeaway": "Takeaway for You Today",
-    "globalTitansTitle": "Global Titans of Resilience",
-    "globalTitansSubtitle": "Timeless figures who overcame unimaginable odds to light the path for humanity.",
-    "galleryTitle": "All Continental & European Figures",
-    "gallerySubtitle": "Explore inspiring stories from across Europe and the entire globe.",
-    "searchPlaceholder": "Search name or country...",
-    "continents": {
-      "all": "🌍 All",
-      "europe": "🏰 Europe",
-      "americas": "🌎 Americas",
-      "asia": "🌏 Asia",
-      "africa": "🏜️ Africa",
-      "oceania": "🌊 Oceania"
-    },
-    "pillars": {
-      "title": "Awọn Origun Pataki 3 ti Idaduro",
-      "badge": "Awọn Ilana Ti A Fihan",
-      "survivalTitle": "100% Survival Rate",
-      "survivalDesc": "You have survived every panic attack, every heartbreak, and every dark night you thought you wouldn't. Your resilience is already proven by facts.",
-      "noiseTitle": "Cognitive Noise vs. Truth",
-      "noiseDesc": "The brain is an evolutionary survival machine that exaggerates threat in times of stress. Anxiety and dark thoughts are false alarms, not objective reality.",
-      "chaptersTitle": "The Unwritten Chapters",
-      "chaptersDesc": "You cannot judge the entire book of your life by a single difficult chapter. The best people you will ever meet and the greatest laughs are still ahead.",
-      "alchemyTitle": "Alchemy of Pain (Sublimation)",
-      "alchemyDesc": "Great art, deep empathy, and groundbreaking resilience are born from people who have stood in the dark. Your pain can become your greatest creative superpower."
-    },
-    "sublimation": {
-      "title": "The Alchemy of Mind & Shadow",
-      "subtitle": "Transforming inner turmoil into understanding and creative power.",
-      "card1Title": "1. Thoughts Are Not Facts",
-      "card1Summary": "Most self-critical thoughts are not your own. They are old tape recordings from childhood or environment.",
-      "card1Detail": "As young children, we lacked critical filters. When someone spoke in anger or criticism, our subconscious recorded it as absolute truth. When you hear 'You are broken' or 'You are worthless', realize: that isn't you speaking. It is simply an outdated tape loop.",
-      "card2Title": "2. The Art of Sublimation (Alchemy)",
-      "card2Summary": "Your intense dark energy doesn't have to destroy you. It can be transmuted into creation.",
-      "card2Detail": "Sublimation is the psychological alchemy of converting raw instinct, taboo thoughts, and deep emotional pain into art, literature, physical power, or code. Creators didn't suppress their darkness—they channeled it into timeless works.",
-      "card3Title": "3. You Are the Sky, Not the Storm",
-      "card3Summary": "You are the conscious observer witnessing the storm, not the wreckage inside it.",
-      "card3Detail": "No matter how turbulent the clouds, thunder, or rain become, the sky itself is never harmed by the weather. Step back into the seat of the observer. Watch the sensations come and go without attaching your identity to them."
-    },
-    "cta": {
-      "title": "Need to ground yourself right now or talk to someone?",
-      "desc": "Take a slow, deep breath. You do not have to conquer the whole mountain today. Just the next minute.",
-      "crisisButton": "View Crisis Helplines",
-      "toolsButton": "Breathing & Grounding Tools"
-    }
+  "backToHome": "← Pada si Ile & Iranlọwọ idaamu",
+  "badge": "Yiyi Iwoye & Itumọ • 101 Awọn imisi Agbaye",
+  "titlePart1": "Kí nìdí Wíwà Rẹ",
+  "titleHighlight": "Awọn nkan ni kikun",
+  "description": "Nigbati o ba wa nipọn ti re, irisi dín. Eyi ni awọn ipilẹ imọ-jinlẹ ti ipilẹ ati awọn itan eniyan gidi ti awọn ti o yi ijiya nla pada si idi pipẹ.",
+  "spotlightBadge": "Ohùn lati Agbegbe Rẹ",
+  "spotlightSelectCountry": "Yan orilẹ-ede:",
+  "spotlightAdversity": "Ipọnju dojukọ",
+  "spotlightTakeaway": "Gbigba fun O Loni",
+  "globalTitansTitle": "Agbaye Titani ti Resilience",
+  "globalTitansSubtitle": "Awọn isiro ailakoko ti o bori awọn aidọgba airotẹlẹ lati tan imọlẹ ọna fun ẹda eniyan.",
+  "galleryTitle": "Gbogbo Continental & European isiro",
+  "gallerySubtitle": "Ṣawari awọn itan iyanju lati gbogbo Yuroopu ati gbogbo agbaiye.",
+  "searchPlaceholder": "Wa orukọ tabi orilẹ-ede...",
+  "continents": {
+    "all": "🌍 Gbogbo",
+    "europe": "🏰 Yuroopu",
+    "americas": "🌎 Amẹrika",
+    "asia": "🌏 Asia",
+    "africa": "🏜️ Afirika",
+    "oceania": "🌊 Oceania"
+  },
+  "pillars": {
+    "title": "3 Mojuto Origun ti Resilience",
+    "badge": "Awọn Ilana ti a fihan",
+    "survivalTitle": "100% Iwalaaye Rate",
+    "survivalDesc": "O ti ye gbogbo ikọlu ijaaya, gbogbo ibanujẹ ọkan, ati ni gbogbo oru dudu ti o ro pe iwọ kii yoo. Resilience rẹ ti jẹ ẹri tẹlẹ nipasẹ awọn otitọ.",
+    "noiseTitle": "Imo Ariwo vs Truth",
+    "noiseDesc": "Ọpọlọ jẹ ẹrọ iwalaaye ti itiranya ti o ṣe asọtẹlẹ irokeke ewu ni awọn akoko aapọn. Ibanujẹ ati awọn ero dudu jẹ awọn itaniji eke, kii ṣe ohun to daju.",
+    "chaptersTitle": "The Unwritten Chapters",
+    "chaptersDesc": "O ko le ṣe idajọ gbogbo iwe ti igbesi aye rẹ nipasẹ ipin kan ti o nira kan. Awọn eniyan ti o dara julọ ti iwọ yoo pade ati awọn ẹrin nla tun wa niwaju.",
+    "alchemyTitle": "Alchemy ti Ìrora (Sublimation)",
+    "alchemyDesc": "Iṣẹ ọnà nla, itara ti o jinlẹ, ati isọdọtun ilẹ ni a bi lati ọdọ awọn eniyan ti o ti duro ninu okunkun. Irora rẹ le di alagbara agbara ẹda ti o tobi julọ."
+  },
+  "sublimation": {
+    "title": "The Alchemy of Mind & Shadow",
+    "subtitle": "Yiyipada rudurudu inu sinu oye ati agbara ẹda.",
+    "card1Title": "1. Èrò kii ṣe Òótọ́",
+    "card1Summary": "Julọ ara-lominu ni ero wa ni ko ti ara rẹ. Wọn jẹ awọn igbasilẹ teepu atijọ lati igba ewe tabi ayika.",
+    "card1Detail": "Gẹgẹbi awọn ọmọde kekere, a ko ni awọn asẹ pataki. Nígbà tí ẹnì kan bá sọ̀rọ̀ nínú ìbínú tàbí àríwísí, ẹ̀rí ọkàn wa ṣàkọsílẹ̀ rẹ̀ gẹ́gẹ́ bí òtítọ́ pátápátá. Nigbati o ba gbọ 'O ti fọ' tabi 'O jẹ asan', mọ pe kii ṣe iwọ n sọrọ. O ti wa ni nìkan ohun igba atijọ teepu lupu.",
+    "card2Title": "2. Iṣẹ ọna ti Sublimation (Alchemy)",
+    "card2Summary": "Agbara dudu ti o lagbara ko ni lati pa ọ run. O le ṣe iyipada sinu ẹda.",
+    "card2Detail": "Sublimation jẹ alchemy ti imọ-jinlẹ ti iyipada instinct aise, awọn ero taboo, ati irora ẹdun ti o jinlẹ sinu aworan, litireso, agbara ti ara, tabi koodu. Àwọn tó ṣẹ̀dá kò pa òkùnkùn rẹ̀ mọ́—wọ́n sọ ọ́ di àwọn iṣẹ́ tí kò lẹ́gbẹ́.",
+    "card3Title": "3. Iwo l’Orun, Ko Ija",
+    "card3Summary": "Iwọ ni oluwoye mimọ ti o njẹri iji, kii ṣe iparun inu rẹ.",
+    "card3Detail": "Bó ti wù kí ìkùukùu, ààrá tàbí òjò ti ń ru gùdù tó, ojú ọjọ́ fúnra rẹ̀ kì í bà á jẹ́. Pada pada sinu ijoko ti oluwoye. Wo awọn ifarabalẹ wa ki o lọ laisi fifi idanimọ rẹ si wọn."
+  },
+  "cta": {
+    "title": "Ṣe o nilo lati fi ara rẹ silẹ ni bayi tabi sọrọ si ẹnikan?",
+    "desc": "Mu o lọra, ẹmi jin. O ko ni lati ṣẹgun gbogbo oke loni. O kan nigbamii ti iseju.",
+    "crisisButton": "Wo Ẹjẹ Helplines",
+    "toolsButton": "Mimi & Awọn irinṣẹ Ilẹ"
   }
+}
 };

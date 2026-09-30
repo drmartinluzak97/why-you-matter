@@ -255,58 +255,58 @@ export const mn: TranslationDictionary = {
     "footerNotice": "hello@martinluzak.sk руу шууд илгээнэ • Нэргүй мэдээлэхийг дэмждэг"
   },
   motivationPage: {
-    "backToHome": "← Back to Home & Crisis Help",
-    "badge": "Perspective Shift & Meaning • 101 Global Inspirations",
-    "titlePart1": "Why Your Existence ",
-    "titleHighlight": "Matters Profoundly",
-    "description": "When you are in the thick of exhaustion, perspective narrows. Here are grounded psychological principles and real human stories of those who turned extreme suffering into enduring purpose.",
-    "spotlightBadge": "Voice from Your Region",
-    "spotlightSelectCountry": "Select country:",
-    "spotlightAdversity": "Adversity Faced",
-    "spotlightTakeaway": "Takeaway for You Today",
-    "globalTitansTitle": "Global Titans of Resilience",
-    "globalTitansSubtitle": "Timeless figures who overcame unimaginable odds to light the path for humanity.",
-    "galleryTitle": "All Continental & European Figures",
-    "gallerySubtitle": "Explore inspiring stories from across Europe and the entire globe.",
-    "searchPlaceholder": "Search name or country...",
-    "continents": {
-      "all": "🌍 All",
-      "europe": "🏰 Europe",
-      "americas": "🌎 Americas",
-      "asia": "🌏 Asia",
-      "africa": "🏜️ Africa",
-      "oceania": "🌊 Oceania"
-    },
-    "pillars": {
-      "title": "Тэсвэр Хатуужлын 3 Гол Тулгуур",
-      "badge": "Батлагдсан Зарчмууд",
-      "survivalTitle": "100% Survival Rate",
-      "survivalDesc": "You have survived every panic attack, every heartbreak, and every dark night you thought you wouldn't. Your resilience is already proven by facts.",
-      "noiseTitle": "Cognitive Noise vs. Truth",
-      "noiseDesc": "The brain is an evolutionary survival machine that exaggerates threat in times of stress. Anxiety and dark thoughts are false alarms, not objective reality.",
-      "chaptersTitle": "The Unwritten Chapters",
-      "chaptersDesc": "You cannot judge the entire book of your life by a single difficult chapter. The best people you will ever meet and the greatest laughs are still ahead.",
-      "alchemyTitle": "Alchemy of Pain (Sublimation)",
-      "alchemyDesc": "Great art, deep empathy, and groundbreaking resilience are born from people who have stood in the dark. Your pain can become your greatest creative superpower."
-    },
-    "sublimation": {
-      "title": "The Alchemy of Mind & Shadow",
-      "subtitle": "Transforming inner turmoil into understanding and creative power.",
-      "card1Title": "1. Thoughts Are Not Facts",
-      "card1Summary": "Most self-critical thoughts are not your own. They are old tape recordings from childhood or environment.",
-      "card1Detail": "As young children, we lacked critical filters. When someone spoke in anger or criticism, our subconscious recorded it as absolute truth. When you hear 'You are broken' or 'You are worthless', realize: that isn't you speaking. It is simply an outdated tape loop.",
-      "card2Title": "2. The Art of Sublimation (Alchemy)",
-      "card2Summary": "Your intense dark energy doesn't have to destroy you. It can be transmuted into creation.",
-      "card2Detail": "Sublimation is the psychological alchemy of converting raw instinct, taboo thoughts, and deep emotional pain into art, literature, physical power, or code. Creators didn't suppress their darkness—they channeled it into timeless works.",
-      "card3Title": "3. You Are the Sky, Not the Storm",
-      "card3Summary": "You are the conscious observer witnessing the storm, not the wreckage inside it.",
-      "card3Detail": "No matter how turbulent the clouds, thunder, or rain become, the sky itself is never harmed by the weather. Step back into the seat of the observer. Watch the sensations come and go without attaching your identity to them."
-    },
-    "cta": {
-      "title": "Need to ground yourself right now or talk to someone?",
-      "desc": "Take a slow, deep breath. You do not have to conquer the whole mountain today. Just the next minute.",
-      "crisisButton": "View Crisis Helplines",
-      "toolsButton": "Breathing & Grounding Tools"
-    }
+  "backToHome": "← Нүүр хуудас руу буцах & Хямралын тусламж",
+  "badge": "Perspective Shift & Meaning • 101 Global Inspirations",
+  "titlePart1": "Яагаад чиний оршихуй",
+  "titleHighlight": "Маш чухал",
+  "description": "Та ядарч туйлдсан үед хэтийн төлөв нарийсдаг. Хэт их зовлон зүдгүүрийг тэсвэрлэх зорилго болгон хувиргасан хүмүүсийн сэтгэл зүйн үндэслэлтэй зарчмууд болон хүмүүсийн бодит түүхийг энд оруулав.",
+  "spotlightBadge": "Танай бүсээс ирсэн дуу хоолой",
+  "spotlightSelectCountry": "Улсаа сонгоно уу:",
+  "spotlightAdversity": "Бэрхшээлтэй тулгарсан",
+  "spotlightTakeaway": "Өнөөдөр танд зориулав",
+  "globalTitansTitle": "Уян хатан байдлын дэлхийн титанууд",
+  "globalTitansSubtitle": "Хүн төрөлхтний замыг гэрэлтүүлэхийн тулд төсөөлшгүй бэрхшээлийг даван туулсан цаг үеэ олсон хүмүүс.",
+  "galleryTitle": "Бүх тив, Европын дүрүүд",
+  "gallerySubtitle": "Европ болон дэлхийн өнцөг булан бүрээс урам зориг өгсөн түүхийг судлаарай.",
+  "searchPlaceholder": "Нэр эсвэл улсыг хайх...",
+  "continents": {
+    "all": "🌍 Бүгд",
+    "europe": "🏰 Европ",
+    "americas": "🌎 Америк",
+    "asia": "🌏 Ази",
+    "africa": "🏜️ Африк",
+    "oceania": "🌊 Далайн"
+  },
+  "pillars": {
+    "title": "Уян хатан байдлын 3 үндсэн тулгуур",
+    "badge": "Батлагдсан зарчмууд",
+    "survivalTitle": "100% амьд үлдэх хувь",
+    "survivalDesc": "Сандарсан дайралт бүрийг, зүрх шаналал бүрийг, болохгүй гэж бодсон харанхуй шөнө бүрийг чи даван туулсан. Таны тэсвэр тэвчээр аль хэдийн баримтаар нотлогдсон.",
+    "noiseTitle": "Танин мэдэхүйн шуугиан ба үнэн",
+    "noiseDesc": "Тархи бол стрессийн үед аюулыг хэтрүүлдэг хувьслын амьд үлдэх машин юм. Түгшүүр, харанхуй бодол бол бодитой бодит байдал биш харин хуурамч түгшүүр юм.",
+    "chaptersTitle": "Бичигдээгүй бүлгүүд",
+    "chaptersDesc": "Та амьдралынхаа бүх номыг нэг хэцүү бүлгээр дүгнэж болохгүй. Таны учирч болох хамгийн сайхан хүмүүс, хамгийн сайхан инээд одоо ч өмнө байна.",
+    "alchemyTitle": "Өвдөлтийн алхими (Сублимаци)",
+    "alchemyDesc": "Харанхуйд зогсож байсан хүмүүсээс агуу урлаг, гүн өрөвдөх сэтгэл, гайхалтай тэсвэр тэвчээр төрдөг. Таны өвдөлт таны хамгийн агуу бүтээлч хүч болж чадна."
+  },
+  "sublimation": {
+    "title": "Оюун санаа ба сүүдрийн алхими",
+    "subtitle": "Дотоод үймээн самууныг ойлголт, бүтээлч хүч болгон хувиргах.",
+    "card1Title": "1. Бодол бол баримт биш",
+    "card1Summary": "Өөрийгөө шүүмжилдэг ихэнх бодлууд таных биш. Эдгээр нь бага нас эсвэл хүрээлэн буй орчны хуучин соронзон хальсны бичлэгүүд юм.",
+    "card1Detail": "Бид бага насны хүүхдүүдийн хувьд чухал шүүлтүүргүй байсан. Хэн нэгэн уурлаж, шүүмжилж ярихад бидний далд ухамсар үүнийг туйлын үнэн гэж тэмдэглэдэг. \"Чи эвдэрсэн\" эсвэл \"Чи ямар ч үнэ цэнэгүй\" гэсэн үгсийг сонсохдоо та үүнийг ярьж байгаа биш гэдгийг ойлгоорой. Энэ бол зүгээр л хуучирсан соронзон хальсны гогцоо юм.",
+    "card2Title": "2. Сублимацын урлаг (Алхими)",
+    "card2Summary": "Таны хүчтэй хар энерги таныг устгах шаардлагагүй. Үүнийг бүтээл болгон хувиргаж болно.",
+    "card2Detail": "Сублимация бол түүхий зөн совин, хориотой бодол, сэтгэлийн гүн өвдөлтийг урлаг, уран зохиол, бие махбодийн хүч эсвэл код болгон хувиргах сэтгэл зүйн алхими юм. Бүтээгчид өөрсдийнхөө харанхуйг дараагүй - тэд үүнийг мөнхийн бүтээл болгон хувиргасан.",
+    "card3Title": "3. Та бол шуурга биш, тэнгэр",
+    "card3Summary": "Та шуургыг харж байгаа ухамсартай ажиглагч болохоос түүний доторх сүйрлийг биш.",
+    "card3Detail": "Хичнээн үймээн самуунтай үүл, аянга цахилгаан, бороо орсон ч тэнгэр өөрөө цаг агаарт хэзээ ч хор хөнөөл учруулдаггүй. Ажиглагчийн суудал руу буцаж ор. Мэдрэмжүүд гарч ирэн, тэдэнтэй хэн болохыг тань холбоно уу."
+  },
+  "cta": {
+    "title": "Яг одоо өөрийгөө газардах эсвэл хэн нэгэнтэй ярих шаардлагатай байна уу?",
+    "desc": "Удаан, гүнзгий амьсгаа аваарай. Өнөөдөр та бүхэл бүтэн уулыг эзлэх шаардлагагүй. Дараагийн минутад л.",
+    "crisisButton": "Хямралын тусламжийн утсыг харах",
+    "toolsButton": "Амьсгалах, газардуулах хэрэгсэл"
   }
+}
 };

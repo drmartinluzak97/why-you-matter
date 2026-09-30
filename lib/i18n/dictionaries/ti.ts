@@ -255,58 +255,58 @@ export const ti: TranslationDictionary = {
     "footerNotice": "ቀጥታ ናብ hello@martinluzak.sk ምብጻሕ • መንነት ከይገለጽካ ምሕባር ይከኣል"
   },
   motivationPage: {
-    "backToHome": "← Back to Home & Crisis Help",
-    "badge": "Perspective Shift & Meaning • 101 Global Inspirations",
-    "titlePart1": "Why Your Existence ",
-    "titleHighlight": "Matters Profoundly",
-    "description": "When you are in the thick of exhaustion, perspective narrows. Here are grounded psychological principles and real human stories of those who turned extreme suffering into enduring purpose.",
-    "spotlightBadge": "Voice from Your Region",
-    "spotlightSelectCountry": "Select country:",
-    "spotlightAdversity": "Adversity Faced",
-    "spotlightTakeaway": "Takeaway for You Today",
-    "globalTitansTitle": "Global Titans of Resilience",
-    "globalTitansSubtitle": "Timeless figures who overcame unimaginable odds to light the path for humanity.",
-    "galleryTitle": "All Continental & European Figures",
-    "gallerySubtitle": "Explore inspiring stories from across Europe and the entire globe.",
-    "searchPlaceholder": "Search name or country...",
-    "continents": {
-      "all": "🌍 All",
-      "europe": "🏰 Europe",
-      "americas": "🌎 Americas",
-      "asia": "🌏 Asia",
-      "africa": "🏜️ Africa",
-      "oceania": "🌊 Oceania"
-    },
-    "pillars": {
-      "title": "3 Core Pillars of Resilience",
-      "badge": "Proven Principles",
-      "survivalTitle": "100% Survival Rate",
-      "survivalDesc": "You have survived every panic attack, every heartbreak, and every dark night you thought you wouldn't. Your resilience is already proven by facts.",
-      "noiseTitle": "Cognitive Noise vs. Truth",
-      "noiseDesc": "The brain is an evolutionary survival machine that exaggerates threat in times of stress. Anxiety and dark thoughts are false alarms, not objective reality.",
-      "chaptersTitle": "The Unwritten Chapters",
-      "chaptersDesc": "You cannot judge the entire book of your life by a single difficult chapter. The best people you will ever meet and the greatest laughs are still ahead.",
-      "alchemyTitle": "Alchemy of Pain (Sublimation)",
-      "alchemyDesc": "Great art, deep empathy, and groundbreaking resilience are born from people who have stood in the dark. Your pain can become your greatest creative superpower."
-    },
-    "sublimation": {
-      "title": "The Alchemy of Mind & Shadow",
-      "subtitle": "Transforming inner turmoil into understanding and creative power.",
-      "card1Title": "1. Thoughts Are Not Facts",
-      "card1Summary": "Most self-critical thoughts are not your own. They are old tape recordings from childhood or environment.",
-      "card1Detail": "As young children, we lacked critical filters. When someone spoke in anger or criticism, our subconscious recorded it as absolute truth. When you hear 'You are broken' or 'You are worthless', realize: that isn't you speaking. It is simply an outdated tape loop.",
-      "card2Title": "2. The Art of Sublimation (Alchemy)",
-      "card2Summary": "Your intense dark energy doesn't have to destroy you. It can be transmuted into creation.",
-      "card2Detail": "Sublimation is the psychological alchemy of converting raw instinct, taboo thoughts, and deep emotional pain into art, literature, physical power, or code. Creators didn't suppress their darkness—they channeled it into timeless works.",
-      "card3Title": "3. You Are the Sky, Not the Storm",
-      "card3Summary": "You are the conscious observer witnessing the storm, not the wreckage inside it.",
-      "card3Detail": "No matter how turbulent the clouds, thunder, or rain become, the sky itself is never harmed by the weather. Step back into the seat of the observer. Watch the sensations come and go without attaching your identity to them."
-    },
-    "cta": {
-      "title": "Need to ground yourself right now or talk to someone?",
-      "desc": "Take a slow, deep breath. You do not have to conquer the whole mountain today. Just the next minute.",
-      "crisisButton": "View Crisis Helplines",
-      "toolsButton": "Breathing & Grounding Tools"
-    }
+  "backToHome": "← ናብ ገዛና ምምላስ & ቅልውላው ሓገዝ",
+  "badge": "ለውጢ ኣረኣእያን ትርጉምን • 101 ዓለማዊ ምትብባዕ",
+  "titlePart1": "ንምንታይ ህላወኻ",
+  "titleHighlight": "ብዕምቆት ኣገዳሲ እዩ",
+  "description": "ኣብ ረጒድ ድኻም ምስ እትህሉ፡ ኣረኣእያ ይጸብብ። ኣብዚ መሰረት ዘለዎም ስነ-ኣእምሮኣዊ መትከላትን ሓቀኛ ሰብኣዊ ዛንታታትን ናይቶም ጽንኩር ስቓይ ናብ ነባሪ ዕላማ ዝቐየሩ ኣለዉ።",
+  "spotlightBadge": "ድምጺ ካብ ክልልኩም",
+  "spotlightSelectCountry": "ሃገር ምረጹ፡",
+  "spotlightAdversity": "ዘጋጠሞ ሽግር",
+  "spotlightTakeaway": "ሎሚ ንዓኻ ዝኸውን ቴክኣው",
+  "globalTitansTitle": "ዓለምለኻዊ ታይታንስ ናይ ጽንዓት",
+  "globalTitansSubtitle": "ንደቂ ሰባት መንገዲ ንምብራህ ዘይሕሰብ ዕድላት ዝሰገሩ ግዜ ዘይስዕሩ ኣሃዛት።",
+  "galleryTitle": "ኩሎም ኣሃዛት ኮንቲነንታል & ኤውሮጳውያን",
+  "gallerySubtitle": "ካብ መላእ ኤውሮጳን መላእ ዓለምን ዝመጹ ኣነቓቓሕቲ ዛንታታት ዳህሰሱ።",
+  "searchPlaceholder": "ስም ወይ ሃገር ድለዩ...",
+  "continents": {
+    "all": "🌍 ኩሉ...",
+    "europe": "🏰 ኣውሮጳ",
+    "americas": "🌎 ኣሜሪካ",
+    "asia": "🌏 ኤስያ",
+    "africa": "🏜️ ኣፍሪቃ",
+    "oceania": "🌊 ውቅያኖስ"
+  },
+  "pillars": {
+    "title": "3 ቀንዲ ኣዕኑድ ጽንዓት",
+    "badge": "ዝተረጋገጹ መትከላት",
+    "survivalTitle": "100% ናይ ምድሓን ደረጃ",
+    "survivalDesc": "ካብ ነፍሲ ወከፍ ስንባደ፡ ካብ ነፍሲ ወከፍ ምብታኽ ልቢ፡ ከምኡ’ውን ኣብ ነፍሲ ወከፍ ዘይትሓስቦ ጸላም ለይቲ ድሒንካ ኢኻ። ጽንዓትካ ድሮ ብጭብጢ ዝተረጋገጸ እዩ።",
+    "noiseTitle": "ኣእምሮኣዊ ድምጺ ኣንጻር ሓቂ",
+    "noiseDesc": "ሓንጎል ኣብ እዋን ጸቕጢ ንሓደጋ ዘጋንን ናይ ፍልቀት ናይ ምድሓን ማሽን እዩ። ጭንቀትን ጸሊም ሓሳባትን ናይ ሓሶት ኣላርም እምበር ዕላማዊ ክውንነት ኣይኮኑን።",
+    "chaptersTitle": "እቶም ዘይተጻሕፉ ምዕራፋት",
+    "chaptersDesc": "ንብምሉኡ መጽሓፍ ህይወትካ ብሓንቲ ጽንኩር ምዕራፍ ክትፈርዶ ኣይትኽእልን ኢኻ። ክትረኽቦም እትኽእል ብሉጻት ሰባትን ዝዓበየ ሰሓቕን ገና ኣብ ቅድሜኻ ኣሎ።",
+    "alchemyTitle": "ኣልኬሚ ቃንዛ (ሳብሊሜሽን)",
+    "alchemyDesc": "ዓቢ ስነ-ጥበብ፡ ዓሚቝ ርህራሄን መሰረት ዝሰበረ ጽንዓትን ካብቶም ኣብ ጸልማት ደው ዝበሉ ሰባት ይውለድ። ቃንዛኻ ዝዓበየ ፈጠራዊ ልዕለ ሓይልኻ ክኸውን ይኽእል እዩ።"
+  },
+  "sublimation": {
+    "title": "ኣልኬሚ ኣእምሮን ጽላሎትን",
+    "subtitle": "ውሽጣዊ ዕግርግር ናብ ምርድዳእን ፈጠራዊ ሓይልን ምቕያር።",
+    "card1Title": "1. ሓሳባት ሓቂ ኣይኮነን",
+    "card1Summary": "መብዛሕትኡ ርእሰ-ነቐፌታዊ ሓሳባት ናትካ ኣይኮነን። ካብ ንእስነት ወይ ከባቢ ዝመጹ ኣረጊት ቅዳሓት ቴፕ እዮም።",
+    "card1Detail": "ንኣሽቱ ቆልዑ ከለና ነቐፍቲ መጽረይቲ ይጎድሉና ነይሮም። ሓደ ሰብ ብሕርቃን ወይ ብነቐፌታ ክዛረብ ከሎ፡ ትሕተ-ሕልናና ከም ፍጹም ሓቂ ይምዝግቦ። 'ተሰብርካ' ወይ 'ዋጋ የብልካን' ክትሰምዕ ከለኻ፡ ኣስተውዕል: ንስኻ ኣይኮንካን ትዛረብ ዘለኻ። በቃ ግዜኡ ዝሓለፎ ቴፕ ሉፕ እዩ።",
+    "card2Title": "2. ስነ ጥበብ ሳብሊሜሽን (ኣልኬሚ)",
+    "card2Summary": "እቲ ጽዑቕ ጸሊም ጸዓትካ ከጥፍኣካ ኣየድልዮን እዩ። ናብ ፍጥረት ክቕየር ይኽእል እዩ።",
+    "card2Detail": "ሳብሊሜሽን ጥረ ባህርያዊ ድሌት፡ ክልኩል ሓሳባትን ዓሚቝ ስምዒታዊ ቃንዛን ናብ ስነ-ጥበብ፡ ስነ-ጽሑፍ፡ ኣካላዊ ሓይሊ ወይ ኮድ ምቕያር ስነ-ኣእምሮኣዊ ኣልኬሚ እዩ። ፈጠርቲ ንጸልማት ኣይዓፈንዎን-ናብ ግዜ ዘይስዕሮ ስራሓት ኣመሓላሊፎሞ።",
+    "card3Title": "3. ሰማይ እምበር ህቦብላ ኣይኮንካን",
+    "card3Summary": "ነቲ ህቦብላ እትዕዘብ ብንቕሓት ተዓዛቢ እምበር ኣብ ውሽጡ ዘሎ ስብርባር ኣይኮንካን።",
+    "card3Detail": "ደበናታት፡ ነጎዳ፡ ወይ ዝናብ ክሳብ ክንደይ ዕግርግር ይገብር ብዘየገድስ፡ ሰማይ ንባዕሉ በቲ ኩነታት ኣየር ፈጺሙ ኣይጉዳእን እዩ። ናብ መንበር ተዓዛቢ ተመሊስካ ስጉም። እቲ ስምዒታት መንነትካ ከይተሓሓዝካ ክመጹን ክኸዱን ተዓዘቡ።"
+  },
+  "cta": {
+    "title": "ኣብዚ ሕጂ እዋን ንነብስኻ መሬት ክትገብር ኣለካ ወይ ምስ ሓደ ሰብ ክትዛረብ ኣለካ?",
+    "desc": "ቀስ ኢልካን ዓሚቝን ትንፋስ ውሰድ። ሎሚ ንብምሉኡ እምባ ክትስዕሮ ኣየድልየካን እዩ። ኣብታ እትቕጽል ደቒቕ ጥራይ።",
+    "crisisButton": "ናይ ቅልውላው ሓገዝ መስመራት ርአ",
+    "toolsButton": "ናይ ምስትንፋስን መሬትን መሳርሒታት"
   }
+}
 };

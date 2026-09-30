@@ -255,58 +255,58 @@ export const ig: TranslationDictionary = {
     "footerNotice": "Mbufe ozugbo na hello@martinluzak.sk • A kwadoro ịkọ akụkọ n'amaghị aha"
   },
   motivationPage: {
-    "backToHome": "← Back to Home & Crisis Help",
-    "badge": "Perspective Shift & Meaning • 101 Global Inspirations",
-    "titlePart1": "Why Your Existence ",
-    "titleHighlight": "Matters Profoundly",
-    "description": "When you are in the thick of exhaustion, perspective narrows. Here are grounded psychological principles and real human stories of those who turned extreme suffering into enduring purpose.",
-    "spotlightBadge": "Voice from Your Region",
-    "spotlightSelectCountry": "Select country:",
-    "spotlightAdversity": "Adversity Faced",
-    "spotlightTakeaway": "Takeaway for You Today",
-    "globalTitansTitle": "Global Titans of Resilience",
-    "globalTitansSubtitle": "Timeless figures who overcame unimaginable odds to light the path for humanity.",
-    "galleryTitle": "All Continental & European Figures",
-    "gallerySubtitle": "Explore inspiring stories from across Europe and the entire globe.",
-    "searchPlaceholder": "Search name or country...",
-    "continents": {
-      "all": "🌍 All",
-      "europe": "🏰 Europe",
-      "americas": "🌎 Americas",
-      "asia": "🌏 Asia",
-      "africa": "🏜️ Africa",
-      "oceania": "🌊 Oceania"
-    },
-    "pillars": {
-      "title": "Ogidi 3 Dị Mkpa nke Ntachi Obi",
-      "badge": "Ụkpụrụ E Gosipụtara",
-      "survivalTitle": "100% Survival Rate",
-      "survivalDesc": "You have survived every panic attack, every heartbreak, and every dark night you thought you wouldn't. Your resilience is already proven by facts.",
-      "noiseTitle": "Cognitive Noise vs. Truth",
-      "noiseDesc": "The brain is an evolutionary survival machine that exaggerates threat in times of stress. Anxiety and dark thoughts are false alarms, not objective reality.",
-      "chaptersTitle": "The Unwritten Chapters",
-      "chaptersDesc": "You cannot judge the entire book of your life by a single difficult chapter. The best people you will ever meet and the greatest laughs are still ahead.",
-      "alchemyTitle": "Alchemy of Pain (Sublimation)",
-      "alchemyDesc": "Great art, deep empathy, and groundbreaking resilience are born from people who have stood in the dark. Your pain can become your greatest creative superpower."
-    },
-    "sublimation": {
-      "title": "The Alchemy of Mind & Shadow",
-      "subtitle": "Transforming inner turmoil into understanding and creative power.",
-      "card1Title": "1. Thoughts Are Not Facts",
-      "card1Summary": "Most self-critical thoughts are not your own. They are old tape recordings from childhood or environment.",
-      "card1Detail": "As young children, we lacked critical filters. When someone spoke in anger or criticism, our subconscious recorded it as absolute truth. When you hear 'You are broken' or 'You are worthless', realize: that isn't you speaking. It is simply an outdated tape loop.",
-      "card2Title": "2. The Art of Sublimation (Alchemy)",
-      "card2Summary": "Your intense dark energy doesn't have to destroy you. It can be transmuted into creation.",
-      "card2Detail": "Sublimation is the psychological alchemy of converting raw instinct, taboo thoughts, and deep emotional pain into art, literature, physical power, or code. Creators didn't suppress their darkness—they channeled it into timeless works.",
-      "card3Title": "3. You Are the Sky, Not the Storm",
-      "card3Summary": "You are the conscious observer witnessing the storm, not the wreckage inside it.",
-      "card3Detail": "No matter how turbulent the clouds, thunder, or rain become, the sky itself is never harmed by the weather. Step back into the seat of the observer. Watch the sensations come and go without attaching your identity to them."
-    },
-    "cta": {
-      "title": "Need to ground yourself right now or talk to someone?",
-      "desc": "Take a slow, deep breath. You do not have to conquer the whole mountain today. Just the next minute.",
-      "crisisButton": "View Crisis Helplines",
-      "toolsButton": "Breathing & Grounding Tools"
-    }
+  "backToHome": "← Laghachi n'ụlọ & Enyemaka Nsogbu",
+  "badge": "Echiche Mgbanwe & Pụtara • 101 Global Inspirations",
+  "titlePart1": "Ihe Mere Ịdị adị",
+  "titleHighlight": "Ihe Na-eme N'ezie",
+  "description": "Mgbe ị nọ n'oké ike ọgwụgwụ, echiche gị na-ebelata. Nke a bụ ụkpụrụ mmụọ gbadoro ụkwụ na akụkọ gbasara mmadụ nke ndị tụgharịrị oke nhụjuanya ka ọ bụrụ ebumnuche na-adịgide adịgide.",
+  "spotlightBadge": "Olu sitere na mpaghara gị",
+  "spotlightSelectCountry": "Họrọ obodo:",
+  "spotlightAdversity": "Ahụhụ chere ihu",
+  "spotlightTakeaway": "Takeaway maka gị taa",
+  "globalTitansTitle": "Titans zuru ụwa ọnụ nke Resilience",
+  "globalTitansSubtitle": "Ọnụ ọgụgụ ndị na-adịghị agafe agafe bụ ndị meriri nhụsianya a na-apụghị ichetụ n'echiche iji mee ka ụzọ mmadụ nwee ìhè.",
+  "galleryTitle": "Ọnụ ọgụgụ niile nke kọntinent na European",
+  "gallerySubtitle": "Chọpụta akụkọ na-akpali akpali sitere na Europe na ụwa niile.",
+  "searchPlaceholder": "Chọọ aha ma ọ bụ obodo...",
+  "continents": {
+    "all": "🌍 niile",
+    "europe": "🏰 Europe",
+    "americas": "🌎 America",
+    "asia": "🌏 Asia",
+    "africa": "🏜️ Africa",
+    "oceania": "🌊 Oceania"
+  },
+  "pillars": {
+    "title": "3 Isi Ogidi nke Resilience",
+    "badge": "Ụkpụrụ egosipụtara",
+    "survivalTitle": "Oke nlanarị 100%.",
+    "survivalDesc": "Ị lanarịrị ọgụ ụjọ ọ bụla, obi mgbawa, na abalị ọ bụla gbara ọchịchịrị ị chere na ị gaghị eme ya. Egopụtalarị ịdị ike gị site na eziokwu.",
+    "noiseTitle": "Mkpọtụ uche vs. Eziokwu",
+    "noiseDesc": "Ụbụrụ bụ igwe na-agbanarị evolushọn nke na-ekwubiga okwu ókè n'ihe egwu n'oge nrụgide. Nchegbu na echiche gbara ọchịchịrị bụ mkpu ụgha, ọ bụghị eziokwu.",
+    "chaptersTitle": "Isi nke edeghị ede",
+    "chaptersDesc": "Ị nweghị ike iji otu isiakwụkwọ siri ike kpee akwụkwọ niile nke ndụ gị. Ndị kacha mma ị ga-ezute na ndị ọchị ọchị ka dị n'ihu.",
+    "alchemyTitle": "Alchemy nke mgbu (Sublimation)",
+    "alchemyDesc": "Nnukwu nka, ọmịiko miri emi, na nkwụsi ike n'ala sitere n'aka ndị guzoro n'ọchịchịrị. Ihe mgbu gị nwere ike bụrụ ike okike gị kachasị ukwuu."
+  },
+  "sublimation": {
+    "title": "The Alchemy of Mind & Shadow",
+    "subtitle": "Ịgbanwe ọgba aghara dị n'ime ka ọ bụrụ nghọta na ike okike.",
+    "card1Title": "1. Echiche Abụghị Eziokwu",
+    "card1Summary": "Ọtụtụ echiche na-akatọ onwe gị abụghị nke gị. Ha bụ ihe ndekọ ochie nke teepu site na nwata ma ọ bụ gburugburu ebe obibi.",
+    "card1Detail": "Dị ka ụmụntakịrị, anyị enweghị ihe nzacha dị egwu. Mgbe mmadụ kwuru okwu n'iwe ma ọ bụ nkwutọ, ndị na-eche echiche anyị dekọrọ ya dị ka eziokwu zuru oke. Mgbe ị nụrụ 'Ị gbajiri agbaji' ma ọ bụ 'Ị abaghị uru', mara: ọ bụghị nke ahụ ka ị na-ekwu. Ọ bụ naanị loop teepu emechiela.",
+    "card2Title": "2. Nkà nke Sublimation (Alchemy)",
+    "card2Summary": "Ike ọchịchịrị gị siri ike ekwesịghị ibibi gị. Enwere ike ibugharị ya n'ime okike.",
+    "card2Detail": "Sublimation bụ ọgụgụ isi nke mmụọ nke ịtụgharị mmuo sitere n'obi, echiche ezighi ezi, na mgbu mmetụta uche dị omimi ka ọ bụrụ nka, akwụkwọ, ike anụ ahụ, ma ọ bụ koodu. Ndị okike akwụsịghị ọchịchịrị ha—ha mere ka ọ bụrụ ọrụ na-adịghị agafe agafe.",
+    "card3Title": "3. Ị bụ eluigwe, ọ bụghị oké ifufe",
+    "card3Summary": "Ị bụ onye na-ahụ anya na-ahụ oké ifufe ahụ, ọ bụghị mkpọmkpọ ebe dị n'ime ya.",
+    "card3Detail": "N'agbanyeghị otú ígwé ojii, égbè eluigwe, ma ọ bụ mmiri ozuzo si apụta, ọ dịghị mgbe ihu igwe adịghị emerụ eluigwe n'onwe ya. Tinyeghachi n'oche onye na-ekiri ya. Lelee mmetụta na-abịa ma na-aga na-etinyeghị njirimara gị na ha."
+  },
+  "cta": {
+    "title": "Ịchọrọ ịla onwe gị ala ugbu a ma ọ bụ gwa mmadụ okwu?",
+    "desc": "Were nwayọọ nwayọọ kukuo ume. Ọ bụghị iwu na ị ga-emeri ugwu ahụ dum taa. Naanị nkeji na-esote.",
+    "crisisButton": "Lelee ahịrị enyemaka nsogbu nsogbu",
+    "toolsButton": "Ngwa iku ume & Ngwunye ala"
   }
+}
 };

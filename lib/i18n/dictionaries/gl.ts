@@ -255,58 +255,58 @@ export const gl: TranslationDictionary = {
     "footerNotice": "Envío directo a hello@martinluzak.sk • Admítense informes anónimos"
   },
   motivationPage: {
-    "backToHome": "← Back to Home & Crisis Help",
-    "badge": "Perspective Shift & Meaning • 101 Global Inspirations",
-    "titlePart1": "Why Your Existence ",
-    "titleHighlight": "Matters Profoundly",
-    "description": "When you are in the thick of exhaustion, perspective narrows. Here are grounded psychological principles and real human stories of those who turned extreme suffering into enduring purpose.",
-    "spotlightBadge": "Voice from Your Region",
-    "spotlightSelectCountry": "Select country:",
-    "spotlightAdversity": "Adversity Faced",
-    "spotlightTakeaway": "Takeaway for You Today",
-    "globalTitansTitle": "Global Titans of Resilience",
-    "globalTitansSubtitle": "Timeless figures who overcame unimaginable odds to light the path for humanity.",
-    "galleryTitle": "All Continental & European Figures",
-    "gallerySubtitle": "Explore inspiring stories from across Europe and the entire globe.",
-    "searchPlaceholder": "Search name or country...",
-    "continents": {
-      "all": "🌍 All",
-      "europe": "🏰 Europe",
-      "americas": "🌎 Americas",
-      "asia": "🌏 Asia",
-      "africa": "🏜️ Africa",
-      "oceania": "🌊 Oceania"
-    },
-    "pillars": {
-      "title": "3 Alicerces Fundamentais da Resiliencia",
-      "badge": "Principios Probados",
-      "survivalTitle": "100% Survival Rate",
-      "survivalDesc": "You have survived every panic attack, every heartbreak, and every dark night you thought you wouldn't. Your resilience is already proven by facts.",
-      "noiseTitle": "Cognitive Noise vs. Truth",
-      "noiseDesc": "The brain is an evolutionary survival machine that exaggerates threat in times of stress. Anxiety and dark thoughts are false alarms, not objective reality.",
-      "chaptersTitle": "The Unwritten Chapters",
-      "chaptersDesc": "You cannot judge the entire book of your life by a single difficult chapter. The best people you will ever meet and the greatest laughs are still ahead.",
-      "alchemyTitle": "Alchemy of Pain (Sublimation)",
-      "alchemyDesc": "Great art, deep empathy, and groundbreaking resilience are born from people who have stood in the dark. Your pain can become your greatest creative superpower."
-    },
-    "sublimation": {
-      "title": "The Alchemy of Mind & Shadow",
-      "subtitle": "Transforming inner turmoil into understanding and creative power.",
-      "card1Title": "1. Thoughts Are Not Facts",
-      "card1Summary": "Most self-critical thoughts are not your own. They are old tape recordings from childhood or environment.",
-      "card1Detail": "As young children, we lacked critical filters. When someone spoke in anger or criticism, our subconscious recorded it as absolute truth. When you hear 'You are broken' or 'You are worthless', realize: that isn't you speaking. It is simply an outdated tape loop.",
-      "card2Title": "2. The Art of Sublimation (Alchemy)",
-      "card2Summary": "Your intense dark energy doesn't have to destroy you. It can be transmuted into creation.",
-      "card2Detail": "Sublimation is the psychological alchemy of converting raw instinct, taboo thoughts, and deep emotional pain into art, literature, physical power, or code. Creators didn't suppress their darkness—they channeled it into timeless works.",
-      "card3Title": "3. You Are the Sky, Not the Storm",
-      "card3Summary": "You are the conscious observer witnessing the storm, not the wreckage inside it.",
-      "card3Detail": "No matter how turbulent the clouds, thunder, or rain become, the sky itself is never harmed by the weather. Step back into the seat of the observer. Watch the sensations come and go without attaching your identity to them."
-    },
-    "cta": {
-      "title": "Need to ground yourself right now or talk to someone?",
-      "desc": "Take a slow, deep breath. You do not have to conquer the whole mountain today. Just the next minute.",
-      "crisisButton": "View Crisis Helplines",
-      "toolsButton": "Breathing & Grounding Tools"
-    }
+  "backToHome": "← Volver a Inicio e Axuda de crise",
+  "badge": "Cambio de perspectiva e significado • 101 inspiracións globais",
+  "titlePart1": "Por que a túa existencia",
+  "titleHighlight": "Importa profundamente",
+  "description": "Cando estás no esgotamento, a perspectiva estreita. Aquí tes principios psicolóxicos fundamentados e historias humanas reais dos que converteron o sufrimento extremo nun propósito perdurable.",
+  "spotlightBadge": "Voz da túa rexión",
+  "spotlightSelectCountry": "Seleccione país:",
+  "spotlightAdversity": "Adversidade enfrontada",
+  "spotlightTakeaway": "Comida para levar hoxe",
+  "globalTitansTitle": "Titáns globais da resistencia",
+  "globalTitansSubtitle": "Figuras intemporales que superaron os obstáculos inimaxinables para iluminar o camiño da humanidade.",
+  "galleryTitle": "Todas as cifras continentais e europeas",
+  "gallerySubtitle": "Explora historias inspiradoras de toda Europa e de todo o mundo.",
+  "searchPlaceholder": "Busca nome ou país...",
+  "continents": {
+    "all": "🌍 Todos",
+    "europe": "🏰 Europa",
+    "americas": "🌎 Américas",
+    "asia": "🌏 Asia",
+    "africa": "🏜️ África",
+    "oceania": "🌊 Oceanía"
+  },
+  "pillars": {
+    "title": "3 piares fundamentais da resiliencia",
+    "badge": "Principios comprobados",
+    "survivalTitle": "Taxa de supervivencia do 100 %",
+    "survivalDesc": "Sobreviviches a cada ataque de pánico, a cada angustia e a cada noite escura que pensabas que non o farías. A túa resistencia xa está demostrada polos feitos.",
+    "noiseTitle": "Ruído Cognitivo vs Verdade",
+    "noiseDesc": "O cerebro é unha máquina de supervivencia evolutiva que esaxera a ameaza en tempos de estrés. A ansiedade e os pensamentos escuros son falsas alarmas, non realidade obxectiva.",
+    "chaptersTitle": "Os capítulos non escritos",
+    "chaptersDesc": "Non podes xulgar o libro enteiro da túa vida por un só capítulo difícil. A mellor xente que xamais coñecerás e as maiores risas aínda están por diante.",
+    "alchemyTitle": "Alquimia da dor (sublimación)",
+    "alchemyDesc": "A gran arte, a profunda empatía e a resiliencia innovadora nacen de persoas que quedaron na escuridade. A túa dor pode converterse no teu maior superpoder creativo."
+  },
+  "sublimation": {
+    "title": "A alquimia da mente e da sombra",
+    "subtitle": "Transformar a turbulencia interior en comprensión e poder creativo.",
+    "card1Title": "1. Os pensamentos non son feitos",
+    "card1Summary": "A maioría dos pensamentos autocríticos non son os teus. Son gravacións antigas da infancia ou da contorna.",
+    "card1Detail": "De pequenos, carecíamos de filtros críticos. Cando alguén falaba con rabia ou crítica, o noso subconsciente gravábao como verdade absoluta. Cando escoitas \"Estás roto\" ou \"Non vales para nada\", dáse conta: non estás falando. É simplemente un bucle de cinta obsoleto.",
+    "card2Title": "2. A arte da sublimación (alquimia)",
+    "card2Summary": "A túa intensa enerxía escura non ten que destruírte. Pódese transmutar en creación.",
+    "card2Detail": "A sublimación é a alquimia psicolóxica de converter o instinto bruto, os pensamentos tabú e a profunda dor emocional en arte, literatura, poder físico ou código. Os creadores non suprimiron a súa escuridade; canalizárono a obras atemporais.",
+    "card3Title": "3. Ti es o ceo, non a tormenta",
+    "card3Summary": "Vostede é o observador consciente que testemuña a tormenta, non os restos dentro dela.",
+    "card3Detail": "Por moi turbulentas que sexan as nubes, os tronos ou a choiva, o ceo nunca se ve prexudicado polo tempo. Volve ao asento do observador. Observa as sensacións ir e vir sen achegarlles a túa identidade."
+  },
+  "cta": {
+    "title": "Necesitas conectarte agora mesmo ou falar con alguén?",
+    "desc": "Respira lenta e profundamente. Non tes que conquistar toda a montaña hoxe. Só o minuto seguinte.",
+    "crisisButton": "Ver liñas de axuda de crise",
+    "toolsButton": "Ferramentas de respiración e posta a terra"
   }
+}
 };

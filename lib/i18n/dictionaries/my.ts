@@ -255,58 +255,58 @@ export const my: TranslationDictionary = {
     "footerNotice": "hello@martinluzak.sk သို့ တိုက်ရိုက်ပို့ဆောင်သည် • အမည်မဖော်ဘဲ တင်ပြနိုင်သည်"
   },
   motivationPage: {
-    "backToHome": "← Back to Home & Crisis Help",
-    "badge": "Perspective Shift & Meaning • 101 Global Inspirations",
-    "titlePart1": "Why Your Existence ",
-    "titleHighlight": "Matters Profoundly",
-    "description": "When you are in the thick of exhaustion, perspective narrows. Here are grounded psychological principles and real human stories of those who turned extreme suffering into enduring purpose.",
-    "spotlightBadge": "Voice from Your Region",
-    "spotlightSelectCountry": "Select country:",
-    "spotlightAdversity": "Adversity Faced",
-    "spotlightTakeaway": "Takeaway for You Today",
-    "globalTitansTitle": "Global Titans of Resilience",
-    "globalTitansSubtitle": "Timeless figures who overcame unimaginable odds to light the path for humanity.",
-    "galleryTitle": "All Continental & European Figures",
-    "gallerySubtitle": "Explore inspiring stories from across Europe and the entire globe.",
-    "searchPlaceholder": "Search name or country...",
-    "continents": {
-      "all": "🌍 All",
-      "europe": "🏰 Europe",
-      "americas": "🌎 Americas",
-      "asia": "🌏 Asia",
-      "africa": "🏜️ Africa",
-      "oceania": "🌊 Oceania"
-    },
-    "pillars": {
-      "title": "ကြံ့ကြံ့ခံနိုင်စွမ်း၏ အဓိကမဏ္ဍိုင် ၃ ခု",
-      "badge": "သက်သေပြမူများ",
-      "survivalTitle": "100% Survival Rate",
-      "survivalDesc": "You have survived every panic attack, every heartbreak, and every dark night you thought you wouldn't. Your resilience is already proven by facts.",
-      "noiseTitle": "Cognitive Noise vs. Truth",
-      "noiseDesc": "The brain is an evolutionary survival machine that exaggerates threat in times of stress. Anxiety and dark thoughts are false alarms, not objective reality.",
-      "chaptersTitle": "The Unwritten Chapters",
-      "chaptersDesc": "You cannot judge the entire book of your life by a single difficult chapter. The best people you will ever meet and the greatest laughs are still ahead.",
-      "alchemyTitle": "Alchemy of Pain (Sublimation)",
-      "alchemyDesc": "Great art, deep empathy, and groundbreaking resilience are born from people who have stood in the dark. Your pain can become your greatest creative superpower."
-    },
-    "sublimation": {
-      "title": "The Alchemy of Mind & Shadow",
-      "subtitle": "Transforming inner turmoil into understanding and creative power.",
-      "card1Title": "1. Thoughts Are Not Facts",
-      "card1Summary": "Most self-critical thoughts are not your own. They are old tape recordings from childhood or environment.",
-      "card1Detail": "As young children, we lacked critical filters. When someone spoke in anger or criticism, our subconscious recorded it as absolute truth. When you hear 'You are broken' or 'You are worthless', realize: that isn't you speaking. It is simply an outdated tape loop.",
-      "card2Title": "2. The Art of Sublimation (Alchemy)",
-      "card2Summary": "Your intense dark energy doesn't have to destroy you. It can be transmuted into creation.",
-      "card2Detail": "Sublimation is the psychological alchemy of converting raw instinct, taboo thoughts, and deep emotional pain into art, literature, physical power, or code. Creators didn't suppress their darkness—they channeled it into timeless works.",
-      "card3Title": "3. You Are the Sky, Not the Storm",
-      "card3Summary": "You are the conscious observer witnessing the storm, not the wreckage inside it.",
-      "card3Detail": "No matter how turbulent the clouds, thunder, or rain become, the sky itself is never harmed by the weather. Step back into the seat of the observer. Watch the sensations come and go without attaching your identity to them."
-    },
-    "cta": {
-      "title": "Need to ground yourself right now or talk to someone?",
-      "desc": "Take a slow, deep breath. You do not have to conquer the whole mountain today. Just the next minute.",
-      "crisisButton": "View Crisis Helplines",
-      "toolsButton": "Breathing & Grounding Tools"
-    }
+  "backToHome": "← အိမ်သို့ပြန်ရန် & အကျပ်အတည်းအကူအညီ",
+  "badge": "Perspective Shift & Meaning • 101 Global Inspirations",
+  "titlePart1": "ဘာကြောင့် မင်းရဲ့ဖြစ်တည်မှု",
+  "titleHighlight": "အရေးမကြီးဘူး",
+  "description": "ပင်ပန်းနွမ်းနယ်မှု ထူပြောလာတဲ့အခါ အမြင်တွေ ကျဉ်းမြောင်းလာပါတယ်။ ဤသည်မှာ ပြင်းထန်သော ဆင်းရဲဒုက္ခများကို ခံနိုင်ရည်ရှိသော ရည်ရွယ်ချက်အဖြစ်သို့ ပြောင်းလဲသွားသူများ၏ အခြေခံ စိတ်ပိုင်းဆိုင်ရာ နိယာမများနှင့် တကယ့်လူ့ပုံပြင်များဖြစ်သည်။",
+  "spotlightBadge": "သင့်ဒေသမှ အသံ",
+  "spotlightSelectCountry": "နိုင်ငံကို ရွေးပါ-",
+  "spotlightAdversity": "ဒုက္ခများ",
+  "spotlightTakeaway": "ရင်ဆိုင်ရသည်။ ယနေ့ သင့်အတွက် ယူဆောင်သွားပါ",
+  "globalTitansTitle": "Global Titans of Resilience",
+  "globalTitansSubtitle": "လူသားများအတွက် လမ်းကြောင်းကို အလင်းပေးရန်အတွက် စိတ်ကူးမယဉ်နိုင်သော အတားအဆီးများကို ကျော်ဖြတ်ခဲ့သော အချိန်မမီသော ကိန်းဂဏန်းများ။",
+  "galleryTitle": "Continental & European Figures အားလုံး",
+  "gallerySubtitle": "ဥရောပတစ်ခွင်နှင့် ကမ္ဘာတစ်ဝှမ်းလုံးမှ စိတ်လှုပ်ရှားဖွယ် ဇာတ်လမ်းများကို စူးစမ်းပါ။",
+  "searchPlaceholder": "အမည် သို့မဟုတ် နိုင်ငံကို ရှာဖွေပါ...",
+  "continents": {
+    "all": "🌍 အားလုံး",
+    "europe": "🏰 ဥရောပ",
+    "americas": "🌎 အမေရိကတိုက်",
+    "asia": "🌏 အာရှ",
+    "africa": "🏜️ အာဖရိက",
+    "oceania": "🌊 Oceania"
+  },
+  "pillars": {
+    "title": "3 Core Pillars of Resilience",
+    "badge": "Proven Principles",
+    "survivalTitle": "100% ရှင်သန်မှုနှုန်း",
+    "survivalDesc": "အထိတ်တလန့် တိုက်ခိုက်မှုတိုင်း၊ အသည်းကွဲမှုတိုင်းနဲ့ မင်းမဖြစ်ဘူးလို့ မင်းထင်ခဲ့တဲ့ အမှောင်ညတိုင်းကို မင်း လွတ်မြောက်ခဲ့တယ်။ မင်းရဲ့ခံနိုင်ရည်ကို အချက်အလက်တွေက သက်သေပြထားပြီးသား။",
+    "noiseTitle": "သိမှု ဆူညံသံနှင့် အမှန်တရား",
+    "noiseDesc": "ဦးနှောက်သည် ဖိစီးမှုအချိန်များတွင် ခြိမ်းခြောက်မှုကို ချဲ့ထွင်နိုင်သော ဆင့်ကဲရှင်သန်မှုဆိုင်ရာ စက်တစ်ခုဖြစ်သည်။ ပူပင်သောကနှင့် မှောင်မိုက်သောအတွေးများသည် ရည်ရွယ်ချက်အမှန်မဟုတ်ဘဲ မှားယွင်းသောအချက်များဖြစ်သည်။",
+    "chaptersTitle": "မရေးထားသော အခန်းများ",
+    "chaptersDesc": "သင့်ဘဝစာအုပ်တစ်ခုလုံးကို ခက်ခဲသောအခန်းတစ်ခုဖြင့် သင်မဆုံးဖြတ်နိုင်ပါ။ သင်တွေ့ဖူးသမျှ အကောင်းဆုံးလူများ နှင့် အကြီးကျယ်ဆုံး ရယ်မောမှုများသည် ရှေ့တွင် ရှိနေပါသေးသည်။",
+    "alchemyTitle": "ဝေဒနာ၏ အဂ္ဂိရတ် (Sublimation)",
+    "alchemyDesc": "ကြီးကျယ်ခမ်းနားသော အနုပညာ၊ နက်နဲသော စာနာမှုနှင့် ပြင်းထန်သော ခံနိုင်ရည်အားတို့သည် အမှောင်ထဲတွင် ရပ်နေသူများထံမှ ပေါက်ဖွားလာပါသည်။ မင်းရဲ့နာကျင်မှုက မင်းရဲ့ အကြီးမားဆုံး ဖန်တီးမှုစူပါပါဝါ ဖြစ်လာနိုင်တယ်။"
+  },
+  "sublimation": {
+    "title": "အဂ္ဂိရတ်နှင့် အရိပ်",
+    "subtitle": "အတွင်းစိတ်ရှုပ်ထွေးမှုကို နားလည်မှုနှင့် တီထွင်ဖန်တီးမှုစွမ်းအားအဖြစ် ပြောင်းလဲခြင်း။",
+    "card1Title": "1. အတွေးများသည် အဖြစ်မှန်များမဟုတ်ပါ",
+    "card1Summary": "မိမိကိုယ်ကို ဝေဖန်ပိုင်းခြားတတ်သော အတွေးအများစုသည် သင့်ကိုယ်ပိုင်မဟုတ်ပေ။ ၎င်းတို့သည် ကလေးဘဝ သို့မဟုတ် ပတ်ဝန်းကျင်မှ အသံသွင်းထားသော တိပ်ခွေဟောင်းများဖြစ်သည်။",
+    "card1Detail": "ငယ်ရွယ်စဉ်တွင် ကျွန်ုပ်တို့သည် အရေးကြီးသော စစ်ထုတ်မှုများ မရှိခဲ့ပါ။ တစ်စုံတစ်ယောက်က ဒေါသ သို့မဟုတ် ပြစ်တင်ပြောဆိုသောအခါ၊ ကျွန်ုပ်တို့၏ မသိစိတ်က ၎င်းကို ပကတိအမှန်တရားအဖြစ် မှတ်တမ်းတင်ခဲ့သည်။ 'မင်း ကြေကွဲနေတယ်' ဒါမှမဟုတ် 'မင်းဟာ တန်ဖိုးမဲ့နေတယ်' ဆိုတဲ့ အသံကို ကြားလိုက်တဲ့အခါ၊ အဲဒါ မင်းပြောနေတာ မဟုတ်ဘူး ဆိုတာ သိလိုက်ပါ။ ၎င်းသည် ရိုးရှင်းစွာ ခေတ်မမီသော တိပ်ကွင်းတစ်ခုဖြစ်သည်။",
+    "card2Title": "2. Sublimation အနုပညာ (Alchemy)",
+    "card2Summary": "မင်းရဲ့ ပြင်းထန်တဲ့ အမှောင်စွမ်းအင်က မင်းကို ဖျက်ဆီးဖို့ မလိုပါဘူး။ ဖန်တီးမှုအဖြစ်သို့ ကူးပြောင်းနိုင်သည်။",
+    "card2Detail": "Sublimation သည် ဗီဇ၊ တားမြစ်ထားသော အတွေးများနှင့် နက်နဲသော စိတ်ပိုင်းဆိုင်ရာ နာကျင်မှုများကို အနုပညာ၊ စာပေ၊ ရုပ်ပိုင်းဆိုင်ရာ စွမ်းအား သို့မဟုတ် ကုဒ်အဖြစ်သို့ ပြောင်းလဲခြင်း၏ စိတ်ပိုင်းဆိုင်ရာ အဂ္ဂိရတ်ပညာဖြစ်သည်။ ဖန်ဆင်းရှင်များသည် ၎င်းတို့၏ အမှောင်ထုကို မနှိမ်နှင်းဘဲ—၎င်းကို အချိန်မကုန်နိုင်သော လက်ရာများအဖြစ်သို့ ဖြန့်ဝေခဲ့ကြသည်။",
+    "card3Title": "3. မင်းဟာ ကောင်းကင်၊ မုန်တိုင်းမဟုတ်",
+    "card3Summary": "သင်သည် မုန်တိုင်းကိုမြင်တွေ့နေရသည့် သတိရှိရှိ အကဲခတ်သူဖြစ်ပြီး ၎င်းအတွင်း၌ အပျက်အစီးများ မဟုတ်ပါ။",
+    "card3Detail": "တိမ်တွေ၊ မိုးကြိုးတွေ၊ မိုးတွေ ဘယ်လောက်ပဲ လှိုင်းထန်နေပါစေ ကောင်းကင်က ရာသီဥတုဒဏ်ကို ဘယ်တော့မှ မထိခိုက်စေပါဘူး။ အကဲခတ်သူ၏ ထိုင်ခုံသို့ ပြန်ဆုတ်သွားသည်။ မင်းရဲ့အထောက်အထားကို သူတို့နဲ့မတွဲဘဲ ခံစားချက်တွေ ထွက်လာတာကို ကြည့်ပါ။"
+  },
+  "cta": {
+    "title": "အခုချက်ချင်း ကိုယ့်ကိုယ်ကို အကဲခတ်ဖို့ လိုသလား ဒါမှမဟုတ် တစ်စုံတစ်ယောက်နဲ့ စကားပြောဖို့ လိုပါသလား။",
+    "desc": "ဖြည်းဖြည်းချင်း အသက်ပြင်းပြင်းရှူပါ။ ယနေ့ တောင်တစ်ခုလုံးကို အောင်နိုင်စရာ မလိုပါ။ နောက်တစ်မိနစ်ပဲလိုတော့တယ်။",
+    "crisisButton": "Crisis Helplines ကိုကြည့်ပါ",
+    "toolsButton": "အသက်ရှူခြင်းနှင့် မြေပြင်တူးလ်များ"
   }
+}
 };

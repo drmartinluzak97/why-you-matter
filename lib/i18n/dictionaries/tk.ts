@@ -255,56 +255,58 @@ export const tk: TranslationDictionary = {
     "footerNotice": "Göni hello@martinluzak.sk salgysyna gowşurmak • Anonim habarlar kabul edilýär"
   },
   motivationPage: {
-      "backToHome": "← Ana Sayfaya ve Kriz Yardımına Dön",
-      "badge": "Acıyı anlama dönüştürmek • 101 küresel ilham",
-      "titlePart1": "Varlığın neden ",
-      "titleHighlight": "derin bir anlam taşıyor",
-      "description": "Tükenmişlik ve acı anlarında bakış açımız daralır. Burada, en karanlık sınavları aşıp ışığa ulaşan insanların gerçek hikayeleri ve kanıtlanmış psikolojik ilkeler yer alıyor.",
-      "spotlightBadge": "Bölgenden bir ses",
-      "spotlightSelectCountry": "Ülke seç:",
-      "spotlightAdversity": "Aşılan zorluk",
-      "spotlightTakeaway": "Bugün için öğüt",
-      "globalTitansTitle": "İçsel direncin küresel devleri",
-      "globalTitansSubtitle": "Hayal bile edilemeyecek zorlukları yenip insanlığa yol gösteren ölümsüz isimler.",
-      "galleryTitle": "Kıtalara ve Avrupa'ya göre kahramanlar",
-      "gallerySubtitle": "Tüm Avrupa ülkelerinden ve dünyanın dört bir yanından ilham veren hikayeleri keşfet.",
-      "searchPlaceholder": "Kişi veya ülke ara...",
-      "continents": {
-          "all": "🌍 Tümü",
-          "europe": "🏰 Avrupa",
-          "americas": "🌎 Amerika",
-          "asia": "🌏 Asya",
-          "africa": "🏜️ Afrika",
-          "oceania": "🌊 Okyanusya"
-      },
-      "pillars": {
-          "title": "Direncin 3 Temel Direği",
-          "badge": "Kanıtlanmış İlkeler",
-          "noiseTitle": "Bilişsel gürültü vs Gerçek",
-          "noiseDesc": "Beyin kriz anlarında tehlikeyi abartmaya meyillidir. Kaygı ve karanlık düşünceler sahte alarmlardır, gerçeklik değil.",
-          "chaptersTitle": "Yazılmamış sayfalar",
-          "chaptersDesc": "Hayat kitabının tamamını tek bir zorlu bölüme bakarak yargılayamazsın. En güzel günler ve en içten gülüşler henüz önünde.",
-          "alchemyTitle": "Acının simyası (Yüceltme)",
-          "alchemyDesc": "Büyük sanat ve derin empati karanlıkta durmuş insanlardan doğar. Acın senin en büyük gücüne dönüşebilir."
-      },
-      "sublimation": {
-          "title": "Zihnin ve Gölgenin Simyası",
-          "subtitle": "İçsel karmaşayı derin anlayışa ve yaratıcı güce dönüştürmek.",
-          "card1Title": "1. Düşünceler gerçekler değildir",
-          "card1Summary": "Öz eleştirel düşüncelerin çoğu sana ait değil, geçmişten kalan eski kayıtlardır.",
-          "card1Detail": "Çocukken eleştirel filtrelerimiz yoktu. 'Hiçbir şeye değmezsin' sesini duyduğunda hatırla: bu sen değilsin, sadece eski bir kaset.",
-          "card2Title": "2. Yüceltme sanatı",
-          "card2Summary": "Karanlık enerji seni yok etmek zorunda değil; üretime ve şefkate dönüştürülebilir.",
-          "card2Detail": "Yüceltme, ham acıyı sanata, güce veya başkalarına yardıma dönüştürür. Büyük ustalar karanlıklarını ölümsüz eserlere dönüştürdüler.",
-          "card3Title": "3. Sen gökyüzüsün, fırtına değil",
-          "card3Summary": "Sen fırtınanın içindeki enkaz değil, onu izleyen bilinçli gözlemcisin.",
-          "card3Detail": "Fırtına ne kadar şiddetli olursa olsun, gökyüzünün kendisi asla zarar görmez. Duygularını geçip giden bulutlar gibi izle."
-      },
-      "cta": {
-          "title": "Şu anda sakinleşmeye veya biriyle konuşmaya mı ihtiyacın var?",
-          "desc": "Derin bir nefes al. Bugün tüm hayatını çözmek zorunda değilsin. Sadece bu bir dakikayı atlatman yeterli.",
-          "crisisButton": "Kriz Destek Hatlarını Gör",
-          "toolsButton": "Nefes ve Topraklanma Egzersizleri"
-      }
+  "backToHome": "Home Öýe gaýdyp barmak we krizis kömegi",
+  "badge": "Geljekdäki üýtgeşiklik we many • 101 Global ylhamlar",
+  "titlePart1": "Näme üçin barlygyňyz",
+  "titleHighlight": "Çuňňur meseleler",
+  "description": "Haadawlyk çekeniňizde, perspektiwalar daralýar. Ynha, aşa azaplary dowamly maksada öwürenleriň psihologiki ýörelgeleri we hakyky adam hekaýalary.",
+  "spotlightBadge": "Sebitiňizden ses",
+  "spotlightSelectCountry": "Countryurt saýlaň:",
+  "spotlightAdversity": "Kynçylyklar ýüzbe-ýüz",
+  "spotlightTakeaway": "Bu gün siziň üçin alyp gitmek",
+  "globalTitansTitle": "Global çydamlylyk titanlary",
+  "globalTitansSubtitle": "Adamzat üçin ýol açmak üçin göz öňüne getirip bolmajak kynçylyklary ýeňip geçýän wagtlaýyn sanlar.",
+  "galleryTitle": "Continhli kontinental we Europeanewropa şekilleri",
+  "gallerySubtitle": "Europeewropanyň we bütin dünýäniň ylham beriji hekaýalaryny öwreniň.",
+  "searchPlaceholder": "Gözlegiň ady ýa-da ýurdy ...",
+  "continents": {
+    "all": "🌍 Hemmesi",
+    "europe": "🏰 Europeewropa",
+    "americas": "🌎 Amerikalylar",
+    "asia": "🌏 Aziýa",
+    "africa": "🏜️ Afrika",
+    "oceania": "🌊 Okeaniýa"
+  },
+  "pillars": {
+    "title": "Çydamlylygyň 3 esasy sütüni",
+    "badge": "Subut edilen ýörelgeler",
+    "survivalTitle": "100% halas bolmagyň derejesi",
+    "survivalDesc": "Her howsala hüjüminden, her bir ýürek bulanmasyndan we başarmaz öýdýän her garaňky gijeden halas bolduň. Çydamlylygyňyz eýýäm faktlar bilen subut edildi.",
+    "noiseTitle": "Biliş sesi we hakykat",
+    "noiseDesc": "Beýni, stress döwründe howpy ulaldýan ewolýusiýa diri galan maşyn. Aladalylyk we garaňky pikirler obýektiw hakykat däl-de, ýalan duýduryşlardyr.",
+    "chaptersTitle": "Ittenazylmadyk baplar",
+    "chaptersDesc": "Durmuşyňyzyň tutuş kitabyny ýekeje kyn bap bilen kesgitläp bilmersiňiz. Iň gowy duşjak adamlar we iň uly gülki henizem öňde.",
+    "alchemyTitle": "Agyry alhimiýasy (Sublimasiýa)",
+    "alchemyDesc": "Ajaýyp sungat, çuňňur duýgudaşlyk we düýbüni tutujy çydamlylyk garaňkylykda duran adamlardan döreýär. Derdiňiz iň uly döredijilik güýjüňize öwrülip biler."
+  },
+  "sublimation": {
+    "title": "Akyl we kölege alhimiýasy",
+    "subtitle": "Içerki bulaşyklygy düşünmek we döredijilik güýjüne öwürmek.",
+    "card1Title": "1. Pikirler fakt däl",
+    "card1Summary": "Öz-özüňi tankytlaýan pikirleriň köpüsi seniňki däl. Çagalykdan ýa-da daşky gurşawdan köne lentalar.",
+    "card1Detail": "Childrenaş çagalar hökmünde tankydy süzgüçler ýetmezçilik edýärdi. Kimdir biri gahar ýa-da tankyt bilen gürläninde, aň-düşünjämiz ony düýbünden hakykat diýip ýazdy. 'Sen döwdiň' ýa-da 'Sen biderek' diýip eşideniňde, düşünmeýärsiň. Diňe köne lenta halkasy.",
+    "card2Title": "2. Sublimasiýa sungaty (Alhimiýa)",
+    "card2Summary": "Güýçli garaňky energiýaňyz sizi ýok etmeli däl. Creationaradana geçip biler.",
+    "card2Detail": "Sublimasiýa, çig instinkti, gadagan pikirleri we çuňňur emosional agyryny sungata, edebiýata, fiziki güýje ýa-da koda öwürmegiň psihologiki alhimiýasydyr. Döredijiler garaňkylygyny basyp ýatyrmadylar, ony wagtlaýyn eserlere gönükdirdiler.",
+    "card3Title": "3. Sen asman, tupan däl",
+    "card3Summary": "Içindäki galyndylary däl-de, tupana şaýat bolýan aňly synçysyňyz.",
+    "card3Detail": "Bulutlar, ýyldyrymlar ýa-da ýagyş näçe bulaşyk bolsa-da, asmanyň özi howa tarapyndan hiç wagt zyýan çekmeýär. Synçynyň oturgyjyna yza gaýdyň. Duýgularyň gelip, şahsyýetiňizi olara goşmazdan gidiň."
+  },
+  "cta": {
+    "title": "Şu wagt özüňizi ýerleşdirmeli ýa-da kimdir biri bilen gürleşmeli?",
+    "desc": "Haýal we uludan dem alyň. Bu gün tutuş dagy basyp almak hökman däl. Indiki minutda.",
+    "crisisButton": "Krizis telefon belgilerini görüň",
+    "toolsButton": "Dem alyş we ýerüsti gurallar"
   }
+}
 };

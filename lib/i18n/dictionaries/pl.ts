@@ -255,56 +255,58 @@ export const pl: TranslationDictionary = {
     "footerNotice": "Bezpośrednia wysyłka na hello@martinluzak.sk • Możliwość zgłoszenia anonimowego"
   },
   motivationPage: {
-      "backToHome": "← Powrót do strony głównej i pomocy kryzysowej",
-      "badge": "Przemiana bólu w sens • 101 światowych inspiracji",
-      "titlePart1": "Dlaczego Twoje życie ma ",
-      "titleHighlight": "głębokie znaczenie",
-      "description": "Gdy przechodzimy przez trudny czas, perspektywa się zawęża. Oto sprawdzone psychologiczne filary i prawdziwe historie ludzi, którzy pokonali najciemniejsze próby.",
-      "spotlightBadge": "Głos z Twojego regionu",
-      "spotlightSelectCountry": "Wybierz kraj:",
-      "spotlightAdversity": "Pokonana próba",
-      "spotlightTakeaway": "Przesłanie na dziś",
-      "globalTitansTitle": "Globalni tytani odporności psychicznej",
-      "globalTitansSubtitle": "Wybitne postacie, które przezwyciężyły niewyobrażalne trudności i inspirują świat.",
-      "galleryTitle": "Galeria bohaterów według kontynentów",
-      "gallerySubtitle": "Odkryj inspirujące historie z każdego kraju Europy i zakątków świata.",
-      "searchPlaceholder": "Szukaj postaci lub kraju...",
-      "continents": {
-          "all": "🌍 Wszystko",
-          "europe": "🏰 Europa",
-          "americas": "🌎 Ameryka",
-          "asia": "🌏 Azja",
-          "africa": "🏜️ Afryka",
-          "oceania": "🌊 Oceania"
-      },
-      "pillars": {
-          "title": "3 Fundamentalne Filary Odporności",
-          "badge": "Sprawdzone Zasady",
-          "noiseTitle": "Szum poznawczy vs Prawda",
-          "noiseDesc": "Mózg wyolbrzymia zagrożenia w chwilach stresu. Lęk i mroczne myśli to fałszywy alarm układu nerwowego, a nie obiektywna rzeczywistość.",
-          "chaptersTitle": "Nienapisane rozdziały",
-          "chaptersDesc": "Nie oceniaj całej książki swojego życia na podstawie jednego bolesnego rozdziału. Najpiękniejsze chwile i najszczerszy śmiech są jeszcze przed Tobą.",
-          "alchemyTitle": "Alchemia bólu (Sublimacja)",
-          "alchemyDesc": "Wielka sztuka, głęboka empatia i niezłomna siła rodzą się u tych, którzy przeszli przez mrok. Twój ból może stać się Twoją największą siłą."
-      },
-      "sublimation": {
-          "title": "Alchemia umysłu i cienia",
-          "subtitle": "Przekształcanie wewnętrznego chaosu w głębokie zrozumienie i siłę twórczą.",
-          "card1Title": "1. Myśli to nie fakty",
-          "card1Summary": "Większość samokrytycznych myśli nie pochodzi od Ciebie, to tylko stare nagrania z otoczenia.",
-          "card1Detail": "Jako dzieci nie mieliśmy filtrów krytycznych. Kiedy słyszysz w głowie 'Jesteś bezwartościowy', wiedz: to nie Ty, to tylko stara zacięta taśma.",
-          "card2Title": "2. Sztuka sublimacji",
-          "card2Summary": "Trudne emocje nie muszą Cię niszczyć – mogą stać się źródłem twórczości i empatii.",
-          "card2Detail": "Sublimacja przekształca ból w sztukę, literaturę lub pomoc innym. Najwięksi twórcy przekuli swój mrok w nieśmiertelne dzieła.",
-          "card3Title": "3. Jesteś niebem, nie burzą",
-          "card3Summary": "Jesteś świadomym obserwatorem burzy, a nie jej bezsilną ofiarą.",
-          "card3Detail": "Bez względu na to, jak groźne są chmury i pioruny, samemu niebu nic nie zagraża. Zrób krok w tył i obserwuj emocje jak przepływające obłoki."
-      },
-      "cta": {
-          "title": "Potrzebujesz się uspokoić lub porozmawiać z kimś teraz?",
-          "desc": "Weź głęboki oddech. Nie musisz dziś rozwiązywać całego swojego życia. Wystarczy poradzić sobie z tą jedną minutą.",
-          "crisisButton": "Zobacz linie pomocy kryzysowej",
-          "toolsButton": "Ćwiczenia oddechowe i uziemiające"
-      }
+  "backToHome": "← Powrót do Strona główna i pomoc kryzysowa",
+  "badge": "Zmiana perspektywy i znaczenie • 101 globalnych inspiracji",
+  "titlePart1": "Dlaczego Twoje Istnienie",
+  "titleHighlight": "Ma ogromne znaczenie",
+  "description": "Kiedy jesteś wyczerpany, perspektywa się zawęża. Oto ugruntowane zasady psychologiczne i prawdziwe ludzkie historie tych, którzy zamienili ekstremalne cierpienie w trwały cel.",
+  "spotlightBadge": "Głos z Twojego regionu",
+  "spotlightSelectCountry": "Wybierz kraj:",
+  "spotlightAdversity": "Przeciwności losu",
+  "spotlightTakeaway": "Dzisiaj na wynos dla Ciebie",
+  "globalTitansTitle": "Globalni Tytani Odporności",
+  "globalTitansSubtitle": "Ponadczasowe postacie, które pokonały niewyobrażalne przeciwności, aby oświetlić drogę ludzkości.",
+  "galleryTitle": "Wszystkie dane kontynentalne i europejskie",
+  "gallerySubtitle": "Poznaj inspirujące historie z całej Europy i całego świata.",
+  "searchPlaceholder": "Wyszukaj nazwę lub kraj...",
+  "continents": {
+    "all": "🌍 Wszystko",
+    "europe": "🏰 Europa",
+    "americas": "🌎Ameryki",
+    "asia": "🌏 Azja",
+    "africa": "🏜️Afryka",
+    "oceania": "🌊Oceania"
+  },
+  "pillars": {
+    "title": "3 podstawowe filary odporności",
+    "badge": "Sprawdzone zasady",
+    "survivalTitle": "100% współczynnika przeżycia",
+    "survivalDesc": "Przetrwałeś każdy atak paniki, każde załamanie serca i każdą ciemną noc, o której myślałeś, że nie. Twoja odporność została już potwierdzona faktami.",
+    "noiseTitle": "Hałas poznawczy a prawda",
+    "noiseDesc": "Mózg to ewolucyjna maszyna przetrwania, która w chwilach stresu wyolbrzymia zagrożenie. Niepokój i ciemne myśli to fałszywe alarmy, a nie obiektywna rzeczywistość.",
+    "chaptersTitle": "Niepisane rozdziały",
+    "chaptersDesc": "Nie możesz oceniać całej księgi swojego życia na podstawie jednego trudnego rozdziału. Najlepsi ludzie, jakich kiedykolwiek spotkasz, i najwspanialsza dawka śmiechu są jeszcze przed tobą.",
+    "alchemyTitle": "Alchemia bólu (sublimacja)",
+    "alchemyDesc": "Wielka sztuka, głęboka empatia i przełomowa odporność rodzą się dzięki ludziom, którzy stali w ciemności. Twój ból może stać się Twoją największą twórczą supermocą."
+  },
+  "sublimation": {
+    "title": "Alchemia umysłu i cienia",
+    "subtitle": "Przekształcanie wewnętrznego zamętu w zrozumienie i twórczą moc.",
+    "card1Title": "1. Myśli nie są faktami",
+    "card1Summary": "Większość samokrytycznych myśli nie jest twoją własną. Są to stare nagrania taśmowe z dzieciństwa lub otoczenia.",
+    "card1Detail": "Jako małe dzieci brakowało nam krytycznych filtrów. Kiedy ktoś wypowiadał się w gniewie lub krytycznie, nasza podświadomość rejestrowała to jako absolutną prawdę. Kiedy usłyszysz „Jesteś zepsuty” lub „Jesteś bezwartościowy”, zdaj sobie sprawę: to nie ty mówisz. To po prostu przestarzała pętla taśmy.",
+    "card2Title": "2. Sztuka sublimacji (alchemia)",
+    "card2Summary": "Twoja intensywna ciemna energia nie musi cię niszczyć. Można go przekształcić w stworzenie.",
+    "card2Detail": "Sublimacja to psychologiczna alchemia polegająca na przekształcaniu surowego instynktu, myśli tabu i głębokiego bólu emocjonalnego w sztukę, literaturę, siłę fizyczną lub kod. Twórcy nie stłumili swojej ciemności – skierowali ją w ponadczasowe dzieła.",
+    "card3Title": "3. Jesteś niebem, a nie burzą",
+    "card3Summary": "Jesteś świadomym obserwatorem obserwującym burzę, a nie znajdujące się w niej wraki.",
+    "card3Detail": "Nieważne, jak burzliwe są chmury, grzmoty czy deszcz, pogoda nigdy nie szkodzi samomu niebu. Wróć na miejsce obserwatora. Obserwuj, jak doznania przychodzą i odchodzą, bez przywiązywania do nich swojej tożsamości."
+  },
+  "cta": {
+    "title": "Potrzebujesz teraz uziemić się lub porozmawiać z kimś?",
+    "desc": "Weź powolny, głęboki oddech. Nie musisz dzisiaj zdobywać całej góry. Już za następną minutę.",
+    "crisisButton": "Zobacz infolinię kryzysową",
+    "toolsButton": "Narzędzia do oddychania i uziemiania"
   }
+}
 };

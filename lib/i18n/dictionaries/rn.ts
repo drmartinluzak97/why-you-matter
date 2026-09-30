@@ -255,58 +255,58 @@ export const rn: TranslationDictionary = {
     "footerNotice": "Kurungika bitaziguye kuri hello@martinluzak.sk • Gutanga raporo utavuze izina birashoboka"
   },
   motivationPage: {
-    "backToHome": "← Back to Home & Crisis Help",
-    "badge": "Perspective Shift & Meaning • 101 Global Inspirations",
-    "titlePart1": "Why Your Existence ",
-    "titleHighlight": "Matters Profoundly",
-    "description": "When you are in the thick of exhaustion, perspective narrows. Here are grounded psychological principles and real human stories of those who turned extreme suffering into enduring purpose.",
-    "spotlightBadge": "Voice from Your Region",
-    "spotlightSelectCountry": "Select country:",
-    "spotlightAdversity": "Adversity Faced",
-    "spotlightTakeaway": "Takeaway for You Today",
-    "globalTitansTitle": "Global Titans of Resilience",
-    "globalTitansSubtitle": "Timeless figures who overcame unimaginable odds to light the path for humanity.",
-    "galleryTitle": "All Continental & European Figures",
-    "gallerySubtitle": "Explore inspiring stories from across Europe and the entire globe.",
-    "searchPlaceholder": "Search name or country...",
-    "continents": {
-      "all": "🌍 All",
-      "europe": "🏰 Europe",
-      "americas": "🌎 Americas",
-      "asia": "🌏 Asia",
-      "africa": "🏜️ Africa",
-      "oceania": "🌊 Oceania"
-    },
-    "pillars": {
-      "title": "3 Core Pillars of Resilience",
-      "badge": "Proven Principles",
-      "survivalTitle": "100% Survival Rate",
-      "survivalDesc": "You have survived every panic attack, every heartbreak, and every dark night you thought you wouldn't. Your resilience is already proven by facts.",
-      "noiseTitle": "Cognitive Noise vs. Truth",
-      "noiseDesc": "The brain is an evolutionary survival machine that exaggerates threat in times of stress. Anxiety and dark thoughts are false alarms, not objective reality.",
-      "chaptersTitle": "The Unwritten Chapters",
-      "chaptersDesc": "You cannot judge the entire book of your life by a single difficult chapter. The best people you will ever meet and the greatest laughs are still ahead.",
-      "alchemyTitle": "Alchemy of Pain (Sublimation)",
-      "alchemyDesc": "Great art, deep empathy, and groundbreaking resilience are born from people who have stood in the dark. Your pain can become your greatest creative superpower."
-    },
-    "sublimation": {
-      "title": "The Alchemy of Mind & Shadow",
-      "subtitle": "Transforming inner turmoil into understanding and creative power.",
-      "card1Title": "1. Thoughts Are Not Facts",
-      "card1Summary": "Most self-critical thoughts are not your own. They are old tape recordings from childhood or environment.",
-      "card1Detail": "As young children, we lacked critical filters. When someone spoke in anger or criticism, our subconscious recorded it as absolute truth. When you hear 'You are broken' or 'You are worthless', realize: that isn't you speaking. It is simply an outdated tape loop.",
-      "card2Title": "2. The Art of Sublimation (Alchemy)",
-      "card2Summary": "Your intense dark energy doesn't have to destroy you. It can be transmuted into creation.",
-      "card2Detail": "Sublimation is the psychological alchemy of converting raw instinct, taboo thoughts, and deep emotional pain into art, literature, physical power, or code. Creators didn't suppress their darkness—they channeled it into timeless works.",
-      "card3Title": "3. You Are the Sky, Not the Storm",
-      "card3Summary": "You are the conscious observer witnessing the storm, not the wreckage inside it.",
-      "card3Detail": "No matter how turbulent the clouds, thunder, or rain become, the sky itself is never harmed by the weather. Step back into the seat of the observer. Watch the sensations come and go without attaching your identity to them."
-    },
-    "cta": {
-      "title": "Need to ground yourself right now or talk to someone?",
-      "desc": "Take a slow, deep breath. You do not have to conquer the whole mountain today. Just the next minute.",
-      "crisisButton": "View Crisis Helplines",
-      "toolsButton": "Breathing & Grounding Tools"
-    }
+  "backToHome": "← Gusubira mu rugo & Gufasha mu bibazo",
+  "badge": "Guhindura ivyiyumviro n'insobanuro • 101 Ivyiyumviro vyo kw'isi yose",
+  "titlePart1": "Igituma Ubaho",
+  "titleHighlight": "Ibintu Bikomeye cane",
+  "description": "Iyo uri mu bihe vy’urushe cane, ukuntu ubona ibintu biragabanuka. Aha niho hari ingingo ngenderwako zishingiye ku vyo mu mutwe be n’inkuru nyakuri z’abantu z’abahinduye imibabaro ikaze cane ngo ibe intumbero iramba.",
+  "spotlightBadge": "Ijwi ry'Intara Yanyu",
+  "spotlightSelectCountry": "Hitamwo igihugu:",
+  "spotlightAdversity": "Amagorwa Ashikiwe",
+  "spotlightTakeaway": "Ivyo Uzojana Uyu Musi",
+  "globalTitansTitle": "Abanyagihugu bo kw'isi yose bo kwihangana",
+  "globalTitansSubtitle": "Abantu batagira igihe banesheje ingorane zidasanzwe kugira ngo bamurikire inzira y’abantu.",
+  "galleryTitle": "Imibare yose y'Igihugu n'i Buraya",
+  "gallerySubtitle": "Raba inkuru zitera intege zivuye mu Buraya bwose no kw’isi yose.",
+  "searchPlaceholder": "Rondera izina canke igihugu...",
+  "continents": {
+    "all": "🌍 Vyose",
+    "europe": "🏰 Uburayi",
+    "americas": "🌎 Amerika",
+    "asia": "🌏 Aziya",
+    "africa": "🏜️ Afirika",
+    "oceania": "🌊 Oceyanya"
+  },
+  "pillars": {
+    "title": "3 Inkingi Nkuru z'Ukwihangana",
+    "badge": "Ivyiyumviro vyemejwe",
+    "survivalTitle": "100% Igitigiri c'Abarokotse",
+    "survivalDesc": "Wararokotse ubwoba bwose, umutima wose ubabaye, n’ijoro ryose ry’umwiza wiyumvira ko utazorokoka. Ukwihangana kwawe kuramaze kwemezwa n’ibintu vy’ukuri.",
+    "noiseTitle": "Urusaku rw'ubumenyi n'ukuri",
+    "noiseDesc": "Ubwonko ni imashini y’ubwihindurize irenza urugero mu gutera ubwoba mu bihe vy’imibabaro. Amaganya n’ivyiyumviro vy’umwiza ni inkengeri z’ikinyoma, si ukuri kw’intumbero.",
+    "chaptersTitle": "Ibice Bitanditswe",
+    "chaptersDesc": "Ntushobora gucira urubanza igitabu cose c’ubuzima bwawe ukoresheje igice kimwe kigoye. Abantu beza cane uzohura na bo n’ibitwenge bikomeye cane biracari imbere.",
+    "alchemyTitle": "Alchimie y'ububabare (Ugutera imbere)",
+    "alchemyDesc": "Ubuhinga bukomeye, ukwiyumvamwo abandi bikomeye, n’ukwitanga kw’agaciro biva ku bantu bahagaze mu mwiza. Ububabare bwawe burashobora kuba ububasha bwawe buhambaye bwo kurema."
+  },
+  "sublimation": {
+    "title": "Ivy'Ubwenge n'Igitutu",
+    "subtitle": "Guhindura umuvurungano wo mu mutima mu gutahura no mu bubasha bwo kurema.",
+    "card1Title": "1. Ivyiyumviro Si Ivy'ukuri",
+    "card1Summary": "Ivyiyumviro vyinshi vyo kwinegura si ivyawe. Ni amajwi ya kera yafashwe ku kaseti kuva mu bwana canke mu bidukikije.",
+    "card1Detail": "Nk’abana bato, twabura amayunguruzo ahambaye. Iyo umuntu avuze afise ishavu canke anegura, umutima wacu wo munsi waravyandika nk’ukuri gushitse. Iyo wumvise ngo ‘Wavunitse’ canke ngo ‘Ntaco umaze’, umenye: ivyo si wewe uriko uravuga. Ni uruzitiro rw’uruzitiro rwa kera gusa.",
+    "card2Title": "2. Ubuhinga bwo gutera imbere (Alchimie)",
+    "card2Summary": "Inguvu zawe z’umwiza zikomeye cane ntizitegerezwa kukusambura. Bishobora guhinduka ikiremwa.",
+    "card2Detail": "Sublimation ni ubuhinga bwo mu mutwe bwo guhindura kamere mbi, ivyiyumviro bizira, n’ububabare bwimbitse bwo mu mutima bikaba ubuhinga, ibitabu, ububasha bwo ku mubiri canke kode. Abaremyi ntibapfutse umwijima wabo—bawurungitse mu bikorwa bitagira igihe.",
+    "card3Title": "3. Uri Ijuru, Si Igihuhusi",
+    "card3Summary": "Ni wewe wihweza neza igihuhusi, si ibisigazwa biri muri co.",
+    "card3Detail": "Naho ibicu, imituragaro canke imvura vyoba biteye umuvurungano gute, ikirere ubwaco ntikigera gishikirwa n’ingorane kubera ikirere. Subira mu ntebe y’uwukwihweza. Raba ivyo wumva biza bikagenda utabifatanya n’akaranga kawe."
+  },
+  "cta": {
+    "title": "Ukeneye kwishingira intahe ubu nyene canke ukavugana n’umuntu?",
+    "desc": "Humeka buhoro buhoro, cane. Si ngombwa ngo uneshe umusozi wose uno musi. Umunota ukurikira gusa.",
+    "crisisButton": "Raba imirongo y'imfashanyo mu bibazo",
+    "toolsButton": "Ibikoresho vyo guhema no gutera hasi"
   }
+}
 };

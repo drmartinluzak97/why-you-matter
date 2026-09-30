@@ -255,58 +255,58 @@ export const sw: TranslationDictionary = {
     "footerNotice": "Direct delivery to hello@martinluzak.sk • Anonymous reporting supported"
   },
   motivationPage: {
-    "backToHome": "← Back to Home & Crisis Help",
-    "badge": "Perspective Shift & Meaning • 101 Global Inspirations",
-    "titlePart1": "Why Your Existence ",
-    "titleHighlight": "Matters Profoundly",
-    "description": "When you are in the thick of exhaustion, perspective narrows. Here are grounded psychological principles and real human stories of those who turned extreme suffering into enduring purpose.",
-    "spotlightBadge": "Voice from Your Region",
-    "spotlightSelectCountry": "Select country:",
-    "spotlightAdversity": "Adversity Faced",
-    "spotlightTakeaway": "Takeaway for You Today",
-    "globalTitansTitle": "Global Titans of Resilience",
-    "globalTitansSubtitle": "Timeless figures who overcame unimaginable odds to light the path for humanity.",
-    "galleryTitle": "All Continental & European Figures",
-    "gallerySubtitle": "Explore inspiring stories from across Europe and the entire globe.",
-    "searchPlaceholder": "Search name or country...",
-    "continents": {
-      "all": "🌍 All",
-      "europe": "🏰 Europe",
-      "americas": "🌎 Americas",
-      "asia": "🌏 Asia",
-      "africa": "🏜️ Africa",
-      "oceania": "🌊 Oceania"
-    },
-    "pillars": {
-      "title": "Nguzo 3 Kuu za Ustahimilivu",
-      "badge": "Kanuni Zilizothibitishwa",
-      "survivalTitle": "100% Survival Rate",
-      "survivalDesc": "You have survived every panic attack, every heartbreak, and every dark night you thought you wouldn't. Your resilience is already proven by facts.",
-      "noiseTitle": "Cognitive Noise vs. Truth",
-      "noiseDesc": "The brain is an evolutionary survival machine that exaggerates threat in times of stress. Anxiety and dark thoughts are false alarms, not objective reality.",
-      "chaptersTitle": "The Unwritten Chapters",
-      "chaptersDesc": "You cannot judge the entire book of your life by a single difficult chapter. The best people you will ever meet and the greatest laughs are still ahead.",
-      "alchemyTitle": "Alchemy of Pain (Sublimation)",
-      "alchemyDesc": "Great art, deep empathy, and groundbreaking resilience are born from people who have stood in the dark. Your pain can become your greatest creative superpower."
-    },
-    "sublimation": {
-      "title": "The Alchemy of Mind & Shadow",
-      "subtitle": "Transforming inner turmoil into understanding and creative power.",
-      "card1Title": "1. Thoughts Are Not Facts",
-      "card1Summary": "Most self-critical thoughts are not your own. They are old tape recordings from childhood or environment.",
-      "card1Detail": "As young children, we lacked critical filters. When someone spoke in anger or criticism, our subconscious recorded it as absolute truth. When you hear 'You are broken' or 'You are worthless', realize: that isn't you speaking. It is simply an outdated tape loop.",
-      "card2Title": "2. The Art of Sublimation (Alchemy)",
-      "card2Summary": "Your intense dark energy doesn't have to destroy you. It can be transmuted into creation.",
-      "card2Detail": "Sublimation is the psychological alchemy of converting raw instinct, taboo thoughts, and deep emotional pain into art, literature, physical power, or code. Creators didn't suppress their darkness—they channeled it into timeless works.",
-      "card3Title": "3. You Are the Sky, Not the Storm",
-      "card3Summary": "You are the conscious observer witnessing the storm, not the wreckage inside it.",
-      "card3Detail": "No matter how turbulent the clouds, thunder, or rain become, the sky itself is never harmed by the weather. Step back into the seat of the observer. Watch the sensations come and go without attaching your identity to them."
-    },
-    "cta": {
-      "title": "Need to ground yourself right now or talk to someone?",
-      "desc": "Take a slow, deep breath. You do not have to conquer the whole mountain today. Just the next minute.",
-      "crisisButton": "View Crisis Helplines",
-      "toolsButton": "Breathing & Grounding Tools"
-    }
+  "backToHome": "← Rudi Nyumbani & Usaidizi wa Mgogoro",
+  "badge": "Kuhama kwa Mtazamo & Maana • 101 Misukumo ya Ulimwenguni",
+  "titlePart1": "Kwanini Uwepo Wako",
+  "titleHighlight": "Mambo Sana",
+  "description": "Unapokuwa kwenye uchovu mwingi, mtazamo hupungua. Hapa kuna kanuni za kisaikolojia zenye msingi na hadithi halisi za wanadamu za wale ambao waligeuza mateso makali kuwa kusudi la kudumu.",
+  "spotlightBadge": "Sauti kutoka kwa Mkoa wako",
+  "spotlightSelectCountry": "Chagua nchi:",
+  "spotlightAdversity": "Dhiki Inayokabiliwa",
+  "spotlightTakeaway": "Takeaway kwa ajili yako Leo",
+  "globalTitansTitle": "Titans ya Ustahimilivu Ulimwenguni",
+  "globalTitansSubtitle": "Watu wasio na wakati ambao walishinda tabia mbaya zisizoweza kufikiria ili kuwasha njia ya ubinadamu.",
+  "galleryTitle": "Takwimu zote za Bara na Ulaya",
+  "gallerySubtitle": "Gundua hadithi za kusisimua kutoka kote Ulaya na ulimwengu mzima.",
+  "searchPlaceholder": "Tafuta jina au nchi...",
+  "continents": {
+    "all": "🌍 Wote",
+    "europe": "🏰 Ulaya",
+    "americas": "🌎 Amerika",
+    "asia": "🌏 Asia",
+    "africa": "🏜️ Afrika",
+    "oceania": "🌊 Oceania"
+  },
+  "pillars": {
+    "title": "Nguzo 3 za Msingi za Ustahimilivu",
+    "badge": "Kanuni zilizothibitishwa",
+    "survivalTitle": "Kiwango cha Kuishi cha 100%.",
+    "survivalDesc": "Umenusurika katika kila shambulio la hofu, kila mshtuko wa moyo, na kila usiku wa giza ambao ulifikiri hungefanya. Ustahimilivu wako tayari umethibitishwa na ukweli.",
+    "noiseTitle": "Kelele za Utambuzi dhidi ya Ukweli",
+    "noiseDesc": "Ubongo ni mashine ya mageuzi ya kuishi ambayo huzidisha tishio wakati wa dhiki. Wasiwasi na mawazo ya giza ni kengele za uwongo, sio ukweli halisi.",
+    "chaptersTitle": "Sura Zisizoandikwa",
+    "chaptersDesc": "Huwezi kuhukumu kitabu kizima cha maisha yako kwa sura moja ngumu. Watu bora zaidi ambao utawahi kukutana nao na vicheko kuu zaidi bado viko mbele.",
+    "alchemyTitle": "Alchemy ya Maumivu (Sublimation)",
+    "alchemyDesc": "Sanaa kubwa, huruma ya kina, na ustahimilivu wa msingi huzaliwa kutoka kwa watu ambao wamesimama gizani. Maumivu yako yanaweza kuwa nguvu yako kuu ya ubunifu."
+  },
+  "sublimation": {
+    "title": "Alchemy ya Akili na Kivuli",
+    "subtitle": "Kubadilisha msukosuko wa ndani kuwa uelewa na nguvu ya ubunifu.",
+    "card1Title": "1. Mawazo Sio Ukweli",
+    "card1Summary": "Mawazo mengi ya kujikosoa sio yako mwenyewe. Ni rekodi za tepi za zamani kutoka utotoni au mazingira.",
+    "card1Detail": "Kama watoto wadogo, tulikosa vichungi muhimu. Mtu alipozungumza kwa hasira au ukosoaji, fahamu zetu zilirekodi kama ukweli mtupu. Unaposikia 'Umevunjika' au 'Huna thamani', tambua: si wewe unayezungumza. Ni kitanzi cha mkanda kilichopitwa na wakati.",
+    "card2Title": "2. Sanaa ya Usailishaji (Alchemy)",
+    "card2Summary": "Nishati yako kali ya giza sio lazima ikuangamize. Inaweza kubadilishwa kuwa uumbaji.",
+    "card2Detail": "Usablimishaji ni alkemia ya kisaikolojia ya kubadilisha silika ghafi, mawazo ya mwiko, na maumivu ya kina ya kihisia kuwa sanaa, fasihi, nguvu za kimwili, au kanuni. Waumbaji hawakukandamiza giza lao—walielekeza katika kazi zisizo na wakati.",
+    "card3Title": "3. Wewe Ni Anga, Sio Dhoruba",
+    "card3Summary": "Wewe ndiye mtazamaji mwenye ufahamu anayeshuhudia dhoruba, sio mabaki ndani yake.",
+    "card3Detail": "Haidhuru mawingu, ngurumo, au mvua kuwa na msukosuko kiasi gani, anga yenyewe haidhuriwi kamwe na hali ya hewa. Rudi kwenye kiti cha mwangalizi. Tazama mihemko ikija na kuondoka bila kuambatanisha utambulisho wako kwao."
+  },
+  "cta": {
+    "title": "Je, unahitaji kujiweka chini sasa hivi au kuzungumza na mtu?",
+    "desc": "Pumua polepole, kwa kina. Sio lazima kushinda mlima mzima leo. Dakika inayofuata tu.",
+    "crisisButton": "Tazama Nambari za Usaidizi za Mgogoro",
+    "toolsButton": "Zana za Kupumua na Kutuliza"
   }
+}
 };

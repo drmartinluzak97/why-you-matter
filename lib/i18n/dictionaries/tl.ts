@@ -255,58 +255,58 @@ export const tl: TranslationDictionary = {
     "footerNotice": "Direct delivery to hello@martinluzak.sk • Anonymous reporting supported"
   },
   motivationPage: {
-    "backToHome": "← Back to Home & Crisis Help",
-    "badge": "Perspective Shift & Meaning • 101 Global Inspirations",
-    "titlePart1": "Why Your Existence ",
-    "titleHighlight": "Matters Profoundly",
-    "description": "When you are in the thick of exhaustion, perspective narrows. Here are grounded psychological principles and real human stories of those who turned extreme suffering into enduring purpose.",
-    "spotlightBadge": "Voice from Your Region",
-    "spotlightSelectCountry": "Select country:",
-    "spotlightAdversity": "Adversity Faced",
-    "spotlightTakeaway": "Takeaway for You Today",
-    "globalTitansTitle": "Global Titans of Resilience",
-    "globalTitansSubtitle": "Timeless figures who overcame unimaginable odds to light the path for humanity.",
-    "galleryTitle": "All Continental & European Figures",
-    "gallerySubtitle": "Explore inspiring stories from across Europe and the entire globe.",
-    "searchPlaceholder": "Search name or country...",
-    "continents": {
-      "all": "🌍 All",
-      "europe": "🏰 Europe",
-      "americas": "🌎 Americas",
-      "asia": "🌏 Asia",
-      "africa": "🏜️ Africa",
-      "oceania": "🌊 Oceania"
-    },
-    "pillars": {
-      "title": "3 Pangunahing Haligi ng Katatagan",
-      "badge": "Napatunayang Prinsipyo",
-      "survivalTitle": "100% Survival Rate",
-      "survivalDesc": "You have survived every panic attack, every heartbreak, and every dark night you thought you wouldn't. Your resilience is already proven by facts.",
-      "noiseTitle": "Cognitive Noise vs. Truth",
-      "noiseDesc": "The brain is an evolutionary survival machine that exaggerates threat in times of stress. Anxiety and dark thoughts are false alarms, not objective reality.",
-      "chaptersTitle": "The Unwritten Chapters",
-      "chaptersDesc": "You cannot judge the entire book of your life by a single difficult chapter. The best people you will ever meet and the greatest laughs are still ahead.",
-      "alchemyTitle": "Alchemy of Pain (Sublimation)",
-      "alchemyDesc": "Great art, deep empathy, and groundbreaking resilience are born from people who have stood in the dark. Your pain can become your greatest creative superpower."
-    },
-    "sublimation": {
-      "title": "The Alchemy of Mind & Shadow",
-      "subtitle": "Transforming inner turmoil into understanding and creative power.",
-      "card1Title": "1. Thoughts Are Not Facts",
-      "card1Summary": "Most self-critical thoughts are not your own. They are old tape recordings from childhood or environment.",
-      "card1Detail": "As young children, we lacked critical filters. When someone spoke in anger or criticism, our subconscious recorded it as absolute truth. When you hear 'You are broken' or 'You are worthless', realize: that isn't you speaking. It is simply an outdated tape loop.",
-      "card2Title": "2. The Art of Sublimation (Alchemy)",
-      "card2Summary": "Your intense dark energy doesn't have to destroy you. It can be transmuted into creation.",
-      "card2Detail": "Sublimation is the psychological alchemy of converting raw instinct, taboo thoughts, and deep emotional pain into art, literature, physical power, or code. Creators didn't suppress their darkness—they channeled it into timeless works.",
-      "card3Title": "3. You Are the Sky, Not the Storm",
-      "card3Summary": "You are the conscious observer witnessing the storm, not the wreckage inside it.",
-      "card3Detail": "No matter how turbulent the clouds, thunder, or rain become, the sky itself is never harmed by the weather. Step back into the seat of the observer. Watch the sensations come and go without attaching your identity to them."
-    },
-    "cta": {
-      "title": "Need to ground yourself right now or talk to someone?",
-      "desc": "Take a slow, deep breath. You do not have to conquer the whole mountain today. Just the next minute.",
-      "crisisButton": "View Crisis Helplines",
-      "toolsButton": "Breathing & Grounding Tools"
-    }
+  "backToHome": "← Bumalik sa Tahanan at Tulong sa Krisis",
+  "badge": "Pagbabago at Kahulugan ng Pananaw • 101 Pandaigdigang Inspirasyon",
+  "titlePart1": "Bakit Ang Iyong Pag-iral",
+  "titleHighlight": "Napakahalaga",
+  "description": "Kapag ikaw ay nasa kapal ng pagkahapo, ang pananaw ay lumiliit. Narito ang mga pinagbabatayan na sikolohikal na mga prinsipyo at tunay na mga kuwento ng tao ng mga taong ginawa ang matinding pagdurusa sa walang hanggang layunin.",
+  "spotlightBadge": "Boses mula sa Iyong Rehiyon",
+  "spotlightSelectCountry": "Pumili ng bansa:",
+  "spotlightAdversity": "Kahirapang Hinaharap",
+  "spotlightTakeaway": "Takeaway para sa Iyo Ngayon",
+  "globalTitansTitle": "Global Titans of Resilience",
+  "globalTitansSubtitle": "Mga walang hanggang figure na nagtagumpay sa hindi maisip na mga posibilidad na liwanagan ang landas para sa sangkatauhan.",
+  "galleryTitle": "Lahat ng Continental at European Figure",
+  "gallerySubtitle": "Galugarin ang mga nakaka-inspire na kwento mula sa buong Europe at sa buong mundo.",
+  "searchPlaceholder": "Hanapin ang pangalan o bansa...",
+  "continents": {
+    "all": "🌍 Lahat",
+    "europe": "🏰 Europa",
+    "americas": "🌎 Americas",
+    "asia": "🌏 Asya",
+    "africa": "🏜️ Africa",
+    "oceania": "🌊 Oceania"
+  },
+  "pillars": {
+    "title": "3 Core Pillars of Resilience",
+    "badge": "Napatunayang Prinsipyo",
+    "survivalTitle": "100% Survival Rate",
+    "survivalDesc": "Nakaligtas ka sa bawat panic attack, bawat heartbreak, at bawat madilim na gabi na akala mo ay hindi na. Ang iyong katatagan ay napatunayan na ng mga katotohanan.",
+    "noiseTitle": "Cognitive Noise vs. Truth",
+    "noiseDesc": "Ang utak ay isang evolutionary survival machine na nagpapalaki ng banta sa mga oras ng stress. Ang pagkabalisa at madilim na pag-iisip ay mga maling alarma, hindi layunin na katotohanan.",
+    "chaptersTitle": "The Unwritten Chapters",
+    "chaptersDesc": "Hindi mo maaaring hatulan ang buong aklat ng iyong buhay sa pamamagitan ng isang mahirap na kabanata. Ang pinakamahusay na mga tao na makikilala mo at ang pinakadakilang pagtawa ay nasa unahan pa rin.",
+    "alchemyTitle": "Alchemy of Pain (Sublimation)",
+    "alchemyDesc": "Ang mahusay na sining, malalim na empatiya, at groundbreaking na katatagan ay ipinanganak mula sa mga taong nakatayo sa dilim. Ang iyong sakit ay maaaring maging iyong pinakadakilang malikhaing superpower."
+  },
+  "sublimation": {
+    "title": "Ang Alchemy ng Isip at Anino",
+    "subtitle": "Pagbabago ng panloob na kaguluhan sa pag-unawa at malikhaing kapangyarihan.",
+    "card1Title": "1. Ang mga Kaisipan ay Hindi Katotohanan",
+    "card1Summary": "Karamihan sa mga self-critical thoughts ay hindi sa iyo. Ang mga ito ay lumang tape recording mula sa pagkabata o kapaligiran.",
+    "card1Detail": "Bilang maliliit na bata, wala kaming mga kritikal na filter. Kapag may nagsalita sa galit o pagpuna, itinala ito ng ating hindi malay bilang ganap na katotohanan. Kapag narinig mo ang 'You are broken' o 'You are worthless', realize: hindi ikaw ang nagsasalita. Isa lang itong lumang tape loop.",
+    "card2Title": "2. Ang Sining ng Sublimation (Alchemy)",
+    "card2Summary": "Ang iyong matinding dark energy ay hindi kailangang sirain ka. Maaari itong ilipat sa paglikha.",
+    "card2Detail": "Ang sublimation ay ang psychological alchemy ng pag-convert ng raw instinct, taboo thoughts, at malalim na emosyonal na sakit sa sining, literatura, pisikal na kapangyarihan, o code. Hindi pinigilan ng mga creator ang kanilang kadiliman—ipinadala nila ito sa walang hanggang mga gawa.",
+    "card3Title": "3. Ikaw ang Langit, Hindi ang Bagyo",
+    "card3Summary": "Ikaw ang may malay na tagamasid na sumasaksi sa bagyo, hindi ang mga pagkasira sa loob nito.",
+    "card3Detail": "Gaano man kagulo ang mga ulap, kulog, o ulan, ang langit mismo ay hindi kailanman napinsala ng panahon. Bumalik sa upuan ng nagmamasid. Panoorin ang mga sensasyon na dumarating at umalis nang hindi inilakip ang iyong pagkakakilanlan sa kanila."
+  },
+  "cta": {
+    "title": "Kailangang i-ground ang iyong sarili ngayon o makipag-usap sa isang tao?",
+    "desc": "Huminga ng mabagal, malalim. Hindi mo kailangang sakupin ang buong bundok ngayon. Sa susunod na minuto na lang.",
+    "crisisButton": "Tingnan ang Mga Helpline ng Krisis",
+    "toolsButton": "Mga Tool sa Paghinga at Grounding"
   }
+}
 };

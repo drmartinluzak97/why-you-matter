@@ -255,58 +255,58 @@ export const xh: TranslationDictionary = {
     "footerNotice": "Ukuhanjiswa ngokungqalileyo ku-hello@martinluzak.sk • Ukuxela ngokungaziwa kuyaxhaswa"
   },
   motivationPage: {
-    "backToHome": "← Back to Home & Crisis Help",
-    "badge": "Perspective Shift & Meaning • 101 Global Inspirations",
-    "titlePart1": "Why Your Existence ",
-    "titleHighlight": "Matters Profoundly",
-    "description": "When you are in the thick of exhaustion, perspective narrows. Here are grounded psychological principles and real human stories of those who turned extreme suffering into enduring purpose.",
-    "spotlightBadge": "Voice from Your Region",
-    "spotlightSelectCountry": "Select country:",
-    "spotlightAdversity": "Adversity Faced",
-    "spotlightTakeaway": "Takeaway for You Today",
-    "globalTitansTitle": "Global Titans of Resilience",
-    "globalTitansSubtitle": "Timeless figures who overcame unimaginable odds to light the path for humanity.",
-    "galleryTitle": "All Continental & European Figures",
-    "gallerySubtitle": "Explore inspiring stories from across Europe and the entire globe.",
-    "searchPlaceholder": "Search name or country...",
-    "continents": {
-      "all": "🌍 All",
-      "europe": "🏰 Europe",
-      "americas": "🌎 Americas",
-      "asia": "🌏 Asia",
-      "africa": "🏜️ Africa",
-      "oceania": "🌊 Oceania"
-    },
-    "pillars": {
-      "title": "Iintsika ezi-3 eziPhambili zoKomelela",
-      "badge": "Imigaqo eQinisekisiweyo",
-      "survivalTitle": "100% Survival Rate",
-      "survivalDesc": "You have survived every panic attack, every heartbreak, and every dark night you thought you wouldn't. Your resilience is already proven by facts.",
-      "noiseTitle": "Cognitive Noise vs. Truth",
-      "noiseDesc": "The brain is an evolutionary survival machine that exaggerates threat in times of stress. Anxiety and dark thoughts are false alarms, not objective reality.",
-      "chaptersTitle": "The Unwritten Chapters",
-      "chaptersDesc": "You cannot judge the entire book of your life by a single difficult chapter. The best people you will ever meet and the greatest laughs are still ahead.",
-      "alchemyTitle": "Alchemy of Pain (Sublimation)",
-      "alchemyDesc": "Great art, deep empathy, and groundbreaking resilience are born from people who have stood in the dark. Your pain can become your greatest creative superpower."
-    },
-    "sublimation": {
-      "title": "The Alchemy of Mind & Shadow",
-      "subtitle": "Transforming inner turmoil into understanding and creative power.",
-      "card1Title": "1. Thoughts Are Not Facts",
-      "card1Summary": "Most self-critical thoughts are not your own. They are old tape recordings from childhood or environment.",
-      "card1Detail": "As young children, we lacked critical filters. When someone spoke in anger or criticism, our subconscious recorded it as absolute truth. When you hear 'You are broken' or 'You are worthless', realize: that isn't you speaking. It is simply an outdated tape loop.",
-      "card2Title": "2. The Art of Sublimation (Alchemy)",
-      "card2Summary": "Your intense dark energy doesn't have to destroy you. It can be transmuted into creation.",
-      "card2Detail": "Sublimation is the psychological alchemy of converting raw instinct, taboo thoughts, and deep emotional pain into art, literature, physical power, or code. Creators didn't suppress their darkness—they channeled it into timeless works.",
-      "card3Title": "3. You Are the Sky, Not the Storm",
-      "card3Summary": "You are the conscious observer witnessing the storm, not the wreckage inside it.",
-      "card3Detail": "No matter how turbulent the clouds, thunder, or rain become, the sky itself is never harmed by the weather. Step back into the seat of the observer. Watch the sensations come and go without attaching your identity to them."
-    },
-    "cta": {
-      "title": "Need to ground yourself right now or talk to someone?",
-      "desc": "Take a slow, deep breath. You do not have to conquer the whole mountain today. Just the next minute.",
-      "crisisButton": "View Crisis Helplines",
-      "toolsButton": "Breathing & Grounding Tools"
-    }
+  "backToHome": "← Buyela eKhaya & Noncedo lweNgxaki",
+  "badge": "I-Perspective Shift & Intsingiselo • 101 iGlobal Inspirations",
+  "titlePart1": "Kutheni Ubukho Bakho",
+  "titleHighlight": "Ibaluleka ngokunzulu",
+  "description": "Xa ukwingqimba yokudinwa, imbono iyancipha. Nantsi imigaqo esekelwe ngokwasengqondweni kunye namabali okwenene oluntu abo bajike ukubandezeleka okugqithisileyo kwaba yinjongo yokunyamezela.",
+  "spotlightBadge": "Ilizwi elisuka kwiNgingqi yakho",
+  "spotlightSelectCountry": "Khetha ilizwe:",
+  "spotlightAdversity": "Ujongene Nobunzima",
+  "spotlightTakeaway": "Takeaway for Wena Namhlanje",
+  "globalTitansTitle": "IiTitans zeGlobal zokuPhila",
+  "globalTitansSubtitle": "Amanani angaphelelwa lixesha awoyisa amathuba angenakucingelwa ukuba akhanyise indlela yoluntu.",
+  "galleryTitle": "Onke amaFigure elizwekazi naseYurophu",
+  "gallerySubtitle": "Jonga amabali akhuthazayo avela kulo lonke elaseYurophu nakwihlabathi liphela.",
+  "searchPlaceholder": "Khangela igama okanye ilizwe...",
+  "continents": {
+    "all": "🌍 Konke",
+    "europe": "🏰 YaseYurophu",
+    "americas": "🌎 eMelika",
+    "asia": "🌏 eAsia",
+    "africa": "🏜️ Afrika",
+    "oceania": "🌊 Oceania"
+  },
+  "pillars": {
+    "title": "Iintsika ezi-3 ezingundoqo zokuZimela",
+    "badge": "Imigaqo eQiniweyo",
+    "survivalTitle": "I-100% yezinga lokusinda",
+    "survivalDesc": "Usinde kulo lonke uhlaselo loloyiko, lonke unxunguphalo lwentliziyo, kwaye ubusuku bonke obumnyama obucinga ukuba awuzukukwenza. Ukomelela kwakho sele kungqinwe ziinyani.",
+    "noiseTitle": "Ingxolo yokuqonda vs. Inyaniso",
+    "noiseDesc": "Ingqondo ngumatshini wokuziphendukela kwemvelo osibaxa isoyikiso ngamaxesha oxinzelelo. Ukuxhalaba kunye neengcinga ezimnyama zizilumkiso zobuxoki, aziyonyani.",
+    "chaptersTitle": "Izahluko ezingabhalwanga",
+    "chaptersDesc": "Awukwazi ukugweba yonke incwadi yobomi bakho ngesahluko esinye esinzima. Abona bantu balungileyo onokuthi udibane nabo kunye nokuhleka okukhulu kuseza.",
+    "alchemyTitle": "I-Alchemy yentlungu (i-Sublimation)",
+    "alchemyDesc": "Ubugcisa obukhulu, uvelwano olunzulu, kunye nokuqina okusisiseko kuzalwa kubantu abema ebumnyameni. Intlungu yakho inokuba ngamandla akho amakhulu okudala."
+  },
+  "sublimation": {
+    "title": "I-Alchemy yeNgqondo kunye nesithunzi",
+    "subtitle": "Ukuguqula ukuphazamiseka kwangaphakathi kukuqonda kunye namandla okudala.",
+    "card1Title": "1. Iingcamango Ayizonyaniso",
+    "card1Summary": "Iingcinga ezininzi zokuzigxeka ayizizo ezakho. Zizirekhodisho zeteyiphu ezindala ukusuka ebuntwaneni okanye kwindawo engqongileyo.",
+    "card1Detail": "Njengabantwana abancinci, sasingenazo izinto zokuhluza ezibalulekileyo. Xa umntu ethetha ngomsindo okanye egxeka, i-subconscious yethu yayibhala njengenyaniso epheleleyo. Xa usiva 'Waphukile' okanye 'Awunto yanto', qonda: asinguwe othethayo. Yi tape loop yakudala.",
+    "card2Title": "2. UbuGcisa bokuSublimation (Alchemy)",
+    "card2Summary": "Amandla akho obumnyama obukhulu akufuneki ukuba akutshabalalise. Inokutshintshwa kwindalo.",
+    "card2Detail": "I-Sublimation yi-alchemy yengqondo yokuguqula i-instinct eluhlaza, iingcamango ze-taboo, kunye nentlungu enzulu yeemvakalelo kubugcisa, uncwadi, amandla omzimba, okanye ikhowudi. Abadali abazange babucinezele ubumnyama babo—babutshintshela kwimisebenzi engaphelelwa lixesha.",
+    "card3Title": "3. Unguwe Isibhakabhaka, Hayi Isaqhwithi",
+    "card3Summary": "Ungumntu obukeleyo obona isaqhwithi, hayi inkunkuma engaphakathi kuyo.",
+    "card3Detail": "Kungakhathaliseki ukuba amafu, iindudumo, okanye imvula egquba kangakanani na, isibhakabhaka ngokwaso asonakaliswa yimozulu. Buyela emva kwisihlalo sombukeli. Bukela uvakalelo luza kwaye luhambe ngaphandle kokuncamathisela ubuni bakho kubo."
+  },
+  "cta": {
+    "title": "Ngaba ufuna ukuphumla ngoku okanye uthethe nomntu?",
+    "desc": "Thatha umoya ocothayo, onzulu. Akunyanzelekanga ukuba woyise yonke intaba namhlanje. Umzuzu olandelayo nje.",
+    "crisisButton": "Jonga Iifowuni Zoncedo",
+    "toolsButton": "Ukuphefumla kunye nezixhobo zokuthoba"
   }
+}
 };

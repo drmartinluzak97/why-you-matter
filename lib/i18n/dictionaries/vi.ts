@@ -255,58 +255,58 @@ export const vi: TranslationDictionary = {
     "footerNotice": "Tin nhắn của bạn được bảo mật tuyệt đối tại hello@martinluzak.sk"
   },
   motivationPage: {
-    "backToHome": "← Back to Home & Crisis Help",
-    "badge": "Perspective Shift & Meaning • 101 Global Inspirations",
-    "titlePart1": "Why Your Existence ",
-    "titleHighlight": "Matters Profoundly",
-    "description": "When you are in the thick of exhaustion, perspective narrows. Here are grounded psychological principles and real human stories of those who turned extreme suffering into enduring purpose.",
-    "spotlightBadge": "Voice from Your Region",
-    "spotlightSelectCountry": "Select country:",
-    "spotlightAdversity": "Adversity Faced",
-    "spotlightTakeaway": "Takeaway for You Today",
-    "globalTitansTitle": "Global Titans of Resilience",
-    "globalTitansSubtitle": "Timeless figures who overcame unimaginable odds to light the path for humanity.",
-    "galleryTitle": "All Continental & European Figures",
-    "gallerySubtitle": "Explore inspiring stories from across Europe and the entire globe.",
-    "searchPlaceholder": "Search name or country...",
-    "continents": {
-      "all": "🌍 All",
-      "europe": "🏰 Europe",
-      "americas": "🌎 Americas",
-      "asia": "🌏 Asia",
-      "africa": "🏜️ Africa",
-      "oceania": "🌊 Oceania"
-    },
-    "pillars": {
-      "title": "3 Trụ Cột Cốt Lõi Của Sự Kiên Cường",
-      "badge": "Nguyên Tắc Đã Chứng Minh",
-      "survivalTitle": "100% Survival Rate",
-      "survivalDesc": "You have survived every panic attack, every heartbreak, and every dark night you thought you wouldn't. Your resilience is already proven by facts.",
-      "noiseTitle": "Cognitive Noise vs. Truth",
-      "noiseDesc": "The brain is an evolutionary survival machine that exaggerates threat in times of stress. Anxiety and dark thoughts are false alarms, not objective reality.",
-      "chaptersTitle": "The Unwritten Chapters",
-      "chaptersDesc": "You cannot judge the entire book of your life by a single difficult chapter. The best people you will ever meet and the greatest laughs are still ahead.",
-      "alchemyTitle": "Alchemy of Pain (Sublimation)",
-      "alchemyDesc": "Great art, deep empathy, and groundbreaking resilience are born from people who have stood in the dark. Your pain can become your greatest creative superpower."
-    },
-    "sublimation": {
-      "title": "The Alchemy of Mind & Shadow",
-      "subtitle": "Transforming inner turmoil into understanding and creative power.",
-      "card1Title": "1. Thoughts Are Not Facts",
-      "card1Summary": "Most self-critical thoughts are not your own. They are old tape recordings from childhood or environment.",
-      "card1Detail": "As young children, we lacked critical filters. When someone spoke in anger or criticism, our subconscious recorded it as absolute truth. When you hear 'You are broken' or 'You are worthless', realize: that isn't you speaking. It is simply an outdated tape loop.",
-      "card2Title": "2. The Art of Sublimation (Alchemy)",
-      "card2Summary": "Your intense dark energy doesn't have to destroy you. It can be transmuted into creation.",
-      "card2Detail": "Sublimation is the psychological alchemy of converting raw instinct, taboo thoughts, and deep emotional pain into art, literature, physical power, or code. Creators didn't suppress their darkness—they channeled it into timeless works.",
-      "card3Title": "3. You Are the Sky, Not the Storm",
-      "card3Summary": "You are the conscious observer witnessing the storm, not the wreckage inside it.",
-      "card3Detail": "No matter how turbulent the clouds, thunder, or rain become, the sky itself is never harmed by the weather. Step back into the seat of the observer. Watch the sensations come and go without attaching your identity to them."
-    },
-    "cta": {
-      "title": "Need to ground yourself right now or talk to someone?",
-      "desc": "Take a slow, deep breath. You do not have to conquer the whole mountain today. Just the next minute.",
-      "crisisButton": "View Crisis Helplines",
-      "toolsButton": "Breathing & Grounding Tools"
-    }
+  "backToHome": "← Quay lại Trang chủ & Trợ giúp Khủng hoảng",
+  "badge": "Sự thay đổi quan điểm và ý nghĩa • 101 nguồn cảm hứng toàn cầu",
+  "titlePart1": "Tại sao bạn tồn tại",
+  "titleHighlight": "Vấn đề sâu sắc",
+  "description": "Khi bạn đang trong tình trạng kiệt sức, tầm nhìn sẽ thu hẹp lại. Dưới đây là những nguyên tắc tâm lý có căn cứ và những câu chuyện có thật về con người của những người đã biến nỗi đau cùng cực thành mục đích lâu dài.",
+  "spotlightBadge": "Giọng nói từ khu vực của bạn",
+  "spotlightSelectCountry": "Chọn quốc gia:",
+  "spotlightAdversity": "Đối mặt với nghịch cảnh",
+  "spotlightTakeaway": "Takeaway cho bạn hôm nay",
+  "globalTitansTitle": "Những gã khổng lồ về khả năng phục hồi toàn cầu",
+  "globalTitansSubtitle": "Những nhân vật vượt thời gian đã vượt qua những khó khăn không thể tưởng tượng được để soi đường cho nhân loại.",
+  "galleryTitle": "Tất cả các số liệu lục địa và châu Âu",
+  "gallerySubtitle": "Khám phá những câu chuyện đầy cảm hứng từ khắp châu Âu và toàn cầu.",
+  "searchPlaceholder": "Tìm kiếm tên hoặc quốc gia...",
+  "continents": {
+    "all": "🌍 Tất cả",
+    "europe": "🏰 Châu Âu",
+    "americas": "🌎 Châu Mỹ",
+    "asia": "🌏 Châu Á",
+    "africa": "🏜️ Châu Phi",
+    "oceania": "🌊 Châu Đại Dương"
+  },
+  "pillars": {
+    "title": "3 trụ cột cốt lõi của khả năng phục hồi",
+    "badge": "Nguyên tắc đã được chứng minh",
+    "survivalTitle": "Tỷ lệ sống sót 100%",
+    "survivalDesc": "Bạn đã sống sót sau mỗi cơn hoảng loạn, mỗi lần đau lòng và mỗi đêm đen tối mà bạn tưởng mình sẽ không làm được. Khả năng phục hồi của bạn đã được chứng minh bằng thực tế.",
+    "noiseTitle": "Tiếng ồn nhận thức so với sự thật",
+    "noiseDesc": "Bộ não là một cỗ máy sinh tồn tiến hóa có khả năng phóng đại mối đe dọa trong thời điểm căng thẳng. Lo lắng và suy nghĩ đen tối là những báo động sai lầm, không phải thực tế khách quan.",
+    "chaptersTitle": "Những chương chưa được viết",
+    "chaptersDesc": "Bạn không thể đánh giá toàn bộ cuốn sách cuộc đời mình chỉ bằng một chương khó. Những người tốt nhất mà bạn từng gặp và những tiếng cười lớn nhất vẫn còn ở phía trước.",
+    "alchemyTitle": "Giả kim thuật của nỗi đau (Thăng hoa)",
+    "alchemyDesc": "Nghệ thuật tuyệt vời, sự đồng cảm sâu sắc và khả năng phục hồi đột phá được sinh ra từ những người đã đứng trong bóng tối. Nỗi đau của bạn có thể trở thành siêu năng lực sáng tạo lớn nhất của bạn."
+  },
+  "sublimation": {
+    "title": "Thuật giả kim của tâm trí và bóng tối",
+    "subtitle": "Chuyển hóa sự hỗn loạn bên trong thành sự hiểu biết và sức mạnh sáng tạo.",
+    "card1Title": "1. Suy nghĩ không phải là sự thật",
+    "card1Summary": "Hầu hết những suy nghĩ tự phê bình không phải của riêng bạn. Chúng là những đoạn băng ghi âm cũ từ thời thơ ấu hoặc môi trường xung quanh.",
+    "card1Detail": "Khi còn nhỏ, chúng ta thiếu những bộ lọc quan trọng. Khi ai đó nói trong cơn tức giận hoặc chỉ trích, tiềm thức của chúng ta ghi nhận điều đó là sự thật tuyệt đối. Khi bạn nghe thấy 'Bạn tan vỡ' hoặc 'Bạn thật vô dụng', hãy nhận ra: đó không phải là bạn đang nói. Nó chỉ đơn giản là một vòng lặp băng đã lỗi thời.",
+    "card2Title": "2. Nghệ thuật thăng hoa (Giả kim thuật)",
+    "card2Summary": "Năng lượng tối mạnh mẽ của bạn không nhất thiết phải tiêu diệt bạn. Nó có thể được chuyển hóa thành sự sáng tạo.",
+    "card2Detail": "Thăng hoa là thuật giả kim tâm lý nhằm chuyển đổi bản năng thô sơ, những suy nghĩ cấm kỵ và nỗi đau tinh thần sâu sắc thành nghệ thuật, văn học, sức mạnh thể chất hoặc mật mã. Những người sáng tạo đã không loại bỏ bóng tối của mình—họ truyền nó vào những tác phẩm vượt thời gian.",
+    "card3Title": "3. Bạn là bầu trời, không phải cơn bão",
+    "card3Summary": "Bạn là người quan sát có ý thức đang chứng kiến ​​cơn bão chứ không phải đống đổ nát bên trong nó.",
+    "card3Detail": "Dù mây, sấm sét hay mưa có hỗn loạn đến đâu, bản thân bầu trời cũng không bao giờ bị thời tiết làm tổn hại. Bước trở lại chỗ ngồi của người quan sát. Hãy quan sát những cảm giác đến và đi mà không gắn chặt danh tính của bạn với chúng."
+  },
+  "cta": {
+    "title": "Cần phải tiếp đất ngay bây giờ hoặc nói chuyện với ai đó?",
+    "desc": "Hãy hít một hơi thật chậm và sâu. Bạn không cần phải chinh phục toàn bộ ngọn núi ngày hôm nay. Chỉ phút tiếp theo.",
+    "crisisButton": "Xem Đường dây trợ giúp khủng hoảng",
+    "toolsButton": "Dụng cụ thở & nối đất"
   }
+}
 };

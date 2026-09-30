@@ -255,58 +255,58 @@ export const af: TranslationDictionary = {
     "footerNotice": "Direct delivery to hello@martinluzak.sk • Anonymous reporting supported"
   },
   motivationPage: {
-    "backToHome": "← Back to Home & Crisis Help",
-    "badge": "Perspective Shift & Meaning • 101 Global Inspirations",
-    "titlePart1": "Why Your Existence ",
-    "titleHighlight": "Matters Profoundly",
-    "description": "When you are in the thick of exhaustion, perspective narrows. Here are grounded psychological principles and real human stories of those who turned extreme suffering into enduring purpose.",
-    "spotlightBadge": "Voice from Your Region",
-    "spotlightSelectCountry": "Select country:",
-    "spotlightAdversity": "Adversity Faced",
-    "spotlightTakeaway": "Takeaway for You Today",
-    "globalTitansTitle": "Global Titans of Resilience",
-    "globalTitansSubtitle": "Timeless figures who overcame unimaginable odds to light the path for humanity.",
-    "galleryTitle": "All Continental & European Figures",
-    "gallerySubtitle": "Explore inspiring stories from across Europe and the entire globe.",
-    "searchPlaceholder": "Search name or country...",
-    "continents": {
-      "all": "🌍 All",
-      "europe": "🏰 Europe",
-      "americas": "🌎 Americas",
-      "asia": "🌏 Asia",
-      "africa": "🏜️ Africa",
-      "oceania": "🌊 Oceania"
-    },
-    "pillars": {
-      "title": "3 Kernpilare van Veerkragtigheid",
-      "badge": "Bewese Beginsels",
-      "survivalTitle": "100% Survival Rate",
-      "survivalDesc": "You have survived every panic attack, every heartbreak, and every dark night you thought you wouldn't. Your resilience is already proven by facts.",
-      "noiseTitle": "Cognitive Noise vs. Truth",
-      "noiseDesc": "The brain is an evolutionary survival machine that exaggerates threat in times of stress. Anxiety and dark thoughts are false alarms, not objective reality.",
-      "chaptersTitle": "The Unwritten Chapters",
-      "chaptersDesc": "You cannot judge the entire book of your life by a single difficult chapter. The best people you will ever meet and the greatest laughs are still ahead.",
-      "alchemyTitle": "Alchemy of Pain (Sublimation)",
-      "alchemyDesc": "Great art, deep empathy, and groundbreaking resilience are born from people who have stood in the dark. Your pain can become your greatest creative superpower."
-    },
-    "sublimation": {
-      "title": "The Alchemy of Mind & Shadow",
-      "subtitle": "Transforming inner turmoil into understanding and creative power.",
-      "card1Title": "1. Thoughts Are Not Facts",
-      "card1Summary": "Most self-critical thoughts are not your own. They are old tape recordings from childhood or environment.",
-      "card1Detail": "As young children, we lacked critical filters. When someone spoke in anger or criticism, our subconscious recorded it as absolute truth. When you hear 'You are broken' or 'You are worthless', realize: that isn't you speaking. It is simply an outdated tape loop.",
-      "card2Title": "2. The Art of Sublimation (Alchemy)",
-      "card2Summary": "Your intense dark energy doesn't have to destroy you. It can be transmuted into creation.",
-      "card2Detail": "Sublimation is the psychological alchemy of converting raw instinct, taboo thoughts, and deep emotional pain into art, literature, physical power, or code. Creators didn't suppress their darkness—they channeled it into timeless works.",
-      "card3Title": "3. You Are the Sky, Not the Storm",
-      "card3Summary": "You are the conscious observer witnessing the storm, not the wreckage inside it.",
-      "card3Detail": "No matter how turbulent the clouds, thunder, or rain become, the sky itself is never harmed by the weather. Step back into the seat of the observer. Watch the sensations come and go without attaching your identity to them."
-    },
-    "cta": {
-      "title": "Need to ground yourself right now or talk to someone?",
-      "desc": "Take a slow, deep breath. You do not have to conquer the whole mountain today. Just the next minute.",
-      "crisisButton": "View Crisis Helplines",
-      "toolsButton": "Breathing & Grounding Tools"
-    }
+  "backToHome": "← Terug na Tuis en Krisis Hulp",
+  "badge": "Perspektiefverskuiwing en betekenis • 101 Global Inspirations",
+  "titlePart1": "Hoekom jou bestaan ​​",
+  "titleHighlight": "Sake diepgaande",
+  "description": "Wanneer jy in die dik van uitputting is, vernou perspektief. Hier is gegronde sielkundige beginsels en ware menslike stories van diegene wat uiterste lyding in blywende doel verander het.",
+  "spotlightBadge": "Stem uit jou streek",
+  "spotlightSelectCountry": "Kies land:",
+  "spotlightAdversity": "Teëspoed in die gesig gestaar",
+  "spotlightTakeaway": "Wegneemete vir jou vandag",
+  "globalTitansTitle": "Global Titans of Resilience",
+  "globalTitansSubtitle": "Tydlose figure wat ondenkbare kanse oorkom het om die pad vir die mensdom te verlig.",
+  "galleryTitle": "Alle kontinentale en Europese syfers",
+  "gallerySubtitle": "Verken inspirerende verhale van regoor Europa en die hele wêreld.",
+  "searchPlaceholder": "Soek naam of land...",
+  "continents": {
+    "all": "🌍 Almal",
+    "europe": "🏰 Europa",
+    "americas": "🌎 Amerika",
+    "asia": "🌏 Asië",
+    "africa": "🏜️ Afrika",
+    "oceania": "🌊 Oseanië"
+  },
+  "pillars": {
+    "title": "3 Kernpilare van Veerkragtigheid",
+    "badge": "Bewese beginsels",
+    "survivalTitle": "100% oorlewingsyfer",
+    "survivalDesc": "Jy het elke paniekaanval, elke hartseer en elke donker nag wat jy gedink het jy nie sou oorleef nie. Jou veerkragtigheid word reeds deur feite bewys.",
+    "noiseTitle": "Kognitiewe geraas vs. waarheid",
+    "noiseDesc": "Die brein is 'n evolusionêre oorlewingsmasjien wat bedreiging in tye van stres oordryf. Angs en donker gedagtes is vals alarms, nie objektiewe werklikheid nie.",
+    "chaptersTitle": "Die ongeskrewe hoofstukke",
+    "chaptersDesc": "Jy kan nie die hele boek van jou lewe volgens 'n enkele moeilike hoofstuk beoordeel nie. Die beste mense wat jy ooit sal ontmoet en die grootste lag lê nog voor.",
+    "alchemyTitle": "Alchemy of Pain (sublimasie)",
+    "alchemyDesc": "Groot kuns, diep empatie en baanbrekende veerkragtigheid word gebore uit mense wat in die donker gestaan ​​het. Jou pyn kan jou grootste kreatiewe superkrag word."
+  },
+  "sublimation": {
+    "title": "Die Alchemy of Mind & Shadow",
+    "subtitle": "Die transformasie van innerlike onrus in begrip en kreatiewe krag.",
+    "card1Title": "1. Gedagtes is nie feite nie",
+    "card1Summary": "Die meeste selfkritiese gedagtes is nie jou eie nie. Dit is ou bandopnames uit kinderjare of omgewing.",
+    "card1Detail": "As jong kinders het ons nie kritiese filters gehad nie. Wanneer iemand in woede of kritiek gepraat het, het ons onderbewussyn dit as absolute waarheid aangeteken. Wanneer jy hoor 'Jy is gebroke' of 'Jy is waardeloos', besef: dit is nie jy wat praat nie. Dit is bloot 'n verouderde bandlus.",
+    "card2Title": "2. Die kuns van sublimasie (Alchemie)",
+    "card2Summary": "Jou intense donker energie hoef jou nie te vernietig nie. Dit kan in die skepping omgeskakel word.",
+    "card2Detail": "Sublimasie is die sielkundige alchemie om rou instink, taboe-gedagtes en diep emosionele pyn om te skakel in kuns, literatuur, fisiese krag of kode. Skeppers het nie hul duisternis onderdruk nie – hulle het dit in tydlose werke gekanaliseer.",
+    "card3Title": "3. Jy is die lug, nie die storm nie",
+    "card3Summary": "Jy is die bewuste waarnemer wat die storm aanskou, nie die wrakstukke daarin nie.",
+    "card3Detail": "Maak nie saak hoe onstuimig die wolke, donderweer of reën word nie, die lug self word nooit deur die weer benadeel nie. Stap terug in die sitplek van die waarnemer. Kyk hoe die sensasies kom en gaan sonder om jou identiteit daaraan te koppel."
+  },
+  "cta": {
+    "title": "Moet jy jouself op die oomblik grond of met iemand praat?",
+    "desc": "Haal stadig, diep asem. Jy hoef nie vandag die hele berg te verower nie. Net die volgende minuut.",
+    "crisisButton": "Bekyk krisishulplyne",
+    "toolsButton": "Asemhalings- en grondgereedskap"
   }
+}
 };

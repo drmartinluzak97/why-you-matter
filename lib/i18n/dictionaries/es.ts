@@ -255,56 +255,58 @@ export const es: TranslationDictionary = {
     "footerNotice": "Envío directo a hello@martinluzak.sk • Reporte anónimo disponible"
   },
   motivationPage: {
-      "backToHome": "← Volver al inicio y ayuda de crisis",
-      "badge": "Transformar el dolor en propósito • 101 inspiraciones globales",
-      "titlePart1": "Por qué tu existencia ",
-      "titleHighlight": "importa profundamente",
-      "description": "En momentos de agotamiento extremo, la perspectiva se estrecha. Aquí encontrarás principios psicológicos comprobados e historias reales de personas que atravesaron la oscuridad y hallaron la luz.",
-      "spotlightBadge": "Voz de tu región",
-      "spotlightSelectCountry": "Seleccionar país:",
-      "spotlightAdversity": "Adversidad superada",
-      "spotlightTakeaway": "Mensaje para tu día de hoy",
-      "globalTitansTitle": "Titanes globales de la resiliencia",
-      "globalTitansSubtitle": "Figuras universales que vencieron dificultades inimaginables e iluminan el camino.",
-      "galleryTitle": "Galería de figuras por continentes",
-      "gallerySubtitle": "Explora historias inspiradoras de toda Europa y de cada rincón del mundo.",
-      "searchPlaceholder": "Buscar por nombre o país...",
-      "continents": {
-          "all": "🌍 Todo",
-          "europe": "🏰 Europa",
-          "americas": "🌎 América",
-          "asia": "🌏 Asia",
-          "africa": "🏜️ África",
-          "oceania": "🌊 Oceanía"
-      },
-      "pillars": {
-          "title": "3 Pilares Fundamentales de la Resiliencia",
-          "badge": "Principios Comprobados",
-          "noiseTitle": "Ruido cognitivo vs Realidad",
-          "noiseDesc": "El cerebro es una máquina evolutiva que exagera las amenazas bajo estrés. La ansiedad y los pensamientos oscuros son falsas alarmas, no la realidad objetiva.",
-          "chaptersTitle": "Capítulos aún no escritos",
-          "chaptersDesc": "No puedes juzgar todo el libro de tu vida por un solo capítulo difícil. Las mejores personas y las risas más sinceras aún están por llegar.",
-          "alchemyTitle": "Alquimia del dolor (Sublimación)",
-          "alchemyDesc": "El gran arte, la profunda empatía y la fuerza interior nacen en quienes han estado en la oscuridad. Tu dolor puede convertirse en tu mayor fortaleza."
-      },
-      "sublimation": {
-          "title": "La Alquimia de la Mente y la Sombra",
-          "subtitle": "Transformar el caos interior en comprensión profunda y poder creativo.",
-          "card1Title": "1. Los pensamientos no son hechos",
-          "card1Summary": "La mayoría de pensamientos autocríticos no te pertenecen: son grabaciones antiguas del entorno.",
-          "card1Detail": "De niños no teníamos filtros críticos. Cuando escuchas 'No vales nada', recuerda: esa no es tu verdadera voz, es solo una cinta gastada que se repite.",
-          "card2Title": "2. El arte de la sublimación",
-          "card2Summary": "La energía oscura no tiene que destruirte: puede transmutarse en creación y empatía.",
-          "card2Detail": "La sublimación convierte el dolor en arte, literatura, fuerza o apoyo a los demás. Los grandes creadores canalizaron su sombra en obras inmortales.",
-          "card3Title": "3. Tú eres el cielo, no la tormenta",
-          "card3Summary": "Eres el observador consciente de la tormenta, no los restos dentro de ella.",
-          "card3Detail": "Por intensas que sean las nubes o los rayos, el cielo en sí jamás resulta dañado. Da un paso atrás y observa tus emociones como nubes que pasan."
-      },
-      "cta": {
-          "title": "¿Necesitas calmarte ahora mismo o hablar con alguien?",
-          "desc": "Respira profundo. No tienes que solucionar toda tu vida hoy. Basta con superar este minuto.",
-          "crisisButton": "Ver líneas de ayuda en crisis",
-          "toolsButton": "Ejercicios de respiración y calma"
-      }
+  "backToHome": "← Volver a Inicio y ayuda en caso de crisis",
+  "badge": "Cambio de perspectiva y significado • 101 inspiraciones globales",
+  "titlePart1": "Por qué tu existencia",
+  "titleHighlight": "Importa profundamente",
+  "description": "Cuando estás en medio del agotamiento, la perspectiva se estrecha. Aquí encontrará principios psicológicos fundamentados e historias humanas reales de quienes convirtieron el sufrimiento extremo en un propósito duradero.",
+  "spotlightBadge": "Voz desde tu región",
+  "spotlightSelectCountry": "Seleccione país:",
+  "spotlightAdversity": "Adversidad enfrentada",
+  "spotlightTakeaway": "Comida para llevar para ti hoy",
+  "globalTitansTitle": "Titanes globales de la resiliencia",
+  "globalTitansSubtitle": "Figuras atemporales que superaron obstáculos inimaginables para iluminar el camino de la humanidad.",
+  "galleryTitle": "Todas las cifras continentales y europeas",
+  "gallerySubtitle": "Explore historias inspiradoras de toda Europa y de todo el mundo.",
+  "searchPlaceholder": "Buscar nombre o país...",
+  "continents": {
+    "all": "🌍 Todos",
+    "europe": "🏰 Europa",
+    "americas": "🌎 Américas",
+    "asia": "🌏 Asia",
+    "africa": "🏜️ África",
+    "oceania": "🌊 Oceanía"
+  },
+  "pillars": {
+    "title": "3 pilares fundamentales de la resiliencia",
+    "badge": "Principios probados",
+    "survivalTitle": "Tasa de supervivencia del 100%",
+    "survivalDesc": "Has sobrevivido a cada ataque de pánico, a cada angustia y a cada noche oscura que pensabas que no sobrevivirías. Su resiliencia ya está demostrada por los hechos.",
+    "noiseTitle": "Ruido cognitivo versus verdad",
+    "noiseDesc": "El cerebro es una máquina de supervivencia evolutiva que exagera la amenaza en momentos de estrés. La ansiedad y los pensamientos oscuros son falsas alarmas, no una realidad objetiva.",
+    "chaptersTitle": "Los capítulos no escritos",
+    "chaptersDesc": "No puedes juzgar todo el libro de tu vida por un solo capítulo difícil. Las mejores personas que jamás conocerás y las mayores risas aún están por llegar.",
+    "alchemyTitle": "Alquimia del Dolor (Sublimación)",
+    "alchemyDesc": "El gran arte, la profunda empatía y la resiliencia innovadora nacen de personas que han permanecido en la oscuridad. Tu dolor puede convertirse en tu mayor superpoder creativo."
+  },
+  "sublimation": {
+    "title": "La alquimia de la mente y la sombra",
+    "subtitle": "Transformar la agitación interior en comprensión y poder creativo.",
+    "card1Title": "1. Los pensamientos no son hechos",
+    "card1Summary": "La mayoría de los pensamientos autocríticos no son los tuyos. Son grabaciones antiguas de la infancia o del entorno.",
+    "card1Detail": "Cuando éramos niños, carecíamos de filtros críticos. Cuando alguien hablaba con ira o crítica, nuestro subconsciente lo registraba como una verdad absoluta. Cuando escuches \"Estás roto\" o \"No vales nada\", date cuenta: no eres tú quien habla. Es simplemente un bucle de cinta obsoleto.",
+    "card2Title": "2. El Arte de la Sublimación (Alquimia)",
+    "card2Summary": "Tu intensa energía oscura no tiene por qué destruirte. Puede transmutarse en creación.",
+    "card2Detail": "La sublimación es la alquimia psicológica que consiste en convertir el instinto puro, los pensamientos tabú y el dolor emocional profundo en arte, literatura, poder físico o código. Los creadores no suprimieron su oscuridad: la canalizaron en obras atemporales.",
+    "card3Title": "3. Tú eres el cielo, no la tormenta",
+    "card3Summary": "Usted es el observador consciente que presencia la tormenta, no los escombros que hay en su interior.",
+    "card3Detail": "No importa cuán turbulentas se vuelvan las nubes, los truenos o la lluvia, el clima nunca daña el cielo mismo. Vuelva al asiento del observador. Observe las sensaciones ir y venir sin vincularles su identidad."
+  },
+  "cta": {
+    "title": "¿Necesitas conectarte a tierra ahora mismo o hablar con alguien?",
+    "desc": "Respira lenta y profundamente. No es necesario conquistar toda la montaña hoy. Justo el siguiente minuto.",
+    "crisisButton": "Ver líneas de ayuda en caso de crisis",
+    "toolsButton": "Herramientas de respiración y conexión a tierra"
   }
+}
 };

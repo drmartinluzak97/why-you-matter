@@ -255,58 +255,58 @@ export const lo: TranslationDictionary = {
     "footerNotice": "ສົ່ງກົງຫາ hello@martinluzak.sk • ຮອງຮັບການລາຍງານແບບບໍ່ລະບຸຊື່"
   },
   motivationPage: {
-    "backToHome": "← Back to Home & Crisis Help",
-    "badge": "Perspective Shift & Meaning • 101 Global Inspirations",
-    "titlePart1": "Why Your Existence ",
-    "titleHighlight": "Matters Profoundly",
-    "description": "When you are in the thick of exhaustion, perspective narrows. Here are grounded psychological principles and real human stories of those who turned extreme suffering into enduring purpose.",
-    "spotlightBadge": "Voice from Your Region",
-    "spotlightSelectCountry": "Select country:",
-    "spotlightAdversity": "Adversity Faced",
-    "spotlightTakeaway": "Takeaway for You Today",
-    "globalTitansTitle": "Global Titans of Resilience",
-    "globalTitansSubtitle": "Timeless figures who overcame unimaginable odds to light the path for humanity.",
-    "galleryTitle": "All Continental & European Figures",
-    "gallerySubtitle": "Explore inspiring stories from across Europe and the entire globe.",
-    "searchPlaceholder": "Search name or country...",
-    "continents": {
-      "all": "🌍 All",
-      "europe": "🏰 Europe",
-      "americas": "🌎 Americas",
-      "asia": "🌏 Asia",
-      "africa": "🏜️ Africa",
-      "oceania": "🌊 Oceania"
-    },
-    "pillars": {
-      "title": "3 ເສົາຄ້ຳຫຼັກແຫ່ງຄວາມເຂັ້ມແຂງ",
-      "badge": "ຫຼັກການທີ່ຜ່ານການພິສູດ",
-      "survivalTitle": "100% Survival Rate",
-      "survivalDesc": "You have survived every panic attack, every heartbreak, and every dark night you thought you wouldn't. Your resilience is already proven by facts.",
-      "noiseTitle": "Cognitive Noise vs. Truth",
-      "noiseDesc": "The brain is an evolutionary survival machine that exaggerates threat in times of stress. Anxiety and dark thoughts are false alarms, not objective reality.",
-      "chaptersTitle": "The Unwritten Chapters",
-      "chaptersDesc": "You cannot judge the entire book of your life by a single difficult chapter. The best people you will ever meet and the greatest laughs are still ahead.",
-      "alchemyTitle": "Alchemy of Pain (Sublimation)",
-      "alchemyDesc": "Great art, deep empathy, and groundbreaking resilience are born from people who have stood in the dark. Your pain can become your greatest creative superpower."
-    },
-    "sublimation": {
-      "title": "The Alchemy of Mind & Shadow",
-      "subtitle": "Transforming inner turmoil into understanding and creative power.",
-      "card1Title": "1. Thoughts Are Not Facts",
-      "card1Summary": "Most self-critical thoughts are not your own. They are old tape recordings from childhood or environment.",
-      "card1Detail": "As young children, we lacked critical filters. When someone spoke in anger or criticism, our subconscious recorded it as absolute truth. When you hear 'You are broken' or 'You are worthless', realize: that isn't you speaking. It is simply an outdated tape loop.",
-      "card2Title": "2. The Art of Sublimation (Alchemy)",
-      "card2Summary": "Your intense dark energy doesn't have to destroy you. It can be transmuted into creation.",
-      "card2Detail": "Sublimation is the psychological alchemy of converting raw instinct, taboo thoughts, and deep emotional pain into art, literature, physical power, or code. Creators didn't suppress their darkness—they channeled it into timeless works.",
-      "card3Title": "3. You Are the Sky, Not the Storm",
-      "card3Summary": "You are the conscious observer witnessing the storm, not the wreckage inside it.",
-      "card3Detail": "No matter how turbulent the clouds, thunder, or rain become, the sky itself is never harmed by the weather. Step back into the seat of the observer. Watch the sensations come and go without attaching your identity to them."
-    },
-    "cta": {
-      "title": "Need to ground yourself right now or talk to someone?",
-      "desc": "Take a slow, deep breath. You do not have to conquer the whole mountain today. Just the next minute.",
-      "crisisButton": "View Crisis Helplines",
-      "toolsButton": "Breathing & Grounding Tools"
-    }
+  "backToHome": "← ກັບໄປເຮືອນ & ຊ່ວຍເຫຼືອວິກິດ",
+  "badge": "Perspective Shift & ຄວາມຫມາຍ • 101 Global Inspirations",
+  "titlePart1": "ເປັນຫຍັງການມີຢູ່ຂອງເຈົ້າ",
+  "titleHighlight": "ເລິກຊຶ້ງ",
+  "description": "ໃນເວລາທີ່ທ່ານຢູ່ໃນຄວາມອິດເມື່ອຍຫນາ, ທັດສະນະແຄບ. ນີ້ແມ່ນຫຼັກການທາງຈິດວິທະຍາທີ່ເປັນພື້ນຖານ ແລະເລື່ອງຈິງຂອງມະນຸດຂອງຜູ້ທີ່ປ່ຽນຄວາມທຸກທໍລະມານຢ່າງຮ້າຍແຮງໄປສູ່ຈຸດປະສົງທີ່ຍືນຍົງ.",
+  "spotlightBadge": "ສຽງຈາກເຂດຂອງເຈົ້າ",
+  "spotlightSelectCountry": "ເລືອກປະເທດ:",
+  "spotlightAdversity": "ປະເຊີນກັບຄວາມທຸກຍາກ",
+  "spotlightTakeaway": "Takeaway for You Today",
+  "globalTitansTitle": "Global Titans of Resilience",
+  "globalTitansSubtitle": "ຕົວ​ເລກ​ທີ່​ບໍ່​ມີ​ເວ​ລາ​ທີ່​ເອົາ​ຊະ​ນະ​ການ​ລົງ​ຮອຍ​ກັນ​ທີ່​ບໍ່​ມີ​ການ​ຄາດ​ຄະ​ເນ​ເພື່ອ​ແສງ​ສະ​ຫວ່າງ​ເສັ້ນ​ທາງ​ສໍາ​ລັບ​ມະ​ນຸດ​.",
+  "galleryTitle": "ຕົວເລກທະວີບ ແລະເອີຣົບທັງໝົດ",
+  "gallerySubtitle": "ສຳຫຼວດເລື່ອງລາວແຮງບັນດານໃຈຈາກທົ່ວເອີຣົບ ແລະທົ່ວໂລກ.",
+  "searchPlaceholder": "ຊອກຫາຊື່ ຫຼືປະເທດ...",
+  "continents": {
+    "all": "🌍 ທັງໝົດ",
+    "europe": "🏰 ເອີຣົບ",
+    "americas": "🌎 ອາເມລິກາ",
+    "asia": "🌏 ອາຊີ",
+    "africa": "🏜️ ອາຟຣິກາ",
+    "oceania": "🌊 ໂອເຊຍເນຍ"
+  },
+  "pillars": {
+    "title": "3 ເສົາຫຼັກແຫ່ງຄວາມຢືດຢຸ່ນ",
+    "badge": "ຫຼັກການພິສູດ",
+    "survivalTitle": "100% ອັດຕາການລອດຕາຍ",
+    "survivalDesc": "ເຈົ້າ​ໄດ້​ລອດ​ພົ້ນ​ທຸກ​ການ​ໂຈມ​ຕີ​ທີ່​ຕື່ນ​ຕົກ​ໃຈ, ທຸກ​ໂສກ​ເສົ້າ, ແລະ​ທຸກ​ຄືນ​ທີ່​ມືດ​ມົວ​ທີ່​ເຈົ້າ​ຄິດ​ວ່າ​ເຈົ້າ​ຈະ​ບໍ່​ເຮັດ. ຄວາມຢືດຢຸ່ນຂອງເຈົ້າໄດ້ຖືກພິສູດແລ້ວໂດຍຂໍ້ເທັດຈິງ.",
+    "noiseTitle": "ສິ່ງລົບກວນສະຕິປັນຍາທຽບກັບຄວາມຈິງ",
+    "noiseDesc": "ສະຫມອງແມ່ນເຄື່ອງຈັກການຢູ່ລອດແບບວິວັດທະນາການທີ່ເກີນຄວາມຂົ່ມຂູ່ໃນເວລາທີ່ຄວາມກົດດັນ. ຄວາມວິຕົກກັງວົນ ແລະ ຄວາມຄິດທີ່ມືດມົວເປັນສັນຍານເຕືອນໄພ, ບໍ່ແມ່ນຄວາມຈິງຕາມຈຸດປະສົງ.",
+    "chaptersTitle": "ບົດທີ່ບໍ່ໄດ້ຂຽນ",
+    "chaptersDesc": "ທ່ານ​ບໍ່​ສາ​ມາດ​ຕັດ​ສິນ​ຫນັງ​ສື​ທັງ​ຫມົດ​ຂອງ​ຊີ​ວິດ​ຂອງ​ທ່ານ​ໂດຍ​ບົດ​ທີ່​ຍາກ​ດຽວ​. ຄົນທີ່ດີທີ່ສຸດທີ່ເຈົ້າຈະເຄີຍພົບແລະຫົວເລາະທີ່ຍິ່ງໃຫຍ່ທີ່ສຸດແມ່ນຍັງຢູ່ຂ້າງຫນ້າ.",
+    "alchemyTitle": "ການຜັນແປຂອງຄວາມເຈັບປວດ (Sublimation)",
+    "alchemyDesc": "ສິນລະປະອັນຍິ່ງໃຫຍ່, ຄວາມເຫັນອົກເຫັນໃຈຢ່າງເລິກເຊິ່ງ, ແລະຄວາມຢືດຢຸ່ນອັນຍິ່ງໃຫຍ່ແມ່ນເກີດມາຈາກຄົນທີ່ຢືນຢູ່ໃນຄວາມມືດ. ຄວາມເຈັບປວດຂອງທ່ານສາມາດກາຍເປັນມະຫາອໍານາດສ້າງສັນທີ່ຍິ່ງໃຫຍ່ທີ່ສຸດຂອງເຈົ້າ."
+  },
+  "sublimation": {
+    "title": "ການຜັນແປຂອງຈິດໃຈ & ເງົາ",
+    "subtitle": "ການຫັນປ່ຽນຄວາມວຸ້ນວາຍພາຍໃນໄປສູ່ຄວາມເຂົ້າໃຈ ແລະພະລັງສ້າງສັນ.",
+    "card1Title": "1. ຄວາມຄິດບໍ່ແມ່ນຄວາມຈິງ",
+    "card1Summary": "ຄວາມຄິດທີ່ວິພາກວິຈານຕົນເອງສ່ວນໃຫຍ່ບໍ່ແມ່ນຂອງຕົນເອງ. ພວກມັນແມ່ນບັນທຶກ tape ເກົ່າຈາກໄວເດັກຫຼືສະພາບແວດລ້ອມ.",
+    "card1Detail": "ໃນຖານະເປັນເດັກນ້ອຍ, ພວກເຮົາຂາດຕົວກອງທີ່ສໍາຄັນ. ເມື່ອຜູ້ໃດຜູ້ນຶ່ງເວົ້າດ້ວຍຄວາມໂກດແຄ້ນ ຫຼືວິພາກວິຈານ, ຈິດໃຕ້ສຳນຶກຂອງພວກເຮົາໄດ້ບັນທຶກມັນເປັນຄວາມຈິງຢ່າງແທ້ຈິງ. ເມື່ອທ່ານໄດ້ຍິນ 'ເຈົ້າຖືກໃຈ' ຫຼື 'ເຈົ້າບໍ່ມີຄ່າ', ຈົ່ງຮັບຮູ້ວ່າ: ມັນບໍ່ແມ່ນເຈົ້າເວົ້າ. ມັນເປັນພຽງແຕ່ tape loop ລ້າສະໄຫມ.",
+    "card2Title": "2. ພຣະອາຈາຣຍ໌ໃຫຍ່ (ການຜັນແປ)",
+    "card2Summary": "ພະລັງງານຄວາມມືດທີ່ຮຸນແຮງຂອງເຈົ້າບໍ່ຈໍາເປັນຕ້ອງທໍາລາຍເຈົ້າ. ມັນສາມາດຖືກຖ່າຍທອດໄປສູ່ການສ້າງ.",
+    "card2Detail": "Sublimation ແມ່ນການຜັນແປທາງຈິດໃຈຂອງການປ່ຽນ instinct ວັດຖຸດິບ, ຄວາມຄິດຫ້າມ, ແລະຄວາມເຈັບປວດທາງດ້ານຈິດໃຈທີ່ເລິກເຊິ່ງເຂົ້າໄປໃນສິລະປະ, ວັນນະຄະດີ, ພະລັງງານທາງດ້ານຮ່າງກາຍ, ຫຼືລະຫັດ. ຜູ້ສ້າງບໍ່ໄດ້ສະກັດກັ້ນຄວາມມືດຂອງເຂົາເຈົ້າ—ເຂົາເຈົ້າໄດ້ສົ່ງມັນໄປສູ່ວຽກງານທີ່ບໍ່ມີເວລາ.",
+    "card3Title": "3. ເຈົ້າຄືຟ້າບໍ່ແມ່ນພະຍຸ",
+    "card3Summary": "ເຈົ້າເປັນນັກສັງເກດການທີ່ມີສະຕິເຫັນພະຍຸ, ບໍ່ແມ່ນຊາກຫັກພັງພາຍໃນມັນ.",
+    "card3Detail": "ບໍ່​ວ່າ​ຈະ​ມີ​ເມກ, ຟ້າ​ຮ້ອງ, ຫຼື​ຝົນ​ຕົກ, ທ້ອງ​ຟ້າ​ກໍ​ບໍ່​ເຄີຍ​ເປັນ​ອັນຕະລາຍ​ຈາກ​ດິນ​ຟ້າ​ອາກາດ. ກ້າວກັບຄືນໄປບ່ອນບ່ອນນັ່ງຂອງຜູ້ສັງເກດການ. ສັງເກດເບິ່ງຄວາມຮູ້ສຶກມາແລະໄປໂດຍບໍ່ມີການແນບຕົວຕົນຂອງທ່ານກັບພວກເຂົາ."
+  },
+  "cta": {
+    "title": "ຈໍາ​ເປັນ​ຕ້ອງ​ກໍາ​ນົດ​ຕົວ​ທ່ານ​ເອງ​ໃນ​ປັດ​ຈຸ​ບັນ​ຫຼື​ເວົ້າ​ກັບ​ໃຜ​ຜູ້​ຫນຶ່ງ​?",
+    "desc": "ຫາຍໃຈຊ້າໆ, ເລິກໆ. ທ່ານບໍ່ຈໍາເປັນຕ້ອງເອົາຊະນະພູເຂົາທັງຫມົດໃນມື້ນີ້. ພຽງແຕ່ນາທີຕໍ່ໄປ.",
+    "crisisButton": "ເບິ່ງສາຍດ່ວນວິກິດ",
+    "toolsButton": "ເຄື່ອງມືຫາຍໃຈ & ພື້ນດິນ"
   }
+}
 };

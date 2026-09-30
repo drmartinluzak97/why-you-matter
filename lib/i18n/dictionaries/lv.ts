@@ -255,58 +255,58 @@ export const lv: TranslationDictionary = {
     "footerNotice": "Direct delivery to hello@martinluzak.sk • Anonymous reporting supported"
   },
   motivationPage: {
-    "backToHome": "← Back to Home & Crisis Help",
-    "badge": "Perspective Shift & Meaning • 101 Global Inspirations",
-    "titlePart1": "Why Your Existence ",
-    "titleHighlight": "Matters Profoundly",
-    "description": "When you are in the thick of exhaustion, perspective narrows. Here are grounded psychological principles and real human stories of those who turned extreme suffering into enduring purpose.",
-    "spotlightBadge": "Voice from Your Region",
-    "spotlightSelectCountry": "Select country:",
-    "spotlightAdversity": "Adversity Faced",
-    "spotlightTakeaway": "Takeaway for You Today",
-    "globalTitansTitle": "Global Titans of Resilience",
-    "globalTitansSubtitle": "Timeless figures who overcame unimaginable odds to light the path for humanity.",
-    "galleryTitle": "All Continental & European Figures",
-    "gallerySubtitle": "Explore inspiring stories from across Europe and the entire globe.",
-    "searchPlaceholder": "Search name or country...",
-    "continents": {
-      "all": "🌍 All",
-      "europe": "🏰 Europe",
-      "americas": "🌎 Americas",
-      "asia": "🌏 Asia",
-      "africa": "🏜️ Africa",
-      "oceania": "🌊 Oceania"
-    },
-    "pillars": {
-      "title": "3 Galvenie Izturības Pīlāri",
-      "badge": "Pārbaudīti Principi",
-      "survivalTitle": "100% Survival Rate",
-      "survivalDesc": "You have survived every panic attack, every heartbreak, and every dark night you thought you wouldn't. Your resilience is already proven by facts.",
-      "noiseTitle": "Cognitive Noise vs. Truth",
-      "noiseDesc": "The brain is an evolutionary survival machine that exaggerates threat in times of stress. Anxiety and dark thoughts are false alarms, not objective reality.",
-      "chaptersTitle": "The Unwritten Chapters",
-      "chaptersDesc": "You cannot judge the entire book of your life by a single difficult chapter. The best people you will ever meet and the greatest laughs are still ahead.",
-      "alchemyTitle": "Alchemy of Pain (Sublimation)",
-      "alchemyDesc": "Great art, deep empathy, and groundbreaking resilience are born from people who have stood in the dark. Your pain can become your greatest creative superpower."
-    },
-    "sublimation": {
-      "title": "The Alchemy of Mind & Shadow",
-      "subtitle": "Transforming inner turmoil into understanding and creative power.",
-      "card1Title": "1. Thoughts Are Not Facts",
-      "card1Summary": "Most self-critical thoughts are not your own. They are old tape recordings from childhood or environment.",
-      "card1Detail": "As young children, we lacked critical filters. When someone spoke in anger or criticism, our subconscious recorded it as absolute truth. When you hear 'You are broken' or 'You are worthless', realize: that isn't you speaking. It is simply an outdated tape loop.",
-      "card2Title": "2. The Art of Sublimation (Alchemy)",
-      "card2Summary": "Your intense dark energy doesn't have to destroy you. It can be transmuted into creation.",
-      "card2Detail": "Sublimation is the psychological alchemy of converting raw instinct, taboo thoughts, and deep emotional pain into art, literature, physical power, or code. Creators didn't suppress their darkness—they channeled it into timeless works.",
-      "card3Title": "3. You Are the Sky, Not the Storm",
-      "card3Summary": "You are the conscious observer witnessing the storm, not the wreckage inside it.",
-      "card3Detail": "No matter how turbulent the clouds, thunder, or rain become, the sky itself is never harmed by the weather. Step back into the seat of the observer. Watch the sensations come and go without attaching your identity to them."
-    },
-    "cta": {
-      "title": "Need to ground yourself right now or talk to someone?",
-      "desc": "Take a slow, deep breath. You do not have to conquer the whole mountain today. Just the next minute.",
-      "crisisButton": "View Crisis Helplines",
-      "toolsButton": "Breathing & Grounding Tools"
-    }
+  "backToHome": "← Atpakaļ uz sākumlapu un palīdzība krīzes situācijās",
+  "badge": "Perspektīvas maiņa un nozīme • 101 globāla iedvesma",
+  "titlePart1": "Kāpēc jūsu eksistence",
+  "titleHighlight": "Pamatīgi jautājumi",
+  "description": "Kad esat pārguruma pilnā, perspektīva sašaurinās. Šeit ir pamatoti psiholoģiskie principi un patiesi cilvēciski stāsti par tiem, kuri ārkārtējas ciešanas pārvērta par ilgstošu mērķi.",
+  "spotlightBadge": "Balss no jūsu reģiona",
+  "spotlightSelectCountry": "Izvēlieties valsti:",
+  "spotlightAdversity": "Saskaroties ar grūtībām",
+  "spotlightTakeaway": "Līdzņemšanai šodien",
+  "globalTitansTitle": "Global Titans of Resilience",
+  "globalTitansSubtitle": "Mūžīgas figūras, kas pārvarēja neiedomājamas iespējas, lai apgaismotu cilvēces ceļu.",
+  "galleryTitle": "Visi kontinenta un Eiropas rādītāji",
+  "gallerySubtitle": "Izpētiet iedvesmojošus stāstus no visas Eiropas un visas pasaules.",
+  "searchPlaceholder": "Meklēt nosaukumu vai valsti...",
+  "continents": {
+    "all": "🌍 Viss",
+    "europe": "🏰 Eiropa",
+    "americas": "🌎 Amerika",
+    "asia": "🌏 Āzija",
+    "africa": "🏜️ Āfrika",
+    "oceania": "🌊 Okeānija"
+  },
+  "pillars": {
+    "title": "3 galvenie noturības pīlāri",
+    "badge": "Pārbaudīti principi",
+    "survivalTitle": "100% izdzīvošanas rādītājs",
+    "survivalDesc": "Jūs esat izdzīvojis katru panikas lēkmi, katru sirdslēkmi un katru tumšo nakti, par kuru domājāt, ka neizdzīvosiet. Jūsu noturību jau pierāda fakti.",
+    "noiseTitle": "Kognitīvais troksnis pret patiesību",
+    "noiseDesc": "Smadzenes ir evolucionāra izdzīvošanas iekārta, kas stresa laikā pārspīlē draudus. Trauksme un tumšas domas ir viltus trauksmes signāls, nevis objektīva realitāte.",
+    "chaptersTitle": "Nerakstītās nodaļas",
+    "chaptersDesc": "Jūs nevarat spriest par visu savas dzīves grāmatu pēc vienas sarežģītas nodaļas. Labākie cilvēki, ko jebkad satiksi, un lielākie smiekli vēl priekšā.",
+    "alchemyTitle": "Sāpju alķīmija (sublimācija)",
+    "alchemyDesc": "Lieliska māksla, dziļa empātija un revolucionāra noturība rodas no cilvēkiem, kuri stāvējuši tumsā. Jūsu sāpes var kļūt par jūsu lielāko radošo lielvaru."
+  },
+  "sublimation": {
+    "title": "Prāta un ēnu alķīmija",
+    "subtitle": "Pārvēršot iekšējos satricinājumus sapratnē un radošā spēkā.",
+    "card1Title": "1. Domas nav fakti",
+    "card1Summary": "Lielākā daļa paškritisko domu nav jūsu pašas. Tie ir veci lentes ieraksti no bērnības vai vides.",
+    "card1Detail": "Kā maziem bērniem mums trūka kritisko filtru. Kad kāds runāja ar dusmām vai kritiku, mūsu zemapziņa to ierakstīja kā absolūtu patiesību. Kad dzirdat \"Tu esi salauzts\" vai \"Tu esi nevērtīgs\", saprotiet: tā nerunājat jūs. Tā ir vienkārši novecojusi lentes cilpa.",
+    "card2Title": "2. Sublimācijas māksla (alķīmija)",
+    "card2Summary": "Tavai intensīvajai tumšajai enerģijai nav tevi jāiznīcina. To var pārvērst radīšanā.",
+    "card2Detail": "Sublimācija ir psiholoģiska alķīmija, kas pārvērš neapstrādātu instinktu, tabu domas un dziļas emocionālas sāpes mākslā, literatūrā, fiziskajā spēkā vai kodā. Radītāji neapspieda savu tumsu — viņi to novirzīja mūžīgos darbos.",
+    "card3Title": "3. Tu esi debesis, nevis vētra",
+    "card3Summary": "Jūs esat apzināts novērotājs, kas ir vētras liecinieks, nevis atlūzas tajā.",
+    "card3Detail": "Neatkarīgi no tā, cik nemierīgi kļūst mākoņi, pērkons vai lietus, laikapstākļi nekad nekaitē pašām debesīm. Iekāpiet atpakaļ novērotāja sēdeklī. Skatieties, kā sajūtas nāk un iet, nepiesaistot tām savu identitāti."
+  },
+  "cta": {
+    "title": "Vai šobrīd ir jāsamazina sevi vai jārunā ar kādu?",
+    "desc": "Lēni, dziļi elpojiet. Šodien nav jāiekaro viss kalns. Tikai nākamajā minūtē.",
+    "crisisButton": "Skatīt krīzes palīdzības līnijas",
+    "toolsButton": "Elpošanas un zemējuma instrumenti"
   }
+}
 };

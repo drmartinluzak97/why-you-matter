@@ -255,58 +255,58 @@ export const da: TranslationDictionary = {
     "footerNotice": "Din besked behandles med fuld diskretion på hello@martinluzak.sk"
   },
   motivationPage: {
-    "backToHome": "← Back to Home & Crisis Help",
-    "badge": "Perspective Shift & Meaning • 101 Global Inspirations",
-    "titlePart1": "Why Your Existence ",
-    "titleHighlight": "Matters Profoundly",
-    "description": "When you are in the thick of exhaustion, perspective narrows. Here are grounded psychological principles and real human stories of those who turned extreme suffering into enduring purpose.",
-    "spotlightBadge": "Voice from Your Region",
-    "spotlightSelectCountry": "Select country:",
-    "spotlightAdversity": "Adversity Faced",
-    "spotlightTakeaway": "Takeaway for You Today",
-    "globalTitansTitle": "Global Titans of Resilience",
-    "globalTitansSubtitle": "Timeless figures who overcame unimaginable odds to light the path for humanity.",
-    "galleryTitle": "All Continental & European Figures",
-    "gallerySubtitle": "Explore inspiring stories from across Europe and the entire globe.",
-    "searchPlaceholder": "Search name or country...",
-    "continents": {
-      "all": "🌍 All",
-      "europe": "🏰 Europe",
-      "americas": "🌎 Americas",
-      "asia": "🌏 Asia",
-      "africa": "🏜️ Africa",
-      "oceania": "🌊 Oceania"
-    },
-    "pillars": {
-      "title": "3 Grundpiller i Modstandskraft",
-      "badge": "Dokumenterede Principper",
-      "survivalTitle": "100% Survival Rate",
-      "survivalDesc": "You have survived every panic attack, every heartbreak, and every dark night you thought you wouldn't. Your resilience is already proven by facts.",
-      "noiseTitle": "Cognitive Noise vs. Truth",
-      "noiseDesc": "The brain is an evolutionary survival machine that exaggerates threat in times of stress. Anxiety and dark thoughts are false alarms, not objective reality.",
-      "chaptersTitle": "The Unwritten Chapters",
-      "chaptersDesc": "You cannot judge the entire book of your life by a single difficult chapter. The best people you will ever meet and the greatest laughs are still ahead.",
-      "alchemyTitle": "Alchemy of Pain (Sublimation)",
-      "alchemyDesc": "Great art, deep empathy, and groundbreaking resilience are born from people who have stood in the dark. Your pain can become your greatest creative superpower."
-    },
-    "sublimation": {
-      "title": "The Alchemy of Mind & Shadow",
-      "subtitle": "Transforming inner turmoil into understanding and creative power.",
-      "card1Title": "1. Thoughts Are Not Facts",
-      "card1Summary": "Most self-critical thoughts are not your own. They are old tape recordings from childhood or environment.",
-      "card1Detail": "As young children, we lacked critical filters. When someone spoke in anger or criticism, our subconscious recorded it as absolute truth. When you hear 'You are broken' or 'You are worthless', realize: that isn't you speaking. It is simply an outdated tape loop.",
-      "card2Title": "2. The Art of Sublimation (Alchemy)",
-      "card2Summary": "Your intense dark energy doesn't have to destroy you. It can be transmuted into creation.",
-      "card2Detail": "Sublimation is the psychological alchemy of converting raw instinct, taboo thoughts, and deep emotional pain into art, literature, physical power, or code. Creators didn't suppress their darkness—they channeled it into timeless works.",
-      "card3Title": "3. You Are the Sky, Not the Storm",
-      "card3Summary": "You are the conscious observer witnessing the storm, not the wreckage inside it.",
-      "card3Detail": "No matter how turbulent the clouds, thunder, or rain become, the sky itself is never harmed by the weather. Step back into the seat of the observer. Watch the sensations come and go without attaching your identity to them."
-    },
-    "cta": {
-      "title": "Need to ground yourself right now or talk to someone?",
-      "desc": "Take a slow, deep breath. You do not have to conquer the whole mountain today. Just the next minute.",
-      "crisisButton": "View Crisis Helplines",
-      "toolsButton": "Breathing & Grounding Tools"
-    }
+  "backToHome": "← Tilbage til Hjem & krisehjælp",
+  "badge": "Perspektivskifte og mening • 101 globale inspirationer",
+  "titlePart1": "Hvorfor din eksistens",
+  "titleHighlight": "Sager dybt",
+  "description": "Når du er i tyk af udmattelse, indsnævres perspektivet. Her er funderede psykologiske principper og virkelige menneskelige historier om dem, der forvandlede ekstrem lidelse til et varigt formål.",
+  "spotlightBadge": "Stemme fra dit område",
+  "spotlightSelectCountry": "Vælg land:",
+  "spotlightAdversity": "Modgang",
+  "spotlightTakeaway": "Takeaway til dig i dag",
+  "globalTitansTitle": "Global Titans of Resilience",
+  "globalTitansSubtitle": "Tidløse figurer, der overvandt uanede odds for at lyse vejen for menneskeheden.",
+  "galleryTitle": "Alle kontinentale og europæiske tal",
+  "gallerySubtitle": "Udforsk inspirerende historier fra hele Europa og hele kloden.",
+  "searchPlaceholder": "Søg navn eller land...",
+  "continents": {
+    "all": "🌍 Alle",
+    "europe": "🏰 Europa",
+    "americas": "🌎 Amerika",
+    "asia": "🌏 Asien",
+    "africa": "🏜️ Afrika",
+    "oceania": "🌊 Oceanien"
+  },
+  "pillars": {
+    "title": "3 kernesøjler for modstandskraft",
+    "badge": "Gennemprøvede principper",
+    "survivalTitle": "100 % overlevelsesrate",
+    "survivalDesc": "Du har overlevet hvert panikanfald, hvert hjertesorg og hver mørk nat, du troede, du ikke ville. Din modstandskraft er allerede bevist af fakta.",
+    "noiseTitle": "Kognitiv støj vs. sandhed",
+    "noiseDesc": "Hjernen er en evolutionær overlevelsesmaskine, der overdriver truslen i tider med stress. Angst og mørke tanker er falske alarmer, ikke objektiv virkelighed.",
+    "chaptersTitle": "De uskrevne kapitler",
+    "chaptersDesc": "Du kan ikke dømme hele dit livs bog efter et enkelt vanskeligt kapitel. De bedste mennesker, du nogensinde vil møde, og de største grin er stadig forude.",
+    "alchemyTitle": "Alchemy of Pain (sublimation)",
+    "alchemyDesc": "Stor kunst, dyb empati og banebrydende robusthed er født af mennesker, der har stået i mørket. Din smerte kan blive din største kreative superkraft."
+  },
+  "sublimation": {
+    "title": "The Alchemy of Mind & Shadow",
+    "subtitle": "Forvandler indre uro til forståelse og kreativ kraft.",
+    "card1Title": "1. Tanker er ikke fakta",
+    "card1Summary": "De fleste selvkritiske tanker er ikke dine egne. Det er gamle båndoptagelser fra barndommen eller miljøet.",
+    "card1Detail": "Som små børn manglede vi kritiske filtre. Når nogen talte i vrede eller kritik, registrerede vores underbevidsthed det som absolut sandhed. Når du hører 'Du er knust' eller 'Du er værdiløs', så indse: det er ikke dig, der taler. Det er simpelthen en forældet tape loop.",
+    "card2Title": "2. Kunsten at sublimere (alkymi)",
+    "card2Summary": "Din intense mørke energi behøver ikke at ødelægge dig. Det kan omdannes til skabelse.",
+    "card2Detail": "Sublimering er den psykologiske alkymi om at konvertere råt instinkt, tabubelagte tanker og dyb følelsesmæssig smerte til kunst, litteratur, fysisk magt eller kode. Skaberne undertrykte ikke deres mørke – de kanaliserede det til tidløse værker.",
+    "card3Title": "3. Du er himlen, ikke stormen",
+    "card3Summary": "Du er den bevidste iagttager, der er vidne til stormen, ikke vraget inde i den.",
+    "card3Detail": "Uanset hvor turbulente skyerne, tordenen eller regnen bliver, tager selve himlen aldrig skade af vejret. Træd tilbage i observatørens sæde. Se fornemmelserne komme og gå uden at knytte din identitet til dem."
+  },
+  "cta": {
+    "title": "Har du brug for at jorde dig selv lige nu eller tale med nogen?",
+    "desc": "Tag en langsom, dyb indånding. Du behøver ikke at erobre hele bjerget i dag. Bare det næste minut.",
+    "crisisButton": "Se krisehjælpelinjer",
+    "toolsButton": "Åndedræts- og jordingsværktøjer"
   }
+}
 };

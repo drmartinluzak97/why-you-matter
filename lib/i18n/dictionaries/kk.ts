@@ -255,56 +255,58 @@ export const kk: TranslationDictionary = {
     "footerNotice": "Тікелей hello@martinluzak.sk поштасына жеткізу • Жасырын хабарлауға болады"
   },
   motivationPage: {
-      "backToHome": "← Ana Sayfaya ve Kriz Yardımına Dön",
-      "badge": "Acıyı anlama dönüştürmek • 101 küresel ilham",
-      "titlePart1": "Varlığın neden ",
-      "titleHighlight": "derin bir anlam taşıyor",
-      "description": "Tükenmişlik ve acı anlarında bakış açımız daralır. Burada, en karanlık sınavları aşıp ışığa ulaşan insanların gerçek hikayeleri ve kanıtlanmış psikolojik ilkeler yer alıyor.",
-      "spotlightBadge": "Bölgenden bir ses",
-      "spotlightSelectCountry": "Ülke seç:",
-      "spotlightAdversity": "Aşılan zorluk",
-      "spotlightTakeaway": "Bugün için öğüt",
-      "globalTitansTitle": "İçsel direncin küresel devleri",
-      "globalTitansSubtitle": "Hayal bile edilemeyecek zorlukları yenip insanlığa yol gösteren ölümsüz isimler.",
-      "galleryTitle": "Kıtalara ve Avrupa'ya göre kahramanlar",
-      "gallerySubtitle": "Tüm Avrupa ülkelerinden ve dünyanın dört bir yanından ilham veren hikayeleri keşfet.",
-      "searchPlaceholder": "Kişi veya ülke ara...",
-      "continents": {
-          "all": "🌍 Tümü",
-          "europe": "🏰 Avrupa",
-          "americas": "🌎 Amerika",
-          "asia": "🌏 Asya",
-          "africa": "🏜️ Afrika",
-          "oceania": "🌊 Okyanusya"
-      },
-      "pillars": {
-          "title": "Direncin 3 Temel Direği",
-          "badge": "Kanıtlanmış İlkeler",
-          "noiseTitle": "Bilişsel gürültü vs Gerçek",
-          "noiseDesc": "Beyin kriz anlarında tehlikeyi abartmaya meyillidir. Kaygı ve karanlık düşünceler sahte alarmlardır, gerçeklik değil.",
-          "chaptersTitle": "Yazılmamış sayfalar",
-          "chaptersDesc": "Hayat kitabının tamamını tek bir zorlu bölüme bakarak yargılayamazsın. En güzel günler ve en içten gülüşler henüz önünde.",
-          "alchemyTitle": "Acının simyası (Yüceltme)",
-          "alchemyDesc": "Büyük sanat ve derin empati karanlıkta durmuş insanlardan doğar. Acın senin en büyük gücüne dönüşebilir."
-      },
-      "sublimation": {
-          "title": "Zihnin ve Gölgenin Simyası",
-          "subtitle": "İçsel karmaşayı derin anlayışa ve yaratıcı güce dönüştürmek.",
-          "card1Title": "1. Düşünceler gerçekler değildir",
-          "card1Summary": "Öz eleştirel düşüncelerin çoğu sana ait değil, geçmişten kalan eski kayıtlardır.",
-          "card1Detail": "Çocukken eleştirel filtrelerimiz yoktu. 'Hiçbir şeye değmezsin' sesini duyduğunda hatırla: bu sen değilsin, sadece eski bir kaset.",
-          "card2Title": "2. Yüceltme sanatı",
-          "card2Summary": "Karanlık enerji seni yok etmek zorunda değil; üretime ve şefkate dönüştürülebilir.",
-          "card2Detail": "Yüceltme, ham acıyı sanata, güce veya başkalarına yardıma dönüştürür. Büyük ustalar karanlıklarını ölümsüz eserlere dönüştürdüler.",
-          "card3Title": "3. Sen gökyüzüsün, fırtına değil",
-          "card3Summary": "Sen fırtınanın içindeki enkaz değil, onu izleyen bilinçli gözlemcisin.",
-          "card3Detail": "Fırtına ne kadar şiddetli olursa olsun, gökyüzünün kendisi asla zarar görmez. Duygularını geçip giden bulutlar gibi izle."
-      },
-      "cta": {
-          "title": "Şu anda sakinleşmeye veya biriyle konuşmaya mı ihtiyacın var?",
-          "desc": "Derin bir nefes al. Bugün tüm hayatını çözmek zorunda değilsin. Sadece bu bir dakikayı atlatman yeterli.",
-          "crisisButton": "Kriz Destek Hatlarını Gör",
-          "toolsButton": "Nefes ve Topraklanma Egzersizleri"
-      }
+  "backToHome": "← Басты бетке қайту және дағдарыс туралы анықтама",
+  "badge": "Перспективаның ауысуы және мағынасы • 101 жаһандық шабыт",
+  "titlePart1": "Неліктен сіздің бар болуыңыз",
+  "titleHighlight": "Маңызды",
+  "description": "Қалың шаршаған кезде, перспектива тарылады. Мұнда негізделген психологиялық принциптер мен төтенше азапты тұрақты мақсатқа айналдырған адамдардың шынайы оқиғалары берілген.",
+  "spotlightBadge": "Сіздің аймағыңыздан дауыс",
+  "spotlightSelectCountry": "Елді таңдаңыз:",
+  "spotlightAdversity": "Қиындық",
+  "spotlightTakeaway": "Бүгін сіз үшін алып кету",
+  "globalTitansTitle": "Тұрақтылықтың жаһандық титандары",
+  "globalTitansSubtitle": "Адамзаттың жолын жарықтандыру үшін елестетпейтін қиындықтарды жеңген мәңгілік тұлғалар.",
+  "galleryTitle": "Барлық континенттік және еуропалық қайраткерлер",
+  "gallerySubtitle": "Еуропадағы және бүкіл дүние жүзіндегі шабыттандыратын оқиғаларды зерттеңіз.",
+  "searchPlaceholder": "Аты немесе елді іздеу...",
+  "continents": {
+    "all": "🌍 Барлығы",
+    "europe": "🏰 Еуропа",
+    "americas": "🌎 Америка",
+    "asia": "🌏 Азия",
+    "africa": "🏜️ Африка",
+    "oceania": "🌊 Океания"
+  },
+  "pillars": {
+    "title": "Тұрақтылықтың 3 негізгі тірегі",
+    "badge": "Дәлелденген принциптер",
+    "survivalTitle": "100% өмір сүру деңгейі",
+    "survivalDesc": "Сіз әр дүрбелеңнен, әр жүрек соғысынан және әр қараңғы түннен аман қалдыңыз. Сіздің төзімділігіңіз фактілермен дәлелденді.",
+    "noiseTitle": "Когнитивтік шуға қарсы шындыққа",
+    "noiseDesc": "Ми - стресс кезінде қауіп-қатерді асыратын эволюциялық аман қалу машинасы. Мазасыздық пен қараңғы ойлар - объективті шындық емес, жалған дабыл.",
+    "chaptersTitle": "Жазылмаған тараулар",
+    "chaptersDesc": "Сіз өміріңіздің бүкіл кітабын бір қиын тараумен бағалай алмайсыз. Сіз кездестіретін ең жақсы адамдар мен ең керемет күлкі әлі алда.",
+    "alchemyTitle": "Ауырсыну алхимиясы (Сублимация)",
+    "alchemyDesc": "Үлкен өнер, терең эмпатия және жаңашыл төзімділік қараңғыда тұрған адамдардан туады. Сіздің ауырсынуыңыз сіздің ең үлкен шығармашылық күшіңізге айналуы мүмкін."
+  },
+  "sublimation": {
+    "title": "Ақыл мен көлеңке алхимиясы",
+    "subtitle": "Ішкі күйзелістерді түсіну мен шығармашылық күшке айналдыру.",
+    "card1Title": "1. Ой факті емес",
+    "card1Summary": "Өзін-өзі сынайтын ойлардың көпшілігі сіздікі емес. Олар балалық шақтан немесе қоршаған ортадан алынған ескі таспалар.",
+    "card1Detail": "Бала кезімізде бізде сыни сүзгілер жетіспейтін. Біреу ашуланып немесе сынағанда, біздің санамыз оны абсолютті шындық ретінде жазды. «Сен сынғансың» немесе «сен түкке тұрғысызсың» дегенді естігенде, түсініңіз: бұл сіз сөйлеп тұрған жоқсыз. Бұл жай ғана ескірген таспа циклі.",
+    "card2Title": "2. Сублимация өнері (алхимия)",
+    "card2Summary": "Сіздің қарқынды қараңғы энергияңыз сізді құртуға міндетті емес. Оны жаратылысқа айналдыруға болады.",
+    "card2Detail": "Сублимация - шикі инстинкт, тыйым салынған ойлар мен терең эмоционалды ауырсынуды өнерге, әдебиетке, физикалық күшке немесе кодқа айналдырудың психологиялық алхимиясы. Жасампаздар өздерінің қараңғылығын басып тастаған жоқ, олар оны мәңгілік жұмыстарға арнады.",
+    "card3Title": "3. Сен Дауыл емес, Аспансың",
+    "card3Summary": "Сіз дауылдың куәсі болып табылатын саналы бақылаушысыз, оның ішіндегі сынықтар емес.",
+    "card3Detail": "Бұлттар, күн күркіреуі немесе жаңбыр қаншалықты дүрбелең болса да, аспанның өзі ешқашан ауа райынан зардап шекпейді. Бақылаушының орнына қайта отырыңыз. Сезімдердің келіп-кететінін бақылаңыз, оларға сіздің жеке басыңызды тіркеместен."
+  },
+  "cta": {
+    "title": "Дәл қазір өзіңізді жерлеу керек пе немесе біреумен сөйлесу керек пе?",
+    "desc": "Баяу, терең тыныс алыңыз. Бүгін бүкіл тауды бағындырудың қажеті жоқ. Тек келесі минут.",
+    "crisisButton": "Дағдарыс жөніндегі сенім телефондарын қарау",
+    "toolsButton": "Тыныс алу және жерге қосу құралдары"
   }
+}
 };

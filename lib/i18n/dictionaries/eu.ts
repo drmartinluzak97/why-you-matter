@@ -255,58 +255,58 @@ export const eu: TranslationDictionary = {
     "footerNotice": "Bidalketa zuzena hello@martinluzak.sk helbidera • Txosten anonimoak onartzen dira"
   },
   motivationPage: {
-    "backToHome": "← Back to Home & Crisis Help",
-    "badge": "Perspective Shift & Meaning • 101 Global Inspirations",
-    "titlePart1": "Why Your Existence ",
-    "titleHighlight": "Matters Profoundly",
-    "description": "When you are in the thick of exhaustion, perspective narrows. Here are grounded psychological principles and real human stories of those who turned extreme suffering into enduring purpose.",
-    "spotlightBadge": "Voice from Your Region",
-    "spotlightSelectCountry": "Select country:",
-    "spotlightAdversity": "Adversity Faced",
-    "spotlightTakeaway": "Takeaway for You Today",
-    "globalTitansTitle": "Global Titans of Resilience",
-    "globalTitansSubtitle": "Timeless figures who overcame unimaginable odds to light the path for humanity.",
-    "galleryTitle": "All Continental & European Figures",
-    "gallerySubtitle": "Explore inspiring stories from across Europe and the entire globe.",
-    "searchPlaceholder": "Search name or country...",
-    "continents": {
-      "all": "🌍 All",
-      "europe": "🏰 Europe",
-      "americas": "🌎 Americas",
-      "asia": "🌏 Asia",
-      "africa": "🏜️ Africa",
-      "oceania": "🌊 Oceania"
-    },
-    "pillars": {
-      "title": "Erresilientziaren Oinarrizko 3 Zutabeak",
-      "badge": "Frogatutako Printzipioak",
-      "survivalTitle": "100% Survival Rate",
-      "survivalDesc": "You have survived every panic attack, every heartbreak, and every dark night you thought you wouldn't. Your resilience is already proven by facts.",
-      "noiseTitle": "Cognitive Noise vs. Truth",
-      "noiseDesc": "The brain is an evolutionary survival machine that exaggerates threat in times of stress. Anxiety and dark thoughts are false alarms, not objective reality.",
-      "chaptersTitle": "The Unwritten Chapters",
-      "chaptersDesc": "You cannot judge the entire book of your life by a single difficult chapter. The best people you will ever meet and the greatest laughs are still ahead.",
-      "alchemyTitle": "Alchemy of Pain (Sublimation)",
-      "alchemyDesc": "Great art, deep empathy, and groundbreaking resilience are born from people who have stood in the dark. Your pain can become your greatest creative superpower."
-    },
-    "sublimation": {
-      "title": "The Alchemy of Mind & Shadow",
-      "subtitle": "Transforming inner turmoil into understanding and creative power.",
-      "card1Title": "1. Thoughts Are Not Facts",
-      "card1Summary": "Most self-critical thoughts are not your own. They are old tape recordings from childhood or environment.",
-      "card1Detail": "As young children, we lacked critical filters. When someone spoke in anger or criticism, our subconscious recorded it as absolute truth. When you hear 'You are broken' or 'You are worthless', realize: that isn't you speaking. It is simply an outdated tape loop.",
-      "card2Title": "2. The Art of Sublimation (Alchemy)",
-      "card2Summary": "Your intense dark energy doesn't have to destroy you. It can be transmuted into creation.",
-      "card2Detail": "Sublimation is the psychological alchemy of converting raw instinct, taboo thoughts, and deep emotional pain into art, literature, physical power, or code. Creators didn't suppress their darkness—they channeled it into timeless works.",
-      "card3Title": "3. You Are the Sky, Not the Storm",
-      "card3Summary": "You are the conscious observer witnessing the storm, not the wreckage inside it.",
-      "card3Detail": "No matter how turbulent the clouds, thunder, or rain become, the sky itself is never harmed by the weather. Step back into the seat of the observer. Watch the sensations come and go without attaching your identity to them."
-    },
-    "cta": {
-      "title": "Need to ground yourself right now or talk to someone?",
-      "desc": "Take a slow, deep breath. You do not have to conquer the whole mountain today. Just the next minute.",
-      "crisisButton": "View Crisis Helplines",
-      "toolsButton": "Breathing & Grounding Tools"
-    }
+  "backToHome": "← Itzuli hasierara eta krisiaren laguntza",
+  "badge": "Perspektiba aldaketa eta esanahia • 101 inspirazio global",
+  "titlePart1": "Zergatik Zure Existentzia",
+  "titleHighlight": "Sakon axola du",
+  "description": "Nekearen erdian zaudenean, perspektiba estutu egiten da. Hona hemen oinarri psikologikoak eta muturreko sufrimendua helburu iraunkor bihurtu zutenen benetako giza istorioak.",
+  "spotlightBadge": "Zure eskualdeko ahotsa",
+  "spotlightSelectCountry": "Hautatu herrialdea:",
+  "spotlightAdversity": "Gatazkaren aurrean",
+  "spotlightTakeaway": "Eramatea zuretzat gaur",
+  "globalTitansTitle": "Erresilientziaren Titan Global",
+  "globalTitansSubtitle": "Gizateriaren bidea argitzeko arrisku imajinaezinak gainditu zituzten betiko figurak.",
+  "galleryTitle": "Kontinental eta Europako zifra guztiak",
+  "gallerySubtitle": "Arakatu Europa osoko eta mundu osoko istorio inspiratzaileak.",
+  "searchPlaceholder": "Bilatu izena edo herrialdea...",
+  "continents": {
+    "all": "🌍 Guztiak",
+    "europe": "🏰 Europa",
+    "americas": "🌎 Amerikak",
+    "asia": "🌏 Asia",
+    "africa": "🏜️ Afrika",
+    "oceania": "🌊 Ozeania"
+  },
+  "pillars": {
+    "title": "Erresilientziaren 3 oinarrizko zutabe",
+    "badge": "Frogatutako Printzipioak",
+    "survivalTitle": "%100eko biziraupen-tasa",
+    "survivalDesc": "Izu-eraso guztietatik, bihotz-hauste guztietatik eta uste zenuen gau ilun guztietan bizirik atera zara. Zure erresilientzia gertakariek frogatuta dago jada.",
+    "noiseTitle": "Zarata kognitiboa vs Egia",
+    "noiseDesc": "Garuna, eboluzio-bizirik irauteko makina bat da, estres garaian mehatxua areagotzen duena. Antsietatea eta pentsamendu ilunak alarma faltsuak dira, ez errealitate objektiboa.",
+    "chaptersTitle": "Idatzi gabeko kapituluak",
+    "chaptersDesc": "Ezin duzu zure bizitzako liburu osoa kapitulu zail bakar batez epaitu. Inoiz ezagutuko duzun jenderik onena eta barre handienak aurretik daude oraindik.",
+    "alchemyTitle": "Minaren Alkimia (Sublimazioa)",
+    "alchemyDesc": "Arte handia, enpatia sakona eta erresilientzia apurtzailea iluntasunean egon diren pertsonengandik jaio dira. Zure mina zure sormen-superpotentziarik handiena bihur daiteke."
+  },
+  "sublimation": {
+    "title": "Izpirituaren eta itzalaren alkimia",
+    "subtitle": "Barruko nahastea ulermen eta sormen ahalmen bilakatzea.",
+    "card1Title": "1. Pentsamenduak ez dira egitateak",
+    "card1Summary": "Pentsamendu autokritiko gehienak ez dira zureak. Txikitatik edo inguruneko zinta grabazio zaharrak dira.",
+    "card1Detail": "Txikitan, iragazki kritikoak falta zitzaizkigun. Norbaitek haserre edo kritikaz hitz egiten zuenean, gure subkontzienteak egia absolutu gisa erregistratu zuen. «Hautsita zaude» edo «Ez duzu ezertarako baliorik» entzuten duzunean, konturatu: hori ez al zara hitz egiten. Zinta-begizta zaharkitua besterik ez da.",
+    "card2Title": "2. Sublimazio Artea (Alkimia)",
+    "card2Summary": "Zure energia ilun biziak ez zaitu suntsitu behar. Sorkuntza bihur daiteke.",
+    "card2Detail": "Sublimazioa sen gordina, pentsamendu tabu eta min emozional sakona arte, literatura, botere fisiko edo kode bihurtzeko alkimia psikologikoa da. Sortzaileek ez zuten beren iluntasuna zapaldu, betiko lanetara bideratu zuten.",
+    "card3Title": "3. Zu zara zerua, ez ekaitza",
+    "card3Summary": "Ekaitzaren lekuko den behatzaile kontzientea zara, ez haren barnean dauden hondakinak.",
+    "card3Detail": "Hodeiak, trumoiak edo euria nola nahasiak diren arren, zerua bera ez da inoiz eguraldiak kaltetzen. Atzera egin behatzailearen eserlekuan. Ikusi sentsazioak joan eta etorri haiei zure nortasuna erantsi gabe."
+  },
+  "cta": {
+    "title": "Oraintxe bertan lurreratu edo norbaitekin hitz egin behar duzu?",
+    "desc": "Hartu arnasa motel eta sakon. Ez duzu gaur mendi osoa konkistatu beharrik. Hurrengo minutua besterik ez.",
+    "crisisButton": "Ikusi krisiaren laguntza-lerroak",
+    "toolsButton": "Arnasketa eta lurrerako tresnak"
   }
+}
 };

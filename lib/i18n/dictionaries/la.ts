@@ -255,58 +255,58 @@ export const la: TranslationDictionary = {
     "footerNotice": "Tua indicia tuta sunt et tantum ad paginam augendam adhibentur."
   },
   motivationPage: {
-    "backToHome": "← Back to Home & Crisis Help",
-    "badge": "Perspective Shift & Meaning • 101 Global Inspirations",
-    "titlePart1": "Why Your Existence ",
-    "titleHighlight": "Matters Profoundly",
-    "description": "When you are in the thick of exhaustion, perspective narrows. Here are grounded psychological principles and real human stories of those who turned extreme suffering into enduring purpose.",
-    "spotlightBadge": "Voice from Your Region",
-    "spotlightSelectCountry": "Select country:",
-    "spotlightAdversity": "Adversity Faced",
-    "spotlightTakeaway": "Takeaway for You Today",
-    "globalTitansTitle": "Global Titans of Resilience",
-    "globalTitansSubtitle": "Timeless figures who overcame unimaginable odds to light the path for humanity.",
-    "galleryTitle": "All Continental & European Figures",
-    "gallerySubtitle": "Explore inspiring stories from across Europe and the entire globe.",
-    "searchPlaceholder": "Search name or country...",
-    "continents": {
-      "all": "🌍 All",
-      "europe": "🏰 Europe",
-      "americas": "🌎 Americas",
-      "asia": "🌏 Asia",
-      "africa": "🏜️ Africa",
-      "oceania": "🌊 Oceania"
-    },
-    "pillars": {
-      "title": "3 Columnae Principales Firmitatis",
-      "badge": "Principia Probata",
-      "survivalTitle": "100% Survival Rate",
-      "survivalDesc": "You have survived every panic attack, every heartbreak, and every dark night you thought you wouldn't. Your resilience is already proven by facts.",
-      "noiseTitle": "Cognitive Noise vs. Truth",
-      "noiseDesc": "The brain is an evolutionary survival machine that exaggerates threat in times of stress. Anxiety and dark thoughts are false alarms, not objective reality.",
-      "chaptersTitle": "The Unwritten Chapters",
-      "chaptersDesc": "You cannot judge the entire book of your life by a single difficult chapter. The best people you will ever meet and the greatest laughs are still ahead.",
-      "alchemyTitle": "Alchemy of Pain (Sublimation)",
-      "alchemyDesc": "Great art, deep empathy, and groundbreaking resilience are born from people who have stood in the dark. Your pain can become your greatest creative superpower."
-    },
-    "sublimation": {
-      "title": "The Alchemy of Mind & Shadow",
-      "subtitle": "Transforming inner turmoil into understanding and creative power.",
-      "card1Title": "1. Thoughts Are Not Facts",
-      "card1Summary": "Most self-critical thoughts are not your own. They are old tape recordings from childhood or environment.",
-      "card1Detail": "As young children, we lacked critical filters. When someone spoke in anger or criticism, our subconscious recorded it as absolute truth. When you hear 'You are broken' or 'You are worthless', realize: that isn't you speaking. It is simply an outdated tape loop.",
-      "card2Title": "2. The Art of Sublimation (Alchemy)",
-      "card2Summary": "Your intense dark energy doesn't have to destroy you. It can be transmuted into creation.",
-      "card2Detail": "Sublimation is the psychological alchemy of converting raw instinct, taboo thoughts, and deep emotional pain into art, literature, physical power, or code. Creators didn't suppress their darkness—they channeled it into timeless works.",
-      "card3Title": "3. You Are the Sky, Not the Storm",
-      "card3Summary": "You are the conscious observer witnessing the storm, not the wreckage inside it.",
-      "card3Detail": "No matter how turbulent the clouds, thunder, or rain become, the sky itself is never harmed by the weather. Step back into the seat of the observer. Watch the sensations come and go without attaching your identity to them."
-    },
-    "cta": {
-      "title": "Need to ground yourself right now or talk to someone?",
-      "desc": "Take a slow, deep breath. You do not have to conquer the whole mountain today. Just the next minute.",
-      "crisisButton": "View Crisis Helplines",
-      "toolsButton": "Breathing & Grounding Tools"
-    }
+  "backToHome": "← Back to Home & Crisis Help",
+  "badge": "Perspective Shift & Meaning • 101 Global Inspirations",
+  "titlePart1": "Quare existentiam tuam",
+  "titleHighlight": "Res Profundite",
+  "description": "Cum in densa lassitudine sis, prospectum angustat. Hic fundantur principia psychologica et vera humana historia eorum qui extremum dolorem in finem perennem verterunt.",
+  "spotlightBadge": "Vox e regione tua",
+  "spotlightSelectCountry": "Patriam Select :",
+  "spotlightAdversity": "Adversus Adversus Faced",
+  "spotlightTakeaway": "Takeaway for You Hodie",
+  "globalTitansTitle": "Global Titans of Resilience",
+  "globalTitansSubtitle": "Innumerabiles figurae quae inestimabiles dissident ad humanitatis viam illustrandam vicerunt.",
+  "galleryTitle": "All Continental & European Figures",
+  "gallerySubtitle": "Explorare fabulas inspirantes per Europam et totum orbem.",
+  "searchPlaceholder": "Quaero nomen vel patriam...",
+  "continents": {
+    "all": "All",
+    "europe": "Europe",
+    "americas": "Americas",
+    "asia": "Asia",
+    "africa": "Africa",
+    "oceania": "Oceania"
+  },
+  "pillars": {
+    "title": "3 Caput columnae mollitiae",
+    "badge": "Proven Principia",
+    "survivalTitle": "C% superstes Rate",
+    "survivalDesc": "Superstitem omnem terrorem , omnem animi dolorem , omnemque noctem obscuram tibi non putares . Mollitia tua iam factis probatur.",
+    "noiseTitle": "Cognitivi Soni vs",
+    "noiseDesc": "Cerebrum apparatus superstes evolutionis est quae comminationem in temporibus accentus auget. Sollicitudo et tenebrae cogitationes falsae terrores sunt, non realitas obiectiva.",
+    "chaptersTitle": "Capita non scripta",
+    "chaptersDesc": "Totum librum vitae tuae uno capitulo difficili non potes iudicare. Optimi homines semper occurrent et maximae cachinnae adhuc antecedunt.",
+    "alchemyTitle": "Alchemia Doloris (Sublimation)",
+    "alchemyDesc": "Magna es, alta empathy, et mollitiam fundamenti nascuntur ab iis, qui in tenebris steterunt. Dolor tuus potest fieri maximum creatrix superpower."
+  },
+  "sublimation": {
+    "title": "Alchemia Mentis & Vmbra",
+    "subtitle": "Commutans tumultum interiorem in intellectum et potentiam creantis.",
+    "card1Title": "1. Cogitationes Non Res",
+    "card1Summary": "Maxime auto-critica cogitationes non sunt tua. Vetera tabulae magnetophonicae ab adulescentia vel ambitu sunt.",
+    "card1Detail": "Ut parvuli, Filtra critica nobis deerant. Cum aliquis in ira vel reprehensione locutus est, subconscious noster scriptum est pro veritate absoluta. Cum audis, 'Fractus es' vel 'Vastus es', intellige: id non loqueris. Simpliciter ansa tape outdated.",
+    "card2Title": "2. Ars Sublimationis (Alchimiae)",
+    "card2Summary": "Tua vis obscura intensa te perdere non habet. Transmutari potest in creationem.",
+    "card2Detail": "Sublimatio est alchimia psychologica convertendi rudis instinctus, tabo cogitationum et dolor motus profundus in artem, litteras, vim corporis, seu codicem. Creatores suas tenebras non amiserunt, eam in opera sine fine posuerunt.",
+    "card3Title": "3. Tu es coelum, non tempestas",
+    "card3Summary": "Tu es observator conscius spectans procellam, non naufragium intus.",
+    "card3Detail": "Quamvis turbida nubes, tonitrua, pluviae fiant, caelum ipsum numquam tempestatibus laeditur. Recede in sedem spectantis. Videte sensus venientes, et eunt sine copulatione identitatis tuae illis."
+  },
+  "cta": {
+    "title": "Nunc opus est te atterere, an loqui ad aliquem?",
+    "desc": "Lentum et altum spiritum sume. Non habes hodie totum montem vincere. Mox momento sequenti.",
+    "crisisButton": "View Crisis Helplines",
+    "toolsButton": "Spiritus & Grounding Tools"
   }
+}
 };

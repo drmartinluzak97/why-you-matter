@@ -255,58 +255,58 @@ export const eo: TranslationDictionary = {
     "footerNotice": "Viaj datumoj estas protektitaj kaj uzataj nur por ĝisdatigi informojn."
   },
   motivationPage: {
-    "backToHome": "← Back to Home & Crisis Help",
-    "badge": "Perspective Shift & Meaning • 101 Global Inspirations",
-    "titlePart1": "Why Your Existence ",
-    "titleHighlight": "Matters Profoundly",
-    "description": "When you are in the thick of exhaustion, perspective narrows. Here are grounded psychological principles and real human stories of those who turned extreme suffering into enduring purpose.",
-    "spotlightBadge": "Voice from Your Region",
-    "spotlightSelectCountry": "Select country:",
-    "spotlightAdversity": "Adversity Faced",
-    "spotlightTakeaway": "Takeaway for You Today",
-    "globalTitansTitle": "Global Titans of Resilience",
-    "globalTitansSubtitle": "Timeless figures who overcame unimaginable odds to light the path for humanity.",
-    "galleryTitle": "All Continental & European Figures",
-    "gallerySubtitle": "Explore inspiring stories from across Europe and the entire globe.",
-    "searchPlaceholder": "Search name or country...",
-    "continents": {
-      "all": "🌍 All",
-      "europe": "🏰 Europe",
-      "americas": "🌎 Americas",
-      "asia": "🌏 Asia",
-      "africa": "🏜️ Africa",
-      "oceania": "🌊 Oceania"
-    },
-    "pillars": {
-      "title": "3 Kernaj Kolonoj de Rezisteco",
-      "badge": "Provigitaj Principoj",
-      "survivalTitle": "100% Survival Rate",
-      "survivalDesc": "You have survived every panic attack, every heartbreak, and every dark night you thought you wouldn't. Your resilience is already proven by facts.",
-      "noiseTitle": "Cognitive Noise vs. Truth",
-      "noiseDesc": "The brain is an evolutionary survival machine that exaggerates threat in times of stress. Anxiety and dark thoughts are false alarms, not objective reality.",
-      "chaptersTitle": "The Unwritten Chapters",
-      "chaptersDesc": "You cannot judge the entire book of your life by a single difficult chapter. The best people you will ever meet and the greatest laughs are still ahead.",
-      "alchemyTitle": "Alchemy of Pain (Sublimation)",
-      "alchemyDesc": "Great art, deep empathy, and groundbreaking resilience are born from people who have stood in the dark. Your pain can become your greatest creative superpower."
-    },
-    "sublimation": {
-      "title": "The Alchemy of Mind & Shadow",
-      "subtitle": "Transforming inner turmoil into understanding and creative power.",
-      "card1Title": "1. Thoughts Are Not Facts",
-      "card1Summary": "Most self-critical thoughts are not your own. They are old tape recordings from childhood or environment.",
-      "card1Detail": "As young children, we lacked critical filters. When someone spoke in anger or criticism, our subconscious recorded it as absolute truth. When you hear 'You are broken' or 'You are worthless', realize: that isn't you speaking. It is simply an outdated tape loop.",
-      "card2Title": "2. The Art of Sublimation (Alchemy)",
-      "card2Summary": "Your intense dark energy doesn't have to destroy you. It can be transmuted into creation.",
-      "card2Detail": "Sublimation is the psychological alchemy of converting raw instinct, taboo thoughts, and deep emotional pain into art, literature, physical power, or code. Creators didn't suppress their darkness—they channeled it into timeless works.",
-      "card3Title": "3. You Are the Sky, Not the Storm",
-      "card3Summary": "You are the conscious observer witnessing the storm, not the wreckage inside it.",
-      "card3Detail": "No matter how turbulent the clouds, thunder, or rain become, the sky itself is never harmed by the weather. Step back into the seat of the observer. Watch the sensations come and go without attaching your identity to them."
-    },
-    "cta": {
-      "title": "Need to ground yourself right now or talk to someone?",
-      "desc": "Take a slow, deep breath. You do not have to conquer the whole mountain today. Just the next minute.",
-      "crisisButton": "View Crisis Helplines",
-      "toolsButton": "Breathing & Grounding Tools"
-    }
+  "backToHome": "← Reen al Hejmo & Krizo Helpo",
+  "badge": "Perspektivŝanĝo & Signifo • 101 Tutmondaj Inspiroj",
+  "titlePart1": "Kial Via Ekzisto",
+  "titleHighlight": "Gravas Profunde",
+  "description": "Kiam vi estas en la denso de elĉerpiĝo, perspektivo mallarĝiĝas. Ĉi tie estas bazitaj psikologiaj principoj kaj realaj homaj rakontoj de tiuj, kiuj transformis ekstreman suferon en daŭra celo.",
+  "spotlightBadge": "Voĉo el Via Regiono",
+  "spotlightSelectCountry": "Elektu landon:",
+  "spotlightAdversity": "Malfavoro Alfrontita",
+  "spotlightTakeaway": "Takeaway for You Today",
+  "globalTitansTitle": "Tutmondaj Titanoj de Fortikeco",
+  "globalTitansSubtitle": "Sentempaj figuroj, kiuj venkis neimageblajn malfacilaĵojn por lumigi la vojon por la homaro.",
+  "galleryTitle": "Ĉiuj Kontinentaj kaj Eŭropaj Ciferoj",
+  "gallerySubtitle": "Esploru inspirajn rakontojn de tra Eŭropo kaj la tuta terglobo.",
+  "searchPlaceholder": "Serĉu nomon aŭ landon...",
+  "continents": {
+    "all": "🌍 Ĉiuj",
+    "europe": "🏰 Eŭropo",
+    "americas": "🌎 Amerikoj",
+    "asia": "🌏 Azio",
+    "africa": "🏜️ Afriko",
+    "oceania": "🌊 Oceanio"
+  },
+  "pillars": {
+    "title": "3 Kernaj Kolonoj de Fortikeco",
+    "badge": "Provitaj Principoj",
+    "survivalTitle": "100% Superviva Procento",
+    "survivalDesc": "Vi postvivis ĉiun panikatakon, ĉiun koraflikton, kaj ĉiun malhelan nokton, kiun vi pensis, ke vi ne farus. Via fortikeco jam estas pruvita per faktoj.",
+    "noiseTitle": "Kogna Bruo kontraŭ Vero",
+    "noiseDesc": "La cerbo estas evolua pluviva maŝino, kiu troigas minacon en tempoj de streĉo. Maltrankvilo kaj malhelaj pensoj estas falsaj alarmoj, ne objektiva realeco.",
+    "chaptersTitle": "La Neskribitaj Ĉapitroj",
+    "chaptersDesc": "Vi ne povas juĝi la tutan libron de via vivo per ununura malfacila ĉapitro. La plej bonaj homoj, kiujn vi iam renkontos kaj la plej grandaj ridoj ankoraŭ estas antaŭaj.",
+    "alchemyTitle": "Alĥemio de Doloro (Sublimado)",
+    "alchemyDesc": "Granda arto, profunda empatio kaj pionira fortikeco naskiĝas de homoj, kiuj staris en la mallumo. Via doloro povas fariĝi via plej granda krea superpotenco."
+  },
+  "sublimation": {
+    "title": "La Alĥemio de Menso & Ombro",
+    "subtitle": "Transformante internan tumulton en komprenon kaj krean potencon.",
+    "card1Title": "1. Pensoj Ne Estas Faktoj",
+    "card1Summary": "Plej memkritikaj pensoj ne estas viaj propraj. Ili estas malnovaj sonbendaj registradoj de infanaĝo aŭ medio.",
+    "card1Detail": "Kiel junaj infanoj, al ni mankis kritikaj filtriloj. Kiam iu parolis en kolero aŭ kritiko, nia subkonscio registris ĝin kiel absoluta vero. Kiam vi aŭdas 'Vi estas rompita' aŭ 'Vi estas senvalora', rimarku: tio ne estas vi parolanta. Ĝi estas simple malmoderna bendobuklo.",
+    "card2Title": "2. La Arto de Sublimado (Alkemio)",
+    "card2Summary": "Via intensa malhela energio ne devas detrui vin. Ĝi povas esti transformita en kreadon.",
+    "card2Detail": "Sublimado estas la psikologia alĥemio konverti krudan instinkton, tabuajn pensojn kaj profundan emocian doloron en arton, literaturon, fizikan potencon aŭ kodon. Kreintoj ne subpremis sian mallumon—ili enkanaligis ĝin en sentempajn verkojn.",
+    "card3Title": "3. Vi Estas la Ĉielo, Ne la Ŝtormo",
+    "card3Summary": "Vi estas la konscia observanto atestanta la ŝtormon, ne la vrakaĵon en ĝi.",
+    "card3Detail": "Kiom ajn turbulaj fariĝas la nuboj, tondro aŭ pluvo, la ĉielo mem neniam estas damaĝita de la vetero. Reiru en la sidlokon de la observanto. Rigardu la sentojn veni kaj foriri sen alligi vian identecon al ili."
+  },
+  "cta": {
+    "title": "Ĉu vi bezonas fondi vin nun aŭ paroli kun iu?",
+    "desc": "Prenu malrapidan, profundan spiron. Vi ne devas konkeri la tutan monton hodiaŭ. Nur la sekvan minuton.",
+    "crisisButton": "Vidi Krizhelpliniojn",
+    "toolsButton": "Spirado kaj Grundaj Iloj"
   }
+}
 };

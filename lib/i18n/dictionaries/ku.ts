@@ -255,56 +255,58 @@ export const ku: TranslationDictionary = {
     "footerNotice": "Agahiyên we tên parastin û tenê ji bo nûkirina malperê tên bikaranîn."
   },
   motivationPage: {
-      "backToHome": "← العودة إلى الصفحة الرئيسية والمساعدة في الأزمات",
-      "badge": "تحويل الألم إلى معنى • 101 مصدر إلهام عالمي",
-      "titlePart1": "لماذا لوجودك ",
-      "titleHighlight": "أهمية عميقة",
-      "description": "عندما نمر بأوقات عصيبة، يضيق أفق التفكير. إليك ركائز نفسية مثبتة وقصصاً حقيقية لأشخاص اجتازوا أحلك الظروف ووجدوا النور.",
-      "spotlightBadge": "صوت من منطقتك / بلدك",
-      "spotlightSelectCountry": "اختر البلد:",
-      "spotlightAdversity": "المحنة التي تم تجاوزها",
-      "spotlightTakeaway": "رسالة ليومك الحالي",
-      "globalTitansTitle": "عمالقة الصمود الإنساني في العالم",
-      "globalTitansSubtitle": "شخصيات خالدة تغلبت على أصعب المحن وأنارت الدرب للبشرية.",
-      "galleryTitle": "معرض الأبطال حسب القارات وأوروبا",
-      "gallerySubtitle": "اكتشف قصصاً ملهمة من كل بلد أوروبي ومن مختلف أنحاء العالم.",
-      "searchPlaceholder": "ابحث عن شخصية أو دولة...",
-      "continents": {
-          "all": "🌍 الكل",
-          "europe": "🏰 أوروبا",
-          "americas": "🌎 الأمريكتان",
-          "asia": "🌏 آسيا",
-          "africa": "🏜️ أفريقيا",
-          "oceania": "🌊 أوقيانوسيا"
-      },
-      "pillars": {
-          "title": "3 ركائز أساسية للمرونة النفسية",
-          "badge": "مبادئ مثبتة",
-          "noiseTitle": "الضجيج المعرفي مقابل الحقيقة",
-          "noiseDesc": "الدماغ يضخم الأخطار في أوقات الشدة. القلق والأفكار المظلمة هي إنذارات كاذبة وليست الحقيقة الواقعية.",
-          "chaptersTitle": "الفصول غير المكتوبة بعد",
-          "chaptersDesc": "لا يمكنك الحكم على كتاب حياتك بأكمله من خلال فصل واحد قاسٍ. أجمل الأيام والضحكات الصادقة لا تزال أمامك.",
-          "alchemyTitle": "كيمياء الألم (التسامي)",
-          "alchemyDesc": "الفن العظيم والتعاطف العميق يولد لدى من وقفوا في الظلام. ألمك يمكن أن يتحول إلى أعظم قوة لديك."
-      },
-      "sublimation": {
-          "title": "كيمياء العقل والظل",
-          "subtitle": "تحويل الفوضى الداخلية إلى حكمة وقوة إبداعية.",
-          "card1Title": "1. الأفكار ليست حقائق",
-          "card1Summary": "معظم الأفكار القاسية ليست نابعة من حقيقتك، بل هي تسجيلات قديمة من الماضي.",
-          "card1Detail": "في طفولتنا تقبلنا كلمات الآخرين كحقائق مطلقة. عندما تسمع صوتاً يقول 'أنت بلا قيمة'، تذكر: هذا ليس صوتك الحقيقي.",
-          "card2Title": "2. فن التسامي",
-          "card2Summary": "الطاقة المظلمة لا يجب أن تدمرك، بل يمكن تحويلها إلى إبداع ومساعدة للآخرين.",
-          "card2Detail": "التسامي هو تحويل المعاناة إلى فن أو عمل نبيل. العظماء صنعوا من آلامهم أعمالاً خالدة.",
-          "card3Title": "3. أنت السماء ولست العاصفة",
-          "card3Summary": "أنت المراقب الواعي للعاصفة ولست حطاماً بداخلها.",
-          "card3Detail": "مهما اشتدت الغيوم والرياح، تبقى السماء ذاتها سالمة. تراجع خطوة وراقب مشاعرك كغيوم عابرة."
-      },
-      "cta": {
-          "title": "هل تحتاج إلى الهدوء الآن أو التحدث مع شخص ما؟",
-          "desc": "خذ نفساً عميقاً. لست مضطراً لحل مشكلات حياتك كلها اليوم. يكفيك تجاوز هذه الدقيقة الحالية.",
-          "crisisButton": "عرض خطوط المساعدة في الأزمات",
-          "toolsButton": "تمارين التنفس والتهدئة"
-      }
+  "backToHome": "← Vegere Mal û Alîkariya Krîzê",
+  "badge": "Perspective Shift & Meaning • 101 Inspirations Global",
+  "titlePart1": "Çima Hebûna Te",
+  "titleHighlight": "Pir girîng e",
+  "description": "Dema ku hûn di nav westandina stûr de ne, perspektîf teng dibe. Li vir prensîbên psîkolojîk ên bingehîn û çîrokên mirovî yên rastîn ên wan ên ku êşa giran veguherandine armancek mayînde hene.",
+  "spotlightBadge": "Deng ji Herêma xwe",
+  "spotlightSelectCountry": "Welat hilbijêre:",
+  "spotlightAdversity": "Bi Zehmetiyê re rû bi rû ne",
+  "spotlightTakeaway": "Takeaway ji bo te îro",
+  "globalTitansTitle": "Global Titans of Resilience",
+  "globalTitansSubtitle": "Kesayetên bêdem ên ku şansên nediyar derbas kirin da ku rê li ber mirovahiyê ronî bikin.",
+  "galleryTitle": "Hemî Kesayetên Parzemîn û Ewropî",
+  "gallerySubtitle": "Çîrokên îlhamê ji seranserê Ewropa û tevahiya cîhanê bigerin.",
+  "searchPlaceholder": "Nav an welat bigerin...",
+  "continents": {
+    "all": "🌍 Hemû",
+    "europe": "🏰 Ewropa",
+    "americas": "🌎 Amerîka",
+    "asia": "🌏 Asya",
+    "africa": "🏜️ Afrîka",
+    "oceania": "🌊 Okyanûsya"
+  },
+  "pillars": {
+    "title": "3 Stûnên Bingehîn ên Berxwedanê",
+    "badge": "Prensîbên îsbatkirî",
+    "survivalTitle": "100% Rêjeya Bijî",
+    "survivalDesc": "Hûn ji her êrişa panîkê, ji her dilşikestî û ji her şeva tarî ku we difikirîn ku hûn nekişînin sax filitî. Berxwedana we jixwe bi rastiyan hatiye îspatkirin.",
+    "noiseTitle": "Dengbêjî li hember Rastiyê",
+    "noiseDesc": "Mêjî makîneyek mayînde ya pêşkeftî ye ku di demên stresê de xetereyê zêde dike. Xemgînî û ramanên tarî alarmên derewîn in, ne rastiya objektîf.",
+    "chaptersTitle": "Beşên Nenivîsandî",
+    "chaptersDesc": "Hûn nikarin tevahiya pirtûka jiyana xwe bi yek beşek dijwar dadbar bikin. Kesên çêtirîn ku hûn ê her dem bicivin û kenê herî mezin hîn li pêş in.",
+    "alchemyTitle": "Alchemy of Pain (Sublimation)",
+    "alchemyDesc": "Hunera mezin, empatiya kûr, û berxwedaniya bingehîn ji mirovên ku di tariyê de rawestiyane çêdibe. Êşa we dikare bibe hêza weya afirîner a herî mezin."
+  },
+  "sublimation": {
+    "title": "Alchemy of Mind & Shadow",
+    "subtitle": "Veguheztina tevliheviya hundurîn di têgihîştin û hêza afirîner de.",
+    "card1Title": "1. Raman Ne Rastî Ne",
+    "card1Summary": "Piraniya ramanên xwe-rexne ne yên we ne. Ew tomarên kasetên kevn ên ji zaroktiyê an jîngehê ne.",
+    "card1Detail": "Weke zarokên biçûk, me fîltreyên krîtîk tune bûn. Gava ku kesek bi hêrs an rexne diaxivî, binehişê me ew wekî rastiya mutleq tomar dikir. Gava ku hûn dibihîzin 'Tu şikestî' an 'Tu bê qîmet î', fêhm bikin: ne ew e ku hûn diaxivin. Ew bi tenê xelekek kasetek kevnar e.",
+    "card2Title": "2. Hunera Sublimation (Alkîmya)",
+    "card2Summary": "Enerjiya weya tarî ya dijwar ne hewce ye ku we hilweşîne. Ew dikare di afirandinê de were veguheztin.",
+    "card2Detail": "Sublimasyon alkîmiya psîkolojîk e ku însiyata xav, ramanên tabû, û êşa hestyarî ya kûr vediguherîne huner, edebiyat, hêza laşî, an kod. Afirîner tarîtiya xwe netepisandin - wan ew ber bi karên bêdem ve birin.",
+    "card3Title": "3. Tu Ezman î, Ne Bahoza",
+    "card3Summary": "Hûn çavdêrê hişyar in ku şahidê bahozê ne, ne kavilên hundurê wê.",
+    "card3Detail": "Ewr, birûsk, baran çiqasî turbulî bin jî, hewa bi xwe tu carî zirarê nade esman. Vegere nav cîhê çavdêr. Bêyî ku nasnameya xwe bi wan ve girêbide, li hestên hatin û çûyînê temaşe bikin."
+  },
+  "cta": {
+    "title": "Ma hûn hewce ne ku niha xwe bidin erdê an bi kesek re biaxivin?",
+    "desc": "Bêhnek hêdî û kûr bistînin. Ne hewce ye ku hûn îro tevahiya çiyê bi dest bixin. Tenê deqeya din.",
+    "crisisButton": "Xetên Alîkariya Krîzê Binêr",
+    "toolsButton": "Amûrên Nefesê & Erdêkirinê"
   }
+}
 };

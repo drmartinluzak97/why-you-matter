@@ -255,58 +255,58 @@ export const hr: TranslationDictionary = {
     "footerNotice": "Vaša poruka obrađuje se s punom diskrecijom na hello@martinluzak.sk"
   },
   motivationPage: {
-    "backToHome": "← Back to Home & Crisis Help",
-    "badge": "Perspective Shift & Meaning • 101 Global Inspirations",
-    "titlePart1": "Why Your Existence ",
-    "titleHighlight": "Matters Profoundly",
-    "description": "When you are in the thick of exhaustion, perspective narrows. Here are grounded psychological principles and real human stories of those who turned extreme suffering into enduring purpose.",
-    "spotlightBadge": "Voice from Your Region",
-    "spotlightSelectCountry": "Select country:",
-    "spotlightAdversity": "Adversity Faced",
-    "spotlightTakeaway": "Takeaway for You Today",
-    "globalTitansTitle": "Global Titans of Resilience",
-    "globalTitansSubtitle": "Timeless figures who overcame unimaginable odds to light the path for humanity.",
-    "galleryTitle": "All Continental & European Figures",
-    "gallerySubtitle": "Explore inspiring stories from across Europe and the entire globe.",
-    "searchPlaceholder": "Search name or country...",
-    "continents": {
-      "all": "🌍 All",
-      "europe": "🏰 Europe",
-      "americas": "🌎 Americas",
-      "asia": "🌏 Asia",
-      "africa": "🏜️ Africa",
-      "oceania": "🌊 Oceania"
-    },
-    "pillars": {
-      "title": "3 Temeljna Stupa Otpornosti",
-      "badge": "Provjerena Načela",
-      "survivalTitle": "100% Survival Rate",
-      "survivalDesc": "You have survived every panic attack, every heartbreak, and every dark night you thought you wouldn't. Your resilience is already proven by facts.",
-      "noiseTitle": "Cognitive Noise vs. Truth",
-      "noiseDesc": "The brain is an evolutionary survival machine that exaggerates threat in times of stress. Anxiety and dark thoughts are false alarms, not objective reality.",
-      "chaptersTitle": "The Unwritten Chapters",
-      "chaptersDesc": "You cannot judge the entire book of your life by a single difficult chapter. The best people you will ever meet and the greatest laughs are still ahead.",
-      "alchemyTitle": "Alchemy of Pain (Sublimation)",
-      "alchemyDesc": "Great art, deep empathy, and groundbreaking resilience are born from people who have stood in the dark. Your pain can become your greatest creative superpower."
-    },
-    "sublimation": {
-      "title": "The Alchemy of Mind & Shadow",
-      "subtitle": "Transforming inner turmoil into understanding and creative power.",
-      "card1Title": "1. Thoughts Are Not Facts",
-      "card1Summary": "Most self-critical thoughts are not your own. They are old tape recordings from childhood or environment.",
-      "card1Detail": "As young children, we lacked critical filters. When someone spoke in anger or criticism, our subconscious recorded it as absolute truth. When you hear 'You are broken' or 'You are worthless', realize: that isn't you speaking. It is simply an outdated tape loop.",
-      "card2Title": "2. The Art of Sublimation (Alchemy)",
-      "card2Summary": "Your intense dark energy doesn't have to destroy you. It can be transmuted into creation.",
-      "card2Detail": "Sublimation is the psychological alchemy of converting raw instinct, taboo thoughts, and deep emotional pain into art, literature, physical power, or code. Creators didn't suppress their darkness—they channeled it into timeless works.",
-      "card3Title": "3. You Are the Sky, Not the Storm",
-      "card3Summary": "You are the conscious observer witnessing the storm, not the wreckage inside it.",
-      "card3Detail": "No matter how turbulent the clouds, thunder, or rain become, the sky itself is never harmed by the weather. Step back into the seat of the observer. Watch the sensations come and go without attaching your identity to them."
-    },
-    "cta": {
-      "title": "Need to ground yourself right now or talk to someone?",
-      "desc": "Take a slow, deep breath. You do not have to conquer the whole mountain today. Just the next minute.",
-      "crisisButton": "View Crisis Helplines",
-      "toolsButton": "Breathing & Grounding Tools"
-    }
+  "backToHome": "← Povratak na Dom i pomoć u kriznim situacijama",
+  "badge": "Promjena perspektive i značenje • 101 globalna inspiracija",
+  "titlePart1": "Zašto tvoje postojanje",
+  "titleHighlight": "Važno je",
+  "description": "Kad si u jeku iscrpljenosti, perspektiva se sužava. Ovdje su utemeljena psihološka načela i stvarne ljudske priče onih koji su ekstremnu patnju pretvorili u trajnu svrhu.",
+  "spotlightBadge": "Glas iz vaše regije",
+  "spotlightSelectCountry": "Odaberite državu:",
+  "spotlightAdversity": "Suočen s nevoljom",
+  "spotlightTakeaway": "Danas za vas",
+  "globalTitansTitle": "Globalni titani otpornosti",
+  "globalTitansSubtitle": "Bezvremenske figure koje su nadvladale nezamislive šanse kako bi osvijetlile put čovječanstvu.",
+  "galleryTitle": "Sve kontinentalne i europske brojke",
+  "gallerySubtitle": "Istražite nadahnjujuće priče iz cijele Europe i cijeloga svijeta.",
+  "searchPlaceholder": "Traži naziv ili državu...",
+  "continents": {
+    "all": "🌍 Sve",
+    "europe": "🏰 Europa",
+    "americas": "🌎 Amerika",
+    "asia": "🌏 Azija",
+    "africa": "🏜️ Afrika",
+    "oceania": "🌊 Oceanija"
+  },
+  "pillars": {
+    "title": "3 temeljna stupa otpornosti",
+    "badge": "Provjerena načela",
+    "survivalTitle": "100% stopa preživljavanja",
+    "survivalDesc": "Preživjeli ste svaki napadaj panike, svaki slomljeni srce i svaku mračnu noć za koju ste mislili da nećete. Vaša otpornost već je dokazana činjenicama.",
+    "noiseTitle": "Kognitivni šum protiv istine",
+    "noiseDesc": "Mozak je evolucijski stroj za preživljavanje koji preuveličava prijetnju u vremenima stresa. Tjeskoba i mračne misli su lažni alarmi, a ne objektivna stvarnost.",
+    "chaptersTitle": "Nenapisana poglavlja",
+    "chaptersDesc": "Ne možete procijeniti cijelu knjigu svog života prema jednom teškom poglavlju. Najbolji ljudi koje ćete ikada upoznati i najveći smijeh tek su pred vama.",
+    "alchemyTitle": "Alkemija boli (sublimacija)",
+    "alchemyDesc": "Velika umjetnost, duboka empatija i revolucionarna otpornost rađaju se od ljudi koji su stajali u mraku. Vaša bol može postati vaša najveća kreativna supermoć."
+  },
+  "sublimation": {
+    "title": "Alkemija uma i sjene",
+    "subtitle": "Pretvaranje unutarnjeg nemira u razumijevanje i kreativnu snagu.",
+    "card1Title": "1. Misli nisu činjenice",
+    "card1Summary": "Većina samokritičnih misli nije vaša. To su stare magnetofonske snimke iz djetinjstva ili okruženja.",
+    "card1Detail": "Kao mala djeca, nedostajali su nam kritički filteri. Kada je netko govorio u ljutnji ili kritici, naša podsvijest je to bilježila kao apsolutnu istinu. Kad čujete 'Ti si slomljen' ili 'Ti si bezvrijedan', shvati: to ne govoriš ti. To je jednostavno zastarjela trakasta petlja.",
+    "card2Title": "2. Umijeće sublimacije (alkemija)",
+    "card2Summary": "Vaša intenzivna tamna energija ne mora vas uništiti. Može se pretočiti u kreaciju.",
+    "card2Detail": "Sublimacija je psihološka alkemija pretvaranja sirovog instinkta, tabu misli i duboke emocionalne boli u umjetnost, književnost, fizičku moć ili kod. Kreatori nisu potisnuli svoju tamu - kanalizirali su je u bezvremenska djela.",
+    "card3Title": "3. Vi ste nebo, a ne oluja",
+    "card3Summary": "Vi ste svjesni promatrač koji svjedoči oluji, a ne olupini unutar nje.",
+    "card3Detail": "Bez obzira na to koliko su oblaci, grmljavina ili kiša uzburkani, samo nebo nikada ne trpi vrijeme. Vratite se na mjesto promatrača. Gledajte kako osjećaji dolaze i odlaze bez vezivanja vašeg identiteta za njih."
+  },
+  "cta": {
+    "title": "Trebate se odmah prizemljiti ili razgovarati s nekim?",
+    "desc": "Polako, duboko udahnite. Danas ne morate osvojiti cijelu planinu. Samo sljedeće minute.",
+    "crisisButton": "Pogledajte linije za pomoć u kriznim situacijama",
+    "toolsButton": "Alati za disanje i uzemljenje"
   }
+}
 };

@@ -255,58 +255,58 @@ export const st: TranslationDictionary = {
     "footerNotice": "Thomello e tobileng ho hello@martinluzak.sk • Ho tlaleha ntle le lebitso hoa tshehetswa"
   },
   motivationPage: {
-    "backToHome": "← Back to Home & Crisis Help",
-    "badge": "Perspective Shift & Meaning • 101 Global Inspirations",
-    "titlePart1": "Why Your Existence ",
-    "titleHighlight": "Matters Profoundly",
-    "description": "When you are in the thick of exhaustion, perspective narrows. Here are grounded psychological principles and real human stories of those who turned extreme suffering into enduring purpose.",
-    "spotlightBadge": "Voice from Your Region",
-    "spotlightSelectCountry": "Select country:",
-    "spotlightAdversity": "Adversity Faced",
-    "spotlightTakeaway": "Takeaway for You Today",
-    "globalTitansTitle": "Global Titans of Resilience",
-    "globalTitansSubtitle": "Timeless figures who overcame unimaginable odds to light the path for humanity.",
-    "galleryTitle": "All Continental & European Figures",
-    "gallerySubtitle": "Explore inspiring stories from across Europe and the entire globe.",
-    "searchPlaceholder": "Search name or country...",
-    "continents": {
-      "all": "🌍 All",
-      "europe": "🏰 Europe",
-      "americas": "🌎 Americas",
-      "asia": "🌏 Asia",
-      "africa": "🏜️ Africa",
-      "oceania": "🌊 Oceania"
-    },
-    "pillars": {
-      "title": "Litšiea tse 3 tsa Bohlokoa tsa Mamello",
-      "badge": "Melao-motheo e Pakiloeng",
-      "survivalTitle": "100% Survival Rate",
-      "survivalDesc": "You have survived every panic attack, every heartbreak, and every dark night you thought you wouldn't. Your resilience is already proven by facts.",
-      "noiseTitle": "Cognitive Noise vs. Truth",
-      "noiseDesc": "The brain is an evolutionary survival machine that exaggerates threat in times of stress. Anxiety and dark thoughts are false alarms, not objective reality.",
-      "chaptersTitle": "The Unwritten Chapters",
-      "chaptersDesc": "You cannot judge the entire book of your life by a single difficult chapter. The best people you will ever meet and the greatest laughs are still ahead.",
-      "alchemyTitle": "Alchemy of Pain (Sublimation)",
-      "alchemyDesc": "Great art, deep empathy, and groundbreaking resilience are born from people who have stood in the dark. Your pain can become your greatest creative superpower."
-    },
-    "sublimation": {
-      "title": "The Alchemy of Mind & Shadow",
-      "subtitle": "Transforming inner turmoil into understanding and creative power.",
-      "card1Title": "1. Thoughts Are Not Facts",
-      "card1Summary": "Most self-critical thoughts are not your own. They are old tape recordings from childhood or environment.",
-      "card1Detail": "As young children, we lacked critical filters. When someone spoke in anger or criticism, our subconscious recorded it as absolute truth. When you hear 'You are broken' or 'You are worthless', realize: that isn't you speaking. It is simply an outdated tape loop.",
-      "card2Title": "2. The Art of Sublimation (Alchemy)",
-      "card2Summary": "Your intense dark energy doesn't have to destroy you. It can be transmuted into creation.",
-      "card2Detail": "Sublimation is the psychological alchemy of converting raw instinct, taboo thoughts, and deep emotional pain into art, literature, physical power, or code. Creators didn't suppress their darkness—they channeled it into timeless works.",
-      "card3Title": "3. You Are the Sky, Not the Storm",
-      "card3Summary": "You are the conscious observer witnessing the storm, not the wreckage inside it.",
-      "card3Detail": "No matter how turbulent the clouds, thunder, or rain become, the sky itself is never harmed by the weather. Step back into the seat of the observer. Watch the sensations come and go without attaching your identity to them."
-    },
-    "cta": {
-      "title": "Need to ground yourself right now or talk to someone?",
-      "desc": "Take a slow, deep breath. You do not have to conquer the whole mountain today. Just the next minute.",
-      "crisisButton": "View Crisis Helplines",
-      "toolsButton": "Breathing & Grounding Tools"
-    }
+  "backToHome": "← Back to Home & Crisis Help",
+  "badge": "Perspective Shift & Meaning • 101 Global Inspirations",
+  "titlePart1": "Ke Hobane'ng ha U le Teng",
+  "titleHighlight": "Litaba Tse Tebileng",
+  "description": "Ha u le har'a mokhathala, pono e ea fokotseha. Mona ke melao-motheo ea kelello le lipale tsa 'nete tsa batho ba ileng ba fetola mahlomola a feteletseng hore e be morero o tšoarellang.",
+  "spotlightBadge": "Lentsoe le tsoang Sebakeng sa Hau",
+  "spotlightSelectCountry": "Khetha naha:",
+  "spotlightAdversity": "Re Tobane le Mathata",
+  "spotlightTakeaway": "Ntho e Nkiloeng bakeng sa Hao Kajeno",
+  "globalTitansTitle": "Global Titans of Resilience",
+  "globalTitansSubtitle": "Lipalo-palo tse sa feleng tse hlotseng mathata a ke keng a nahanoa ho khantša tsela bakeng sa batho.",
+  "galleryTitle": "Lipalo Tsohle tsa Continental & Europe",
+  "gallerySubtitle": "Fumana lipale tse khothatsang tse tsoang Europe le lefats'e lohle.",
+  "searchPlaceholder": "Batla lebitso kapa naha...",
+  "continents": {
+    "all": "🌍 Tsohle",
+    "europe": "🏰 Europe",
+    "americas": "🌎 Amerika",
+    "asia": "🌏 Asia",
+    "africa": "🏜️ Afrika",
+    "oceania": "🌊 Oceania"
+  },
+  "pillars": {
+    "title": "Litšiea tse 3 tsa Motheo tsa ho Tiea",
+    "badge": "Melao-motheo e Pakiloeng",
+    "survivalTitle": "100% Sekhahla sa ho Pholoha",
+    "survivalDesc": "U pholohile tlhaselo e 'ngoe le e 'ngoe ea tšabo, masisa-pelo a mang le a mang, le bosiu bo bong le bo bong bo lefifi boo u neng u nahana hore u ke ke ua bo etsa. Ho tiea ha hao ho se ho pakoa ke lintlha.",
+    "noiseTitle": "Lerata la kelello vs. 'Nete",
+    "noiseDesc": "Boko ke mochine oa pholoho oa ho iphetola ha lintho o feteletsang tšokelo linakong tsa khatello ea maikutlo. Matšoenyeho le menahano e lefifi ke lits'oso tsa bohata, eseng 'nete ea sebele.",
+    "chaptersTitle": "Likhaolo Tse sa Ngoloang",
+    "chaptersDesc": "U ke ke ua ahlola buka eohle ea bophelo ba hau ka khaolo e le 'ngoe e thata. Batho ba molemo ka ho fetisisa bao u tla kopana le bona le litšeho tse kholo ka ho fetisisa li sa le teng.",
+    "alchemyTitle": "Alchemy of Pain (Sublimation)",
+    "alchemyDesc": "Bonono bo boholo, kutloelo-bohloko e tebileng, le ho tiea ho hoholo ho tsoaloa ke batho ba emeng lefifing. Bohloko ba hau e ka ba matla a hau a maholohali a ho bopa."
+  },
+  "sublimation": {
+    "title": "The Alchemy of Kelello & Shadow",
+    "subtitle": "Ho fetola pherekano e ka hare ho kutloisiso le matla a ho bōpa.",
+    "card1Title": "1. Mehopolo Hase Linnete",
+    "card1Summary": "Mehopolo e mengata ea ho inyatsa hase ea hao. Ke litheipi tsa khale tse rekotiloeng ho tloha bongoaneng kapa tikolohong.",
+    "card1Detail": "Joaloka bana ba banyenyane, re ne re haelloa ke li-filters tsa bohlokoa. Ha motho e mong a ne a bua ka khalefo kapa a nyatsa, maikutlo a rona a ne a tlaleha hore ke 'nete e phethahetseng. Ha u utloa 'U robehile' kapa 'Ha u na thuso', hlokomela: ha se uena ea buang. E mpa e le theipi e siiloeng ke nako.",
+    "card2Title": "2. The Art of Sublimation (Alchemy)",
+    "card2Summary": "Matla a hau a lefifi a matla ha a tlameha ho u senya. E ka fetisetsoa pōpong.",
+    "card2Detail": "Sublimation ke alchemy ea kelello ea ho fetola kelello e tala, menahano ea taboo, le bohloko bo tebileng ba maikutlo ho ba bonono, lingoliloeng, matla a 'mele kapa khoutu. Baetsi ha baa ka ba hatella lefifi la bona—ba ile ba le fetisetsa mesebetsing e sa feleng.",
+    "card3Title": "3. U Leholimo, Eseng Sefefo",
+    "card3Summary": "U moshebelli ea hlokolosi ea boneng sefefo, eseng ho senyeha ha sona.",
+    "card3Detail": "Ho sa tsotellehe hore na maru, sealuma kapa pula li na le morusu hakae, leholimo ka bolona ha ho mohla le ntšoang ke boemo ba leholimo. Khutlela setulong sa moshebelli. Shebella maikutlo a tla le ho feta ntle le ho amahanya le boitsebiso ba hau ho ona."
+  },
+  "cta": {
+    "title": "Na u hloka ho itokolla hona joale kapa ho bua le motho e mong?",
+    "desc": "Khutsa butle, u phefumolohe ka botebo. Ha ho hlokahale hore u hape thaba eohle kajeno. Motsotso o latelang feela.",
+    "crisisButton": "Sheba Mehala ea Thuso ea Mathata",
+    "toolsButton": "Lisebelisoa tsa ho Phefumoloha le ho Fokotsa"
   }
+}
 };

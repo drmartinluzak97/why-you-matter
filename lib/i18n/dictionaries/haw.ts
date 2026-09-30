@@ -255,58 +255,58 @@ export const haw: TranslationDictionary = {
     "footerNotice": "Malu kāu ʻike a hoʻohana wale ʻia no ka hoʻomaikaʻi ʻana i ke kahua paʻa."
   },
   motivationPage: {
-    "backToHome": "← Back to Home & Crisis Help",
-    "badge": "Perspective Shift & Meaning • 101 Global Inspirations",
-    "titlePart1": "Why Your Existence ",
-    "titleHighlight": "Matters Profoundly",
-    "description": "When you are in the thick of exhaustion, perspective narrows. Here are grounded psychological principles and real human stories of those who turned extreme suffering into enduring purpose.",
-    "spotlightBadge": "Voice from Your Region",
-    "spotlightSelectCountry": "Select country:",
-    "spotlightAdversity": "Adversity Faced",
-    "spotlightTakeaway": "Takeaway for You Today",
-    "globalTitansTitle": "Global Titans of Resilience",
-    "globalTitansSubtitle": "Timeless figures who overcame unimaginable odds to light the path for humanity.",
-    "galleryTitle": "All Continental & European Figures",
-    "gallerySubtitle": "Explore inspiring stories from across Europe and the entire globe.",
-    "searchPlaceholder": "Search name or country...",
-    "continents": {
-      "all": "🌍 All",
-      "europe": "🏰 Europe",
-      "americas": "🌎 Americas",
-      "asia": "🌏 Asia",
-      "africa": "🏜️ Africa",
-      "oceania": "🌊 Oceania"
-    },
-    "pillars": {
-      "title": "3 Pou Nui o ke Kūpaʻa",
-      "badge": "Nā Kumu i Hōʻoia ʻia",
-      "survivalTitle": "100% Survival Rate",
-      "survivalDesc": "You have survived every panic attack, every heartbreak, and every dark night you thought you wouldn't. Your resilience is already proven by facts.",
-      "noiseTitle": "Cognitive Noise vs. Truth",
-      "noiseDesc": "The brain is an evolutionary survival machine that exaggerates threat in times of stress. Anxiety and dark thoughts are false alarms, not objective reality.",
-      "chaptersTitle": "The Unwritten Chapters",
-      "chaptersDesc": "You cannot judge the entire book of your life by a single difficult chapter. The best people you will ever meet and the greatest laughs are still ahead.",
-      "alchemyTitle": "Alchemy of Pain (Sublimation)",
-      "alchemyDesc": "Great art, deep empathy, and groundbreaking resilience are born from people who have stood in the dark. Your pain can become your greatest creative superpower."
-    },
-    "sublimation": {
-      "title": "The Alchemy of Mind & Shadow",
-      "subtitle": "Transforming inner turmoil into understanding and creative power.",
-      "card1Title": "1. Thoughts Are Not Facts",
-      "card1Summary": "Most self-critical thoughts are not your own. They are old tape recordings from childhood or environment.",
-      "card1Detail": "As young children, we lacked critical filters. When someone spoke in anger or criticism, our subconscious recorded it as absolute truth. When you hear 'You are broken' or 'You are worthless', realize: that isn't you speaking. It is simply an outdated tape loop.",
-      "card2Title": "2. The Art of Sublimation (Alchemy)",
-      "card2Summary": "Your intense dark energy doesn't have to destroy you. It can be transmuted into creation.",
-      "card2Detail": "Sublimation is the psychological alchemy of converting raw instinct, taboo thoughts, and deep emotional pain into art, literature, physical power, or code. Creators didn't suppress their darkness—they channeled it into timeless works.",
-      "card3Title": "3. You Are the Sky, Not the Storm",
-      "card3Summary": "You are the conscious observer witnessing the storm, not the wreckage inside it.",
-      "card3Detail": "No matter how turbulent the clouds, thunder, or rain become, the sky itself is never harmed by the weather. Step back into the seat of the observer. Watch the sensations come and go without attaching your identity to them."
-    },
-    "cta": {
-      "title": "Need to ground yourself right now or talk to someone?",
-      "desc": "Take a slow, deep breath. You do not have to conquer the whole mountain today. Just the next minute.",
-      "crisisButton": "View Crisis Helplines",
-      "toolsButton": "Breathing & Grounding Tools"
-    }
+  "backToHome": "← Hoʻi i ka Home & Kōkua pilikia",
+  "badge": "Hoʻololi a me ka manaʻo • 101 mau hoʻoulu honua",
+  "titlePart1": "No ke aha kou noho ana",
+  "titleHighlight": "Pilikia loa",
+  "description": "Ke noho ʻoe i loko o ka mānoanoa o ka luhi, hāiki ka manaʻo. Eia nā loina noʻonoʻo a me nā moʻolelo kanaka maoli o ka poʻe i hoʻohuli i ka ʻeha nui i kumu hoʻomau.",
+  "spotlightBadge": "Leo mai kou ʻāpana",
+  "spotlightSelectCountry": "E koho i ka ʻāina:",
+  "spotlightAdversity": "Pilikia",
+  "spotlightTakeaway": "Lawe ʻia no ʻoe i kēia lā",
+  "globalTitansTitle": "Nā Titans o ke ao holoʻokoʻa",
+  "globalTitansSubtitle": "ʻO nā helu manawa ʻole i lanakila i nā mea hiki ʻole ke hoʻomālamalama i ke ala no ke kanaka.",
+  "galleryTitle": "Nā Kiʻi Continental & ʻEulopa",
+  "gallerySubtitle": "E ʻimi i nā moʻolelo hōʻeuʻeu mai ʻEulopa a me ka honua holoʻokoʻa.",
+  "searchPlaceholder": "Huli i ka inoa a i ʻole ka ʻāina...",
+  "continents": {
+    "all": "🌍 ʻO nā mea a pau",
+    "europe": "🏰 ʻEulopa",
+    "americas": "🌎 ʻAmelika",
+    "asia": "🌏 ʻAsia",
+    "africa": "🏜️ ʻApelika",
+    "oceania": "🌊 Oceania"
+  },
+  "pillars": {
+    "title": "3 mau pou kumu o ke kupaa",
+    "badge": "Nā Kūkākūkā i hōʻoia ʻia",
+    "survivalTitle": "100% ola ola",
+    "survivalDesc": "Ua ola ʻoe i kēlā me kēia hōʻeha weliweli, kēlā me kēia ʻeha puʻuwai, a me kēlā me kēia pō pōʻeleʻele āu i manaʻo ai ʻaʻole. Ua hōʻoia mua ʻia kou kūpaʻa e nā ʻoiaʻiʻo.",
+    "noiseTitle": "Noise Cognitive vs. ʻOiaʻiʻo",
+    "noiseDesc": "ʻO ka lolo he mīkini ola evolutionary e hoʻonui i ka hoʻoweliweli i nā manawa pilikia. ʻO ka hopohopo a me nā manaʻo pōʻeleʻele he mau ʻōlelo hoʻopunipuni hoʻopunipuni, ʻaʻole i ka ʻoiaʻiʻo.",
+    "chaptersTitle": "Na Mokuna i kakau ole ia",
+    "chaptersDesc": "ʻAʻole hiki iā ʻoe ke hoʻoponopono i ka puke holoʻokoʻa o kou ola ma kahi mokuna paʻakikī hoʻokahi. ʻO nā poʻe maikaʻi loa āu e hālāwai ai a ʻo ka ʻakaʻaka nui loa aia ma mua.",
+    "alchemyTitle": "Alchemy of Pain (Sublimation)",
+    "alchemyDesc": "ʻO ke akamai nui, ka manaʻo hohonu, a me ke kūpaʻa haʻahaʻa i hānau ʻia mai ka poʻe i kū i ka pōʻeleʻele. Hiki i kou ʻeha ke lilo i mea mana nui loa nou."
+  },
+  "sublimation": {
+    "title": "Ka Alchemy of Mind & Shadow",
+    "subtitle": "Ke hoʻololi ʻana i ka haunaele o loko i mana hoʻomaopopo a me ka mana hana.",
+    "card1Title": "1. ʻAʻole He ʻoiaʻiʻo nā manaʻo",
+    "card1Summary": "ʻO ka hapa nui o nā manaʻo hoʻopaʻapaʻa ponoʻī ʻaʻole iā ʻoe iho. He mau lipine leo kahiko ia mai ka wā kamaliʻi a i ʻole kaiapuni.",
+    "card1Detail": "E like me nā kamaliʻi, nele mākou i nā kānana koʻikoʻi. Ke kamaʻilio kekahi me ka huhū a i ʻole ka hoʻohewa ʻana, ua hoʻopaʻa ʻia kā mākou subconscious ma ke ʻano he ʻoiaʻiʻo loa. Ke lohe ʻoe 'Ua haki ʻoe' a i ʻole 'He waiwai ʻole ʻoe', e hoʻomaopopo: ʻaʻole ʻoe e ʻōlelo nei. He lipine lipine kahiko ia.",
+    "card2Title": "2. Ke Kii o Sublimation (Alchemy)",
+    "card2Summary": "ʻAʻole pono kou ikaika ʻeleʻele e luku iā ʻoe. Hiki ke hoʻololi i ka hana.",
+    "card2Detail": "ʻO ka sublimation ka psychological alchemy o ka hoʻohuli ʻana i ka manaʻo maka, ka manaʻo kapu, a me ka ʻehaʻeha hohonu i loko o ke kiʻi, palapala, mana kino, a i ʻole code. ʻAʻole i hoʻopau nā mea hana i ko lākou pōʻeleʻele - ua hoʻokaʻawale lākou iā ia i nā hana manawa ʻole.",
+    "card3Title": "3. ʻO ʻoe ka lani, ʻaʻole ka ʻino",
+    "card3Summary": "ʻO ʻoe ka mea nānā makaʻala e ʻike ana i ka ʻino, ʻaʻole ka ʻōpala i loko.",
+    "card3Detail": "ʻAʻohe pilikia o ke ao, ka hekili, a me ka ua, ʻaʻole loa e pōʻino ka lani i ka wā. E hoʻi i ka noho o ka mea nānā. E nānā i nā manaʻo e hele mai a hele me ka hoʻopili ʻole ʻana i kou ʻike iā lākou."
+  },
+  "cta": {
+    "title": "Pono ʻoe e hoʻopaʻa iā ʻoe iho i kēia manawa a kamaʻilio paha me kekahi?",
+    "desc": "E hanu mālie a hohonu. ʻAʻole pono ʻoe e lanakila i ka mauna holoʻokoʻa i kēia lā. I ka minuke aʻe.",
+    "crisisButton": "Nānā i nā laina kōkua pilikia",
+    "toolsButton": "Nā mea hana hanu a me ke kahua"
   }
+}
 };

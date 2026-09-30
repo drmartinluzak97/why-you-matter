@@ -255,56 +255,58 @@ export const nl: TranslationDictionary = {
     "footerNotice": "Je bericht wordt discreet en met prioriteit behandeld via hello@martinluzak.sk"
   },
   motivationPage: {
-      "backToHome": "← Terug naar home & crisishulp",
-      "badge": "Pijn omzetten in betekenis • 101 wereldwijde inspiraties",
-      "titlePart1": "Waarom jouw bestaan ",
-      "titleHighlight": "van diepe betekenis is",
-      "description": "In tijden van uitputting vernauwt het perspectief. Hier vind je beproefde psychologische principes en waargebeurde verhalen van mensen die het donker hebben overwonnen.",
-      "spotlightBadge": "Stem uit jouw regio",
-      "spotlightSelectCountry": "Selecteer land:",
-      "spotlightAdversity": "Overwonnen tegenslag",
-      "spotlightTakeaway": "Inzicht voor vandaag",
-      "globalTitansTitle": "Wereldwijde titanen van veerkracht",
-      "globalTitansSubtitle": "Tijdloze figuren die onvoorstelbare obstakels overwonnen en de mensheid inspireren.",
-      "galleryTitle": "Galerij per continent & Europa",
-      "gallerySubtitle": "Ontdek inspirerende verhalen uit alle Europese landen en de hele wereld.",
-      "searchPlaceholder": "Zoek naam of land...",
-      "continents": {
-          "all": "🌍 Alles",
-          "europe": "🏰 Europa",
-          "americas": "🌎 Amerika",
-          "asia": "🌏 Azië",
-          "africa": "🏜️ Afrika",
-          "oceania": "🌊 Oceanië"
-      },
-      "pillars": {
-          "title": "3 Kernpijlers van Veerkracht",
-          "badge": "Bewezen Principes",
-          "noiseTitle": "Cognitieve ruis vs Realiteit",
-          "noiseDesc": "Het brein overdrijft gevaar in tijden van stress. Angst en donkere gedachten zijn valse alarmen, geen feiten.",
-          "chaptersTitle": "Ongeschreven hoofdstukken",
-          "chaptersDesc": "Je kunt het hele boek van je leven niet beoordelen op één moeilijk hoofdstuk. De mooiste momenten liggen nog voor je.",
-          "alchemyTitle": "Alchemie van pijn (Sublimatie)",
-          "alchemyDesc": "Grote kunst en diepe empathie ontstaan bij mensen die in het donker stonden. Jouw pijn kan je grootste kracht worden."
-      },
-      "sublimation": {
-          "title": "De Alchemie van Geest & Schaduw",
-          "subtitle": "Innerlijke chaos omzetten in diep inzicht en creatieve kracht.",
-          "card1Title": "1. Gedachten zijn geen feiten",
-          "card1Summary": "De meeste zelfkritische gedachten komen voort uit oude patronen, niet uit je ware zelf.",
-          "card1Detail": "Als kinderen hadden we geen kritische filters. Onthoud: 'Ik ben waardeloos' is slechts een oude bandopname.",
-          "card2Title": "2. De kunst van sublimatie",
-          "card2Summary": "Zware emoties hoeven je niet te breken; ze kunnen worden omgezet in creativiteit en empathie.",
-          "card2Detail": "Sublimatie zet pijn om in kunst, literatuur of zorg voor anderen. Grote makers vormden duisternis om tot meesterwerken.",
-          "card3Title": "3. Jij bent de hemel, niet de storm",
-          "card3Summary": "Je bent de bewuste waarnemer van de storm, niet het wrakhout erin.",
-          "card3Detail": "Hoe hevig het ook onweert, de lucht zelf blijft ongedeerd. Kijk naar je emoties als voorbijtrekkende wolken."
-      },
-      "cta": {
-          "title": "Wil je nu tot rust komen of met iemand praten?",
-          "desc": "Haal diep adem. Je hoeft vandaag niet je hele leven op te lossen. Deze ene minuut doorkomen is genoeg.",
-          "crisisButton": "Bekijk hulplijnen bij crisis",
-          "toolsButton": "Ademhalings- en aardingsoefeningen"
-      }
+  "backToHome": "← Terug naar Home & Crisishulp",
+  "badge": "Perspectiefverschuiving en betekenis • 101 mondiale inspiraties",
+  "titlePart1": "Waarom uw bestaan ​​",
+  "titleHighlight": "Is van diepgaand belang",
+  "description": "Als je uitgeput bent, wordt het perspectief kleiner. Hier vindt u gegronde psychologische principes en echte menselijke verhalen van degenen die extreem lijden in een blijvend doel hebben omgezet.",
+  "spotlightBadge": "Stem uit uw regio",
+  "spotlightSelectCountry": "Selecteer land:",
+  "spotlightAdversity": "Tegenslag geconfronteerd",
+  "spotlightTakeaway": "Afhaalmaaltijden voor jou vandaag",
+  "globalTitansTitle": "Mondiale titanen van veerkracht",
+  "globalTitansSubtitle": "Tijdloze figuren die onvoorstelbare tegenslagen hebben overwonnen om het pad voor de mensheid te verlichten.",
+  "galleryTitle": "Alle continentale en Europese cijfers",
+  "gallerySubtitle": "Ontdek inspirerende verhalen uit heel Europa en de hele wereld.",
+  "searchPlaceholder": "Zoek naam of land...",
+  "continents": {
+    "all": "🌍 Allemaal",
+    "europe": "🏰 Europa",
+    "americas": "🌎 Amerika",
+    "asia": "🌏 Azië",
+    "africa": "🏜️Afrika",
+    "oceania": "🌊 Oceanië"
+  },
+  "pillars": {
+    "title": "3 kernpijlers van veerkracht",
+    "badge": "Bewezen principes",
+    "survivalTitle": "100% overlevingspercentage",
+    "survivalDesc": "Je hebt elke paniekaanval, elk liefdesverdriet en elke donkere nacht overleefd waarvan je dacht dat je het niet zou overleven. Jouw veerkracht wordt al bewezen door feiten.",
+    "noiseTitle": "Cognitieve ruis versus waarheid",
+    "noiseDesc": "Het brein is een evolutionaire overlevingsmachine die de dreiging in tijden van stress overdrijft. Angst en duistere gedachten zijn valse alarmen, geen objectieve realiteit.",
+    "chaptersTitle": "De ongeschreven hoofdstukken",
+    "chaptersDesc": "Je kunt niet het hele boek van je leven beoordelen aan de hand van één enkel moeilijk hoofdstuk. De beste mensen die je ooit zult ontmoeten en de grootste lol staan ​​nog in het verschiet.",
+    "alchemyTitle": "Alchemie van pijn (sublimatie)",
+    "alchemyDesc": "Geweldige kunst, diepe empathie en baanbrekende veerkracht zijn afkomstig van mensen die in het donker hebben gestaan. Je pijn kan je grootste creatieve superkracht worden."
+  },
+  "sublimation": {
+    "title": "De alchemie van geest en schaduw",
+    "subtitle": "Innerlijke onrust transformeren in begrip en creatieve kracht.",
+    "card1Title": "1. Gedachten zijn geen feiten",
+    "card1Summary": "De meeste zelfkritische gedachten zijn niet die van jezelf. Het zijn oude bandopnames uit de kindertijd of omgeving.",
+    "card1Detail": "Als jonge kinderen misten we kritische filters. Wanneer iemand boos of kritiek uitte, registreerde ons onderbewustzijn dit als de absolute waarheid. Als je 'Je bent gebroken' of 'Je bent waardeloos' hoort, besef dan: dat ben jij niet die spreekt. Het is gewoon een verouderde tapelus.",
+    "card2Title": "2. De kunst van sublimatie (alchemie)",
+    "card2Summary": "Je intense donkere energie hoeft je niet te vernietigen. Het kan worden omgezet in creatie.",
+    "card2Detail": "Sublimatie is de psychologische alchemie van het omzetten van rauw instinct, taboe-gedachten en diepe emotionele pijn in kunst, literatuur, fysieke kracht of code. De makers hebben hun duisternis niet onderdrukt, maar gekanaliseerd in tijdloze werken.",
+    "card3Title": "3. Jij bent de lucht, niet de storm",
+    "card3Summary": "Jij bent de bewuste waarnemer die getuige is van de storm, niet het wrak erin.",
+    "card3Detail": "Hoe turbulent de wolken, donder of regen ook worden, de lucht zelf wordt nooit geschaad door het weer. Stap terug in de stoel van de waarnemer. Zie de sensaties komen en gaan zonder je identiteit eraan te koppelen."
+  },
+  "cta": {
+    "title": "Moet je jezelf nu aarden of met iemand praten?",
+    "desc": "Haal langzaam en diep adem. Je hoeft vandaag niet de hele berg te bedwingen. Gewoon de volgende minuut.",
+    "crisisButton": "Bekijk crisishulplijnen",
+    "toolsButton": "Ademhalings- en aardingshulpmiddelen"
   }
+}
 };

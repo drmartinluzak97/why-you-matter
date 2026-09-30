@@ -255,58 +255,58 @@ export const ga: TranslationDictionary = {
     "footerNotice": "Direct delivery to hello@martinluzak.sk • Anonymous reporting supported"
   },
   motivationPage: {
-    "backToHome": "← Back to Home & Crisis Help",
-    "badge": "Perspective Shift & Meaning • 101 Global Inspirations",
-    "titlePart1": "Why Your Existence ",
-    "titleHighlight": "Matters Profoundly",
-    "description": "When you are in the thick of exhaustion, perspective narrows. Here are grounded psychological principles and real human stories of those who turned extreme suffering into enduring purpose.",
-    "spotlightBadge": "Voice from Your Region",
-    "spotlightSelectCountry": "Select country:",
-    "spotlightAdversity": "Adversity Faced",
-    "spotlightTakeaway": "Takeaway for You Today",
-    "globalTitansTitle": "Global Titans of Resilience",
-    "globalTitansSubtitle": "Timeless figures who overcame unimaginable odds to light the path for humanity.",
-    "galleryTitle": "All Continental & European Figures",
-    "gallerySubtitle": "Explore inspiring stories from across Europe and the entire globe.",
-    "searchPlaceholder": "Search name or country...",
-    "continents": {
-      "all": "🌍 All",
-      "europe": "🏰 Europe",
-      "americas": "🌎 Americas",
-      "asia": "🌏 Asia",
-      "africa": "🏜️ Africa",
-      "oceania": "🌊 Oceania"
-    },
-    "pillars": {
-      "title": "3 Príomhcholún Athléimneachta",
-      "badge": "Prionsabail Cruthaithe",
-      "survivalTitle": "100% Survival Rate",
-      "survivalDesc": "You have survived every panic attack, every heartbreak, and every dark night you thought you wouldn't. Your resilience is already proven by facts.",
-      "noiseTitle": "Cognitive Noise vs. Truth",
-      "noiseDesc": "The brain is an evolutionary survival machine that exaggerates threat in times of stress. Anxiety and dark thoughts are false alarms, not objective reality.",
-      "chaptersTitle": "The Unwritten Chapters",
-      "chaptersDesc": "You cannot judge the entire book of your life by a single difficult chapter. The best people you will ever meet and the greatest laughs are still ahead.",
-      "alchemyTitle": "Alchemy of Pain (Sublimation)",
-      "alchemyDesc": "Great art, deep empathy, and groundbreaking resilience are born from people who have stood in the dark. Your pain can become your greatest creative superpower."
-    },
-    "sublimation": {
-      "title": "The Alchemy of Mind & Shadow",
-      "subtitle": "Transforming inner turmoil into understanding and creative power.",
-      "card1Title": "1. Thoughts Are Not Facts",
-      "card1Summary": "Most self-critical thoughts are not your own. They are old tape recordings from childhood or environment.",
-      "card1Detail": "As young children, we lacked critical filters. When someone spoke in anger or criticism, our subconscious recorded it as absolute truth. When you hear 'You are broken' or 'You are worthless', realize: that isn't you speaking. It is simply an outdated tape loop.",
-      "card2Title": "2. The Art of Sublimation (Alchemy)",
-      "card2Summary": "Your intense dark energy doesn't have to destroy you. It can be transmuted into creation.",
-      "card2Detail": "Sublimation is the psychological alchemy of converting raw instinct, taboo thoughts, and deep emotional pain into art, literature, physical power, or code. Creators didn't suppress their darkness—they channeled it into timeless works.",
-      "card3Title": "3. You Are the Sky, Not the Storm",
-      "card3Summary": "You are the conscious observer witnessing the storm, not the wreckage inside it.",
-      "card3Detail": "No matter how turbulent the clouds, thunder, or rain become, the sky itself is never harmed by the weather. Step back into the seat of the observer. Watch the sensations come and go without attaching your identity to them."
-    },
-    "cta": {
-      "title": "Need to ground yourself right now or talk to someone?",
-      "desc": "Take a slow, deep breath. You do not have to conquer the whole mountain today. Just the next minute.",
-      "crisisButton": "View Crisis Helplines",
-      "toolsButton": "Breathing & Grounding Tools"
-    }
+  "backToHome": "← Ar Ais sa Bhaile & Cabhair Ghéarchéime",
+  "badge": "Aistriú Dearcadh & Brí • 101 Inspioráid Dhomhanda",
+  "titlePart1": "Cén Fáth Do Bheatha",
+  "titleHighlight": "Cúrsaí as cuimse",
+  "description": "Nuair a bhíonn tú i do ídithe, téann peirspictíocht chun cinn. Seo a leanas prionsabail shíceolaíocha atá bunaithe agus fíorscéalta daonna na ndaoine sin a d’iompaigh an-fhulaingt ina cuspóir marthanach.",
+  "spotlightBadge": "Guth ó Do Réigiún",
+  "spotlightSelectCountry": "Roghnaigh tír:",
+  "spotlightAdversity": "Adaimh le hAghaidh",
+  "spotlightTakeaway": "Tóg amach duit inniu",
+  "globalTitansTitle": "Titans Domhanda na Athléimneachta",
+  "globalTitansSubtitle": "Figiúirí timeless a sháraigh corrlaigh doshamhlaithe chun cosán na daonnachta a lasadh.",
+  "galleryTitle": "Gach Fíor-Roinn & Eorpach",
+  "gallerySubtitle": "Fiosraigh scéalta spreagúla ó ar fud na hEorpa agus na cruinne ar fad.",
+  "searchPlaceholder": "Cuardaigh ainm nó tír...",
+  "continents": {
+    "all": "🌍 ar fad",
+    "europe": "🏰 Eoraip",
+    "americas": "🌎 Meiriceá",
+    "asia": "🌏 Áise",
+    "africa": "🏜️ Afraic",
+    "oceania": "🌊 Aigéine"
+  },
+  "pillars": {
+    "title": "3 Chroí-Cholún Athléimneachta",
+    "badge": "Prionsabail Chruthaithe",
+    "survivalTitle": "Ráta Marthanais 100%.",
+    "survivalDesc": "Tháinig tú slán ó gach ionsaí scaoill, gach briseadh croí, agus gach oíche dorcha a cheap tú nach ndéanfadh. Tá do athléimneacht cruthaithe cheana féin ag fíricí.",
+    "noiseTitle": "Torann Cognaíoch vs Fírinne",
+    "noiseDesc": "Is meaisín marthanais éabhlóideach í an inchinn a dhéanann áibhéil ar bhagairt in amanna struis. Is aláraim bhréagacha iad imní agus smaointe dorcha, ní réaltacht oibiachtúil.",
+    "chaptersTitle": "Na Caibidlí Neamhscríofa",
+    "chaptersDesc": "Ní féidir leat leabhar iomlán do shaol a mheas trí chaibidil dheacair amháin. Na daoine is fearr a mbuailfidh tú leo go deo agus tá na gáirí is mó fós romhainn.",
+    "alchemyTitle": "Ailceimic na Péine (Sublimation)",
+    "alchemyDesc": "Tá ealaín iontach, comhbhá domhain, agus athléimneacht cheannródaíoch a rugadh ó dhaoine a sheas sa dorchadas. Is féidir le do phian a bheith mar do chumhacht chruthaitheach is fearr."
+  },
+  "sublimation": {
+    "title": "Ailceimic Intinne & Scáth",
+    "subtitle": "Suaitheadh ​​inmheánach a athrú go tuiscint agus cumhacht cruthaitheach.",
+    "card1Title": "1. Nach Fíricí iad Smaointe",
+    "card1Summary": "Ní do chuid smaointe féin-chriticiúil is mó. Is seantaifeadtaí téipe iad ón óige nó ón timpeallacht.",
+    "card1Detail": "Mar leanaí óga, ní raibh scagairí ríthábhachtacha againn. Nuair a labhair duine le fearg nó le cáineadh, thaifead ár bhfo-chomhfhiosach é mar fhírinne iomlán. Nuair a chloiseann tú ‘Tá tú briste’ nó ‘Tá tú gan fiúntas’, tuig: ní hé sin atá tú ag labhairt. Níl ann ach lúb téip as dáta.",
+    "card2Title": "2. Ealaín na sublimation (Ailceimic)",
+    "card2Summary": "Ní gá do dhianfhuinneamh dorcha tú a mhilleadh. Is féidir é a aistriú isteach sa chruthú.",
+    "card2Detail": "Is éard is sublimation ann ná ailceimic shíceolaíoch chun instinct amh, smaointe tabú, agus pian mhothúchánach domhain a thiontú go healaín, litríocht, cumhacht fisiciúil, nó cód. Níor chuir na cruthaitheoirí a ndorchadas faoi chois - rinne siad é a threorú isteach i saothair gan teorainn.",
+    "card3Title": "3. Is Tusa an Spéir, Ní An Stoirm",
+    "card3Summary": "Is tusa an breathnóir comhfhiosach a fheiceann an stoirm, ní an raic atá istigh inti.",
+    "card3Detail": "Is cuma cé chomh suaite a éiríonn na scamaill, an toirneach nó an bháisteach, ní dhéanfaidh an aimsir dochar don spéir riamh. Céim ar ais isteach i suíochán an bhreathnadóir. Féach ar na mothúcháin ag teacht agus ag imeacht gan d'aitheantas a cheangal leo."
+  },
+  "cta": {
+    "title": "An gá duit talamh a chur ort féin faoi láthair nó labhairt le duine éigin?",
+    "desc": "Tóg anáil mall, dhomhain. Ní gá duit a conquer an sliabh ar fad inniu. Díreach an chéad nóiméad eile.",
+    "crisisButton": "Féach ar Línte Cabhrach Géarchéime",
+    "toolsButton": "Uirlisí Análaithe & Thaisce"
   }
+}
 };
