@@ -4,7 +4,8 @@
  * CrisisPanel Component
  * Comprehensive international crisis and emergency directory covering all 249 ISO 3166-1 
  * alpha-2 countries and autonomous territories (252 regional entities worldwide).
- * Features dual-row segmented navigation, live search filtering, and smart locale detection.
+ * Features dual-row segmented navigation, live search filtering, smart locale detection,
+ * and bilingual hotline display (Option B: Localized purpose + original native description).
  */
 
 import React, { useState, useEffect, useMemo, useRef } from "react";
@@ -30,6 +31,7 @@ import {
   COUNTRIES_DATA,
   ContinentId,
   CountryCrisisInfo,
+  CrisisHotline,
   detectUserCountryCode,
 } from "@/lib/crisis-data";
 import { useLanguage } from "./language-context";
@@ -37,6 +39,213 @@ import { ReportModal } from "./report-modal";
 
 export interface CrisisPanelProps {
   initialCountryCode?: string;
+}
+
+/**
+ * Localizes country name based on the user's active UI locale with fallback.
+ */
+export function getLocalizedCountryName(
+  code: string,
+  locale: string,
+  fallbackName: string
+): string {
+  try {
+    if (typeof Intl !== "undefined" && Intl.DisplayNames) {
+      const displayNames = new Intl.DisplayNames([locale, "en"], { type: "region" });
+      const localized = displayNames.of(code.toUpperCase());
+      if (localized && localized.toLowerCase() !== code.toLowerCase()) {
+        return localized;
+      }
+    }
+  } catch (e) {
+    // ignore and fallback
+  }
+  return fallbackName;
+}
+
+/**
+ * Classifies hotline purpose and provides a crystal-clear localized summary in user's UI language.
+ */
+interface LocalizedHotlineSummary {
+  badge: string;
+  purpose: string;
+}
+
+function getLocalizedHotlineSummary(
+  hotline: CrisisHotline,
+  locale: string
+): LocalizedHotlineSummary {
+  const combined = `${hotline.name} ${hotline.description}`.toLowerCase();
+
+  const isYouth =
+    combined.includes("rat auf draht") ||
+    combined.includes("kinder") ||
+    combined.includes("jugend") ||
+    combined.includes("child") ||
+    combined.includes("youth") ||
+    combined.includes("teen") ||
+    combined.includes("ipčko") ||
+    combined.includes("detsk") ||
+    combined.includes("mlád") ||
+    combined.includes("mlad") ||
+    combined.includes("116111") ||
+    combined.includes("116 111") ||
+    combined.includes("147") ||
+    combined.includes("kids");
+
+  const isWomen =
+    combined.includes("frauen") ||
+    combined.includes("women") ||
+    combined.includes("domestic") ||
+    combined.includes("violence") ||
+    combined.includes("násil") ||
+    combined.includes("nasilie") ||
+    combined.includes("femme") ||
+    combined.includes("mujer");
+
+  const isElderly =
+    combined.includes("senior") ||
+    combined.includes("elderly") ||
+    combined.includes("alter") ||
+    combined.includes("starší") ||
+    combined.includes("starsi");
+
+  if (locale === "sk") {
+    if (isYouth) {
+      return {
+        badge: "Deti a mládež",
+        purpose: "Bezplatná krízová linka dôvery pre deti, mladých ľudí a rodičov",
+      };
+    }
+    if (isWomen) {
+      return {
+        badge: "Podpora a bezpečie",
+        purpose: "Špecializovaná krízová pomoc a ochrana pred násilím",
+      };
+    }
+    if (isElderly) {
+      return {
+        badge: "Seniori",
+        purpose: "Podpora a psychologické poradenstvo pre seniorov",
+      };
+    }
+    return {
+      badge: "Krízová linka",
+      purpose: "Bezplatná krízová linka dôvery a psychologickej pomoci",
+    };
+  }
+
+  if (locale === "cs") {
+    if (isYouth) {
+      return {
+        badge: "Děti a mládež",
+        purpose: "Bezplatná krizová linka důvěry pro děti, mladistvé a rodiče",
+      };
+    }
+    if (isWomen) {
+      return {
+        badge: "Pomoc a bezpečí",
+        purpose: "Specializovaná krizová pomoc a ochrana před násilím",
+      };
+    }
+    if (isElderly) {
+      return {
+        badge: "Senioři",
+        purpose: "Krizová podpora a poradenství pro seniory",
+      };
+    }
+    return {
+      badge: "Krizová linka",
+      purpose: "Krizová linka psychologické pomoci a prevence",
+    };
+  }
+
+  if (locale === "de") {
+    if (isYouth) {
+      return {
+        badge: "Kinder & Jugend",
+        purpose: "Kostenlose Krisen- und Beratungshotline für Kinder und Jugendliche",
+      };
+    }
+    if (isWomen) {
+      return {
+        badge: "Hilfe & Schutz",
+        purpose: "Spezialisierte Notruf- und Krisenhilfe bei Gewalt und Krisen",
+      };
+    }
+    if (isElderly) {
+      return {
+        badge: "Senioren",
+        purpose: "Beratung und seelische Unterstützung für ältere Menschen",
+      };
+    }
+    return {
+      badge: "Krisenhilfe",
+      purpose: "Kostenlose seelsorgliche Notfall- und Krisenunterstützung",
+    };
+  }
+
+  if (locale === "es") {
+    if (isYouth) {
+      return {
+        badge: "Niños y Jóvenes",
+        purpose: "Línea de crisis y apoyo psicológico para niños y jóvenes",
+      };
+    }
+    if (isWomen) {
+      return {
+        badge: "Ayuda y Protección",
+        purpose: "Línea especializada de protección y apoyo en crisis",
+      };
+    }
+    return {
+      badge: "Línea de Crisis",
+      purpose: "Línea de ayuda psicológica y prevención de crisis gratuita",
+    };
+  }
+
+  if (locale === "fr") {
+    if (isYouth) {
+      return {
+        badge: "Enfants & Jeunes",
+        purpose: "Ligne d'écoute et de soutien psychologique pour jeunes et enfants",
+      };
+    }
+    if (isWomen) {
+      return {
+        badge: "Aide & Protection",
+        purpose: "Écoute et soutien spécialisé en situation de crise ou violences",
+      };
+    }
+    return {
+      badge: "Ligne de Crise",
+      purpose: "Ligne d'aide psychologique et de soutien en cas de crise",
+    };
+  }
+
+  // Default English / International
+  if (isYouth) {
+    return {
+      badge: "Youth & Children",
+      purpose: "Confidential crisis helpline and counseling for children, youth and parents",
+    };
+  }
+  if (isWomen) {
+    return {
+      badge: "Safety & Support",
+      purpose: "Specialized crisis support, counseling and safety helpline",
+    };
+  }
+  if (isElderly) {
+    return {
+      badge: "Seniors",
+      purpose: "Support and psychological guidance for seniors",
+    };
+  }
+  return {
+    badge: "Crisis Support",
+    purpose: "Free and confidential psychological crisis helpline and counseling",
+  };
 }
 
 export function CrisisPanel({ initialCountryCode }: CrisisPanelProps) {
@@ -89,7 +298,7 @@ export function CrisisPanel({ initialCountryCode }: CrisisPanelProps) {
     }
   }, [initialCountryCode, currentLanguage.code]);
 
-  // Filter countries by continent & search query
+  // Filter countries by continent & search query (matching localized name, native name, code, english name)
   const filteredCountries = useMemo(() => {
     let list = COUNTRIES_DATA;
     if (selectedContinent !== "all") {
@@ -97,16 +306,19 @@ export function CrisisPanel({ initialCountryCode }: CrisisPanelProps) {
     }
     if (searchQuery.trim()) {
       const q = searchQuery.toLowerCase().trim();
-      list = list.filter(
-        (c) =>
+      list = list.filter((c) => {
+        const localized = getLocalizedCountryName(c.code, currentLanguage.code, c.name).toLowerCase();
+        return (
           c.name.toLowerCase().includes(q) ||
           c.code.toLowerCase().includes(q) ||
+          localized.includes(q) ||
           (c.nativeName && c.nativeName.toLowerCase().includes(q)) ||
           (c.regionNote && c.regionNote.toLowerCase().includes(q))
-      );
+        );
+      });
     }
     return list;
-  }, [selectedContinent, searchQuery]);
+  }, [selectedContinent, searchQuery, currentLanguage.code]);
 
   // Selected country object
   const activeCountry: CountryCrisisInfo = useMemo(() => {
@@ -116,6 +328,11 @@ export function CrisisPanel({ initialCountryCode }: CrisisPanelProps) {
       COUNTRIES_DATA[0]
     );
   }, [selectedCountryCode, filteredCountries]);
+
+  // Localized active country name
+  const localizedActiveCountryName = useMemo(() => {
+    return getLocalizedCountryName(activeCountry.code, currentLanguage.code, activeCountry.name);
+  }, [activeCountry, currentLanguage.code]);
 
   // Continent country counts for badges
   const continentCounts = useMemo(() => {
@@ -129,7 +346,6 @@ export function CrisisPanel({ initialCountryCode }: CrisisPanelProps) {
   const handleContinentSelect = (continentId: ContinentId) => {
     setSelectedContinent(continentId);
     setSearchQuery("");
-    // If the currently selected country is not in this continent, pick the first one
     if (continentId !== "all") {
       const countryInContinent = COUNTRIES_DATA.find((c) => c.continent === continentId);
       if (countryInContinent && activeCountry.continent !== continentId) {
@@ -141,103 +357,129 @@ export function CrisisPanel({ initialCountryCode }: CrisisPanelProps) {
   const handleCountrySelect = (code: string) => {
     setSelectedCountryCode(code);
     setIsDropdownOpen(false);
-    const country = COUNTRIES_DATA.find((c) => c.code === code);
-    if (country && selectedContinent !== "all" && country.continent !== selectedContinent) {
-      setSelectedContinent(country.continent);
-    }
   };
 
   return (
-    <div className="rounded-3xl p-5 sm:p-7 border border-rose-500/30 bg-gradient-to-b from-rose-950/40 via-slate-900/90 to-slate-950/95 glass-panel backdrop-blur-xl shadow-2xl relative overflow-hidden flex flex-col justify-between">
-      {/* Decorative ambient background glow */}
-      <div className="absolute top-0 right-0 w-72 h-72 bg-rose-500/10 rounded-full blur-3xl pointer-events-none" />
-      <div className="absolute bottom-0 left-0 w-64 h-64 bg-indigo-500/10 rounded-full blur-3xl pointer-events-none" />
+    <section id="crisis-support" className="relative scroll-mt-20">
+      {/* Background glow styling */}
+      <div className="absolute -inset-x-4 -inset-y-6 bg-gradient-to-b from-rose-500/5 via-rose-500/10 to-transparent rounded-3xl blur-2xl -z-10 pointer-events-none" />
 
-      <div className="space-y-5 relative z-10">
-        {/* Card Header & Badge */}
-        <div className="flex items-start justify-between gap-4">
-          <div>
-            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-rose-500/20 text-rose-300 text-xs font-semibold tracking-wide border border-rose-500/30 mb-2 shadow-xs">
-              <AlertTriangle className="w-3.5 h-3.5 text-rose-400 animate-pulse" />
+      <div className="relative rounded-3xl bg-slate-900/90 border border-rose-500/25 shadow-2xl shadow-rose-950/40 p-5 sm:p-7 md:p-8 space-y-6 backdrop-blur-xl">
+        {/* ======================================================== */}
+        {/* HEADER & EMERGENCY WARNING                               */}
+        {/* ======================================================== */}
+        <div className="space-y-3">
+          <div className="flex items-center justify-between flex-wrap gap-2">
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-rose-500/15 border border-rose-500/30 text-rose-300 text-xs font-semibold">
+              <ShieldCheck className="w-3.5 h-3.5 text-rose-400" />
               <span>{tc.badge}</span>
             </div>
-            <h2 className="text-2xl sm:text-3xl font-bold text-white tracking-tight">
+
+            <div className="flex items-center gap-2 text-[11px] text-slate-400">
+              <Globe className="w-3.5 h-3.5 text-slate-400" />
+              <span>
+                <strong>{COUNTRIES_DATA.length}</strong> {tc.countriesAvailable}
+              </span>
+            </div>
+          </div>
+
+          <div>
+            <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-white tracking-tight">
               {tc.title}
             </h2>
-            <p className="text-xs sm:text-sm text-slate-300 mt-1">
+            <p className="text-slate-300 text-xs sm:text-sm mt-1">
               {tc.subtitle}
             </p>
           </div>
+
+          {/* Critical Emergency Banner */}
+          <div className="p-3 sm:p-4 rounded-2xl bg-gradient-to-r from-rose-950/70 via-rose-900/50 to-slate-900 border border-rose-500/40 text-rose-100 flex items-start gap-3 shadow-md">
+            <AlertTriangle className="w-5 h-5 text-rose-400 shrink-0 mt-0.5 animate-pulse" />
+            <div className="text-xs sm:text-sm space-y-0.5">
+              <p className="font-semibold text-white">
+                {tc.emergencyWarning}
+              </p>
+            </div>
+          </div>
         </div>
 
-        {/* Mode Selector (Self vs Other) */}
-        <div className="grid grid-cols-2 gap-2 p-1.5 bg-slate-950/70 rounded-2xl border border-slate-800 backdrop-blur-sm">
+        {/* ======================================================== */}
+        {/* TARGET MODE SELECTOR (FOR MYSELF / FOR SOMEONE ELSE)     */}
+        {/* ======================================================== */}
+        <div className="grid grid-cols-2 p-1 rounded-2xl bg-slate-950/70 border border-slate-800">
           <button
+            type="button"
             onClick={() => setTargetType("self")}
-            className={`py-2.5 px-3 rounded-xl text-xs sm:text-sm font-semibold transition-all flex items-center justify-center gap-2 ${
+            className={`py-2 px-3 sm:px-4 rounded-xl text-xs sm:text-sm font-semibold transition-all flex items-center justify-center gap-2 ${
               targetType === "self"
-                ? "bg-gradient-to-r from-rose-600 to-rose-700 text-white shadow-lg shadow-rose-600/30 border border-rose-400/40"
+                ? "bg-rose-600 text-white shadow-lg shadow-rose-600/30"
                 : "text-slate-400 hover:text-slate-200"
             }`}
           >
+            <Clock className="w-3.5 h-3.5" />
             <span>{tc.modeSelf}</span>
           </button>
           <button
+            type="button"
             onClick={() => setTargetType("other")}
-            className={`py-2.5 px-3 rounded-xl text-xs sm:text-sm font-semibold transition-all flex items-center justify-center gap-2 ${
+            className={`py-2 px-3 sm:px-4 rounded-xl text-xs sm:text-sm font-semibold transition-all flex items-center justify-center gap-2 ${
               targetType === "other"
-                ? "bg-gradient-to-r from-amber-600 to-amber-700 text-white shadow-lg shadow-amber-600/30 border border-amber-400/40"
+                ? "bg-rose-600 text-white shadow-lg shadow-rose-600/30"
                 : "text-slate-400 hover:text-slate-200"
             }`}
           >
-            <Users className="w-4 h-4" />
+            <Users className="w-3.5 h-3.5" />
             <span>{tc.modeOther}</span>
           </button>
         </div>
 
         {targetType === "self" ? (
           <div className="space-y-5">
-            {/* Quick 3-Step Emergency Action Card */}
-            <div className="p-4 rounded-2xl bg-rose-950/30 border border-rose-800/40 space-y-2.5 backdrop-blur-xs">
-              <div className="flex items-center gap-2 text-rose-300 font-semibold text-xs sm:text-sm">
-                <Clock className="w-4 h-4 text-rose-400" />
-                <span>{tc.anchorTitle}</span>
+            {/* ======================================================== */}
+            {/* 3 IMMEDIATE ANCHOR STEPS                                 */}
+            {/* ======================================================== */}
+            <div className="p-4 rounded-2xl bg-slate-950/60 border border-slate-800/80 space-y-3">
+              <h3 className="text-xs sm:text-sm font-bold text-slate-200 flex items-center gap-2">
+                <Sparkles className="w-4 h-4 text-rose-400" />
+                {tc.anchorTitle}
+              </h3>
+              <div className="grid grid-cols-1 sm:grid-cols-3 gap-2.5">
+                <div className="p-3 rounded-xl bg-slate-900/80 border border-slate-800 text-xs space-y-1">
+                  <span className="font-bold text-rose-300 block">
+                    {tc.anchorStep1Title}
+                  </span>
+                  <p className="text-slate-300 text-[11px] leading-relaxed">
+                    {tc.anchorStep1Desc}
+                  </p>
+                </div>
+                <div className="p-3 rounded-xl bg-slate-900/80 border border-slate-800 text-xs space-y-1">
+                  <span className="font-bold text-rose-300 block">
+                    {tc.anchorStep2Title}
+                  </span>
+                  <p className="text-slate-300 text-[11px] leading-relaxed">
+                    {tc.anchorStep2Desc}
+                  </p>
+                </div>
+                <div className="p-3 rounded-xl bg-slate-900/80 border border-slate-800 text-xs space-y-1">
+                  <span className="font-bold text-rose-300 block">
+                    {tc.anchorStep3Title}
+                  </span>
+                  <p className="text-slate-300 text-[11px] leading-relaxed">
+                    {tc.anchorStep3Desc}
+                  </p>
+                </div>
               </div>
-              <ul className="text-xs text-slate-200 space-y-1.5">
-                <li className="flex items-start gap-2">
-                  <span className="font-bold text-rose-400">1.</span>
-                  <span><strong>{tc.anchorStep1Title}:</strong> {tc.anchorStep1Desc}</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span className="font-bold text-rose-400">2.</span>
-                  <span><strong>{tc.anchorStep2Title}:</strong> {tc.anchorStep2Desc}</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span className="font-bold text-rose-400">3.</span>
-                  <span><strong>{tc.anchorStep3Title}:</strong> {tc.anchorStep3Desc}</span>
-                </li>
-              </ul>
             </div>
 
             {/* ======================================================== */}
-            {/* DUAL-ROW CONTINENT & COUNTRY SELECTOR                     */}
+            {/* DUAL-ROW NAVIGATION: CONTINENTS & COUNTRY CHIPS          */}
             {/* ======================================================== */}
-            <div className="space-y-3 pt-1">
-              <div className="flex items-center justify-between text-xs text-slate-400 px-0.5">
-                <span className="font-semibold uppercase tracking-wider text-[11px] text-slate-300 flex items-center gap-1.5">
-                  <Globe className="w-3.5 h-3.5 text-rose-400" />
-                  <span>{tc.selectCountryLabel}</span>
-                </span>
-                <span className="text-[10px] text-slate-400 bg-slate-800/80 px-2 py-0.5 rounded-full border border-slate-700">
-                  {COUNTRIES_DATA.length} {tc.countriesAvailable}
-                </span>
-              </div>
-
-              {/* ROW 1: CONTINENT TABS (Segmented Glass Container with Arrow Controls) */}
+            <div className="space-y-2.5 p-3 sm:p-4 rounded-2xl bg-slate-950/80 border border-slate-800">
+              {/* Row 1: Continents Tabs with Arrows */}
               <div className="flex items-center gap-1.5">
                 <button
                   onClick={() => scrollContinents("left")}
-                  className="p-2 rounded-xl bg-slate-900/90 border border-slate-800 hover:border-slate-600 hover:bg-slate-800 text-slate-400 hover:text-white transition-all shrink-0 active:scale-90 shadow-sm"
+                  className="p-1.5 rounded-xl bg-slate-900 border border-slate-800 hover:border-slate-700 text-slate-400 hover:text-white transition-colors shrink-0 active:scale-95"
                   title="Scroll left"
                 >
                   <ChevronLeft className="w-3.5 h-3.5" />
@@ -245,35 +487,24 @@ export function CrisisPanel({ initialCountryCode }: CrisisPanelProps) {
 
                 <div
                   ref={continentsScrollRef}
-                  className="flex-1 p-1 bg-slate-950/80 rounded-2xl border border-slate-800/90 shadow-inner backdrop-blur-md overflow-x-auto no-scrollbar scroll-smooth flex items-center gap-1"
-                  onWheel={(e) => {
-                    if (e.deltaY !== 0) {
-                      e.currentTarget.scrollLeft += e.deltaY;
-                    }
-                  }}
+                  className="flex-1 flex items-center gap-1.5 overflow-x-auto no-scrollbar scroll-smooth py-0.5"
                 >
-                  {CONTINENTS.map((cont) => {
-                    const isActive = selectedContinent === cont.id;
-                    const count = continentCounts[cont.id] || 0;
+                  {CONTINENTS.map((c) => {
+                    const isSelected = selectedContinent === c.id;
+                    const count = continentCounts[c.id] || 0;
                     return (
                       <button
-                        key={cont.id}
-                        onClick={() => handleContinentSelect(cont.id)}
-                        className={`px-3 py-2 rounded-xl text-xs font-medium whitespace-nowrap transition-all flex items-center gap-1.5 flex-1 justify-center shrink-0 ${
-                          isActive
-                            ? "bg-gradient-to-r from-rose-500/25 via-indigo-500/25 to-purple-500/25 text-white border border-rose-400/50 shadow-md shadow-rose-500/10 font-bold"
-                            : "text-slate-400 hover:text-slate-200 hover:bg-slate-900/60"
+                        key={c.id}
+                        onClick={() => handleContinentSelect(c.id)}
+                        className={`px-3 py-1.5 rounded-xl text-xs font-semibold whitespace-nowrap transition-all flex items-center gap-1.5 shrink-0 ${
+                          isSelected
+                            ? "bg-slate-800 text-rose-300 border border-rose-500/50 shadow-md shadow-rose-950/40"
+                            : "bg-slate-900/90 text-slate-400 border border-slate-800 hover:border-slate-700 hover:text-slate-200"
                         }`}
                       >
-                        <span>{cont.icon}</span>
-                        <span>{cont.name}</span>
-                        <span
-                          className={`text-[10px] px-1.5 py-0.2 rounded-full ${
-                            isActive
-                              ? "bg-rose-500/30 text-rose-200 border border-rose-400/30"
-                              : "bg-slate-800 text-slate-400"
-                          }`}
-                        >
+                        <span>{c.icon}</span>
+                        <span>{c.shortName}</span>
+                        <span className="text-[10px] bg-slate-800/80 text-slate-400 px-1.5 py-0.2 rounded-full font-mono">
                           {count}
                         </span>
                       </button>
@@ -283,44 +514,46 @@ export function CrisisPanel({ initialCountryCode }: CrisisPanelProps) {
 
                 <button
                   onClick={() => scrollContinents("right")}
-                  className="p-2 rounded-xl bg-slate-900/90 border border-slate-800 hover:border-slate-600 hover:bg-slate-800 text-slate-400 hover:text-white transition-all shrink-0 active:scale-90 shadow-sm"
+                  className="p-1.5 rounded-xl bg-slate-900 border border-slate-800 hover:border-slate-700 text-slate-400 hover:text-white transition-colors shrink-0 active:scale-95"
                   title="Scroll right"
                 >
                   <ChevronRight className="w-3.5 h-3.5" />
                 </button>
               </div>
 
-              {/* ROW 2: COUNTRY SELECTOR & SEARCH BAR */}
-              <div className="space-y-2">
-                {/* Search & Quick Dropdown Toggle Bar */}
+              {/* Row 2: Live Search & Country Selector */}
+              <div className="space-y-2 pt-1">
                 <div className="flex items-center gap-2">
                   <div className="relative flex-1">
-                    <Search className="w-3.5 h-3.5 text-slate-400 absolute left-3 top-1/2 -translate-y-1/2 pointer-events-none" />
+                    <Search className="w-3.5 h-3.5 absolute left-3 top-1/2 -translate-y-1/2 text-slate-400 pointer-events-none" />
                     <input
                       type="text"
                       value={searchQuery}
                       onChange={(e) => setSearchQuery(e.target.value)}
                       placeholder={tc.searchCountryPlaceholder}
-                      className="w-full bg-slate-900/90 border border-slate-700/80 rounded-xl pl-9 pr-8 py-1.5 text-xs text-white placeholder-slate-500 focus:outline-hidden focus:border-rose-400 focus:ring-1 focus:ring-rose-400 transition-colors"
+                      className="w-full pl-9 pr-8 py-2 rounded-xl bg-slate-900 border border-slate-800 focus:border-rose-500/60 focus:ring-2 focus:ring-rose-500/20 text-xs text-white placeholder-slate-500 transition-all outline-none"
                     />
                     {searchQuery && (
                       <button
                         onClick={() => setSearchQuery("")}
-                        className="absolute right-2.5 top-1/2 -translate-y-1/2 text-slate-400 hover:text-slate-200"
+                        className="absolute right-2.5 top-1/2 -translate-y-1/2 text-slate-400 hover:text-white p-0.5"
                       >
-                        <X className="w-3 h-3" />
+                        <X className="w-3.5 h-3.5" />
                       </button>
                     )}
                   </div>
 
-                  {/* Dropdown toggle button for fast switching */}
+                  {/* Quick Dropdown Toggle for Quick Jump */}
                   <div className="relative">
                     <button
+                      type="button"
                       onClick={() => setIsDropdownOpen(!isDropdownOpen)}
-                      className="px-3 py-1.5 rounded-xl bg-slate-900/90 border border-slate-700/80 hover:border-slate-600 text-slate-200 text-xs font-semibold flex items-center gap-1.5 whitespace-nowrap transition-colors"
+                      className="px-3 py-2 rounded-xl bg-slate-900 border border-slate-800 hover:border-slate-700 text-xs font-semibold text-slate-200 flex items-center gap-2 transition-colors whitespace-nowrap shadow-sm"
                     >
-                      <span className="text-sm">{activeCountry.flag}</span>
-                      <span>{activeCountry.code.toUpperCase()}</span>
+                      <span>{activeCountry.flag}</span>
+                      <span className="hidden sm:inline">
+                        {localizedActiveCountryName}
+                      </span>
                       <ChevronDown
                         className={`w-3.5 h-3.5 text-slate-400 transition-transform ${
                           isDropdownOpen ? "rotate-180" : ""
@@ -330,39 +563,46 @@ export function CrisisPanel({ initialCountryCode }: CrisisPanelProps) {
 
                     {/* Popover list if dropdown is open */}
                     {isDropdownOpen && (
-                      <div className="absolute right-0 top-full mt-1.5 w-64 max-h-72 overflow-y-auto no-scrollbar bg-slate-900/98 border border-slate-700 rounded-2xl shadow-2xl p-1.5 z-50 backdrop-blur-xl">
+                      <div className="absolute right-0 top-full mt-1.5 w-72 max-h-72 overflow-y-auto no-scrollbar bg-slate-900/98 border border-slate-700 rounded-2xl shadow-2xl p-1.5 z-50 backdrop-blur-xl">
                         <div className="text-[10px] uppercase font-bold text-slate-400 px-2 py-1 border-b border-slate-800/80 mb-1 flex items-center justify-between">
                           <span>
                             {selectedContinent === "all"
                               ? tc.allCountriesInRegion
                               : `${tc.allCountriesInRegion} (${
-                                  CONTINENTS.find((c) => c.id === selectedContinent)?.name ||
-                                  ""
+                                  CONTINENTS.find((c) => c.id === selectedContinent)?.name || ""
                                 })`}
                           </span>
                           <span className="text-rose-400 font-mono">
                             ({filteredCountries.length})
                           </span>
                         </div>
-                        {filteredCountries.map((c) => (
-                          <button
-                            key={c.code}
-                            onClick={() => handleCountrySelect(c.code)}
-                            className={`w-full text-left px-2.5 py-1.5 rounded-lg text-xs flex items-center justify-between transition-colors ${
-                              c.code === activeCountry.code
-                                ? "bg-rose-600/30 text-rose-200 border border-rose-500/40 font-semibold"
-                                : "text-slate-300 hover:bg-slate-800/80"
-                            }`}
-                          >
-                            <span className="flex items-center gap-2">
-                              <span>{c.flag}</span>
-                              <span className="truncate">{c.name}</span>
-                            </span>
-                            <span className="text-[10px] text-slate-400 font-mono">
-                              {c.code.toUpperCase()}
-                            </span>
-                          </button>
-                        ))}
+                        {filteredCountries.map((c) => {
+                          const localizedName = getLocalizedCountryName(c.code, currentLanguage.code, c.name);
+                          return (
+                            <button
+                              key={c.code}
+                              onClick={() => handleCountrySelect(c.code)}
+                              className={`w-full text-left px-2.5 py-1.5 rounded-lg text-xs flex items-center justify-between transition-colors ${
+                                c.code === activeCountry.code
+                                  ? "bg-rose-600/30 text-rose-200 border border-rose-500/40 font-semibold"
+                                  : "text-slate-300 hover:bg-slate-800/80"
+                              }`}
+                            >
+                              <span className="flex items-center gap-2 truncate">
+                                <span>{c.flag}</span>
+                                <span className="truncate">{localizedName}</span>
+                                {c.nativeName && c.nativeName !== localizedName && (
+                                  <span className="text-[10px] text-slate-400 truncate">
+                                    ({c.nativeName})
+                                  </span>
+                                )}
+                              </span>
+                              <span className="text-[10px] text-slate-400 font-mono shrink-0 ml-1">
+                                {c.code.toUpperCase()}
+                              </span>
+                            </button>
+                          );
+                        })}
                       </div>
                     )}
                   </div>
@@ -389,6 +629,7 @@ export function CrisisPanel({ initialCountryCode }: CrisisPanelProps) {
                   >
                     {filteredCountries.map((country) => {
                       const isSelected = country.code === activeCountry.code;
+                      const localizedName = getLocalizedCountryName(country.code, currentLanguage.code, country.name);
                       return (
                         <button
                           key={country.code}
@@ -398,10 +639,10 @@ export function CrisisPanel({ initialCountryCode }: CrisisPanelProps) {
                               ? "bg-rose-600 text-white font-bold border border-rose-400 shadow-md shadow-rose-600/30 ring-2 ring-rose-500/40"
                               : "bg-slate-900/80 text-slate-300 border border-slate-800 hover:border-slate-700 hover:bg-slate-850"
                           }`}
-                          title={`${country.name} (${country.nativeName || ""})`}
+                          title={`${localizedName} (${country.nativeName || country.name})`}
                         >
                           <span className="text-sm leading-none">{country.flag}</span>
-                          <span>{country.name}</span>
+                          <span>{localizedName}</span>
                           {country.regionNote && (
                             <span className="text-[9px] bg-rose-950/60 text-rose-300 px-1 rounded border border-rose-800/40">
                               {country.regionNote}
@@ -429,7 +670,7 @@ export function CrisisPanel({ initialCountryCode }: CrisisPanelProps) {
             </div>
 
             {/* ======================================================== */}
-            {/* ACTIVE COUNTRY CRISIS CARD & HOTLINES                    */}
+            {/* ACTIVE COUNTRY CRISIS CARD & BILINGUAL HOTLINES          */}
             {/* ======================================================== */}
             <div className="space-y-3 pt-1">
               {/* Country Banner */}
@@ -437,15 +678,26 @@ export function CrisisPanel({ initialCountryCode }: CrisisPanelProps) {
                 <div className="flex items-center gap-3">
                   <span className="text-3xl">{activeCountry.flag}</span>
                   <div>
-                    <div className="flex items-center gap-2">
+                    <div className="flex items-center gap-2 flex-wrap">
                       <h3 className="text-sm sm:text-base font-bold text-white">
-                        {activeCountry.name}
+                        {localizedActiveCountryName}
                       </h3>
-                      {activeCountry.nativeName && (
-                        <span className="text-xs text-slate-400">
-                          ({activeCountry.nativeName})
-                        </span>
-                      )}
+                      {activeCountry.nativeName &&
+                        activeCountry.nativeName.toLowerCase() !==
+                          localizedActiveCountryName.toLowerCase() && (
+                          <span className="text-xs text-slate-400">
+                            ({activeCountry.nativeName})
+                          </span>
+                        )}
+                      {activeCountry.name &&
+                        activeCountry.name.toLowerCase() !==
+                          localizedActiveCountryName.toLowerCase() &&
+                        activeCountry.name.toLowerCase() !==
+                          (activeCountry.nativeName || "").toLowerCase() && (
+                          <span className="text-[11px] text-slate-500">
+                            • {activeCountry.name}
+                          </span>
+                        )}
                     </div>
                     {activeCountry.regionNote && (
                       <p className="text-[11px] text-rose-300 font-medium">
@@ -466,86 +718,110 @@ export function CrisisPanel({ initialCountryCode }: CrisisPanelProps) {
                 </div>
               </div>
 
-              {/* Hotlines List for Selected Country */}
+              {/* Hotlines List for Selected Country (Option B: Bilingual) */}
               <div className="space-y-2.5">
-                {activeCountry.hotlines.map((hotline, idx) => (
-                  <div
-                    key={idx}
-                    className="p-3.5 rounded-2xl bg-slate-900/85 border border-slate-800/90 hover:border-slate-700/90 transition-all flex flex-col sm:flex-row sm:items-center justify-between gap-3 shadow-sm hover:shadow-md"
-                  >
-                    <div className="space-y-1">
-                      <div className="flex items-center gap-2 flex-wrap">
-                        <span className="text-xs sm:text-sm font-bold text-white">
-                          {hotline.name}
-                        </span>
-                        {hotline.is24_7 && (
-                          <span className="text-[10px] bg-emerald-500/20 text-emerald-300 px-1.5 py-0.5 rounded-md border border-emerald-500/30 flex items-center gap-1 font-medium">
-                            <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse" />
-                            {tc.available247}
+                {activeCountry.hotlines.map((hotline, idx) => {
+                  const summary = getLocalizedHotlineSummary(hotline, currentLanguage.code);
+                  return (
+                    <div
+                      key={idx}
+                      className="p-3.5 rounded-2xl bg-slate-900/85 border border-slate-800/90 hover:border-slate-700/90 transition-all flex flex-col sm:flex-row sm:items-center justify-between gap-3 shadow-sm hover:shadow-md"
+                    >
+                      <div className="space-y-1.5 flex-1 pr-2">
+                        <div className="flex items-center gap-2 flex-wrap">
+                          <span className="text-xs sm:text-sm font-bold text-white">
+                            {hotline.name}
                           </span>
-                        )}
-                        {hotline.isFree && (
-                          <span className="text-[10px] bg-sky-500/20 text-sky-300 px-1.5 py-0.5 rounded-md border border-sky-500/30 font-medium">
-                            {tc.tollFree}
+                          <span className="text-[10px] bg-rose-950/70 text-rose-200 border border-rose-800/50 px-2 py-0.5 rounded-md font-semibold">
+                            {summary.badge}
                           </span>
-                        )}
-                        {hotline.isChat && (
-                          <span className="text-[10px] bg-purple-500/20 text-purple-300 px-1.5 py-0.5 rounded-md border border-purple-500/30 font-medium">
-                            {tc.chat}
-                          </span>
+                          {hotline.is24_7 && (
+                            <span className="text-[10px] bg-emerald-500/20 text-emerald-300 px-1.5 py-0.5 rounded-md border border-emerald-500/30 flex items-center gap-1 font-medium">
+                              <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse" />
+                              {tc.available247}
+                            </span>
+                          )}
+                          {hotline.isFree && (
+                            <span className="text-[10px] bg-sky-500/20 text-sky-300 px-1.5 py-0.5 rounded-md border border-sky-500/30 font-medium">
+                              {tc.tollFree}
+                            </span>
+                          )}
+                          {hotline.isChat && (
+                            <span className="text-[10px] bg-purple-500/20 text-purple-300 px-1.5 py-0.5 rounded-md border border-purple-500/30 font-medium">
+                              {tc.chat}
+                            </span>
+                          )}
+                        </div>
+
+                        {/* Primary: Localized Purpose in UI language */}
+                        <p className="text-xs text-slate-200 font-medium leading-relaxed">
+                          {summary.purpose}
+                        </p>
+
+                        {/* Secondary: Original Native Description */}
+                        {hotline.description && (
+                          <p className="text-[11px] text-slate-400 leading-snug">
+                            <span className="text-slate-500 font-mono text-[10px] uppercase mr-1">
+                              Orig:
+                            </span>
+                            {hotline.description}
+                          </p>
                         )}
                       </div>
-                      <p className="text-xs text-slate-300 leading-relaxed">
-                        {hotline.description}
-                      </p>
+
+                      {/* Action Buttons */}
+                      <div className="flex items-center gap-2 shrink-0 self-start sm:self-center">
+                        {hotline.phone && (
+                          <a
+                            href={`tel:${hotline.phone.replace(/\s+/g, "")}`}
+                            className="px-3.5 py-2 rounded-xl bg-gradient-to-r from-rose-600 to-rose-700 hover:from-rose-500 hover:to-rose-600 text-white text-xs font-bold flex items-center gap-1.5 transition-all shadow-md shadow-rose-600/30 active:scale-95 border border-rose-400/40"
+                            title={`${tc.callPrefix} ${hotline.name}`}
+                          >
+                            <PhoneCall className="w-3.5 h-3.5" />
+                            <span>
+                              {tc.callPrefix} {hotline.phone}
+                            </span>
+                          </a>
+                        )}
+
+                        {hotline.sms && (
+                          <a
+                            href={`sms:${hotline.sms.number}${
+                              hotline.sms.keyword
+                                ? `?body=${encodeURIComponent(hotline.sms.keyword)}`
+                                : ""
+                            }`}
+                            className="px-3.5 py-2 rounded-xl bg-gradient-to-r from-sky-600 to-sky-700 hover:from-sky-500 hover:to-sky-600 text-white text-xs font-bold flex items-center gap-1.5 transition-all shadow-md shadow-sky-600/30 active:scale-95 border border-sky-400/40"
+                            title={`${tc.textPrefix} ${hotline.sms.number}`}
+                          >
+                            <MessageSquare className="w-3.5 h-3.5" />
+                            <span>
+                              {tc.textPrefix} {hotline.sms.keyword || hotline.sms.number}
+                            </span>
+                          </a>
+                        )}
+
+                        {hotline.website && (
+                          <a
+                            href={hotline.website}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="p-2 rounded-xl bg-slate-800 hover:bg-slate-750 text-slate-300 hover:text-white text-xs font-semibold flex items-center gap-1 transition-colors border border-slate-700"
+                            title="Open website"
+                          >
+                            <ExternalLink className="w-3.5 h-3.5" />
+                          </a>
+                        )}
+                      </div>
                     </div>
-
-                    {/* Action Buttons */}
-                    <div className="flex items-center gap-2 shrink-0 self-start sm:self-center">
-                      {hotline.phone && (
-                        <a
-                          href={`tel:${hotline.phone.replace(/\s+/g, "")}`}
-                          className="px-3.5 py-2 rounded-xl bg-gradient-to-r from-rose-600 to-rose-700 hover:from-rose-500 hover:to-rose-600 text-white text-xs font-bold flex items-center gap-1.5 transition-all shadow-md shadow-rose-600/30 active:scale-95 border border-rose-400/40"
-                          title={`${tc.callPrefix} ${hotline.name}`}
-                        >
-                          <PhoneCall className="w-3.5 h-3.5" />
-                          <span>{tc.callPrefix} {hotline.phone}</span>
-                        </a>
-                      )}
-
-                      {hotline.sms && (
-                        <a
-                          href={`sms:${hotline.sms.number}${
-                            hotline.sms.keyword ? `?body=${encodeURIComponent(hotline.sms.keyword)}` : ""
-                          }`}
-                          className="px-3.5 py-2 rounded-xl bg-gradient-to-r from-sky-600 to-sky-700 hover:from-sky-500 hover:to-sky-600 text-white text-xs font-bold flex items-center gap-1.5 transition-all shadow-md shadow-sky-600/30 active:scale-95 border border-sky-400/40"
-                          title={`${tc.textPrefix} ${hotline.sms.number}`}
-                        >
-                          <MessageSquare className="w-3.5 h-3.5" />
-                          <span>{tc.textPrefix} {hotline.sms.keyword || hotline.sms.number}</span>
-                        </a>
-                      )}
-
-                      {hotline.website && (
-                        <a
-                          href={hotline.website}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="p-2 rounded-xl bg-slate-800 hover:bg-slate-750 text-slate-300 hover:text-white text-xs font-semibold flex items-center gap-1 transition-colors border border-slate-700"
-                          title="Open website"
-                        >
-                          <ExternalLink className="w-3.5 h-3.5" />
-                        </a>
-                      )}
-                    </div>
-                  </div>
-                ))}
+                  );
+                })}
               </div>
 
               {/* Report Outdated Number Link */}
               <div className="pt-2 flex items-center justify-between text-[11px] text-slate-400">
                 <span className="truncate">
-                  {tc.foundBrokenNumber.replace("{country}", activeCountry.name)}
+                  {tc.foundBrokenNumber.replace("{country}", localizedActiveCountryName)}
                 </span>
                 <button
                   type="button"
@@ -569,19 +845,27 @@ export function CrisisPanel({ initialCountryCode }: CrisisPanelProps) {
               <ul className="text-xs sm:text-sm text-slate-200 space-y-2.5">
                 <li className="flex items-start gap-2">
                   <span className="text-amber-400 font-bold">•</span>
-                  <span><strong>{tc.otherStep1Title}:</strong> {tc.otherStep1Desc}</span>
+                  <span>
+                    <strong>{tc.otherStep1Title}:</strong> {tc.otherStep1Desc}
+                  </span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-amber-400 font-bold">•</span>
-                  <span><strong>{tc.otherStep2Title}:</strong> {tc.otherStep2Desc}</span>
+                  <span>
+                    <strong>{tc.otherStep2Title}:</strong> {tc.otherStep2Desc}
+                  </span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-amber-400 font-bold">•</span>
-                  <span><strong>{tc.otherStep3Title}:</strong> {tc.otherStep3Desc}</span>
+                  <span>
+                    <strong>{tc.otherStep3Title}:</strong> {tc.otherStep3Desc}
+                  </span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-amber-400 font-bold">•</span>
-                  <span><strong>{tc.otherStep4Title}:</strong> {tc.otherStep4Desc}</span>
+                  <span>
+                    <strong>{tc.otherStep4Title}:</strong> {tc.otherStep4Desc}
+                  </span>
                 </li>
               </ul>
             </div>
@@ -601,20 +885,12 @@ export function CrisisPanel({ initialCountryCode }: CrisisPanelProps) {
         )}
       </div>
 
-      <div className="pt-4 border-t border-slate-800/80 mt-5 flex items-center justify-between text-[11px] text-slate-400 relative z-10">
-        <span className="flex items-center gap-1">
-          <ShieldCheck className="w-3.5 h-3.5 text-emerald-400" />
-          <span>{tc.footerVerified}</span>
-        </span>
-        <span>{tc.footerWorthy}</span>
-      </div>
-
+      {/* Report Modal */}
       <ReportModal
         isOpen={isReportModalOpen}
         onClose={() => setIsReportModalOpen(false)}
-        defaultCountry={activeCountry.name}
-        defaultType="outdated_number"
+        defaultCountry={localizedActiveCountryName}
       />
-    </div>
+    </section>
   );
 }

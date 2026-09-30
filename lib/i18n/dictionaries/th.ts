@@ -19,7 +19,7 @@ export const th: TranslationDictionary = {
     "motivationTitle": "ค้นพบแรงบันดาลใจและมุมมองทางจิตวิทยาที่ลึกซึ้ง",
     "disguise": "พรางหน้าจอ",
     "disguiseTitle": "พรางหน้าจอนี้เป็นเอกสารการทำงานทันที",
-    "languageCountNotice": "50 ภาษาทั่วโลก • แปลทันที",
+    "languageCountNotice": "101 ภาษาทั่วโลก • แปลทันที",
     "geoDetectionEnabled": "เปิดใช้งานการตรวจจับตำแหน่งอัตโนมัติ",
     "clearSearch": "ล้าง"
   },

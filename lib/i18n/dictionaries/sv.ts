@@ -19,7 +19,7 @@ export const sv: TranslationDictionary = {
     "motivationTitle": "Utforska djupare motivation och psykologiska perspektiv",
     "disguise": "Kamouflage",
     "disguiseTitle": "Dölj omedelbart denna skärm som ett arbetsdokument",
-    "languageCountNotice": "50 globala språk • Omedelbar översättning",
+    "languageCountNotice": "101 globala språk • Omedelbar översättning",
     "geoDetectionEnabled": "Automatisk geodetektering aktiverad",
     "clearSearch": "Rensa"
   },

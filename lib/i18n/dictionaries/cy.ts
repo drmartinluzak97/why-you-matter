@@ -19,7 +19,7 @@ export const cy: TranslationDictionary = {
     "motivationTitle": "Explore deeper motivation & psychological reframing",
     "disguise": "Cuddio",
     "disguiseTitle": "Disguise this screen as a work document immediately",
-    "languageCountNotice": "50 Iaith Fyd-eang • Cyfieithu Ar Unwaith",
+    "languageCountNotice": "101 Iaith Fyd-eang • Cyfieithu Ar Unwaith",
     "geoDetectionEnabled": "Canfod Daearyddol Awtomatig Wedi'i Alluogi",
     "clearSearch": "Clirio"
   },

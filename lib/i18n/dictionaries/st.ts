@@ -3,7 +3,7 @@ import { TranslationDictionary } from "../types";
 export const st: TranslationDictionary = {
   "meta": {
     "title": "Hobaneng O le Bohlokoa | Ha O Na Phetolo",
-    "description": "Sebaka se bolokehileng sa lefatshe bakeng sa dinako tsa mathata, pelaelo le mokgathala wa kelello. Lethathamo la dinomoro tsa thuso tsa dinaha tse 2101 le bohlokwa ba bophelo ba hao."
+    "description": "Sebaka se bolokehileng sa lefatshe bakeng sa dinako tsa mathata, pelaelo le mokgathala wa kelello. Lethathamo la dinomoro tsa thuso tsa dinaha tse 250+ le bohlokwa ba bophelo ba hao."
   },
   "nav": {
     "tagline": "O bohlokwa. O a hlokahala.",

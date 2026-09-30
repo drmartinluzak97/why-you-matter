@@ -3,7 +3,7 @@ import { TranslationDictionary } from "../types";
 export const wo: TranslationDictionary = {
   "meta": {
     "title": "Lu Tax Nga Am Solo | Kenn Mënul Wuutu Sa Bopp",
-    "description": "Bérab bu am kaaraange ci àddina sépp ngir jamonoy jafe-jafe, sikki-sakka ak coono xel. Kàddug téereb lëkkale yu gaaw ci réew yu ëpp 2101 ak solo gi sa dundu am."
+    "description": "Bérab bu am kaaraange ci àddina sépp ngir jamonoy jafe-jafe, sikki-sakka ak coono xel. Kàddug téereb lëkkale yu gaaw ci réew yu ëpp 250+ ak solo gi sa dundu am."
   },
   "nav": {
     "tagline": "Am nga solo. Ñu ngi la soxla.",
@@ -71,7 +71,7 @@ export const wo: TranslationDictionary = {
   "crisis": {
     "badge": "Ndimaal ci Jafe-jafe 24/7",
     "title": "Téereb Numéroy Ndimaal ci Àddina Sépp",
-    "subtitle": "Ndimaal gu amul kaye, gu sutura tey dox 24/7 ci réew ak gox yu ëpp 2101. Mësuloo nekk sa yaw rekk.",
+    "subtitle": "Ndimaal gu amul kaye, gu sutura tey dox 24/7 ci réew ak gox yu ëpp 250+. Mësuloo nekk sa yaw rekk.",
     "modeSelf": "Maa ngi ci njàqare",
     "modeOther": "Keneen a ngi ci njàqare",
     "anchorTitle": "Faju Gaaw ci 3 Jéego",

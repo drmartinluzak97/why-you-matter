@@ -3,7 +3,7 @@ import { TranslationDictionary } from "../types";
 export const cs: TranslationDictionary = {
   "meta": {
     "title": "Proč na tobě záleží | Jsi nenahraditelný",
-    "description": "Globální útočiště pro chvíle krize, pochybností a psychického vyčerpání. Adresář krizových linek pro 2101 zemí, uklidňující nástroje a důvody, proč na tvém životě záleží."
+    "description": "Globální útočiště pro chvíle krize, pochybností a psychického vyčerpání. Adresář krizových linek pro 250+ zemí, uklidňující nástroje a důvody, proč na tvém životě záleží."
   },
   "nav": {
     "tagline": "Jsi nenahraditelný. Máš smysl.",
@@ -19,7 +19,7 @@ export const cs: TranslationDictionary = {
     "motivationTitle": "Prozkoumat hlubší motivaci a psychologické perspektivy",
     "disguise": "Maskování",
     "disguiseTitle": "Okamžitě zamaskovat obrazovku jako pracovní dokument",
-    "languageCountNotice": "50 světových jazyků • Okamžitý překlad",
+    "languageCountNotice": "101 světových jazyků • Okamžitý překlad",
     "geoDetectionEnabled": "Automatická geo-detekce aktivní",
     "clearSearch": "Vymazat"
   },
@@ -71,7 +71,7 @@ export const cs: TranslationDictionary = {
   "crisis": {
     "badge": "Okamžitá krizová podpora 24/7",
     "title": "Globální adresář krizových linek",
-    "subtitle": "Bezplatná, anonymní a nepřetržitá podpora pro 2101 zemí a území. Nikdy na to nejsi sám.",
+    "subtitle": "Bezplatná, anonymní a nepřetržitá podpora pro 250+ zemí a území. Nikdy na to nejsi sám.",
     "modeSelf": "Jsem v ohrožení",
     "modeOther": "Někdo jiný je v ohrožení",
     "anchorTitle": "Tříkroková záchranná kotva",

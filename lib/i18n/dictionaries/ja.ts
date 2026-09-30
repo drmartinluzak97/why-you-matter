@@ -19,7 +19,7 @@ export const ja: TranslationDictionary = {
     "motivationTitle": "心理的リフレーミングと深い生きる視点を見る",
     "disguise": "画面偽装",
     "disguiseTitle": "この画面を即座に業務文書へ偽装する",
-    "languageCountNotice": "50の世界言語 • 即時翻訳",
+    "languageCountNotice": "101の多言語対応 • リアルタイム翻訳",
     "geoDetectionEnabled": "自動地域検出が有効です",
     "clearSearch": "クリア"
   },

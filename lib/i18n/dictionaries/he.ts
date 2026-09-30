@@ -19,7 +19,7 @@ export const he: TranslationDictionary = {
     "motivationTitle": "גלה מוטיבציה עמוקה ונקודות מבט פסיכולוגיות",
     "disguise": "הסוואת מסך",
     "disguiseTitle": "הסווה מסך זה באופן מיידי כמסמך עבודה",
-    "languageCountNotice": "50 שפות גלובליות • תרגום מיידי",
+    "languageCountNotice": "101 שפות גלובליות • תרגום מיידי",
     "geoDetectionEnabled": "זיהוי מיקום אוטומטי מופעל",
     "clearSearch": "נקה"
   },

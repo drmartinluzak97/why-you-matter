@@ -19,7 +19,7 @@ export const bn: TranslationDictionary = {
     "motivationTitle": "Explore deeper motivation & psychological reframing",
     "disguise": "ছদ্মবেশ",
     "disguiseTitle": "Disguise this screen as a work document immediately",
-    "languageCountNotice": "৫০টি বৈশ্বিক ভাষা • তাৎক্ষণিক অনুবাদ",
+    "languageCountNotice": "১০১টি বৈশ্বিক ভাষা • তাত্ক্ষণিক অনুবাদ",
     "geoDetectionEnabled": "স্বয়ংক্রিয় অবস্থান শনাক্তকরণ সক্রিয়",
     "clearSearch": "মুছুন"
   },

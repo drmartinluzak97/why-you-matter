@@ -3,7 +3,7 @@ import { TranslationDictionary } from "../types";
 export const ha: TranslationDictionary = {
   "meta": {
     "title": "Dalilin da Yasa Kake da Muhimmanci | Ba Za A Iya Maye Gurbinka Ba",
-    "description": "Wuri mai aminci na duniya don lokutan rikici, shakku da gajiyar hankali. Jagorar layukan taimakon gaggawa na kasashe 2101 da dalilin da yasa rayuwarka take da muhimmanci."
+    "description": "Wuri mai aminci na duniya don lokutan rikici, shakku da gajiyar hankali. Jagorar layukan taimakon gaggawa na kasashe 250+ da dalilin da yasa rayuwarka take da muhimmanci."
   },
   "nav": {
     "tagline": "Kana da muhimmanci. Ana bukatar ka.",

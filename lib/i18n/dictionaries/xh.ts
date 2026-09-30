@@ -3,7 +3,7 @@ import { TranslationDictionary } from "../types";
 export const xh: TranslationDictionary = {
   "meta": {
     "title": "Kutheni Ubalulekile | Awunakutshintshwa Mntu",
-    "description": "Indawo ekhuselekileyo yehlabathi yamaxesha obunzima, amathandabuzo nokudinwa kwengqondo. Uluhlu lwezinombolo zoncedo lweengxaki lwamazwe angama-2101 nokubaluleka kobomi bakho."
+    "description": "Indawo ekhuselekileyo yehlabathi yamaxesha obunzima, amathandabuzo nokudinwa kwengqondo. Uluhlu lwezinombolo zoncedo lweengxaki lwamazwe angama-250+ nokubaluleka kobomi bakho."
   },
   "nav": {
     "tagline": "Ubalulekile. Uyadingeka.",

@@ -19,7 +19,7 @@ export const tl: TranslationDictionary = {
     "motivationTitle": "Explore deeper motivation & psychological reframing",
     "disguise": "Pagkukubli",
     "disguiseTitle": "Disguise this screen as a work document immediately",
-    "languageCountNotice": "50 Wikang Pandaigdig • Agarang Pagsasalin",
+    "languageCountNotice": "101 Wikang Pandaigdig • Agarang Pagsasalin",
     "geoDetectionEnabled": "Naka-on ang Awtomatikong Geo-Detection",
     "clearSearch": "Burahin"
   },

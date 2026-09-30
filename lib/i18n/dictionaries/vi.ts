@@ -19,7 +19,7 @@ export const vi: TranslationDictionary = {
     "motivationTitle": "Khám phá động lực sâu sắc và góc nhìn tâm lý",
     "disguise": "Ngụy Trang",
     "disguiseTitle": "Ngụy trang màn hình thành tài liệu công việc ngay lập tức",
-    "languageCountNotice": "50 ngôn ngữ toàn cầu • Dịch tức thì",
+    "languageCountNotice": "101 ngôn ngữ toàn cầu • Dịch tức thì",
     "geoDetectionEnabled": "Tự động phát hiện vị trí địa lý",
     "clearSearch": "Xóa"
   },

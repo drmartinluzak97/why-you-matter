@@ -3,7 +3,7 @@ import { TranslationDictionary } from "../types";
 export const mt: TranslationDictionary = {
   "meta": {
     "title": "Għaliex Int Importanti | Int Irreparabbli",
-    "description": "Santwarju globali għal mumenti ta' kriżi, dubju u għeja mentali. Direttorju ta' kriżi għal 2101 pajjiż, għodod ta' kalma u r-raġunijiet għaliex l-eżistenza tiegħek timporta."
+    "description": "Santwarju globali għal mumenti ta' kriżi, dubju u għeja mentali. Direttorju ta' kriżi għal 250+ pajjiż, għodod ta' kalma u r-raġunijiet għaliex l-eżistenza tiegħek timporta."
   },
   "nav": {
     "tagline": "Int importanti. Hemm bżonnok.",

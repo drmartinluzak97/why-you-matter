@@ -19,7 +19,7 @@ export const sl: TranslationDictionary = {
     "motivationTitle": "Explore deeper motivation & psychological reframing",
     "disguise": "Preobleka",
     "disguiseTitle": "Disguise this screen as a work document immediately",
-    "languageCountNotice": "50 svetovnih jezikov • Takojšen prevod",
+    "languageCountNotice": "101 svetovnih jezikov • Takojšen prevod",
     "geoDetectionEnabled": "Samodejno zaznavanje lokacije omogočeno",
     "clearSearch": "Počisti"
   },

@@ -3,7 +3,7 @@ import { TranslationDictionary } from "../types";
 export const uz: TranslationDictionary = {
   "meta": {
     "title": "Nega siz muhimsiz | Siz o'rnini bosib bo'lmaydigan insonsiz",
-    "description": "Inqiroz, shubha va ruhiy charchoq lahzalari uchun global xavfsiz boshpana. 2101 mamlakat inqiroz ma'lumotnomasi, tinchlanish vositalari va hayotingiz muhimligining sabablari."
+    "description": "Inqiroz, shubha va ruhiy charchoq lahzalari uchun global xavfsiz boshpana. 250+ mamlakat inqiroz ma'lumotnomasi, tinchlanish vositalari va hayotingiz muhimligining sabablari."
   },
   "nav": {
     "tagline": "Siz muhimsiz. Siz keraksiz.",
@@ -71,7 +71,7 @@ export const uz: TranslationDictionary = {
   "crisis": {
     "badge": "24/7 Shoshilinch inqiroz yordami",
     "title": "Global inqiroz va ishonch telefonlari ma'lumotnomasi",
-    "subtitle": "2101 mamlakat va hududda bepul, maxfiy va 24/7 yordam. Siz hech qachon yolg'iz emassiz.",
+    "subtitle": "250+ mamlakat va hududda bepul, maxfiy va 24/7 yordam. Siz hech qachon yolg'iz emassiz.",
     "modeSelf": "Men xavf ostidaman",
     "modeOther": "Boshqa kimdir xavf ostida",
     "anchorTitle": "3 bosqichli favqulodda langar",

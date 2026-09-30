@@ -19,7 +19,7 @@ export const da: TranslationDictionary = {
     "motivationTitle": "Udforsk dybere motivation og psykologiske perspektiver",
     "disguise": "Kamuflér",
     "disguiseTitle": "Skjul denne skærm som et arbejdsdokument med det samme",
-    "languageCountNotice": "50 globale sprog • Øjeblikkelig oversættelse",
+    "languageCountNotice": "101 globale sprog • Øjeblikkelig oversættelse",
     "geoDetectionEnabled": "Automatisk geografisk registrering aktiveret",
     "clearSearch": "Ryd"
   },

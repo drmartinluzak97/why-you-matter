@@ -3,7 +3,7 @@ import { TranslationDictionary } from "../types";
 export const bs: TranslationDictionary = {
   "meta": {
     "title": "Zašto si važan | Nezamenjiv si",
-    "description": "Globalno utočište za trenutke krize, sumnje i mentalne iscrpljenosti. Krizni direktorij za 2101 zemalja, alati za uzemljenje i razlozi zašto je tvoje postojanje važno."
+    "description": "Globalno utočište za trenutke krize, sumnje i mentalne iscrpljenosti. Krizni direktorij za 250+ zemalja, alati za uzemljenje i razlozi zašto je tvoje postojanje važno."
   },
   "nav": {
     "tagline": "Važan si. Potreban si.",
@@ -71,7 +71,7 @@ export const bs: TranslationDictionary = {
   "crisis": {
     "badge": "Hitna 24/7 krizna podrška",
     "title": "Globalni direktorij linija za pomoć i krizu",
-    "subtitle": "Besplatna, povjerljiva i 24/7 podrška u 2101 zemalja i teritorija. Nikada nisi istinski sam.",
+    "subtitle": "Besplatna, povjerljiva i 24/7 podrška u 250+ zemalja i teritorija. Nikada nisi istinski sam.",
     "modeSelf": "U opasnosti sam",
     "modeOther": "Neko drugi je u opasnosti",
     "anchorTitle": "Hitno sidrenje u 3 koraka",

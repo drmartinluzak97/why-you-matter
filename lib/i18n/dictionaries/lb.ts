@@ -3,7 +3,7 @@ import { TranslationDictionary } from "../types";
 export const lb: TranslationDictionary = {
   "meta": {
     "title": "Firwat du wichteg bass | Du bass onerersetzlech",
-    "description": "E globale Refugium fir Momenter vu Kris, Zweiwel a mentaler Erschëpfung. Krisen-Verzeichnis fir 2101 Länner, Berouegungs-Tools a Grënn, firwat deng Existenz wichteg ass."
+    "description": "E globale Refugium fir Momenter vu Kris, Zweiwel a mentaler Erschëpfung. Krisen-Verzeichnis fir 250+ Länner, Berouegungs-Tools a Grënn, firwat deng Existenz wichteg ass."
   },
   "nav": {
     "tagline": "Du bass wichteg. Du gëss gebraucht.",

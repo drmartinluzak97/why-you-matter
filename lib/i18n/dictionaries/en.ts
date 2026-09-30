@@ -3,7 +3,7 @@ import { TranslationDictionary } from "../types";
 export const en: TranslationDictionary = {
   "meta": {
     "title": "Why You Matter | You Are Irreplaceable",
-    "description": "A global sanctuary for moments of crisis, doubt, and mental exhaustion. 2101 countries crisis directory, grounding tools, and the reasons why your existence matters."
+    "description": "A global sanctuary for moments of crisis, doubt, and mental exhaustion. 250+ countries crisis directory, grounding tools, and the reasons why your existence matters."
   },
   "nav": {
     "tagline": "You matter. You are needed.",
@@ -71,7 +71,7 @@ export const en: TranslationDictionary = {
   "crisis": {
     "badge": "Immediate 24/7 Crisis Support",
     "title": "Global Crisis & Helpline Directory",
-    "subtitle": "Free, confidential, 24/7 support across 2101 countries and territories. You are never truly alone.",
+    "subtitle": "Free, confidential, 24/7 support across 250+ countries and territories. You are never truly alone.",
     "modeSelf": "I am in danger",
     "modeOther": "Someone else is in danger",
     "anchorTitle": "The 3-Step Emergency Anchor",

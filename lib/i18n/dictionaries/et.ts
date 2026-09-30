@@ -19,7 +19,7 @@ export const et: TranslationDictionary = {
     "motivationTitle": "Explore deeper motivation & psychological reframing",
     "disguise": "Maskeering",
     "disguiseTitle": "Disguise this screen as a work document immediately",
-    "languageCountNotice": "50 maailma keelt • Kohene tõlge",
+    "languageCountNotice": "101 maailma keelt • Kiirtõlge",
     "geoDetectionEnabled": "Automaatne asukoha tuvastamine aktiivne",
     "clearSearch": "Tühjenda"
   },

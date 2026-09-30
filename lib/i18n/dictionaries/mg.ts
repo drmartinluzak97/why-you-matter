@@ -3,7 +3,7 @@ import { TranslationDictionary } from "../types";
 export const mg: TranslationDictionary = {
   "meta": {
     "title": "Nahoana Ianao no Zava-dehibe | Tsy Misy Mahasolo Anao",
-    "description": "Toerana azo antoka maneran-tany ho an'ny fotoan-tsarotra, fisalasalana ary faharerahana ara-tsaina. Lahatahiry laharana vonjy taitra amin'ny firenena 2101 sy ny antony maha-sarobidy ny ainao."
+    "description": "Toerana azo antoka maneran-tany ho an'ny fotoan-tsarotra, fisalasalana ary faharerahana ara-tsaina. Lahatahiry laharana vonjy taitra amin'ny firenena 250+ sy ny antony maha-sarobidy ny ainao."
   },
   "nav": {
     "tagline": "Zava-dehibe ianao. Ilaina ianao.",
@@ -71,7 +71,7 @@ export const mg: TranslationDictionary = {
   "crisis": {
     "badge": "Fanampiana Vonjy Taitra 24/7",
     "title": "Lahatahiry Laharana Vonjy Taitra Maneran-tany",
-    "subtitle": "Fanohanana maimaim-poana, tsiambaratelo ary 24/7 any amin'ny firenena sy faritany maherin'ny 2101. Tsy irery mihitsy ianao.",
+    "subtitle": "Fanohanana maimaim-poana, tsiambaratelo ary 24/7 any amin'ny firenena sy faritany maherin'ny 250+. Tsy irery mihitsy ianao.",
     "modeSelf": "Ao anaty loza aho",
     "modeOther": "Misy olon-kafa ao anaty loza",
     "anchorTitle": "Vanim-potoana Vonjy Taitra Dingana 3",

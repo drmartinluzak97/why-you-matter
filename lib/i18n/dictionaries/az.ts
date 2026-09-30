@@ -19,7 +19,7 @@ export const az: TranslationDictionary = {
     "motivationTitle": "Explore deeper motivation & psychological reframing",
     "disguise": "Gizlənmə",
     "disguiseTitle": "Disguise this screen as a work document immediately",
-    "languageCountNotice": "50 qlobal dil • Dərhal tərcümə",
+    "languageCountNotice": "101 qlobal dil • Dərhal tərcümə",
     "geoDetectionEnabled": "Avtomatik Geo-Təyinat Aktivdir",
     "clearSearch": "Təmizlə"
   },

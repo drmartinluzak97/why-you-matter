@@ -19,7 +19,7 @@ export const hy: TranslationDictionary = {
     "motivationTitle": "Explore deeper motivation & psychological reframing",
     "disguise": "Քողարկում",
     "disguiseTitle": "Disguise this screen as a work document immediately",
-    "languageCountNotice": "50 համաշխարհային լեզու • Ակնթարթային թարգմանություն",
+    "languageCountNotice": "101 համաշխարհային լեզու • Ակնթարթային թարգմանություն",
     "geoDetectionEnabled": "Ավտոմատ տեղորոշումը միացված է",
     "clearSearch": "Մաքրել"
   },

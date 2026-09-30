@@ -19,7 +19,7 @@ export const af: TranslationDictionary = {
     "motivationTitle": "Explore deeper motivation & psychological reframing",
     "disguise": "Kamoeflering",
     "disguiseTitle": "Disguise this screen as a work document immediately",
-    "languageCountNotice": "50 wêreldtale • Onmiddellike vertaling",
+    "languageCountNotice": "101 wêreldtale • Onmiddellike vertaling",
     "geoDetectionEnabled": "Outomatiese geo-opsporing geaktiveer",
     "clearSearch": "Vee uit"
   },

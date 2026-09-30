@@ -19,7 +19,7 @@ export const zh: TranslationDictionary = {
     "motivationTitle": "探索更深层的心理重塑与人生视角",
     "disguise": "伪装模式",
     "disguiseTitle": "立即将屏幕伪装成工作文档",
-    "languageCountNotice": "50种全球语言 • 即时翻译",
+    "languageCountNotice": "101种全球语言 • 即时翻译",
     "geoDetectionEnabled": "已启用自动地理位置检测",
     "clearSearch": "清除"
   },

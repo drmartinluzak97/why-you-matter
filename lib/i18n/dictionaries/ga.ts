@@ -19,7 +19,7 @@ export const ga: TranslationDictionary = {
     "motivationTitle": "Explore deeper motivation & psychological reframing",
     "disguise": "Clúdach",
     "disguiseTitle": "Disguise this screen as a work document immediately",
-    "languageCountNotice": "50 Teanga Dhomhanda • Aistriúchán Láithreach",
+    "languageCountNotice": "101 Teanga Dhomhanda • Aistriúchán Meandarach",
     "geoDetectionEnabled": "Geo-Bhrath Uathoibríoch Cumhasaithe",
     "clearSearch": "Glan"
   },

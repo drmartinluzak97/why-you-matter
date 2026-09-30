@@ -3,7 +3,7 @@ import { TranslationDictionary } from "../types";
 export const nl: TranslationDictionary = {
   "meta": {
     "title": "Waarom Jij Eruit Doet | Je Bent Onvervangbaar",
-    "description": "Een wereldwijd toevluchtsoord voor momenten van crisis, twijfel en emotionele uitputting. Hulplijnen voor 2101 landen, aardingsoefeningen en redenen waarom jouw leven ertoe doet."
+    "description": "Een wereldwijd toevluchtsoord voor momenten van crisis, twijfel en emotionele uitputting. Hulplijnen voor 250+ landen, aardingsoefeningen en redenen waarom jouw leven ertoe doet."
   },
   "nav": {
     "tagline": "Je bent onvervangbaar. Je wordt gebraucht.",
@@ -19,7 +19,7 @@ export const nl: TranslationDictionary = {
     "motivationTitle": "Ontdek diepere motivatie en psychologische perspectieven",
     "disguise": "Camouflage",
     "disguiseTitle": "Vermom dit scherm direct als werkdocument",
-    "languageCountNotice": "50 wereldtalen • Directe vertaling",
+    "languageCountNotice": "101 wereldtalen • Directe vertaling",
     "geoDetectionEnabled": "Automatische geo-detectie ingeschakeld",
     "clearSearch": "Wissen"
   },

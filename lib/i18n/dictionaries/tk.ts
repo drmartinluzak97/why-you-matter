@@ -3,7 +3,7 @@ import { TranslationDictionary } from "../types";
 export const tk: TranslationDictionary = {
   "meta": {
     "title": "Näme üçin siz möhüm | Siz çalşyp bolmajak insansyňyz",
-    "description": "Krizis, şübhe we ruhy ýadawlyk pursatlary üçin global howpsuz mekan. 2101 ýurduň krizis maglumatlar kitaby, rahatlanyş gurallary we ýaşaýşyňyzyň ähmiýetiniň sebäpleri."
+    "description": "Krizis, şübhe we ruhy ýadawlyk pursatlary üçin global howpsuz mekan. 250+ ýurduň krizis maglumatlar kitaby, rahatlanyş gurallary we ýaşaýşyňyzyň ähmiýetiniň sebäpleri."
   },
   "nav": {
     "tagline": "Siz möhümsiňiz. Siz gereksiňiz.",
@@ -71,7 +71,7 @@ export const tk: TranslationDictionary = {
   "crisis": {
     "badge": "24/7 Gyssagly krizis goldawy",
     "title": "Global krizis we ynam telefonlary maglumatlar kitaby",
-    "subtitle": "2101 ýurtda we çäkde mugt, gizlin we 24/7 goldaw. Siz hiç haçan ýeke dälsiňiz.",
+    "subtitle": "250+ ýurtda we çäkde mugt, gizlin we 24/7 goldaw. Siz hiç haçan ýeke dälsiňiz.",
     "modeSelf": "Men howp astynda",
     "modeOther": "Başga biri howp astynda",
     "anchorTitle": "3 ädimli gyssagly labyr",

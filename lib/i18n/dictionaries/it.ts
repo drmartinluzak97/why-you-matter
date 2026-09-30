@@ -19,7 +19,7 @@ export const it: TranslationDictionary = {
     "motivationTitle": "Esplora motivazioni profonde e prospettive psicologiche",
     "disguise": "Mimetizzazione",
     "disguiseTitle": "Nascondi subito questa schermata come documento di lavoro",
-    "languageCountNotice": "50 lingue globali • Traduzione istantanea",
+    "languageCountNotice": "101 lingue globali • Traduzione istantanea",
     "geoDetectionEnabled": "Rilevamento geografico automatico attivo",
     "clearSearch": "Cancella"
   },

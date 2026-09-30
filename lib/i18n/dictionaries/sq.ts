@@ -3,7 +3,7 @@ import { TranslationDictionary } from "../types";
 export const sq: TranslationDictionary = {
   "meta": {
     "title": "Pse ti ke rëndësi | Je i pazëvendësueshëm",
-    "description": "Një strehë globale për momente krize, dyshimi dhe lodhjeje mendore. Drejtoria e krizave për 2101 vende, mjete qetësimi dhe arsyet pse ekzistenca jote ka rëndësi."
+    "description": "Një strehë globale për momente krize, dyshimi dhe lodhjeje mendore. Drejtoria e krizave për 250+ vende, mjete qetësimi dhe arsyet pse ekzistenca jote ka rëndësi."
   },
   "nav": {
     "tagline": "Ti ke rëndësi. Je i nevojshëm.",

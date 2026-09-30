@@ -19,7 +19,7 @@ export const sw: TranslationDictionary = {
     "motivationTitle": "Explore deeper motivation & psychological reframing",
     "disguise": "Kujificha",
     "disguiseTitle": "Disguise this screen as a work document immediately",
-    "languageCountNotice": "Lugha 50 za Ulimwengu • Tafsiri ya Papo Hapo",
+    "languageCountNotice": "Lugha 101 za Ulimwengu • Tafsiri ya Papo Hapo",
     "geoDetectionEnabled": "Utambuzi wa Eneo Kiotomatiki Umewashwa",
     "clearSearch": "Futa"
   },

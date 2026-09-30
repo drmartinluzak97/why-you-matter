@@ -19,7 +19,7 @@ export const no: TranslationDictionary = {
     "motivationTitle": "Utforsk dypere motivasjon og psykologiske perspektiver",
     "disguise": "Kamuflasje",
     "disguiseTitle": "Skjul denne skjermen som et arbeidsdokument umiddelbart",
-    "languageCountNotice": "50 globale språk • Umiddelbar oversettelse",
+    "languageCountNotice": "101 globale språk • Umiddelbar oversettelse",
     "geoDetectionEnabled": "Automatisk stedsgjenkjenning aktivert",
     "clearSearch": "Tøm"
   },

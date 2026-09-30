@@ -3,7 +3,7 @@ import { TranslationDictionary } from "../types";
 export const rn: TranslationDictionary = {
   "meta": {
     "title": "Igituma Uri Ntukingirwa | Nta Wagusubirira",
-    "description": "Ahantu hakingiwe ku rwego rw'isi mu bihe vy'ingorane, amakenga n'umunaniro wo mu mutwe. Urutonde rw'inomero z'ubutabazi mu bihugu 2101 n'akamaro k'ubuzima bwawe."
+    "description": "Ahantu hakingiwe ku rwego rw'isi mu bihe vy'ingorane, amakenga n'umunaniro wo mu mutwe. Urutonde rw'inomero z'ubutabazi mu bihugu 250+ n'akamaro k'ubuzima bwawe."
   },
   "nav": {
     "tagline": "Uri uw'agaciro. Urakenewe.",
@@ -71,7 +71,7 @@ export const rn: TranslationDictionary = {
   "crisis": {
     "badge": "Ubufasha bw'Ingorane 24/7",
     "title": "Urutonde Mpuzamakungu rw'Inomero z'Ubutabazi",
-    "subtitle": "Ubufasha bw'ubuntu, bw'ibanga na 24/7 mu bihugu n'uturere birenga 2101. Ntabwo uri wenyene na gato.",
+    "subtitle": "Ubufasha bw'ubuntu, bw'ibanga na 24/7 mu bihugu n'uturere birenga 250+. Ntabwo uri wenyene na gato.",
     "modeSelf": "Ndi mu kaga",
     "modeOther": "Uwundi muntu ari mu kaga",
     "anchorTitle": "Inkingi y'Ubutabazi mu Ntambwe 3",

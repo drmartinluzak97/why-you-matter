@@ -3,7 +3,7 @@ import { TranslationDictionary } from "../types";
 export const ny: TranslationDictionary = {
   "meta": {
     "title": "Chifukwa Chake Muli Ofunika | Ndinu Osasinthika",
-    "description": "Malo otetezeka apadziko lonse a nthawi za mavuto, kukayikira komanso kutopa m'maganizo. Ndandanda ya manambala othandizira mavuto a m'maiko 2101 ndi kufunika kwa moyo wanu."
+    "description": "Malo otetezeka apadziko lonse a nthawi za mavuto, kukayikira komanso kutopa m'maganizo. Ndandanda ya manambala othandizira mavuto a m'maiko 250+ ndi kufunika kwa moyo wanu."
   },
   "nav": {
     "tagline": "Muli ofunika. Mukufunika.",
@@ -71,7 +71,7 @@ export const ny: TranslationDictionary = {
   "crisis": {
     "badge": "Thandizo la Mavuto la 24/7",
     "title": "Ndandanda ya Manambala Othandizira Mavuto Padziko Lonse",
-    "subtitle": "Thandizo laulere, lachinsinsi komanso la 24/7 m'maiko ndi m'madera opitilira 2101. Simuli nokha konse.",
+    "subtitle": "Thandizo laulere, lachinsinsi komanso la 24/7 m'maiko ndi m'madera opitilira 250+. Simuli nokha konse.",
     "modeSelf": "Ndili pachiwopsezo",
     "modeOther": "Wina ali pachiwopsezo",
     "anchorTitle": "Chitsogozo Chadzidzidzi cha Masitepe 3",

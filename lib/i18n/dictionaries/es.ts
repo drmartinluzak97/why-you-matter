@@ -3,7 +3,7 @@ import { TranslationDictionary } from "../types";
 export const es: TranslationDictionary = {
   "meta": {
     "title": "Por qué importas | Eres irreemplazable",
-    "description": "Un santuario global para momentos de crisis, duda y agotamiento mental. Directorio de líneas de ayuda para 2101 países, herramientas de calma y razones por las que tu vida importa."
+    "description": "Un santuario global para momentos de crisis, duda y agotamiento mental. Directorio de líneas de ayuda para 250+ países, herramientas de calma y razones por las que tu vida importa."
   },
   "nav": {
     "tagline": "Eres insustituible. Eres necesario.",

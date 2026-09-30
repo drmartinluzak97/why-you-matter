@@ -3,7 +3,7 @@ import { TranslationDictionary } from "../types";
 export const sn: TranslationDictionary = {
   "meta": {
     "title": "Sei Uchikosha | Haufananidzwe Nemunhu",
-    "description": "Nzvimbo yakachengeteka yepasi rose yenguva dzenhamo, kusava nechokwadi uye kuneta kwepfungwa. Rondedzero yenhamba dzekubatsira dzenhamo dzemunyika dzinopfuura 2101 nekukosha kwehupenyu hwako."
+    "description": "Nzvimbo yakachengeteka yepasi rose yenguva dzenhamo, kusava nechokwadi uye kuneta kwepfungwa. Rondedzero yenhamba dzekubatsira dzenhamo dzemunyika dzinopfuura 250+ nekukosha kwehupenyu hwako."
   },
   "nav": {
     "tagline": "Unokosha. Unodiwa.",
@@ -71,7 +71,7 @@ export const sn: TranslationDictionary = {
   "crisis": {
     "badge": "Rutsigiro Rwemunjodzi rwe 24/7",
     "title": "Rondedzero Yenhamba Dzerubatsiro Dzenhamo Pasi Rose",
-    "subtitle": "Rutsigiro rwemahara, rwakavanzika uye rwe 24/7 munyika nenzvimbo dzinodarika 2101. Haufi wakambova wega.",
+    "subtitle": "Rutsigiro rwemahara, rwakavanzika uye rwe 24/7 munyika nenzvimbo dzinodarika 250+. Haufi wakambova wega.",
     "modeSelf": "Ndiri munjodzi",
     "modeOther": "Mumwe munhu ari munjodzi",
     "anchorTitle": "Nheyo Yekukurumidzira yeMatanho e 3",

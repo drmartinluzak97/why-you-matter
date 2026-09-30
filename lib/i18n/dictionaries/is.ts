@@ -19,7 +19,7 @@ export const is: TranslationDictionary = {
     "motivationTitle": "Explore deeper motivation & psychological reframing",
     "disguise": "Dulargervi",
     "disguiseTitle": "Disguise this screen as a work document immediately",
-    "languageCountNotice": "50 heimstungumál • Tafarlaus þýðing",
+    "languageCountNotice": "101 alþjóðleg tungumál • Tafarlaus þýðing",
     "geoDetectionEnabled": "Sjálfvirk staðsetningargreining virk",
     "clearSearch": "Hreinsa"
   },

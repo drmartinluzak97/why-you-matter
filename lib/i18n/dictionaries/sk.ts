@@ -3,7 +3,7 @@ import { TranslationDictionary } from "../types";
 export const sk: TranslationDictionary = {
   "meta": {
     "title": "Prečo na tebe záleží | Si nenahraditeľný",
-    "description": "Globálne útočisko pre chvíle krízy, pochybností a psychického vyčerpania. Adresár liniek pomoci pre 2101 krajín, upokojujúce nástroje a dôvody, prečo na tvojom živote záleží."
+    "description": "Globálne útočisko pre chvíle krízy, pochybností a psychického vyčerpania. Adresár liniek pomoci pre 250+ krajín, upokojujúce nástroje a dôvody, prečo na tvojom živote záleží."
   },
   "nav": {
     "tagline": "Si nenahraditeľný. Máš zmysel.",
@@ -71,7 +71,7 @@ export const sk: TranslationDictionary = {
   "crisis": {
     "badge": "Okamžitá krízová podpora 24/7",
     "title": "Globálny adresár krízových liniek",
-    "subtitle": "Bezplatná, anonymná a nepretržitá podpora pre 2101 krajín a území. Nikdy na to nie si sám.",
+    "subtitle": "Bezplatná, anonymná a nepretržitá podpora pre 250+ krajín a území. Nikdy na to nie si sám.",
     "modeSelf": "Som v ohrození",
     "modeOther": "Niekto iný je v ohrození",
     "anchorTitle": "Trojkroková záchranná kotva",

@@ -3,7 +3,7 @@ import { TranslationDictionary } from "../types";
 export const so: TranslationDictionary = {
   "meta": {
     "title": "Sababta Aad Muhiim U Tahay | Wax Lagugu Bedeli Karo Ma Jirto",
-    "description": "Goob ammaan ah oo caalami ah oo loogu talagalay xilliyada dhibaatada, shakiga iyo daalka maskaxda. Buugga xarumaha gurmadka 2101 dal iyo sababta jiritaankaagu muhiim u yahay."
+    "description": "Goob ammaan ah oo caalami ah oo loogu talagalay xilliyada dhibaatada, shakiga iyo daalka maskaxda. Buugga xarumaha gurmadka 250+ dal iyo sababta jiritaankaagu muhiim u yahay."
   },
   "nav": {
     "tagline": "Waad muhiim tahay. Waa laguu baahan yahay.",

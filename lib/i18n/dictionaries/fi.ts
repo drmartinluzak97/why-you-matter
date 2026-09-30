@@ -19,7 +19,7 @@ export const fi: TranslationDictionary = {
     "motivationTitle": "Löydä syvempää motivaatiota ja uusia näkökulmia",
     "disguise": "Naamiointi",
     "disguiseTitle": "Piilota tämä näyttö heti työdokumentiksi",
-    "languageCountNotice": "50 maailmankieltä • Välitön käännös",
+    "languageCountNotice": "101 maailman kieltä • Välitön käännös",
     "geoDetectionEnabled": "Automaattinen sijainnintunnistus käytössä",
     "clearSearch": "Tyhjennä"
   },

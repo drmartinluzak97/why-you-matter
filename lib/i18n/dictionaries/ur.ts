@@ -19,7 +19,7 @@ export const ur: TranslationDictionary = {
     "motivationTitle": "Explore deeper motivation & psychological reframing",
     "disguise": "چھپائیں",
     "disguiseTitle": "Disguise this screen as a work document immediately",
-    "languageCountNotice": "50 عالمی زبانیں • فوری ترجمہ",
+    "languageCountNotice": "101 عالمی زبانیں • فوری ترجمہ",
     "geoDetectionEnabled": "خودکار جغرافیائی شناخت فعال ہے",
     "clearSearch": "صاف کریں"
   },

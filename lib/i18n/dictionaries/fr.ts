@@ -3,7 +3,7 @@ import { TranslationDictionary } from "../types";
 export const fr: TranslationDictionary = {
   "meta": {
     "title": "Pourquoi vous comptez | Vous êtes irremplaçable",
-    "description": "Un sanctuaire mondial pour les moments de crise et d'épuisement mental. Répertoire d'aide pour 2101 pays, outils d'apaisement et raisons pour lesquelles votre vie compte."
+    "description": "Un sanctuaire mondial pour les moments de crise et d'épuisement mental. Répertoire d'aide pour 250+ pays, outils d'apaisement et raisons pour lesquelles votre vie compte."
   },
   "nav": {
     "tagline": "Tu es irremplaçable. Tu as de la valeur.",
@@ -19,7 +19,7 @@ export const fr: TranslationDictionary = {
     "motivationTitle": "Explorer une motivation profonde et des perspectives éclairantes",
     "disguise": "Camouflage",
     "disguiseTitle": "Masquer immédiatement cet écran sous un document de travail",
-    "languageCountNotice": "50 langues mondiales • Traduction instantanée",
+    "languageCountNotice": "101 langues mondiales • Traduction instantanée",
     "geoDetectionEnabled": "Géo-détection automatique activée",
     "clearSearch": "Effacer"
   },

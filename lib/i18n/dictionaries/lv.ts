@@ -19,7 +19,7 @@ export const lv: TranslationDictionary = {
     "motivationTitle": "Explore deeper motivation & psychological reframing",
     "disguise": "Maskēšanās",
     "disguiseTitle": "Disguise this screen as a work document immediately",
-    "languageCountNotice": "50 pasaules valodas • Tūlītējs tulkojums",
+    "languageCountNotice": "101 pasaules valoda • Tūlītējs tulkojums",
     "geoDetectionEnabled": "Automātiskā ģeolokācijas noteikšana aktīva",
     "clearSearch": "Notīrīt"
   },

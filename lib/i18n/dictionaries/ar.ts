@@ -19,7 +19,7 @@ export const ar: TranslationDictionary = {
     "motivationTitle": "استكشف الدوافع العميقة والرؤى النفسية للحياة",
     "disguise": "تمويه الشاشة",
     "disguiseTitle": "إخفاء هذه الشاشة فوراً وتحويلها لمستند عمل",
-    "languageCountNotice": "50 لغة عالمية • ترجمة فورية",
+    "languageCountNotice": "101 لغة عالمية • ترجمة فورية",
     "geoDetectionEnabled": "تم تفعيل التحديد التلقائي للموقع",
     "clearSearch": "مسح"
   },

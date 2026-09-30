@@ -3,7 +3,7 @@ import { TranslationDictionary } from "../types";
 export const ln: TranslationDictionary = {
   "meta": {
     "title": "Ntina Nini Ozali na Mwango | Moto Moko Te Ako Koka Kozwa Esika na Yo",
-    "description": "Esika ya kimya mpe ya kobombama mpo na mikolo ya mpasi, ntembe mpe kolɛmba ya makanisi. Biyano ya telefone mpo na kopesa lisungi na mikili koleka 2101 mpe ntina ya bomoi na yo."
+    "description": "Esika ya kimya mpe ya kobombama mpo na mikolo ya mpasi, ntembe mpe kolɛmba ya makanisi. Biyano ya telefone mpo na kopesa lisungi na mikili koleka 250+ mpe ntina ya bomoi na yo."
   },
   "nav": {
     "tagline": "Ozali na ntina. Tozali na mposa na yo.",
@@ -71,7 +71,7 @@ export const ln: TranslationDictionary = {
   "crisis": {
     "badge": "Lisungi ya Mbalakaka 24/7",
     "title": "Buku ya Batelefone ya Lisungi na Mokili Mobimba",
-    "subtitle": "Lisungi ya ofele, ya kobombama mpe ya 24/7 na mikili mpe bituka koleka 2101. Ozali yo moko te ata moke.",
+    "subtitle": "Lisungi ya ofele, ya kobombama mpe ya 24/7 na mikili mpe bituka koleka 250+. Ozali yo moko te ata moke.",
     "modeSelf": "Nazali na likama",
     "modeOther": "Moto mosusu azali na likama",
     "anchorTitle": "Esimbelo ya Mbalakaka ya Matambe 3",

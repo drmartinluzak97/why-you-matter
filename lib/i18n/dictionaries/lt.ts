@@ -19,7 +19,7 @@ export const lt: TranslationDictionary = {
     "motivationTitle": "Explore deeper motivation & psychological reframing",
     "disguise": "Maskuotė",
     "disguiseTitle": "Disguise this screen as a work document immediately",
-    "languageCountNotice": "50 pasaulio kalbų • Momentinis vertimas",
+    "languageCountNotice": "101 pasaulio kalba • Momentinis vertimas",
     "geoDetectionEnabled": "Automatinis vietos nustatymas įjungtas",
     "clearSearch": "Išvalyti"
   },

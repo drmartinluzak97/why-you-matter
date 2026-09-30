@@ -3,7 +3,7 @@ import { TranslationDictionary } from "../types";
 export const yo: TranslationDictionary = {
   "meta": {
     "title": "Ìdí Tí O Fi Ṣe Pàtàkì | O Kò Lè Rọ́pò",
-    "description": "Ibi ààbò káríayé fún àwọn àkókò ìpọ́njú, iyèméjì àti àárẹ̀ ọpọlọ. Ìwé àkójọ nọ́mbà ìrànwọ́ ìpọ́njú ti àwọn orílẹ̀-èdè 2101 àti ìdí tí wíwà rẹ fi ṣe pàtàkì."
+    "description": "Ibi ààbò káríayé fún àwọn àkókò ìpọ́njú, iyèméjì àti àárẹ̀ ọpọlọ. Ìwé àkójọ nọ́mbà ìrànwọ́ ìpọ́njú ti àwọn orílẹ̀-èdè 250+ àti ìdí tí wíwà rẹ fi ṣe pàtàkì."
   },
   "nav": {
     "tagline": "O ṣe pàtàkì. A nílò rẹ.",
@@ -71,7 +71,7 @@ export const yo: TranslationDictionary = {
   "crisis": {
     "badge": "Ìrànwọ́ Ìpọ́njú 24/7",
     "title": "Ìwé Àkójọ Nọ́mbà Ìrànwọ́ Ìpọ́njú Káríayé",
-    "subtitle": "Ìrànwọ́ ọ̀fẹ́, àṣírí àti 24/7 ní àwọn orílẹ̀-èdè àti agbègbè 2101. O kò dá wà láé.",
+    "subtitle": "Ìrànwọ́ ọ̀fẹ́, àṣírí àti 24/7 ní àwọn orílẹ̀-èdè àti agbègbè 250+. O kò dá wà láé.",
     "modeSelf": "Mo wà nínú ewu",
     "modeOther": "Ẹlòmíràn wà nínú ewu",
     "anchorTitle": "Ìdákọ̀ró Pàjáwìrì Ìgbésẹ̀ 3",

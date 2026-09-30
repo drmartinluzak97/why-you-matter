@@ -3,7 +3,7 @@ import { TranslationDictionary } from "../types";
 export const ig: TranslationDictionary = {
   "meta": {
     "title": "Ihe Mere I Ji Dị Mkpa | Enweghị Onye Pụrụ Idachi Anya Gị",
-    "description": "Ebe mgbaba zuru ụwa ọnụ maka oge ọgba aghara, obi abụọ na ядра uche. Ndepụta akara enyemaka nsogbu nke mba 2101 na ihe kpatara ịdị adị gị ji dị mkpa."
+    "description": "Ebe mgbaba zuru ụwa ọnụ maka oge ọgba aghara, obi abụọ na ядра uche. Ndepụta akara enyemaka nsogbu nke mba 250+ na ihe kpatara ịdị adị gị ji dị mkpa."
   },
   "nav": {
     "tagline": "I dị mkpa. A chọrọ gị.",
@@ -71,7 +71,7 @@ export const ig: TranslationDictionary = {
   "crisis": {
     "badge": "Nkwado Nsogbu Mberede 24/7",
     "title": "Ndepụta Akara Enyemaka Nsogbu Zuru Ụwa Ọnụ",
-    "subtitle": "Nkwado n'efu, nke nzuzo na 24/7 n'ime mba na mpaghara 2101. Ị nọghị naanị gị mgbe ọ bụla.",
+    "subtitle": "Nkwado n'efu, nke nzuzo na 24/7 n'ime mba na mpaghara 250+. Ị nọghị naanị gị mgbe ọ bụla.",
     "modeSelf": "Anọ m n'ihe egwu",
     "modeOther": "Onye ọzọ nọ n'ihe egwu",
     "anchorTitle": "Arịlịka Mberede nke Nzọụkwụ 3",

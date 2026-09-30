@@ -3,7 +3,7 @@ import { TranslationDictionary } from "../types";
 export const zu: TranslationDictionary = {
   "meta": {
     "title": "Kungani Ubalulekile | Awunakushintshwa Muntu",
-    "description": "Indawo ephephile yomhlaba wonke yezikhathi zobunzima, ukungabaza nokukhathala kwengqondo. Uhla lwezinombolo zosizo lwezinhlekelele zamazwe angu-2101 nokubaluleka kwempilo yakho."
+    "description": "Indawo ephephile yomhlaba wonke yezikhathi zobunzima, ukungabaza nokukhathala kwengqondo. Uhla lwezinombolo zosizo lwezinhlekelele zamazwe angu-250+ nokubaluleka kwempilo yakho."
   },
   "nav": {
     "tagline": "Ubalulekile. Uyadingeka.",

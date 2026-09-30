@@ -3,7 +3,7 @@ import { TranslationDictionary } from "../types";
 export const id: TranslationDictionary = {
   "meta": {
     "title": "Mengapa Kamu Berarti | Kamu Tak Tergantikan",
-    "description": "Suaka global untuk saat-saat krisis, keraguan, dan kelelahan mental. Direktori saluran bantuan 2101 negara, alat penenang, dan alasan mengapa hidupmu berharga."
+    "description": "Suaka global untuk saat-saat krisis, keraguan, dan kelelahan mental. Direktori saluran bantuan 250+ negara, alat penenang, dan alasan mengapa hidupmu berharga."
   },
   "nav": {
     "tagline": "Kamu tak tergantikan. Dunia membutuhkanmu.",
@@ -19,7 +19,7 @@ export const id: TranslationDictionary = {
     "motivationTitle": "Jelajahi motivasi mendalam dan perspektif psikologis",
     "disguise": "Penyamaran",
     "disguiseTitle": "Samarkan layar ini sebagai dokumen kerja seketika",
-    "languageCountNotice": "50 Bahasa Global • Terjemahan Instan",
+    "languageCountNotice": "101 Bahasa Global • Terjemahan Instan",
     "geoDetectionEnabled": "Deteksi Geo Otomatis Aktif",
     "clearSearch": "Hapus"
   },
@@ -71,7 +71,7 @@ export const id: TranslationDictionary = {
   "crisis": {
     "badge": "Dukungan Krisis 24/7",
     "title": "Direktori Saluran Bantuan Krisis Global",
-    "subtitle": "Bantuan gratis, rahasia, dan 24/7 di 2101 negara dan wilayah. Kamu tidak pernah sendirian.",
+    "subtitle": "Bantuan gratis, rahasia, dan 24/7 di 250+ negara dan wilayah. Kamu tidak pernah sendirian.",
     "modeSelf": "Saya dalam bahaya",
     "modeOther": "Orang lain dalam bahaya",
     "anchorTitle": "Jangkar Darurat 3 Langkah",

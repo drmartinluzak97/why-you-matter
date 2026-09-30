@@ -3,7 +3,7 @@ import { TranslationDictionary } from "../types";
 export const ro: TranslationDictionary = {
   "meta": {
     "title": "De Ce Contezi | Ești De Neînlocuit",
-    "description": "Un sanctuar global pentru momente de criză, îndoială și epuizare emoțională. Linii de ajutor pentru 2101 țări, exerciții de ancorare și motive pentru care viața ta contează."
+    "description": "Un sanctuar global pentru momente de criză, îndoială și epuizare emoțională. Linii de ajutor pentru 250+ țări, exerciții de ancorare și motive pentru care viața ta contează."
   },
   "nav": {
     "tagline": "Ești de neînlocuit. Este nevoie de tine.",
@@ -19,7 +19,7 @@ export const ro: TranslationDictionary = {
     "motivationTitle": "Descoperă motivația profundă și perspective psihologice",
     "disguise": "Camuflaj",
     "disguiseTitle": "Ascunde imediat acest ecran sub un document de lucru",
-    "languageCountNotice": "50 de limbi globale • Traducere instantanee",
+    "languageCountNotice": "101 de limbi globale • Traducere instantanee",
     "geoDetectionEnabled": "Detectare geografică automată activată",
     "clearSearch": "Șterge"
   },
