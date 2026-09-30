@@ -139,7 +139,7 @@ export function MotivationHub({ initialCountryCode }: MotivationHubProps) {
         </Link>
       </div>
 
-      {/* Hero Header */}
+      {/* 1. Hero Header */}
       <div className="text-center space-y-4 max-w-3xl mx-auto">
         <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-purple-500/15 text-purple-300 text-xs font-semibold tracking-wide border border-purple-500/30 shadow-sm">
           <Sparkles className="w-4 h-4 text-purple-400" />
@@ -156,9 +156,31 @@ export function MotivationHub({ initialCountryCode }: MotivationHubProps) {
         </p>
       </div>
 
-      {/* ======================================================== */}
-      {/* TYPE 1: GEO-HERO SPOTLIGHT ("Hlas z tvojej krajiny")     */}
-      {/* ======================================================== */}
+      {/* 2. 4 Psychological Pillars Grid (Placed FIRST, before quotes/heroes) */}
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+        {pillars.map((p, idx) => {
+          const Icon = p.icon;
+          return (
+            <div
+              key={idx}
+              className="p-6 rounded-3xl bg-slate-900/70 border border-slate-800 space-y-3 glass-panel hover:border-slate-700 transition-all"
+            >
+              <div className={`w-10 h-10 rounded-xl flex items-center justify-center border ${p.color}`}>
+                <Icon className="w-5 h-5" />
+              </div>
+              <h3 className="text-lg font-bold text-white">{p.title}</h3>
+              <p className="text-xs sm:text-sm text-slate-300 leading-relaxed">{p.desc}</p>
+            </div>
+          );
+        })}
+      </div>
+
+      {/* 3. Sublimation & Alchemy of Mind Section */}
+      <div className="p-6 sm:p-8 rounded-3xl bg-gradient-to-b from-purple-950/30 via-slate-900/80 to-slate-950 border border-purple-500/30 glass-panel space-y-6">
+        <SublimationCards />
+      </div>
+
+      {/* 4. TYPE 1: GEO-HERO SPOTLIGHT ("Hlas z tvojej krajiny") */}
       <div className="relative rounded-3xl bg-gradient-to-br from-purple-950/40 via-slate-900/90 to-slate-950 border border-purple-500/40 p-6 sm:p-8 shadow-2xl shadow-purple-950/40 backdrop-blur-xl space-y-6">
         <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-b border-purple-500/20 pb-4">
           <div className="flex items-center gap-3">
@@ -245,9 +267,7 @@ export function MotivationHub({ initialCountryCode }: MotivationHubProps) {
         </div>
       </div>
 
-      {/* ======================================================== */}
-      {/* FEATURED GLOBAL TITANS (NICK VUJICIC, FRANKL, MANDELA...)*/}
-      {/* ======================================================== */}
+      {/* 5. FEATURED GLOBAL TITANS (NICK VUJICIC, FRANKL, MANDELA...) */}
       <div className="space-y-6">
         <div className="flex items-center justify-between">
           <div>
@@ -301,33 +321,7 @@ export function MotivationHub({ initialCountryCode }: MotivationHubProps) {
         </div>
       </div>
 
-      {/* 4 Psychological Pillars Grid */}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 pt-4">
-        {pillars.map((p, idx) => {
-          const Icon = p.icon;
-          return (
-            <div
-              key={idx}
-              className="p-6 rounded-3xl bg-slate-900/70 border border-slate-800 space-y-3 glass-panel hover:border-slate-700 transition-all"
-            >
-              <div className={`w-10 h-10 rounded-xl flex items-center justify-center border ${p.color}`}>
-                <Icon className="w-5 h-5" />
-              </div>
-              <h3 className="text-lg font-bold text-white">{p.title}</h3>
-              <p className="text-xs sm:text-sm text-slate-300 leading-relaxed">{p.desc}</p>
-            </div>
-          );
-        })}
-      </div>
-
-      {/* Sublimation & Cards Component */}
-      <div className="p-6 sm:p-8 rounded-3xl bg-gradient-to-b from-purple-950/30 via-slate-900/80 to-slate-950 border border-purple-500/30 glass-panel space-y-6">
-        <SublimationCards />
-      </div>
-
-      {/* ======================================================== */}
-      {/* ALL REGIONS & CONTINENTAL GALLERY                        */}
-      {/* ======================================================== */}
+      {/* 6. ALL REGIONS & CONTINENTAL GALLERY */}
       <div className="space-y-6 pt-4">
         <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
           <div>
@@ -411,7 +405,7 @@ export function MotivationHub({ initialCountryCode }: MotivationHubProps) {
         </div>
       </div>
 
-      {/* Grounding & Help CTA Box */}
+      {/* 7. Grounding & Help CTA Box */}
       <div className="p-8 rounded-3xl bg-gradient-to-r from-sky-950/40 via-purple-950/40 to-slate-900 border border-purple-500/30 text-center space-y-4">
         <h2 className="text-lg font-bold text-white">
           {mp.cta.title}
