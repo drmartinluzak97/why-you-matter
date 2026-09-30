@@ -278,6 +278,8 @@ export const my: TranslationDictionary = {
       "oceania": "🌊 Oceania"
     },
     "pillars": {
+      "title": "ကြံ့ကြံ့ခံနိုင်စွမ်း၏ အဓိကမဏ္ဍိုင် ၃ ခု",
+      "badge": "သက်သေပြမူများ",
       "survivalTitle": "100% Survival Rate",
       "survivalDesc": "You have survived every panic attack, every heartbreak, and every dark night you thought you wouldn't. Your resilience is already proven by facts.",
       "noiseTitle": "Cognitive Noise vs. Truth",

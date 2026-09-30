@@ -278,6 +278,8 @@ export const yo: TranslationDictionary = {
       "oceania": "🌊 Oceania"
     },
     "pillars": {
+      "title": "Awọn Origun Pataki 3 ti Idaduro",
+      "badge": "Awọn Ilana Ti A Fihan",
       "survivalTitle": "100% Survival Rate",
       "survivalDesc": "You have survived every panic attack, every heartbreak, and every dark night you thought you wouldn't. Your resilience is already proven by facts.",
       "noiseTitle": "Cognitive Noise vs. Truth",

@@ -278,6 +278,8 @@ export const ml: TranslationDictionary = {
       "oceania": "🌊 Oceania"
     },
     "pillars": {
+      "title": "പ്രതിരോധശേഷിയുടെ 3 പ്രധാന സ്തംഭങ്ങൾ",
+      "badge": "തെളിയിക്കപ്പെട്ട തത്വങ്ങൾ",
       "survivalTitle": "100% Survival Rate",
       "survivalDesc": "You have survived every panic attack, every heartbreak, and every dark night you thought you wouldn't. Your resilience is already proven by facts.",
       "noiseTitle": "Cognitive Noise vs. Truth",

@@ -278,6 +278,8 @@ export const cs: TranslationDictionary = {
       "oceania": "🌊 Oceánie"
     },
     "pillars": {
+      "title": "3 Základní Pilíře Odolnosti",
+      "badge": "Ověřené principy",
       "survivalTitle": "100% Úspěšnost přežití",
       "survivalDesc": "Přežil jsi každou paniku, každé zlomené srdce a každou temnou noc. Tvá odolnost je již dokázána fakty.",
       "noiseTitle": "Kognitivní šum vs. Pravda",

@@ -278,6 +278,8 @@ export const ha: TranslationDictionary = {
       "oceania": "🌊 Oceania"
     },
     "pillars": {
+      "title": "Manya Rukunai 3 Na Juriya",
+      "badge": "Tabbattattun Ka'idoji",
       "survivalTitle": "100% Survival Rate",
       "survivalDesc": "You have survived every panic attack, every heartbreak, and every dark night you thought you wouldn't. Your resilience is already proven by facts.",
       "noiseTitle": "Cognitive Noise vs. Truth",

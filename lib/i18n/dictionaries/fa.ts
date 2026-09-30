@@ -278,6 +278,8 @@ export const fa: TranslationDictionary = {
       "oceania": "🌊 Oceania"
     },
     "pillars": {
+      "title": "۳ ستون اصلی تاب‌آوری",
+      "badge": "اصول اثبات شده",
       "survivalTitle": "100% Survival Rate",
       "survivalDesc": "You have survived every panic attack, every heartbreak, and every dark night you thought you wouldn't. Your resilience is already proven by facts.",
       "noiseTitle": "Cognitive Noise vs. Truth",

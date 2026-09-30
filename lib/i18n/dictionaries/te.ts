@@ -278,6 +278,8 @@ export const te: TranslationDictionary = {
       "oceania": "🌊 Oceania"
     },
     "pillars": {
+      "title": "స్థితిస్థాపకత యొక్క 3 ముఖ్య స్తంభాలు",
+      "badge": "నిరూపితమైన సూత్రాలు",
       "survivalTitle": "100% Survival Rate",
       "survivalDesc": "You have survived every panic attack, every heartbreak, and every dark night you thought you wouldn't. Your resilience is already proven by facts.",
       "noiseTitle": "Cognitive Noise vs. Truth",

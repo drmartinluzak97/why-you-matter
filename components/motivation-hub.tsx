@@ -89,23 +89,15 @@ export function MotivationHub({ initialCountryCode }: MotivationHubProps) {
     return list;
   }, [activeContinent, searchQuery, langKey, locale]);
 
-  // 4 Psychological Pillars
+  // 3 Psychological Pillars (Cognitive Noise, Unwritten Chapters, Alchemy of Pain)
   const pillars = useMemo(() => {
     if (!mp) return [];
     return [
       {
-        title: mp.pillars.survivalTitle,
-        desc: mp.pillars.survivalDesc,
-        icon: Shield,
-        badge: "01",
-        color: "text-emerald-400 bg-emerald-500/10 border-emerald-500/30",
-        glow: "hover:border-emerald-500/40 hover:shadow-emerald-950/20",
-      },
-      {
         title: mp.pillars.noiseTitle,
         desc: mp.pillars.noiseDesc,
         icon: Brain,
-        badge: "02",
+        badge: "01",
         color: "text-sky-400 bg-sky-500/10 border-sky-500/30",
         glow: "hover:border-sky-500/40 hover:shadow-sky-950/20",
       },
@@ -113,7 +105,7 @@ export function MotivationHub({ initialCountryCode }: MotivationHubProps) {
         title: mp.pillars.chaptersTitle,
         desc: mp.pillars.chaptersDesc,
         icon: SunMedium,
-        badge: "03",
+        badge: "02",
         color: "text-amber-400 bg-amber-500/10 border-amber-500/30",
         glow: "hover:border-amber-500/40 hover:shadow-amber-950/20",
       },
@@ -121,7 +113,7 @@ export function MotivationHub({ initialCountryCode }: MotivationHubProps) {
         title: mp.pillars.alchemyTitle,
         desc: mp.pillars.alchemyDesc,
         icon: Flame,
-        badge: "04",
+        badge: "03",
         color: "text-purple-400 bg-purple-500/10 border-purple-500/30",
         glow: "hover:border-purple-500/40 hover:shadow-purple-950/20",
       },
@@ -249,15 +241,15 @@ export function MotivationHub({ initialCountryCode }: MotivationHubProps) {
           </div>
         </div>
 
-        {/* RIGHT BENTO BLOCK (5 Columns): 4 Psychological Pillars Bento Grid */}
+        {/* RIGHT BENTO BLOCK (5 Columns): 3 Psychological Pillars Bento Grid */}
         <div className="lg:col-span-5 flex flex-col justify-between space-y-4">
           <div className="flex items-center justify-between pb-1">
             <h3 className="text-sm font-bold text-slate-300 uppercase tracking-wider flex items-center gap-2">
               <Shield className="w-4 h-4 text-purple-400" />
-              <span>4 Základné Piliere Odolnosti</span>
+              <span>{mp.pillars.title}</span>
             </h3>
             <span className="text-[10px] font-mono text-purple-400 bg-purple-950/60 border border-purple-800/40 px-2 py-0.5 rounded-md">
-              Overené princípy
+              {mp.pillars.badge}
             </span>
           </div>
 

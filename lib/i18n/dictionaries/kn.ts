@@ -278,6 +278,8 @@ export const kn: TranslationDictionary = {
       "oceania": "🌊 Oceania"
     },
     "pillars": {
+      "title": "ಸ್ಥಿತಿಸ್ಥಾಪಕತ್ವದ 3 ಮುಖ್ಯ ಸ್ತಂಭಗಳು",
+      "badge": "ಸಾಬೀತಾದ ತತ್ವಗಳು",
       "survivalTitle": "100% Survival Rate",
       "survivalDesc": "You have survived every panic attack, every heartbreak, and every dark night you thought you wouldn't. Your resilience is already proven by facts.",
       "noiseTitle": "Cognitive Noise vs. Truth",

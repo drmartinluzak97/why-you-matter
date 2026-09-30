@@ -338,8 +338,10 @@ export interface TranslationDictionary {
       oceania: string;
     };
     pillars: {
-      survivalTitle: string;
-      survivalDesc: string;
+      title: string;
+      badge: string;
+      survivalTitle?: string;
+      survivalDesc?: string;
       noiseTitle: string;
       noiseDesc: string;
       chaptersTitle: string;

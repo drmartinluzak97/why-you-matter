@@ -278,6 +278,8 @@ export const az: TranslationDictionary = {
       "oceania": "🌊 Oceania"
     },
     "pillars": {
+      "title": "Davamlılığın 3 Əsas Sütunu",
+      "badge": "Sübut Edilmiş Prinsiplər",
       "survivalTitle": "100% Survival Rate",
       "survivalDesc": "You have survived every panic attack, every heartbreak, and every dark night you thought you wouldn't. Your resilience is already proven by facts.",
       "noiseTitle": "Cognitive Noise vs. Truth",

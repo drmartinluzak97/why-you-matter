@@ -278,6 +278,8 @@ export const ta: TranslationDictionary = {
       "oceania": "🌊 Oceania"
     },
     "pillars": {
+      "title": "மன உறுதியின் 3 முக்கிய தூண்கள்",
+      "badge": "நிரூபிக்கப்பட்ட கோட்பாடுகள்",
       "survivalTitle": "100% Survival Rate",
       "survivalDesc": "You have survived every panic attack, every heartbreak, and every dark night you thought you wouldn't. Your resilience is already proven by facts.",
       "noiseTitle": "Cognitive Noise vs. Truth",

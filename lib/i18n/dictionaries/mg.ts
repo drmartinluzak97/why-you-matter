@@ -278,6 +278,8 @@ export const mg: TranslationDictionary = {
       "oceania": "🌊 Oceania"
     },
     "pillars": {
+      "title": "Andry 3 Lehibe amin'ny Fiaretana",
+      "badge": "Foto-kevitra Voaporofo",
       "survivalTitle": "100% Survival Rate",
       "survivalDesc": "You have survived every panic attack, every heartbreak, and every dark night you thought you wouldn't. Your resilience is already proven by facts.",
       "noiseTitle": "Cognitive Noise vs. Truth",

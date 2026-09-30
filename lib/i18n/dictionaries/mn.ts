@@ -278,6 +278,8 @@ export const mn: TranslationDictionary = {
       "oceania": "🌊 Oceania"
     },
     "pillars": {
+      "title": "Тэсвэр Хатуужлын 3 Гол Тулгуур",
+      "badge": "Батлагдсан Зарчмууд",
       "survivalTitle": "100% Survival Rate",
       "survivalDesc": "You have survived every panic attack, every heartbreak, and every dark night you thought you wouldn't. Your resilience is already proven by facts.",
       "noiseTitle": "Cognitive Noise vs. Truth",

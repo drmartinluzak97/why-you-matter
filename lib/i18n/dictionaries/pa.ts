@@ -278,6 +278,8 @@ export const pa: TranslationDictionary = {
       "oceania": "🌊 Oceania"
     },
     "pillars": {
+      "title": "ਲਚਕੀਲੇਪਣ ਦੇ ੩ ਮੁੱਖ ਥੰਮ੍ਹ",
+      "badge": "ਪ੍ਰਮਾਣਿਤ ਸਿਧਾਂਤ",
       "survivalTitle": "100% Survival Rate",
       "survivalDesc": "You have survived every panic attack, every heartbreak, and every dark night you thought you wouldn't. Your resilience is already proven by facts.",
       "noiseTitle": "Cognitive Noise vs. Truth",

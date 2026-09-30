@@ -278,6 +278,8 @@ export const de: TranslationDictionary = {
       "oceania": "🌊 Ozeanien"
     },
     "pillars": {
+      "title": "3 Grundpfeiler der Resilienz",
+      "badge": "Bewährte Prinzipien",
       "survivalTitle": "100% Überlebensrate",
       "survivalDesc": "Du hast jede Panikattacke, jeden Herzschmerz und jede dunkle Nacht überstanden. Deine seelische Widerstandskraft ist durch Fakten bewiesen.",
       "noiseTitle": "Kognitives Rauschen vs. Wahrheit",

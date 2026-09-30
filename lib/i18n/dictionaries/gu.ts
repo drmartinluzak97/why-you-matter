@@ -278,6 +278,8 @@ export const gu: TranslationDictionary = {
       "oceania": "🌊 Oceania"
     },
     "pillars": {
+      "title": "સ્થિતિસ્થાપકતાના 3 મુખ્ય સ્તંભો",
+      "badge": "સાબિત થયેલા સિદ્ધાંતો",
       "survivalTitle": "100% Survival Rate",
       "survivalDesc": "You have survived every panic attack, every heartbreak, and every dark night you thought you wouldn't. Your resilience is already proven by facts.",
       "noiseTitle": "Cognitive Noise vs. Truth",
