@@ -27,11 +27,15 @@ export interface MotivationHubProps {
   initialCountryCode?: string;
 }
 
+function getLocalized(record: Record<string, string> | undefined, locale: string): string {
+  if (!record) return "";
+  return record[locale] || record.sk || record.en || Object.values(record)[0] || "";
+}
+
 export function MotivationHub({ initialCountryCode }: MotivationHubProps) {
   const { currentLanguage, locale, t } = useLanguage();
   const mp = t.motivationPage;
   const isSk = locale === "sk";
-  const langKey: "sk" | "en" = isSk ? "sk" : "en";
 
   // Auto-detected country
   const detectedCode = useMemo(() => {
@@ -72,22 +76,24 @@ export function MotivationHub({ initialCountryCode }: MotivationHubProps) {
     if (searchQuery.trim()) {
       const q = searchQuery.toLowerCase().trim();
       list = list.filter((f) => {
+        const cName = getLocalized(f.countryName, locale);
+        const role = getLocalized(f.role, locale);
         const localizedCountry = getLocalizedCountryName(
           f.countryCode,
           locale,
-          f.countryName[langKey] || f.countryName.en
+          cName
         ).toLowerCase();
 
         return (
           f.name.toLowerCase().includes(q) ||
-          f.countryName[langKey].toLowerCase().includes(q) ||
+          cName.toLowerCase().includes(q) ||
           localizedCountry.includes(q) ||
-          f.role[langKey].toLowerCase().includes(q)
+          role.toLowerCase().includes(q)
         );
       });
     }
     return list;
-  }, [activeContinent, searchQuery, langKey, locale]);
+  }, [activeContinent, searchQuery, locale]);
 
   // 3 Psychological Pillars (Cognitive Noise, Unwritten Chapters, Alchemy of Pain)
   const pillars = useMemo(() => {
@@ -125,7 +131,7 @@ export function MotivationHub({ initialCountryCode }: MotivationHubProps) {
   const spotlightCountryName = getLocalizedCountryName(
     spotlightFigure.countryCode,
     locale,
-    spotlightFigure.countryName[langKey] || spotlightFigure.countryName.en
+    getLocalized(spotlightFigure.countryName, locale)
   );
 
   return (
@@ -181,7 +187,7 @@ export function MotivationHub({ initialCountryCode }: MotivationHubProps) {
                     {spotlightFigure.name}
                   </h2>
                   <p className="text-xs text-slate-400">
-                    {spotlightCountryName} • {spotlightFigure.role[langKey] || spotlightFigure.role.sk || spotlightFigure.role.en}
+                    {spotlightCountryName} • {getLocalized(spotlightFigure.role, locale)}
                   </p>
                 </div>
               </div>
@@ -198,7 +204,7 @@ export function MotivationHub({ initialCountryCode }: MotivationHubProps) {
                     const locName = getLocalizedCountryName(
                       f.countryCode,
                       locale,
-                      f.countryName[langKey] || f.countryName.en
+                      getLocalized(f.countryName, locale)
                     );
                     return (
                       <option key={f.id} value={f.countryCode}>
@@ -215,17 +221,17 @@ export function MotivationHub({ initialCountryCode }: MotivationHubProps) {
               <div className="p-4 rounded-2xl bg-purple-950/30 border border-purple-500/30 relative">
                 <Quote className="w-6 h-6 text-purple-400/30 absolute right-3 top-3 pointer-events-none" />
                 <p className="text-sm sm:text-base text-purple-100 font-serif italic leading-relaxed pr-6">
-                  "{spotlightFigure.quote[langKey] || spotlightFigure.quote.sk || spotlightFigure.quote.en}"
+                  "{getLocalized(spotlightFigure.quote, locale)}"
                 </p>
               </div>
 
               <div className="text-xs sm:text-sm text-slate-300 space-y-1.5 leading-relaxed bg-slate-900/70 p-3.5 rounded-2xl border border-slate-800">
                 <p>
                   <strong className="text-slate-200">{mp.spotlightAdversity}:</strong>{" "}
-                  {spotlightFigure.adversity[langKey] || spotlightFigure.adversity.sk || spotlightFigure.adversity.en}
+                  {getLocalized(spotlightFigure.adversity, locale)}
                 </p>
                 <p className="text-slate-400 text-xs pt-1 border-t border-slate-800/80">
-                  {spotlightFigure.transformation[langKey] || spotlightFigure.transformation.sk || spotlightFigure.transformation.en}
+                  {getLocalized(spotlightFigure.transformation, locale)}
                 </p>
               </div>
             </div>
@@ -235,7 +241,7 @@ export function MotivationHub({ initialCountryCode }: MotivationHubProps) {
               <CheckCircle2 className="w-4 h-4 text-purple-400 shrink-0" />
               <span>
                 <strong className="text-white">{mp.spotlightTakeaway}:</strong>{" "}
-                {spotlightFigure.takeaway[langKey] || spotlightFigure.takeaway.sk || spotlightFigure.takeaway.en}
+                {getLocalized(spotlightFigure.takeaway, locale)}
               </span>
             </div>
           </div>
@@ -306,7 +312,7 @@ export function MotivationHub({ initialCountryCode }: MotivationHubProps) {
             </p>
           </div>
           <span className="text-xs font-mono text-purple-400 bg-purple-950/60 border border-purple-800/40 px-2.5 py-1 rounded-full self-start sm:self-auto">
-            {globalTitans.length} Svetových Velikánov
+            {globalTitans.length} {mp.globalTitansTitle}
           </span>
         </div>
 
@@ -316,7 +322,7 @@ export function MotivationHub({ initialCountryCode }: MotivationHubProps) {
             const locCountry = getLocalizedCountryName(
               figure.countryCode,
               locale,
-              figure.countryName[langKey] || figure.countryName.en
+              getLocalized(figure.countryName, locale)
             );
 
             return (
@@ -337,21 +343,21 @@ export function MotivationHub({ initialCountryCode }: MotivationHubProps) {
                       {figure.name}
                     </h3>
                     <p className="text-[11px] text-slate-400 mt-0.5 leading-snug">
-                      {figure.role[langKey] || figure.role.sk || figure.role.en}
+                      {getLocalized(figure.role, locale)}
                     </p>
                   </div>
 
                   <p className="text-xs text-purple-200 italic font-serif leading-relaxed bg-purple-950/30 p-2.5 rounded-xl border border-purple-500/20">
-                    "{figure.quote[langKey] || figure.quote.sk || figure.quote.en}"
+                    "{getLocalized(figure.quote, locale)}"
                   </p>
 
                   <p className="text-[11px] text-slate-300 leading-relaxed line-clamp-4">
-                    {figure.adversity[langKey] || figure.adversity.sk || figure.adversity.en}
+                    {getLocalized(figure.adversity, locale)}
                   </p>
                 </div>
 
                 <div className="pt-3 border-t border-slate-800 text-[11px] text-purple-300 font-medium leading-snug">
-                  💡 {figure.takeaway[langKey] || figure.takeaway.sk || figure.takeaway.en}
+                  💡 {getLocalized(figure.takeaway, locale)}
                 </div>
               </div>
             );
@@ -416,7 +422,7 @@ export function MotivationHub({ initialCountryCode }: MotivationHubProps) {
             const locCountry = getLocalizedCountryName(
               fig.countryCode,
               locale,
-              fig.countryName[langKey] || fig.countryName.en
+              getLocalized(fig.countryName, locale)
             );
 
             return (
@@ -438,16 +444,16 @@ export function MotivationHub({ initialCountryCode }: MotivationHubProps) {
                   </div>
 
                   <p className="text-xs text-purple-200 italic font-serif bg-purple-950/20 p-2 rounded-xl border border-purple-500/10">
-                    "{fig.quote[langKey] || fig.quote.sk || fig.quote.en}"
+                    "{getLocalized(fig.quote, locale)}"
                   </p>
 
                   <p className="text-[11px] text-slate-300 leading-relaxed line-clamp-3">
-                    {fig.adversity[langKey] || fig.adversity.sk || fig.adversity.en}
+                    {getLocalized(fig.adversity, locale)}
                   </p>
                 </div>
 
                 <div className="pt-2 border-t border-slate-800/80 text-[10px] text-purple-300">
-                  💡 {fig.takeaway[langKey] || fig.takeaway.sk || fig.takeaway.en}
+                  💡 {getLocalized(fig.takeaway, locale)}
                 </div>
               </div>
             );

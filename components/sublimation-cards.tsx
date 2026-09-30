@@ -43,14 +43,11 @@ export function SublimationCards() {
       <div className="text-center space-y-1.5 max-w-2xl mx-auto">
         <div className="inline-flex items-center gap-1.5 text-xs font-semibold text-purple-300 bg-purple-500/15 border border-purple-500/30 px-3 py-1 rounded-full">
           <Sparkles className="w-3.5 h-3.5 text-purple-400" />
-          <span>Kognitívna alchýmia & reframing</span>
+          <span>{sub.title}</span>
         </div>
         <h3 className="text-xl sm:text-2xl font-extrabold text-white tracking-tight">
-          {sub.title}
-        </h3>
-        <p className="text-xs sm:text-sm text-slate-300">
           {sub.subtitle}
-        </p>
+        </h3>
       </div>
 
       {/* Desktop 3-column Grid / Mobile Interactive Cards */}
@@ -75,7 +72,7 @@ export function SublimationCards() {
                     <Icon className="w-5 h-5" />
                   </div>
                   <span className="text-[10px] font-mono text-purple-400 uppercase tracking-widest bg-purple-950/60 px-2 py-0.5 rounded-md border border-purple-800/40">
-                    Krok 0{idx + 1}
+                    #0{idx + 1}
                   </span>
                 </div>
 
