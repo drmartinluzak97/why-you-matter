@@ -7,8 +7,11 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.why-you-matter.org"),
-  title: "Why You Matter | You Are Irreplaceable",
-  description: "A global sanctuary for moments of crisis, doubt, and mental exhaustion. 250+ countries & territories crisis directory (ISO 3166-1), grounding tools, and the reasons why your existence matters.",
+  title: {
+    default: "Why You Matter | You Are Irreplaceable",
+    template: "%s | Why You Matter",
+  },
+  description: "A global sanctuary for moments of crisis, doubt, and exhaustion. 250+ countries crisis directory, grounding tools, and reasons why you matter.",
   keywords: [
     "mental health",
     "why you matter",
@@ -23,11 +26,11 @@ export const metadata: Metadata = {
     "ISO 3166-1",
   ],
   alternates: {
-    canonical: "https://www.why-you-matter.org",
+    canonical: "/",
   },
   openGraph: {
     title: "Why You Matter | A Sanctuary in the Dark",
-    description: "Your thoughts are not facts. Your existence changes everything. Global crisis directory across 250+ countries & territories.",
+    description: "Your thoughts are not facts. Global crisis directory across 250+ countries and territories.",
     type: "website",
     url: "https://www.why-you-matter.org",
     siteName: "Why You Matter",
@@ -35,7 +38,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Why You Matter | You Are Irreplaceable",
-    description: "A global crisis sanctuary & grounding directory across 250+ countries & territories.",
+    description: "A global crisis sanctuary & grounding directory across 250+ countries and territories.",
   },
 };
 
@@ -94,13 +97,11 @@ export default async function RootLayout({
 
   return (
     <html lang="en" className="dark scroll-smooth">
-      <head>
+      <body className="antialiased bg-[#070b14] text-slate-100 min-h-screen flex flex-col selection:bg-sky-500/30 selection:text-sky-200">
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(JSON_LD_SCHEMA) }}
         />
-      </head>
-      <body className="antialiased bg-[#070b14] text-slate-100 min-h-screen flex flex-col selection:bg-sky-500/30 selection:text-sky-200">
         <LanguageProvider initialCountryCode={countryHeader?.toLowerCase()}>
           {children}
         </LanguageProvider>

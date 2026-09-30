@@ -24,7 +24,10 @@ export function ReliefHub() {
   ];
 
   return (
-    <div className="rounded-3xl p-6 sm:p-8 border border-teal-500/30 bg-gradient-to-b from-teal-950/30 via-slate-900/90 to-slate-950/95 glass-panel backdrop-blur-xl shadow-2xl relative overflow-hidden flex flex-col justify-between">
+    <div
+      id="relief-tools"
+      className="scroll-mt-20 rounded-3xl p-6 sm:p-8 border border-teal-500/30 bg-gradient-to-b from-teal-950/30 via-slate-900/90 to-slate-950/95 glass-panel backdrop-blur-xl shadow-2xl relative overflow-hidden flex flex-col justify-between"
+    >
       {/* Decorative accent background */}
       <div className="absolute top-0 right-0 w-64 h-64 bg-teal-500/10 rounded-full blur-3xl pointer-events-none" />
 

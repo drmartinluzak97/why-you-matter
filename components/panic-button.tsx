@@ -114,7 +114,7 @@ export function PanicButton() {
           <div className="space-y-6">
             <div className="flex items-center justify-between">
               <div>
-                <h1 className="text-xl font-bold text-slate-900">Regional Environmental & Office Metrics</h1>
+                <h2 className="text-xl font-bold text-slate-900">Regional Environmental & Office Metrics</h2>
                 <p className="text-xs text-slate-500">Updated: Today at {new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })}</p>
               </div>
               <span className="px-2.5 py-1 rounded-full bg-emerald-50 text-emerald-700 border border-emerald-200 text-xs font-medium">
@@ -172,12 +172,12 @@ export function PanicButton() {
 
         {disguiseTab === "docs" && (
           <div className="bg-white p-8 rounded-2xl border border-slate-200 shadow-xs space-y-5">
-            <h1 className="text-2xl font-bold text-slate-900">Q3 Product Specification & Roadmap</h1>
+            <h2 className="text-2xl font-bold text-slate-900">Q3 Product Specification & Roadmap</h2>
             <p className="text-sm text-slate-600 leading-relaxed">
               This document outlines the core architectural milestones for the upcoming development cycle. Key focus areas include latency reduction, enhanced data synchronization, and accessibility improvements across mobile platforms.
             </p>
             <div className="border-t border-slate-100 pt-4 space-y-3">
-              <h2 className="text-base font-semibold text-slate-800">1. Architectural Objectives</h2>
+              <h3 className="text-base font-semibold text-slate-800">1. Architectural Objectives</h3>
               <p className="text-xs text-slate-600 leading-relaxed">
                 Ensure zero downtime migrations during database maintenance windows. Increase cache hit ratio by 15% through localized edge computing caches.
               </p>
@@ -187,7 +187,7 @@ export function PanicButton() {
 
         {disguiseTab === "tasks" && (
           <div className="bg-white p-8 rounded-2xl border border-slate-200 shadow-xs space-y-4">
-            <h1 className="text-xl font-bold text-slate-900">Sprint Backlog (Sprint 42)</h1>
+            <h2 className="text-xl font-bold text-slate-900">Sprint Backlog (Sprint 42)</h2>
             <div className="space-y-2">
               <div className="p-3 rounded-xl border border-slate-200 flex items-center justify-between">
                 <span className="text-xs font-medium text-slate-700">INFRA-802: Refactor edge cache headers</span>

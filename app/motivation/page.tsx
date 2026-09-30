@@ -6,11 +6,11 @@ import { Footer } from "@/components/footer";
 import { MotivationHub } from "@/components/motivation-hub";
 
 export const metadata: Metadata = {
-  title: "Motivation & Deeper Perspective | Why You Matter",
+  title: "Motivation & Deeper Perspective",
   description:
     "Deeper reflections, psychological reframing, and real stories of human resilience from around the world.",
   alternates: {
-    canonical: "https://www.why-you-matter.org/motivation",
+    canonical: "/motivation",
   },
   openGraph: {
     title: "Motivation & Deeper Perspective | Why You Matter",
