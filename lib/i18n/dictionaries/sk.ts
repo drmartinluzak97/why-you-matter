@@ -253,5 +253,58 @@ export const sk: TranslationDictionary = {
     "close": "Zavrieť",
     "openEmailApp": "Alebo napísať priamo z e-mailu",
     "footerNotice": "Priame odoslanie na hello@martinluzak.sk • Možnosť anonymného hlásenia"
+  },
+  motivationPage: {
+    "backToHome": "← Späť na hlavnú stránku a krízové linky",
+    "badge": "Premena bolesti na zmysel • 101 svetových inšpirácií",
+    "titlePart1": "Prečo na tvojom živote ",
+    "titleHighlight": "hlboko záleží",
+    "description": "Keď prechádzame ťažkým obdobím, myseľ sa zúži na bolesť. Tu sú overené psychologické kotvy a skutočné príbehy ľudí, ktorí prešli najtemnejšími skúškami a našli cestu k svetlu.",
+    "spotlightBadge": "Hlas z tvojho regiónu / krajiny",
+    "spotlightSelectCountry": "Vybrať krajinu:",
+    "spotlightAdversity": "Prekonaná skúška",
+    "spotlightTakeaway": "Posolstvo pre tvoj dnešný deň",
+    "globalTitansTitle": "Globálni velikáni ľudskej nezlomnosti",
+    "globalTitansSubtitle": "Osobnosti, ktoré prekonali zdanlivo neriešiteľné situácie a inšpirujú celý svet.",
+    "galleryTitle": "Galéria hrdinov podľa kontinentov",
+    "gallerySubtitle": "Objav inšpiratívne príbehy z každej európskej krajiny a kútov sveta.",
+    "searchPlaceholder": "Hľadať osobnosť alebo krajinu...",
+    "continents": {
+      "all": "🌍 Všetko",
+      "europe": "🏰 Európa",
+      "americas": "🌎 Amerika",
+      "asia": "🌏 Ázia",
+      "africa": "🏜️ Afrika",
+      "oceania": "🌊 Oceánia"
+    },
+    "pillars": {
+      "survivalTitle": "100% Úspešnosť prežitia",
+      "survivalDesc": "Prežil si každú paniku, každé zlomené srdce a každú temnú noc, o ktorej si si myslel, že ju nezvládneš. Tvoja odolnosť je už dokázaná faktami.",
+      "noiseTitle": "Kognitívny šum vs. Pravda",
+      "noiseDesc": "Mozog je evolučný nástroj navrhnutý na prežitie. V kríze dramaticky zveličuje nebezpečenstvo. Úzkosť a ťažké myšlienky sú falošný poplach, nie realita.",
+      "chaptersTitle": "Nenapísané kapitoly",
+      "chaptersDesc": "Nemôžeš hodnotiť celú knihu svojho života podľa jednej náročnej kapitoly. Tí najlepší ľudia a najúprimnejší smiech ťa ešte len čakajú.",
+      "alchemyTitle": "Alchýmia bolesti (Sublimácia)",
+      "alchemyDesc": "Veľké umenie, hlboká empatia a najsilnejšie príbehy sa rodia u ľudí, ktorí stáli v tme. Tvoja bolesť sa môže stať tvojou najväčšou silou."
+    },
+    "sublimation": {
+      "title": "Alchýmia mysle a tieňa",
+      "subtitle": "Premena vnútorného chaosu na hlboké porozumenie a tvorivú silu.",
+      "card1Title": "1. Myšlienky nie sú fakty",
+      "card1Summary": "Väčšina sebakritických myšlienok nepochádza od teba. Sú to len staré nahrávky z detstva a okolia.",
+      "card1Detail": "Ako malé deti sme nemali kritické filtre. Keď niekto hovoril v hneve, naše podvedomie to prijalo ako pravdu. Keď dnes počuješ 'Nič neznamenáš', uvedom si: to nehovoríš ty. Je to len stará zaseknutá páska.",
+      "card2Title": "2. Umenie sublimácie (Alchýmia)",
+      "card2Summary": "Ťažká temná energia ťa nemusí zničiť. Môže byť pretavená do tvorivosti a súcitu.",
+      "card2Detail": "Sublimácia je psychologická alchýmia premeny surovej bolesti na umenie, literatúru, fyzickú silu alebo pomoc iným. Najväčší tvorcovia nepotláčali temnotu – pretavili ju do nesmrteľných diel.",
+      "card3Title": "3. Ty si obloha, nie búrka",
+      "card3Summary": "Ty si vedomý pozorovateľ búrky, nie troska uprostred nej.",
+      "card3Detail": "Bez ohľadu na to, aké divoké sú mraky, blesky a dážď, samotnej oblohe počasie nikdy neublíži. Urob krok späť do pozície tichého pozorovateľa. Sleduj emócie ako oblaky, ktoré prichádzajú a odchádzajú."
+    },
+    "cta": {
+      "title": "Potrebuješ sa práve teraz upokojiť alebo sa porozprávať?",
+      "desc": "Zhlboka sa nadýchni. Nemusíš vyriešiť celý svoj život dnes. Stačí zvládnuť túto jednu minútu.",
+      "crisisButton": "Zobraziť krízové linky pomoci",
+      "toolsButton": "Dýchacie a upokojujúce cvičenia"
+    }
   }
 };

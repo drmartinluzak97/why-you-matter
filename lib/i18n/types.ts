@@ -314,4 +314,57 @@ export interface TranslationDictionary {
     openEmailApp: string;
     footerNotice: string;
   };
+  motivationPage: {
+    backToHome: string;
+    badge: string;
+    titlePart1: string;
+    titleHighlight: string;
+    description: string;
+    spotlightBadge: string;
+    spotlightSelectCountry: string;
+    spotlightAdversity: string;
+    spotlightTakeaway: string;
+    globalTitansTitle: string;
+    globalTitansSubtitle: string;
+    galleryTitle: string;
+    gallerySubtitle: string;
+    searchPlaceholder: string;
+    continents: {
+      all: string;
+      europe: string;
+      americas: string;
+      asia: string;
+      africa: string;
+      oceania: string;
+    };
+    pillars: {
+      survivalTitle: string;
+      survivalDesc: string;
+      noiseTitle: string;
+      noiseDesc: string;
+      chaptersTitle: string;
+      chaptersDesc: string;
+      alchemyTitle: string;
+      alchemyDesc: string;
+    };
+    sublimation: {
+      title: string;
+      subtitle: string;
+      card1Title: string;
+      card1Summary: string;
+      card1Detail: string;
+      card2Title: string;
+      card2Summary: string;
+      card2Detail: string;
+      card3Title: string;
+      card3Summary: string;
+      card3Detail: string;
+    };
+    cta: {
+      title: string;
+      desc: string;
+      crisisButton: string;
+      toolsButton: string;
+    };
+  };
 }

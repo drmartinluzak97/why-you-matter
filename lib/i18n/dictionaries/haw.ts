@@ -253,5 +253,58 @@ export const haw: TranslationDictionary = {
     "close": "Pani",
     "openEmailApp": "Wehe ma ka polokalamu leka uila",
     "footerNotice": "Malu kāu ʻike a hoʻohana wale ʻia no ka hoʻomaikaʻi ʻana i ke kahua paʻa."
+  },
+  motivationPage: {
+    "backToHome": "← Back to Home & Crisis Help",
+    "badge": "Perspective Shift & Meaning • 101 Global Inspirations",
+    "titlePart1": "Why Your Existence ",
+    "titleHighlight": "Matters Profoundly",
+    "description": "When you are in the thick of exhaustion, perspective narrows. Here are grounded psychological principles and real human stories of those who turned extreme suffering into enduring purpose.",
+    "spotlightBadge": "Voice from Your Region",
+    "spotlightSelectCountry": "Select country:",
+    "spotlightAdversity": "Adversity Faced",
+    "spotlightTakeaway": "Takeaway for You Today",
+    "globalTitansTitle": "Global Titans of Resilience",
+    "globalTitansSubtitle": "Timeless figures who overcame unimaginable odds to light the path for humanity.",
+    "galleryTitle": "All Continental & European Figures",
+    "gallerySubtitle": "Explore inspiring stories from across Europe and the entire globe.",
+    "searchPlaceholder": "Search name or country...",
+    "continents": {
+      "all": "🌍 All",
+      "europe": "🏰 Europe",
+      "americas": "🌎 Americas",
+      "asia": "🌏 Asia",
+      "africa": "🏜️ Africa",
+      "oceania": "🌊 Oceania"
+    },
+    "pillars": {
+      "survivalTitle": "100% Survival Rate",
+      "survivalDesc": "You have survived every panic attack, every heartbreak, and every dark night you thought you wouldn't. Your resilience is already proven by facts.",
+      "noiseTitle": "Cognitive Noise vs. Truth",
+      "noiseDesc": "The brain is an evolutionary survival machine that exaggerates threat in times of stress. Anxiety and dark thoughts are false alarms, not objective reality.",
+      "chaptersTitle": "The Unwritten Chapters",
+      "chaptersDesc": "You cannot judge the entire book of your life by a single difficult chapter. The best people you will ever meet and the greatest laughs are still ahead.",
+      "alchemyTitle": "Alchemy of Pain (Sublimation)",
+      "alchemyDesc": "Great art, deep empathy, and groundbreaking resilience are born from people who have stood in the dark. Your pain can become your greatest creative superpower."
+    },
+    "sublimation": {
+      "title": "The Alchemy of Mind & Shadow",
+      "subtitle": "Transforming inner turmoil into understanding and creative power.",
+      "card1Title": "1. Thoughts Are Not Facts",
+      "card1Summary": "Most self-critical thoughts are not your own. They are old tape recordings from childhood or environment.",
+      "card1Detail": "As young children, we lacked critical filters. When someone spoke in anger or criticism, our subconscious recorded it as absolute truth. When you hear 'You are broken' or 'You are worthless', realize: that isn't you speaking. It is simply an outdated tape loop.",
+      "card2Title": "2. The Art of Sublimation (Alchemy)",
+      "card2Summary": "Your intense dark energy doesn't have to destroy you. It can be transmuted into creation.",
+      "card2Detail": "Sublimation is the psychological alchemy of converting raw instinct, taboo thoughts, and deep emotional pain into art, literature, physical power, or code. Creators didn't suppress their darkness—they channeled it into timeless works.",
+      "card3Title": "3. You Are the Sky, Not the Storm",
+      "card3Summary": "You are the conscious observer witnessing the storm, not the wreckage inside it.",
+      "card3Detail": "No matter how turbulent the clouds, thunder, or rain become, the sky itself is never harmed by the weather. Step back into the seat of the observer. Watch the sensations come and go without attaching your identity to them."
+    },
+    "cta": {
+      "title": "Need to ground yourself right now or talk to someone?",
+      "desc": "Take a slow, deep breath. You do not have to conquer the whole mountain today. Just the next minute.",
+      "crisisButton": "View Crisis Helplines",
+      "toolsButton": "Breathing & Grounding Tools"
+    }
   }
 };

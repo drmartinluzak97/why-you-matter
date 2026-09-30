@@ -253,5 +253,58 @@ export const de: TranslationDictionary = {
     "close": "Fenster schließen",
     "openEmailApp": "Oder direkt per E-Mail-App senden",
     "footerNotice": "Direktversand an hello@martinluzak.sk • Anonyme Meldung möglich"
+  },
+  motivationPage: {
+    "backToHome": "← Zurück zur Startseite & Krisenhilfe",
+    "badge": "Sinnfindung & Perspektivenwechsel • 101 weltweite Inspirationen",
+    "titlePart1": "Warum deine Existenz ",
+    "titleHighlight": "von tiefster Bedeutung ist",
+    "description": "In Momenten schwerer Erschöpfung verengt sich die Perspektive. Hier sind psychologische Prinzipien und menschliche Geschichten jener, die tiefstes Leid in dauerhaften Sinn verwandelten.",
+    "spotlightBadge": "Stimme aus deiner Region",
+    "spotlightSelectCountry": "Land wählen:",
+    "spotlightAdversity": "Überwundene Prüfung",
+    "spotlightTakeaway": "Botschaft für deinen heutigen Tag",
+    "globalTitansTitle": "Globale Vorbilder menschlicher Widerstandskraft",
+    "globalTitansSubtitle": "Persönlichkeiten, die schier unüberwindbare Prüfungen gemeistert haben und die Menschheit inspirieren.",
+    "galleryTitle": "Galerie aller europäischen & weltweiten Vorbilder",
+    "gallerySubtitle": "Entdecke bewegende Geschichten aus allen Ländern Europas und der ganzen Welt.",
+    "searchPlaceholder": "Name oder Land suchen...",
+    "continents": {
+      "all": "🌍 Alle",
+      "europe": "🏰 Europa",
+      "americas": "🌎 Amerika",
+      "asia": "🌏 Asien",
+      "africa": "🏜️ Afrika",
+      "oceania": "🌊 Ozeanien"
+    },
+    "pillars": {
+      "survivalTitle": "100% Überlebensrate",
+      "survivalDesc": "Du hast jede Panikattacke, jeden Herzschmerz und jede dunkle Nacht überstanden. Deine seelische Widerstandskraft ist durch Fakten bewiesen.",
+      "noiseTitle": "Kognitives Rauschen vs. Wahrheit",
+      "noiseDesc": "Das Gehirn übertreibt in Krisen Gefahren. Dunkle Gedanken und Ängste sind evolutionäre Fehlalarme, keine objektiven Wahrheiten.",
+      "chaptersTitle": "Die ungeschriebenen Kapitel",
+      "chaptersDesc": "Beurteile nicht das gesamte Buch deines Lebens nach einem schweren Kapitel. Die wertvollsten Begegnungen und das herzlichste Lachen liegen noch vor dir.",
+      "alchemyTitle": "Alchemie des Schmerzes (Sublimierung)",
+      "alchemyDesc": "Große Kunst, tiefes Mitgefühl und echte Stärke entstehen bei Menschen, die durch das Dunkel gegangen sind. Dein Schmerz kann deine größte Kraft werden."
+    },
+    "sublimation": {
+      "title": "Die Alchemie von Geist & Schatten",
+      "subtitle": "Innere Unruhe in Verstehen und schöpferische Kraft verwandeln.",
+      "card1Title": "1. Gedanken sind keine Tatsachen",
+      "card1Summary": "Selbstkritische Gedanken stammen oft nicht von dir selbst, sondern sind alte Prägungen aus der Kindheit.",
+      "card1Detail": "Als Kinder hatten wir keine Filter. Wut und Kritik anderer wurden im Unterbewusstsein als Wahrheit abgespeichert. Wenn du hörst 'Du bist wertlos', erkenne: Das bist nicht du.",
+      "card2Title": "2. Die Kunst der Sublimierung",
+      "card2Summary": "Dunkle seelische Energie muss dich nicht zerstören. Sie kann in Schöpfung und Empathie verwandelt werden.",
+      "card2Detail": "Sublimierung verwandelt rohen seelischen Schmerz in Kunst, Ausdruckskraft oder Hilfsbereitschaft.",
+      "card3Title": "3. Du bist der Himmel, nicht der Sturm",
+      "card3Summary": "Du bist der bewusste Beobachter des Sturms, nicht der Trümmerhaufen darin.",
+      "card3Detail": "Egal wie dunkel die Gewitterwolken ziehen: Dem Himmel selbst kann das Wetter nichts anhaben. Tritt zurück in die Rolle des stillen Beobachters."
+    },
+    "cta": {
+      "title": "Möchtest du dich jetzt beruhigen oder mit jemandem sprechen?",
+      "desc": "Atme tief durch. Du musst heute nicht dein ganzes Leben lösen. Es reicht, diese eine Minute zu überstehen.",
+      "crisisButton": "Krisentelefone anzeigen",
+      "toolsButton": "Atem- & Erdungsübungen"
+    }
   }
 };
