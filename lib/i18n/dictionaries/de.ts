@@ -3,7 +3,7 @@ import { TranslationDictionary } from "../types";
 export const de: TranslationDictionary = {
   "meta": {
     "title": "Warum du zählst | Du bist unersetzlich",
-    "description": "Eine globale Zuflucht für Momente der Krise, des Zweifels und der Erschöpfung. Krisentelefone für 250+ Länder, Erdungswerkzeuge und Gründe, warum deine Existenz zählt."
+    "description": "Eine globale Zuflucht für Momente der Krise, des Zweifels und der Erschöpfung. Krisentelefone für 2101 Länder, Erdungswerkzeuge und Gründe, warum deine Existenz zählt."
   },
   "nav": {
     "tagline": "Du bist unersetzlich. Du bist wichtig.",

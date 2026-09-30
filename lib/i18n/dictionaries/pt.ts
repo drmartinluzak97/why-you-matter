@@ -19,7 +19,7 @@ export const pt: TranslationDictionary = {
     "motivationTitle": "Explorar motivação profunda e perspectivas psicológicas",
     "disguise": "Disfarce",
     "disguiseTitle": "Disfarçar esta tela como documento de trabalho imediatamente",
-    "languageCountNotice": "50 idiomas globais • Tradução instantânea",
+    "languageCountNotice": "101 idiomas globais • Tradução instantânea",
     "geoDetectionEnabled": "Deteção geográfica automática ativada",
     "clearSearch": "Limpar"
   },

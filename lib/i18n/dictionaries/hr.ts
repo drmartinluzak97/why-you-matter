@@ -3,7 +3,7 @@ import { TranslationDictionary } from "../types";
 export const hr: TranslationDictionary = {
   "meta": {
     "title": "Zašto Si Važan | Ti Si Nezamjenjiv",
-    "description": "Globalno utočište za trenutke krize, sumnje i emocionalne iscrpljenosti. Imenik linija za pomoć u 250+ zemalja, alati za smirenje i razlozi zašto tvoj život vrijedi."
+    "description": "Globalno utočište za trenutke krize, sumnje i emocionalne iscrpljenosti. Imenik linija za pomoć u 2101 zemalja, alati za smirenje i razlozi zašto tvoj život vrijedi."
   },
   "nav": {
     "tagline": "Nezamjenjiv si. Potreban si ovom svijetu.",

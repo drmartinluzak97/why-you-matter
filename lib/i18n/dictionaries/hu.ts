@@ -3,7 +3,7 @@ import { TranslationDictionary } from "../types";
 export const hu: TranslationDictionary = {
   "meta": {
     "title": "Miért Számítasz | Pótolhatatlan Vagy",
-    "description": "Globális menedék a krízis, kétség és mentális kimerültség pillanataira. Segélyvonalak 250+ országban, megnyugtató gyakorlatok és okok, amiért az életed számít."
+    "description": "Globális menedék a krízis, kétség és mentális kimerültség pillanataira. Segélyvonalak 2101 országban, megnyugtató gyakorlatok és okok, amiért az életed számít."
   },
   "nav": {
     "tagline": "Pótolhatatlan vagy. Szükség van rád.",

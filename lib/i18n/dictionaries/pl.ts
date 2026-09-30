@@ -3,7 +3,7 @@ import { TranslationDictionary } from "../types";
 export const pl: TranslationDictionary = {
   "meta": {
     "title": "Dlaczego jesteś ważny | Jesteś niezastąpiony",
-    "description": "Globalna przystań w chwilach kryzysu, zwątpienia i wyczerpania. Numery zaufania dla 250+ krajów, narzędzia uziemiające i powody, dla których twoje życie ma znaczenie."
+    "description": "Globalna przystań w chwilach kryzysu, zwątpienia i wyczerpania. Numery zaufania dla 2101 krajów, narzędzia uziemiające i powody, dla których twoje życie ma znaczenie."
   },
   "nav": {
     "tagline": "Jesteś niezastąpiony. Masz znaczenie.",
