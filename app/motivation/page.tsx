@@ -33,7 +33,7 @@ export default async function MotivationPage() {
     <div className="flex-1 flex flex-col justify-between min-h-screen">
       <Header />
 
-      <main className="flex-1 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
+      <main className="flex-1 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 lg:py-12">
         <MotivationHub initialCountryCode={serverCountry} />
       </main>
 
