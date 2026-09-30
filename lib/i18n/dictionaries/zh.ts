@@ -255,58 +255,56 @@ export const zh: TranslationDictionary = {
     "footerNotice": "您的信息将被严格保密并高优先级处理：hello@martinluzak.sk"
   },
   motivationPage: {
-    "backToHome": "← Back to Home & Crisis Help",
-    "badge": "Perspective Shift & Meaning • 101 Global Inspirations",
-    "titlePart1": "Why Your Existence ",
-    "titleHighlight": "Matters Profoundly",
-    "description": "When you are in the thick of exhaustion, perspective narrows. Here are grounded psychological principles and real human stories of those who turned extreme suffering into enduring purpose.",
-    "spotlightBadge": "Voice from Your Region",
-    "spotlightSelectCountry": "Select country:",
-    "spotlightAdversity": "Adversity Faced",
-    "spotlightTakeaway": "Takeaway for You Today",
-    "globalTitansTitle": "Global Titans of Resilience",
-    "globalTitansSubtitle": "Timeless figures who overcame unimaginable odds to light the path for humanity.",
-    "galleryTitle": "All Continental & European Figures",
-    "gallerySubtitle": "Explore inspiring stories from across Europe and the entire globe.",
-    "searchPlaceholder": "Search name or country...",
-    "continents": {
-      "all": "🌍 All",
-      "europe": "🏰 Europe",
-      "americas": "🌎 Americas",
-      "asia": "🌏 Asia",
-      "africa": "🏜️ Africa",
-      "oceania": "🌊 Oceania"
-    },
-    "pillars": {
-      "title": "韧性的3大核心支柱",
-      "badge": "经证实的原则",
-      "survivalTitle": "100% Survival Rate",
-      "survivalDesc": "You have survived every panic attack, every heartbreak, and every dark night you thought you wouldn't. Your resilience is already proven by facts.",
-      "noiseTitle": "Cognitive Noise vs. Truth",
-      "noiseDesc": "The brain is an evolutionary survival machine that exaggerates threat in times of stress. Anxiety and dark thoughts are false alarms, not objective reality.",
-      "chaptersTitle": "The Unwritten Chapters",
-      "chaptersDesc": "You cannot judge the entire book of your life by a single difficult chapter. The best people you will ever meet and the greatest laughs are still ahead.",
-      "alchemyTitle": "Alchemy of Pain (Sublimation)",
-      "alchemyDesc": "Great art, deep empathy, and groundbreaking resilience are born from people who have stood in the dark. Your pain can become your greatest creative superpower."
-    },
-    "sublimation": {
-      "title": "The Alchemy of Mind & Shadow",
-      "subtitle": "Transforming inner turmoil into understanding and creative power.",
-      "card1Title": "1. Thoughts Are Not Facts",
-      "card1Summary": "Most self-critical thoughts are not your own. They are old tape recordings from childhood or environment.",
-      "card1Detail": "As young children, we lacked critical filters. When someone spoke in anger or criticism, our subconscious recorded it as absolute truth. When you hear 'You are broken' or 'You are worthless', realize: that isn't you speaking. It is simply an outdated tape loop.",
-      "card2Title": "2. The Art of Sublimation (Alchemy)",
-      "card2Summary": "Your intense dark energy doesn't have to destroy you. It can be transmuted into creation.",
-      "card2Detail": "Sublimation is the psychological alchemy of converting raw instinct, taboo thoughts, and deep emotional pain into art, literature, physical power, or code. Creators didn't suppress their darkness—they channeled it into timeless works.",
-      "card3Title": "3. You Are the Sky, Not the Storm",
-      "card3Summary": "You are the conscious observer witnessing the storm, not the wreckage inside it.",
-      "card3Detail": "No matter how turbulent the clouds, thunder, or rain become, the sky itself is never harmed by the weather. Step back into the seat of the observer. Watch the sensations come and go without attaching your identity to them."
-    },
-    "cta": {
-      "title": "Need to ground yourself right now or talk to someone?",
-      "desc": "Take a slow, deep breath. You do not have to conquer the whole mountain today. Just the next minute.",
-      "crisisButton": "View Crisis Helplines",
-      "toolsButton": "Breathing & Grounding Tools"
-    }
+      "backToHome": "← 返回首页与危机援助",
+      "badge": "将痛苦转化为意义 • 101个全球灵感",
+      "titlePart1": "为什么你的存在 ",
+      "titleHighlight": "至关重要",
+      "description": "当我们处于极度疲惫与痛苦时，视野容易变得狭窄。这里汇聚了战胜至暗时刻的人们的真实故事，以及被证实的心理学支柱，助你重拾希望。",
+      "spotlightBadge": "来自你所在地区的声音",
+      "spotlightSelectCountry": "选择国家/地区:",
+      "spotlightAdversity": "历经的磨难",
+      "spotlightTakeaway": "今日启示",
+      "globalTitansTitle": "不屈不挠的全球巨擘",
+      "globalTitansSubtitle": "克服了常人无法想象的困境、为人类照亮前路的时代楷模。",
+      "galleryTitle": "按各大洲与欧洲分类的英雄画廊",
+      "gallerySubtitle": "探索来自欧洲各邦及世界每个角落的鼓舞人心的故事。",
+      "searchPlaceholder": "搜索姓名或国家...",
+      "continents": {
+          "all": "🌍 全部",
+          "europe": "🏰 欧洲",
+          "americas": "🌎 美洲",
+          "asia": "🌏 亚洲",
+          "africa": "🏜️ 非洲",
+          "oceania": "🌊 大洋洲"
+      },
+      "pillars": {
+          "title": "韧性的3大核心支柱",
+          "badge": "经证实的原则",
+          "noiseTitle": "认知噪音 vs 现实真相",
+          "noiseDesc": "大脑是进化的生存机器，在压力下容易无限放大危险。焦虑和消极念头只是虚假警报，并非客观事实。",
+          "chaptersTitle": "尚未书写的人生篇章",
+          "chaptersDesc": "你不能仅凭人生中最艰难的一个章节就为整本书下定论。最美好的相遇与最真挚的笑容，仍在前方等你。",
+          "alchemyTitle": "痛苦的炼金术（升华）",
+          "alchemyDesc": "伟大的艺术、深沉的同理心与不屈的韧性，皆诞生于曾在黑暗中伫立的人。你的苦难终将转化为巨大的力量。"
+      },
+      "sublimation": {
+          "title": "心灵与阴影的炼金术",
+          "subtitle": "将内心的波澜转化为深刻的领悟与创造的动力。",
+          "card1Title": "1. 念头并非事实",
+          "card1Summary": "大多数自我批判的念头并非出自你的本质，而是童年或外界留下的旧录音。",
+          "card1Detail": "幼年时的我们缺乏批判性过滤。当听到否定之词时，潜意识便当成了绝对真理。当你再次听到自我贬低的声音时，请记住：那不是真实的你，只是过时的磁带。",
+          "card2Title": "2. 升华的艺术（心智炼金）",
+          "card2Summary": "沉重的黑暗能量不必毁灭你，它可以被转化为创造力与慈悲。",
+          "card2Detail": "升华是一种心理炼金术，将深切的伤痛转化为艺术、文字、行动力或对他人的关怀。最杰出的创作者不是压抑黑暗，而是将其熔铸为不朽之作。",
+          "card3Title": "3. 你是天空，而非风暴",
+          "card3Summary": "你是静观风暴的觉察者，而不是风暴中的残骸。",
+          "card3Detail": "无论乌云、雷电和狂风多么猛烈，天空本身从未受损。退后一步，成为安静的观察者，注视情绪像云朵一样来去。"
+      },
+      "cta": {
+          "title": "现在需要平复心情或找人倾诉吗？",
+          "desc": "深呼吸。你不需要在今天解决人生的所有难题，只要安然度过这一分钟就足够了。",
+          "crisisButton": "查看危机求助热线",
+          "toolsButton": "呼吸与身心稳定练习"
+      }
   }
 };

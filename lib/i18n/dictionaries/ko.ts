@@ -255,58 +255,56 @@ export const ko: TranslationDictionary = {
     "footerNotice": "전송하신 내용은 철저한 비밀 보장과 최우선 순위로 hello@martinluzak.sk에 전달됩니다."
   },
   motivationPage: {
-    "backToHome": "← Back to Home & Crisis Help",
-    "badge": "Perspective Shift & Meaning • 101 Global Inspirations",
-    "titlePart1": "Why Your Existence ",
-    "titleHighlight": "Matters Profoundly",
-    "description": "When you are in the thick of exhaustion, perspective narrows. Here are grounded psychological principles and real human stories of those who turned extreme suffering into enduring purpose.",
-    "spotlightBadge": "Voice from Your Region",
-    "spotlightSelectCountry": "Select country:",
-    "spotlightAdversity": "Adversity Faced",
-    "spotlightTakeaway": "Takeaway for You Today",
-    "globalTitansTitle": "Global Titans of Resilience",
-    "globalTitansSubtitle": "Timeless figures who overcame unimaginable odds to light the path for humanity.",
-    "galleryTitle": "All Continental & European Figures",
-    "gallerySubtitle": "Explore inspiring stories from across Europe and the entire globe.",
-    "searchPlaceholder": "Search name or country...",
-    "continents": {
-      "all": "🌍 All",
-      "europe": "🏰 Europe",
-      "americas": "🌎 Americas",
-      "asia": "🌏 Asia",
-      "africa": "🏜️ Africa",
-      "oceania": "🌊 Oceania"
-    },
-    "pillars": {
-      "title": "회복탄력성의 3가지 핵심 기둥",
-      "badge": "검증된 원칙",
-      "survivalTitle": "100% Survival Rate",
-      "survivalDesc": "You have survived every panic attack, every heartbreak, and every dark night you thought you wouldn't. Your resilience is already proven by facts.",
-      "noiseTitle": "Cognitive Noise vs. Truth",
-      "noiseDesc": "The brain is an evolutionary survival machine that exaggerates threat in times of stress. Anxiety and dark thoughts are false alarms, not objective reality.",
-      "chaptersTitle": "The Unwritten Chapters",
-      "chaptersDesc": "You cannot judge the entire book of your life by a single difficult chapter. The best people you will ever meet and the greatest laughs are still ahead.",
-      "alchemyTitle": "Alchemy of Pain (Sublimation)",
-      "alchemyDesc": "Great art, deep empathy, and groundbreaking resilience are born from people who have stood in the dark. Your pain can become your greatest creative superpower."
-    },
-    "sublimation": {
-      "title": "The Alchemy of Mind & Shadow",
-      "subtitle": "Transforming inner turmoil into understanding and creative power.",
-      "card1Title": "1. Thoughts Are Not Facts",
-      "card1Summary": "Most self-critical thoughts are not your own. They are old tape recordings from childhood or environment.",
-      "card1Detail": "As young children, we lacked critical filters. When someone spoke in anger or criticism, our subconscious recorded it as absolute truth. When you hear 'You are broken' or 'You are worthless', realize: that isn't you speaking. It is simply an outdated tape loop.",
-      "card2Title": "2. The Art of Sublimation (Alchemy)",
-      "card2Summary": "Your intense dark energy doesn't have to destroy you. It can be transmuted into creation.",
-      "card2Detail": "Sublimation is the psychological alchemy of converting raw instinct, taboo thoughts, and deep emotional pain into art, literature, physical power, or code. Creators didn't suppress their darkness—they channeled it into timeless works.",
-      "card3Title": "3. You Are the Sky, Not the Storm",
-      "card3Summary": "You are the conscious observer witnessing the storm, not the wreckage inside it.",
-      "card3Detail": "No matter how turbulent the clouds, thunder, or rain become, the sky itself is never harmed by the weather. Step back into the seat of the observer. Watch the sensations come and go without attaching your identity to them."
-    },
-    "cta": {
-      "title": "Need to ground yourself right now or talk to someone?",
-      "desc": "Take a slow, deep breath. You do not have to conquer the whole mountain today. Just the next minute.",
-      "crisisButton": "View Crisis Helplines",
-      "toolsButton": "Breathing & Grounding Tools"
-    }
+      "backToHome": "← 홈 및 위기 지원으로 돌아가기",
+      "badge": "고통을 의미로 전환 • 101개의 글로벌 영감",
+      "titlePart1": "당신의 존재가 왜 ",
+      "titleHighlight": "깊이 소중한지",
+      "description": "극심한 고통과 번아웃 속에서는 시야가 좁아집니다. 가장 어두운 밤을 뚫고 빛을 찾아낸 사람들의 실화와 확고한 심리학적 원리를 전해드립니다.",
+      "spotlightBadge": "당신의 지역/국가에서 온 목소리",
+      "spotlightSelectCountry": "국가 선택:",
+      "spotlightAdversity": "극복한 시련",
+      "spotlightTakeaway": "오늘을 위한 메시지",
+      "globalTitansTitle": "불굴의 회복탄력성을 지닌 세계적 거인들",
+      "globalTitansSubtitle": "상상할 수 없는 역경을 이겨내고 인류의 길을 밝힌 역사적 인물들.",
+      "galleryTitle": "대륙 및 유럽별 영웅 갤러리",
+      "gallerySubtitle": "유럽 각국과 전 세계에서 온 영감을 주는 이야기를 만나보세요.",
+      "searchPlaceholder": "이름 또는 국가 검색...",
+      "continents": {
+          "all": "🌍 전체",
+          "europe": "🏰 유럽",
+          "americas": "🌎 아메리카",
+          "asia": "🌏 아시아",
+          "africa": "🏜️ 아프리카",
+          "oceania": "🌊 오세아니아"
+      },
+      "pillars": {
+          "title": "회복탄력성의 3가지 핵심 기둥",
+          "badge": "검증된 원칙",
+          "noiseTitle": "인지적 소음 vs 진실",
+          "noiseDesc": "뇌는 생존을 위해 위험을 과장하도록 진화했습니다. 불안과 어두운 생각은 뇌의 오작동 경보일 뿐, 객관적인 진실이 아닙니다.",
+          "chaptersTitle": "아직 쓰이지 않은 인생의 장",
+          "chaptersDesc": "인생의 한 힘든 챕터만으로 삶이라는 책 전체를 평가할 수는 없습니다. 가장 멋진 만남과 환한 웃음은 아직 당신 앞에 있습니다.",
+          "alchemyTitle": "고통의 연금술 (승화)",
+          "alchemyDesc": "위대한 예술과 깊은 공감, 회복력은 어둠 속에 서 본 사람에게서 피어납니다. 당신의 아픔은 가장 강력한 힘이 될 수 있습니다."
+      },
+      "sublimation": {
+          "title": "마음과 그림자의 연금술",
+          "subtitle": "내면의 혼란을 깊은 통찰과 창조적 힘으로 승화하기.",
+          "card1Title": "1. 생각은 사실이 아닙니다",
+          "card1Summary": "자기비판적인 생각은 당신의 본심이 아니라, 과거 환경에서 녹음된 소리일 뿐입니다.",
+          "card1Detail": "어릴 적 우리는 필터 없이 말을 흡수했습니다. '넌 가치 없어'라는 내면의 목소리는 당신이 아니라 낡은 녹음테이프일 뿐입니다.",
+          "card2Title": "2. 승화의 예술",
+          "card2Summary": "어두운 에너지가 당신을 파괴할 필요는 없습니다. 창조와 자비로 바뀔 수 있습니다.",
+          "card2Detail": "승화는 날것의 고통을 예술, 글, 행동, 타인에 대한 사랑으로 변환하는 심리적 연금술입니다. 위대한 이들은 어둠을 억누르지 않고 빛으로 빚어냈습니다.",
+          "card3Title": "3. 당신은 하늘이지, 폭풍이 아닙니다",
+          "card3Summary": "당신은 폭풍 속 잔해가 아니라 폭풍을 바라보는 의식적인 관찰자입니다.",
+          "card3Detail": "먹구름과 번개가 아무리 사나워도 하늘 자체는 결코 다치지 않습니다. 한 걸음 물러나 흘러가는 구름처럼 감정을 바라보세요."
+      },
+      "cta": {
+          "title": "지금 마음을 진정시키거나 누군가와 이야기하고 싶으신가요?",
+          "desc": "천천히 심호흡하세요. 오늘 모든 인생을 해결할 필요는 없습니다. 바로 이 1분만 견뎌내면 충분합니다.",
+          "crisisButton": "위기 상담 핫라인 보기",
+          "toolsButton": "호흡 및 그라운딩 도구"
+      }
   }
 };

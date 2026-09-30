@@ -255,58 +255,56 @@ export const ml: TranslationDictionary = {
     "footerNotice": "hello@martinluzak.sk ലേക്ക് നേരിട്ട് എത്തിക്കുന്നു • അജ്ഞാത റിപ്പോർട്ടിംഗ് പിന്തുണയ്ക്കുന്നു"
   },
   motivationPage: {
-    "backToHome": "← Back to Home & Crisis Help",
-    "badge": "Perspective Shift & Meaning • 101 Global Inspirations",
-    "titlePart1": "Why Your Existence ",
-    "titleHighlight": "Matters Profoundly",
-    "description": "When you are in the thick of exhaustion, perspective narrows. Here are grounded psychological principles and real human stories of those who turned extreme suffering into enduring purpose.",
-    "spotlightBadge": "Voice from Your Region",
-    "spotlightSelectCountry": "Select country:",
-    "spotlightAdversity": "Adversity Faced",
-    "spotlightTakeaway": "Takeaway for You Today",
-    "globalTitansTitle": "Global Titans of Resilience",
-    "globalTitansSubtitle": "Timeless figures who overcame unimaginable odds to light the path for humanity.",
-    "galleryTitle": "All Continental & European Figures",
-    "gallerySubtitle": "Explore inspiring stories from across Europe and the entire globe.",
-    "searchPlaceholder": "Search name or country...",
-    "continents": {
-      "all": "🌍 All",
-      "europe": "🏰 Europe",
-      "americas": "🌎 Americas",
-      "asia": "🌏 Asia",
-      "africa": "🏜️ Africa",
-      "oceania": "🌊 Oceania"
-    },
-    "pillars": {
-      "title": "പ്രതിരോധശേഷിയുടെ 3 പ്രധാന സ്തംഭങ്ങൾ",
-      "badge": "തെളിയിക്കപ്പെട്ട തത്വങ്ങൾ",
-      "survivalTitle": "100% Survival Rate",
-      "survivalDesc": "You have survived every panic attack, every heartbreak, and every dark night you thought you wouldn't. Your resilience is already proven by facts.",
-      "noiseTitle": "Cognitive Noise vs. Truth",
-      "noiseDesc": "The brain is an evolutionary survival machine that exaggerates threat in times of stress. Anxiety and dark thoughts are false alarms, not objective reality.",
-      "chaptersTitle": "The Unwritten Chapters",
-      "chaptersDesc": "You cannot judge the entire book of your life by a single difficult chapter. The best people you will ever meet and the greatest laughs are still ahead.",
-      "alchemyTitle": "Alchemy of Pain (Sublimation)",
-      "alchemyDesc": "Great art, deep empathy, and groundbreaking resilience are born from people who have stood in the dark. Your pain can become your greatest creative superpower."
-    },
-    "sublimation": {
-      "title": "The Alchemy of Mind & Shadow",
-      "subtitle": "Transforming inner turmoil into understanding and creative power.",
-      "card1Title": "1. Thoughts Are Not Facts",
-      "card1Summary": "Most self-critical thoughts are not your own. They are old tape recordings from childhood or environment.",
-      "card1Detail": "As young children, we lacked critical filters. When someone spoke in anger or criticism, our subconscious recorded it as absolute truth. When you hear 'You are broken' or 'You are worthless', realize: that isn't you speaking. It is simply an outdated tape loop.",
-      "card2Title": "2. The Art of Sublimation (Alchemy)",
-      "card2Summary": "Your intense dark energy doesn't have to destroy you. It can be transmuted into creation.",
-      "card2Detail": "Sublimation is the psychological alchemy of converting raw instinct, taboo thoughts, and deep emotional pain into art, literature, physical power, or code. Creators didn't suppress their darkness—they channeled it into timeless works.",
-      "card3Title": "3. You Are the Sky, Not the Storm",
-      "card3Summary": "You are the conscious observer witnessing the storm, not the wreckage inside it.",
-      "card3Detail": "No matter how turbulent the clouds, thunder, or rain become, the sky itself is never harmed by the weather. Step back into the seat of the observer. Watch the sensations come and go without attaching your identity to them."
-    },
-    "cta": {
-      "title": "Need to ground yourself right now or talk to someone?",
-      "desc": "Take a slow, deep breath. You do not have to conquer the whole mountain today. Just the next minute.",
-      "crisisButton": "View Crisis Helplines",
-      "toolsButton": "Breathing & Grounding Tools"
-    }
+      "backToHome": "← मुख्य पृष्ठ और संकट सहायता पर वापस जाएं",
+      "badge": "दर्द को अर्थ में बदलना • 101 वैश्विक प्रेरणाएं",
+      "titlePart1": "आपका अस्तित्व क्यों ",
+      "titleHighlight": "अत्यंत महत्वपूर्ण है",
+      "description": "जब हम भारी तनाव में होते हैं, तो दृष्टिकोण संकीर्ण हो जाता है। यहां मजबूत मनोवैज्ञानिक सिद्धांत और उन लोगों की सच्ची कहानियां हैं जिन्होंने अंधकार पर विजय पाई।",
+      "spotlightBadge": "आपके क्षेत्र / देश से आवाज़",
+      "spotlightSelectCountry": "देश चुनें:",
+      "spotlightAdversity": "पार की गई कठिनाई",
+      "spotlightTakeaway": "आज के लिए संदेश",
+      "globalTitansTitle": "मानवीय लचीलेपन के वैश्विक दिग्गज",
+      "globalTitansSubtitle": "अविश्वसनीय कठिनाइयों को पार कर मानवता का मार्ग प्रशस्त करने वाले महापुरुष।",
+      "galleryTitle": "महाद्वीपों और यूरोप के अनुसार प्रेरणादायक गैलरी",
+      "gallerySubtitle": "यूरोप और दुनिया के कोने-कोने से प्रेरणादायक कहानियों की खोज करें।",
+      "searchPlaceholder": "नाम या देश खोजें...",
+      "continents": {
+          "all": "🌍 सभी",
+          "europe": "🏰 यूरोप",
+          "americas": "🌎 अमेरिका",
+          "asia": "🌏 एशिया",
+          "africa": "🏜️ अफ्रीका",
+          "oceania": "🌊 ओशिनिया"
+      },
+      "pillars": {
+          "title": "लचीलेपन के 3 मुख्य स्तंभ",
+          "badge": "प्रमाणित सिद्धांत",
+          "noiseTitle": "संज्ञानात्मक शोर बनाम सच्चाई",
+          "noiseDesc": "मस्तिष्क संकट में खतरे को बढ़ा-चढ़ाकर दिखाता है। चिंता और नकारात्मक विचार झूठे अलार्म हैं, वास्तविकता नहीं।",
+          "chaptersTitle": "जीवन के अनलिखे अध्याय",
+          "chaptersDesc": "आप अपने पूरे जीवन की किताब का मूल्यांकन एक कठिन अध्याय से नहीं कर सकते। बेहतरीन पल अभी आगे हैं।",
+          "alchemyTitle": "दर्द की कीमिया (उदात्तीकरण)",
+          "alchemyDesc": "महान कला और गहरी सहानुभूति उन लोगों में जन्म लेती है जो अंधेरे में खड़े रहे हैं। आपका दर्द आपकी शक्ति बन सकता है।"
+      },
+      "sublimation": {
+          "title": "मन और छाया का रूपांतरण",
+          "subtitle": "आंतरिक अशांति को गहरी समझ और रचनात्मक शक्ति में बदलना।",
+          "card1Title": "1. विचार तथ्य नहीं हैं",
+          "card1Summary": "अधिकांश आत्म-आलोचनात्मक विचार आपके अपने नहीं हैं, वे पुरानी यादों के अंश हैं।",
+          "card1Detail": "बचपन में हमारे पास आलोचनात्मक फिल्टर नहीं थे। जब आप 'तुम व्यर्थ हो' सुनते हैं, तो समझें: यह आपकी वास्तविक आवाज़ नहीं है।",
+          "card2Title": "2. उदात्तीकरण की कला",
+          "card2Summary": "अंधेरी ऊर्जा को आपको नष्ट करने की आवश्यकता नहीं है; इसे रचनात्मकता और करुणा में बदला जा सकता है।",
+          "card2Detail": "उदात्तीकरण दर्द को कला, शक्ति और दूसरों की भलाई में बदलने की मनोवैज्ञानिक कला है।",
+          "card3Title": "3. आप आकाश हैं, तूफान नहीं",
+          "card3Summary": "आप तूफान के साक्षी हैं, उसमें फंसा मलबा नहीं।",
+          "card3Detail": "बादल और बिजली चाहे जितने भी प्रचंड हों, आकाश को कोई नुकसान नहीं होता। भावनाओं को बादलों की तरह गुजरते हुए देखें।"
+      },
+      "cta": {
+          "title": "क्या आपको अभी शांत होने या किसी से बात करने की आवश्यकता है?",
+          "desc": "गहरी सांस लें। आपको आज ही पूरा जीवन सुलझाने की ज़रूरत नहीं है। बस इस एक मिनट को संभालना काफी है।",
+          "crisisButton": "संकट हेल्पलाइन देखें",
+          "toolsButton": "श्वास और ग्राउंडिंग अभ्यास"
+      }
   }
 };

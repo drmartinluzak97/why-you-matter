@@ -255,58 +255,56 @@ export const mk: TranslationDictionary = {
     "footerNotice": "Директна испорака до hello@martinluzak.sk • Анонимното пријавување е поддржано"
   },
   motivationPage: {
-    "backToHome": "← Back to Home & Crisis Help",
-    "badge": "Perspective Shift & Meaning • 101 Global Inspirations",
-    "titlePart1": "Why Your Existence ",
-    "titleHighlight": "Matters Profoundly",
-    "description": "When you are in the thick of exhaustion, perspective narrows. Here are grounded psychological principles and real human stories of those who turned extreme suffering into enduring purpose.",
-    "spotlightBadge": "Voice from Your Region",
-    "spotlightSelectCountry": "Select country:",
-    "spotlightAdversity": "Adversity Faced",
-    "spotlightTakeaway": "Takeaway for You Today",
-    "globalTitansTitle": "Global Titans of Resilience",
-    "globalTitansSubtitle": "Timeless figures who overcame unimaginable odds to light the path for humanity.",
-    "galleryTitle": "All Continental & European Figures",
-    "gallerySubtitle": "Explore inspiring stories from across Europe and the entire globe.",
-    "searchPlaceholder": "Search name or country...",
-    "continents": {
-      "all": "🌍 All",
-      "europe": "🏰 Europe",
-      "americas": "🌎 Americas",
-      "asia": "🌏 Asia",
-      "africa": "🏜️ Africa",
-      "oceania": "🌊 Oceania"
-    },
-    "pillars": {
-      "title": "3 Основни Столбови на Отпорност",
-      "badge": "Докажани Принципи",
-      "survivalTitle": "100% Survival Rate",
-      "survivalDesc": "You have survived every panic attack, every heartbreak, and every dark night you thought you wouldn't. Your resilience is already proven by facts.",
-      "noiseTitle": "Cognitive Noise vs. Truth",
-      "noiseDesc": "The brain is an evolutionary survival machine that exaggerates threat in times of stress. Anxiety and dark thoughts are false alarms, not objective reality.",
-      "chaptersTitle": "The Unwritten Chapters",
-      "chaptersDesc": "You cannot judge the entire book of your life by a single difficult chapter. The best people you will ever meet and the greatest laughs are still ahead.",
-      "alchemyTitle": "Alchemy of Pain (Sublimation)",
-      "alchemyDesc": "Great art, deep empathy, and groundbreaking resilience are born from people who have stood in the dark. Your pain can become your greatest creative superpower."
-    },
-    "sublimation": {
-      "title": "The Alchemy of Mind & Shadow",
-      "subtitle": "Transforming inner turmoil into understanding and creative power.",
-      "card1Title": "1. Thoughts Are Not Facts",
-      "card1Summary": "Most self-critical thoughts are not your own. They are old tape recordings from childhood or environment.",
-      "card1Detail": "As young children, we lacked critical filters. When someone spoke in anger or criticism, our subconscious recorded it as absolute truth. When you hear 'You are broken' or 'You are worthless', realize: that isn't you speaking. It is simply an outdated tape loop.",
-      "card2Title": "2. The Art of Sublimation (Alchemy)",
-      "card2Summary": "Your intense dark energy doesn't have to destroy you. It can be transmuted into creation.",
-      "card2Detail": "Sublimation is the psychological alchemy of converting raw instinct, taboo thoughts, and deep emotional pain into art, literature, physical power, or code. Creators didn't suppress their darkness—they channeled it into timeless works.",
-      "card3Title": "3. You Are the Sky, Not the Storm",
-      "card3Summary": "You are the conscious observer witnessing the storm, not the wreckage inside it.",
-      "card3Detail": "No matter how turbulent the clouds, thunder, or rain become, the sky itself is never harmed by the weather. Step back into the seat of the observer. Watch the sensations come and go without attaching your identity to them."
-    },
-    "cta": {
-      "title": "Need to ground yourself right now or talk to someone?",
-      "desc": "Take a slow, deep breath. You do not have to conquer the whole mountain today. Just the next minute.",
-      "crisisButton": "View Crisis Helplines",
-      "toolsButton": "Breathing & Grounding Tools"
-    }
+      "backToHome": "← На головну та до ліній допомоги",
+      "badge": "Перетворення болю на сенс • 101 світове натхнення",
+      "titlePart1": "Чому твоє життя ",
+      "titleHighlight": "глибоко важливе",
+      "description": "У моменти важкого болю світогляд звужується. Тут зібрані перевірені психологічні принципи та реальні історії людей, які пройшли крізь темряву до світла.",
+      "spotlightBadge": "Голос із твого регіону",
+      "spotlightSelectCountry": "Обрати країну:",
+      "spotlightAdversity": "Подолане випробування",
+      "spotlightTakeaway": "Послання на сьогодні",
+      "globalTitansTitle": "Світові титани стійкості",
+      "globalTitansSubtitle": "Легендарні постаті, які подолали нелюдські випробування та освітили шлях людству.",
+      "galleryTitle": "Галерея героїв за континентами",
+      "gallerySubtitle": "Надихаючі історії з усіх країн Європи та куточків світу.",
+      "searchPlaceholder": "Пошук за ім'ям або країною...",
+      "continents": {
+          "all": "🌍 Всі",
+          "europe": "🏰 Європа",
+          "americas": "🌎 Америка",
+          "asia": "🌏 Азія",
+          "africa": "🏜️ Африка",
+          "oceania": "🌊 Океанія"
+      },
+      "pillars": {
+          "title": "3 Фундаментальні Стовпи Стійкості",
+          "badge": "Перевірені Принципи",
+          "noiseTitle": "Когнітивний шум vs Реальність",
+          "noiseDesc": "Мозок перебільшує небезпеку в кризі. Тривога й темні думки — це хибна тривога, а не об'єктивна реальність.",
+          "chaptersTitle": "Ненаписані розділи життя",
+          "chaptersDesc": "Не можна судити про всю книгу свого життя за одним важким розділом. Найкращі моменти ще попереду.",
+          "alchemyTitle": "Алхімія болю (Сублімація)",
+          "alchemyDesc": "Велике мистецтво та незламна сила народжуються у тих, хто стояв у темряві. Твій біль може стати силою."
+      },
+      "sublimation": {
+          "title": "Алхімія розуму і тіні",
+          "subtitle": "Перетворення внутрішнього хаосу на глибоку мудрість і творчу силу.",
+          "card1Title": "1. Думки — це не факти",
+          "card1Summary": "Більшість критичних думок — це лише старі записи з минулого, а не твоя істинна сутність.",
+          "card1Detail": "Коли в голові лунає 'Ти нічого не вартий', усвідом: це не ти, а стара застрягла плівка.",
+          "card2Title": "2. Мистецтво сублімації",
+          "card2Summary": "Темні переживання можна переплавити у творчість і допомогу іншим.",
+          "card2Detail": "Сублімація перетворює біль на мистецтво, силу та співчуття. Великі творці творили з темряви шедеври.",
+          "card3Title": "3. Ти — небо, а не буря",
+          "card3Summary": "Ти — свідомий спостерігач грози, а не її уламки.",
+          "card3Detail": "Якими б грізними не були хмари, саме небо залишається цілим. Спостерігай за емоціями як за хмарами."
+      },
+      "cta": {
+          "title": "Потрібно заспокоїтися прямо зараз або поговорити з кимось?",
+          "desc": "Зроби глибокий вдих. Не потрібно вирішувати все життя сьогодні. Достатньо впоратися з цією хвилиною.",
+          "crisisButton": "Лінії кризової допомоги",
+          "toolsButton": "Вправи для дихання і спокою"
+      }
   }
 };

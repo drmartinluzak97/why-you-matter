@@ -255,58 +255,56 @@ export const nl: TranslationDictionary = {
     "footerNotice": "Je bericht wordt discreet en met prioriteit behandeld via hello@martinluzak.sk"
   },
   motivationPage: {
-    "backToHome": "← Back to Home & Crisis Help",
-    "badge": "Perspective Shift & Meaning • 101 Global Inspirations",
-    "titlePart1": "Why Your Existence ",
-    "titleHighlight": "Matters Profoundly",
-    "description": "When you are in the thick of exhaustion, perspective narrows. Here are grounded psychological principles and real human stories of those who turned extreme suffering into enduring purpose.",
-    "spotlightBadge": "Voice from Your Region",
-    "spotlightSelectCountry": "Select country:",
-    "spotlightAdversity": "Adversity Faced",
-    "spotlightTakeaway": "Takeaway for You Today",
-    "globalTitansTitle": "Global Titans of Resilience",
-    "globalTitansSubtitle": "Timeless figures who overcame unimaginable odds to light the path for humanity.",
-    "galleryTitle": "All Continental & European Figures",
-    "gallerySubtitle": "Explore inspiring stories from across Europe and the entire globe.",
-    "searchPlaceholder": "Search name or country...",
-    "continents": {
-      "all": "🌍 All",
-      "europe": "🏰 Europe",
-      "americas": "🌎 Americas",
-      "asia": "🌏 Asia",
-      "africa": "🏜️ Africa",
-      "oceania": "🌊 Oceania"
-    },
-    "pillars": {
-      "title": "3 Kernpijlers van Veerkracht",
-      "badge": "Bewezen Principes",
-      "survivalTitle": "100% Survival Rate",
-      "survivalDesc": "You have survived every panic attack, every heartbreak, and every dark night you thought you wouldn't. Your resilience is already proven by facts.",
-      "noiseTitle": "Cognitive Noise vs. Truth",
-      "noiseDesc": "The brain is an evolutionary survival machine that exaggerates threat in times of stress. Anxiety and dark thoughts are false alarms, not objective reality.",
-      "chaptersTitle": "The Unwritten Chapters",
-      "chaptersDesc": "You cannot judge the entire book of your life by a single difficult chapter. The best people you will ever meet and the greatest laughs are still ahead.",
-      "alchemyTitle": "Alchemy of Pain (Sublimation)",
-      "alchemyDesc": "Great art, deep empathy, and groundbreaking resilience are born from people who have stood in the dark. Your pain can become your greatest creative superpower."
-    },
-    "sublimation": {
-      "title": "The Alchemy of Mind & Shadow",
-      "subtitle": "Transforming inner turmoil into understanding and creative power.",
-      "card1Title": "1. Thoughts Are Not Facts",
-      "card1Summary": "Most self-critical thoughts are not your own. They are old tape recordings from childhood or environment.",
-      "card1Detail": "As young children, we lacked critical filters. When someone spoke in anger or criticism, our subconscious recorded it as absolute truth. When you hear 'You are broken' or 'You are worthless', realize: that isn't you speaking. It is simply an outdated tape loop.",
-      "card2Title": "2. The Art of Sublimation (Alchemy)",
-      "card2Summary": "Your intense dark energy doesn't have to destroy you. It can be transmuted into creation.",
-      "card2Detail": "Sublimation is the psychological alchemy of converting raw instinct, taboo thoughts, and deep emotional pain into art, literature, physical power, or code. Creators didn't suppress their darkness—they channeled it into timeless works.",
-      "card3Title": "3. You Are the Sky, Not the Storm",
-      "card3Summary": "You are the conscious observer witnessing the storm, not the wreckage inside it.",
-      "card3Detail": "No matter how turbulent the clouds, thunder, or rain become, the sky itself is never harmed by the weather. Step back into the seat of the observer. Watch the sensations come and go without attaching your identity to them."
-    },
-    "cta": {
-      "title": "Need to ground yourself right now or talk to someone?",
-      "desc": "Take a slow, deep breath. You do not have to conquer the whole mountain today. Just the next minute.",
-      "crisisButton": "View Crisis Helplines",
-      "toolsButton": "Breathing & Grounding Tools"
-    }
+      "backToHome": "← Terug naar home & crisishulp",
+      "badge": "Pijn omzetten in betekenis • 101 wereldwijde inspiraties",
+      "titlePart1": "Waarom jouw bestaan ",
+      "titleHighlight": "van diepe betekenis is",
+      "description": "In tijden van uitputting vernauwt het perspectief. Hier vind je beproefde psychologische principes en waargebeurde verhalen van mensen die het donker hebben overwonnen.",
+      "spotlightBadge": "Stem uit jouw regio",
+      "spotlightSelectCountry": "Selecteer land:",
+      "spotlightAdversity": "Overwonnen tegenslag",
+      "spotlightTakeaway": "Inzicht voor vandaag",
+      "globalTitansTitle": "Wereldwijde titanen van veerkracht",
+      "globalTitansSubtitle": "Tijdloze figuren die onvoorstelbare obstakels overwonnen en de mensheid inspireren.",
+      "galleryTitle": "Galerij per continent & Europa",
+      "gallerySubtitle": "Ontdek inspirerende verhalen uit alle Europese landen en de hele wereld.",
+      "searchPlaceholder": "Zoek naam of land...",
+      "continents": {
+          "all": "🌍 Alles",
+          "europe": "🏰 Europa",
+          "americas": "🌎 Amerika",
+          "asia": "🌏 Azië",
+          "africa": "🏜️ Afrika",
+          "oceania": "🌊 Oceanië"
+      },
+      "pillars": {
+          "title": "3 Kernpijlers van Veerkracht",
+          "badge": "Bewezen Principes",
+          "noiseTitle": "Cognitieve ruis vs Realiteit",
+          "noiseDesc": "Het brein overdrijft gevaar in tijden van stress. Angst en donkere gedachten zijn valse alarmen, geen feiten.",
+          "chaptersTitle": "Ongeschreven hoofdstukken",
+          "chaptersDesc": "Je kunt het hele boek van je leven niet beoordelen op één moeilijk hoofdstuk. De mooiste momenten liggen nog voor je.",
+          "alchemyTitle": "Alchemie van pijn (Sublimatie)",
+          "alchemyDesc": "Grote kunst en diepe empathie ontstaan bij mensen die in het donker stonden. Jouw pijn kan je grootste kracht worden."
+      },
+      "sublimation": {
+          "title": "De Alchemie van Geest & Schaduw",
+          "subtitle": "Innerlijke chaos omzetten in diep inzicht en creatieve kracht.",
+          "card1Title": "1. Gedachten zijn geen feiten",
+          "card1Summary": "De meeste zelfkritische gedachten komen voort uit oude patronen, niet uit je ware zelf.",
+          "card1Detail": "Als kinderen hadden we geen kritische filters. Onthoud: 'Ik ben waardeloos' is slechts een oude bandopname.",
+          "card2Title": "2. De kunst van sublimatie",
+          "card2Summary": "Zware emoties hoeven je niet te breken; ze kunnen worden omgezet in creativiteit en empathie.",
+          "card2Detail": "Sublimatie zet pijn om in kunst, literatuur of zorg voor anderen. Grote makers vormden duisternis om tot meesterwerken.",
+          "card3Title": "3. Jij bent de hemel, niet de storm",
+          "card3Summary": "Je bent de bewuste waarnemer van de storm, niet het wrakhout erin.",
+          "card3Detail": "Hoe hevig het ook onweert, de lucht zelf blijft ongedeerd. Kijk naar je emoties als voorbijtrekkende wolken."
+      },
+      "cta": {
+          "title": "Wil je nu tot rust komen of met iemand praten?",
+          "desc": "Haal diep adem. Je hoeft vandaag niet je hele leven op te lossen. Deze ene minuut doorkomen is genoeg.",
+          "crisisButton": "Bekijk hulplijnen bij crisis",
+          "toolsButton": "Ademhalings- en aardingsoefeningen"
+      }
   }
 };

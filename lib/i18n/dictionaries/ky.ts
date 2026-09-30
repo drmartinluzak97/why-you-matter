@@ -255,58 +255,56 @@ export const ky: TranslationDictionary = {
     "footerNotice": "Түз жеткирүү: hello@martinluzak.sk • Анонимдүү кабарлоо колдоого алынат"
   },
   motivationPage: {
-    "backToHome": "← Back to Home & Crisis Help",
-    "badge": "Perspective Shift & Meaning • 101 Global Inspirations",
-    "titlePart1": "Why Your Existence ",
-    "titleHighlight": "Matters Profoundly",
-    "description": "When you are in the thick of exhaustion, perspective narrows. Here are grounded psychological principles and real human stories of those who turned extreme suffering into enduring purpose.",
-    "spotlightBadge": "Voice from Your Region",
-    "spotlightSelectCountry": "Select country:",
-    "spotlightAdversity": "Adversity Faced",
-    "spotlightTakeaway": "Takeaway for You Today",
-    "globalTitansTitle": "Global Titans of Resilience",
-    "globalTitansSubtitle": "Timeless figures who overcame unimaginable odds to light the path for humanity.",
-    "galleryTitle": "All Continental & European Figures",
-    "gallerySubtitle": "Explore inspiring stories from across Europe and the entire globe.",
-    "searchPlaceholder": "Search name or country...",
-    "continents": {
-      "all": "🌍 All",
-      "europe": "🏰 Europe",
-      "americas": "🌎 Americas",
-      "asia": "🌏 Asia",
-      "africa": "🏜️ Africa",
-      "oceania": "🌊 Oceania"
-    },
-    "pillars": {
-      "title": "Туруктуулуктун 3 Негизги Түркүгү",
-      "badge": "Далилденген Принциптер",
-      "survivalTitle": "100% Survival Rate",
-      "survivalDesc": "You have survived every panic attack, every heartbreak, and every dark night you thought you wouldn't. Your resilience is already proven by facts.",
-      "noiseTitle": "Cognitive Noise vs. Truth",
-      "noiseDesc": "The brain is an evolutionary survival machine that exaggerates threat in times of stress. Anxiety and dark thoughts are false alarms, not objective reality.",
-      "chaptersTitle": "The Unwritten Chapters",
-      "chaptersDesc": "You cannot judge the entire book of your life by a single difficult chapter. The best people you will ever meet and the greatest laughs are still ahead.",
-      "alchemyTitle": "Alchemy of Pain (Sublimation)",
-      "alchemyDesc": "Great art, deep empathy, and groundbreaking resilience are born from people who have stood in the dark. Your pain can become your greatest creative superpower."
-    },
-    "sublimation": {
-      "title": "The Alchemy of Mind & Shadow",
-      "subtitle": "Transforming inner turmoil into understanding and creative power.",
-      "card1Title": "1. Thoughts Are Not Facts",
-      "card1Summary": "Most self-critical thoughts are not your own. They are old tape recordings from childhood or environment.",
-      "card1Detail": "As young children, we lacked critical filters. When someone spoke in anger or criticism, our subconscious recorded it as absolute truth. When you hear 'You are broken' or 'You are worthless', realize: that isn't you speaking. It is simply an outdated tape loop.",
-      "card2Title": "2. The Art of Sublimation (Alchemy)",
-      "card2Summary": "Your intense dark energy doesn't have to destroy you. It can be transmuted into creation.",
-      "card2Detail": "Sublimation is the psychological alchemy of converting raw instinct, taboo thoughts, and deep emotional pain into art, literature, physical power, or code. Creators didn't suppress their darkness—they channeled it into timeless works.",
-      "card3Title": "3. You Are the Sky, Not the Storm",
-      "card3Summary": "You are the conscious observer witnessing the storm, not the wreckage inside it.",
-      "card3Detail": "No matter how turbulent the clouds, thunder, or rain become, the sky itself is never harmed by the weather. Step back into the seat of the observer. Watch the sensations come and go without attaching your identity to them."
-    },
-    "cta": {
-      "title": "Need to ground yourself right now or talk to someone?",
-      "desc": "Take a slow, deep breath. You do not have to conquer the whole mountain today. Just the next minute.",
-      "crisisButton": "View Crisis Helplines",
-      "toolsButton": "Breathing & Grounding Tools"
-    }
+      "backToHome": "← Ana Sayfaya ve Kriz Yardımına Dön",
+      "badge": "Acıyı anlama dönüştürmek • 101 küresel ilham",
+      "titlePart1": "Varlığın neden ",
+      "titleHighlight": "derin bir anlam taşıyor",
+      "description": "Tükenmişlik ve acı anlarında bakış açımız daralır. Burada, en karanlık sınavları aşıp ışığa ulaşan insanların gerçek hikayeleri ve kanıtlanmış psikolojik ilkeler yer alıyor.",
+      "spotlightBadge": "Bölgenden bir ses",
+      "spotlightSelectCountry": "Ülke seç:",
+      "spotlightAdversity": "Aşılan zorluk",
+      "spotlightTakeaway": "Bugün için öğüt",
+      "globalTitansTitle": "İçsel direncin küresel devleri",
+      "globalTitansSubtitle": "Hayal bile edilemeyecek zorlukları yenip insanlığa yol gösteren ölümsüz isimler.",
+      "galleryTitle": "Kıtalara ve Avrupa'ya göre kahramanlar",
+      "gallerySubtitle": "Tüm Avrupa ülkelerinden ve dünyanın dört bir yanından ilham veren hikayeleri keşfet.",
+      "searchPlaceholder": "Kişi veya ülke ara...",
+      "continents": {
+          "all": "🌍 Tümü",
+          "europe": "🏰 Avrupa",
+          "americas": "🌎 Amerika",
+          "asia": "🌏 Asya",
+          "africa": "🏜️ Afrika",
+          "oceania": "🌊 Okyanusya"
+      },
+      "pillars": {
+          "title": "Direncin 3 Temel Direği",
+          "badge": "Kanıtlanmış İlkeler",
+          "noiseTitle": "Bilişsel gürültü vs Gerçek",
+          "noiseDesc": "Beyin kriz anlarında tehlikeyi abartmaya meyillidir. Kaygı ve karanlık düşünceler sahte alarmlardır, gerçeklik değil.",
+          "chaptersTitle": "Yazılmamış sayfalar",
+          "chaptersDesc": "Hayat kitabının tamamını tek bir zorlu bölüme bakarak yargılayamazsın. En güzel günler ve en içten gülüşler henüz önünde.",
+          "alchemyTitle": "Acının simyası (Yüceltme)",
+          "alchemyDesc": "Büyük sanat ve derin empati karanlıkta durmuş insanlardan doğar. Acın senin en büyük gücüne dönüşebilir."
+      },
+      "sublimation": {
+          "title": "Zihnin ve Gölgenin Simyası",
+          "subtitle": "İçsel karmaşayı derin anlayışa ve yaratıcı güce dönüştürmek.",
+          "card1Title": "1. Düşünceler gerçekler değildir",
+          "card1Summary": "Öz eleştirel düşüncelerin çoğu sana ait değil, geçmişten kalan eski kayıtlardır.",
+          "card1Detail": "Çocukken eleştirel filtrelerimiz yoktu. 'Hiçbir şeye değmezsin' sesini duyduğunda hatırla: bu sen değilsin, sadece eski bir kaset.",
+          "card2Title": "2. Yüceltme sanatı",
+          "card2Summary": "Karanlık enerji seni yok etmek zorunda değil; üretime ve şefkate dönüştürülebilir.",
+          "card2Detail": "Yüceltme, ham acıyı sanata, güce veya başkalarına yardıma dönüştürür. Büyük ustalar karanlıklarını ölümsüz eserlere dönüştürdüler.",
+          "card3Title": "3. Sen gökyüzüsün, fırtına değil",
+          "card3Summary": "Sen fırtınanın içindeki enkaz değil, onu izleyen bilinçli gözlemcisin.",
+          "card3Detail": "Fırtına ne kadar şiddetli olursa olsun, gökyüzünün kendisi asla zarar görmez. Duygularını geçip giden bulutlar gibi izle."
+      },
+      "cta": {
+          "title": "Şu anda sakinleşmeye veya biriyle konuşmaya mı ihtiyacın var?",
+          "desc": "Derin bir nefes al. Bugün tüm hayatını çözmek zorunda değilsin. Sadece bu bir dakikayı atlatman yeterli.",
+          "crisisButton": "Kriz Destek Hatlarını Gör",
+          "toolsButton": "Nefes ve Topraklanma Egzersizleri"
+      }
   }
 };

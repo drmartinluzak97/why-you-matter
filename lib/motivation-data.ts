@@ -5,28 +5,34 @@ export interface InspiringFigure {
   countryName: {
     en: string;
     sk: string;
+    [lang: string]: string;
   };
   flag: string;
   continent: "europe" | "americas" | "asia" | "africa" | "oceania";
   role: {
     en: string;
     sk: string;
+    [lang: string]: string;
   };
   quote: {
     en: string;
     sk: string;
+    [lang: string]: string;
   };
   adversity: {
     en: string;
     sk: string;
+    [lang: string]: string;
   };
   transformation: {
     en: string;
     sk: string;
+    [lang: string]: string;
   };
   takeaway: {
     en: string;
     sk: string;
+    [lang: string]: string;
   };
   isGlobalFeatured?: boolean;
 }
@@ -39,28 +45,85 @@ export const INSPIRING_FIGURES: InspiringFigure[] = [
     id: "nick-vujicic",
     name: "Nick Vujicic",
     countryCode: "au",
-    countryName: { en: "Australia", sk: "Austrália" },
+    countryName: {
+      en: "Australia",
+      sk: "Austrália",
+      cs: "Austrálie",
+      de: "Australien",
+      ja: "オーストラリア",
+      zh: "澳大利亚",
+      fr: "Australie",
+      es: "Australia",
+      it: "Australia",
+      ru: "Австралия",
+      pl: "Australia"
+    },
     flag: "🇦🇺",
     continent: "oceania",
     role: {
       en: "Evangelist, author & motivational speaker",
       sk: "Svetový motivačný rečník a autor",
+      cs: "Světový motivační řečník a autor",
+      de: "Motivationsredner und Bestsellerautor",
+      ja: "世界的モチベーショナルスピーカー・作家",
+      zh: "国际知名励志演说家及畅销书作家",
+      fr: "Conférencier motivateur international et auteur",
+      es: "Orador motivacional y escritor internacional",
+      it: "Oratore motivazionale internazionale e autore",
+      ru: "Всемирно известный оратор и писатель",
+      pl: "Mówca motywacyjny i autor bestsellerów"
     },
     quote: {
       en: "If you can't get a miracle, become one.",
       sk: "Ak nemôžeš získať zázrak, staň sa ním pre niekoho iného.",
+      cs: "Pokud nemůžeš získat zázrak, staň se jím pro někoho jiného.",
+      de: "Wenn du kein Wunder empfangen kannst, werde selbst zu einem.",
+      ja: "奇跡が起きないなら、自分自身が奇跡になりなさい。",
+      zh: "如果你无法得到奇迹，那就让自己成为奇迹。",
+      fr: "Si vous ne recevez pas de miracle, devenez-en un pour les autres.",
+      es: "Si no puedes conseguir un milagro, conviértete en uno.",
+      it: "Se non puoi ricevere un miracolo, diventa tu stesso un miracolo.",
+      ru: "Если ты не можешь дождаться чуда, стань им сам.",
+      pl: "Jeśli nie możesz doczekać się cudu, stań się nim dla innych."
     },
     adversity: {
       en: "Born with tetra-amelia syndrome (without arms and legs). Suffered severe bullying, loneliness, and attempted suicide at age 10.",
       sk: "Narodil sa bez rúk a nôh (syndróm tetra-amélie). V detstve prežil šikanu, pocity beznádeje a v 10 rokoch pokus o samovraždu.",
+      cs: "Narodil se bez rukou a nohou. V dětství prožil šikanu, pocity beznaděje a v 10 letech pokus o sebevraždu.",
+      de: "Wurde ohne Arme und Beine geboren. Erlitt schwere Einsamkeit, Mobbing und versuchte mit 10 Jahren Suizid.",
+      ja: "両腕と両脚のないテトラ・アメリア症候群で生まれ、過酷ないじめと孤独に苦しみ、10歳の時に自殺を図りました。",
+      zh: "天生患有海豹肢症（没有四肢）。童年时饱受霸凌与孤独，10岁时曾企图自杀。",
+      fr: "Né sans bras ni jambes (syndrome de tétra-amélie). A souffert de rejet, de solitude et a tenté de mettre fin à ses jours à 10 ans.",
+      es: "Nació sin brazos ni piernas (síndrome de tetraamelia). Sufrió acoso, soledad e intentó quitarse la vida a los 10 años.",
+      it: "Nato senza braccia né gambe (sindrome tetra-amelia). Ha affrontato bullismo, isolamento e a 10 anni tentò il suicidio.",
+      ru: "Родился без рук и ног. Пережил травлю, глубокое отчаяние и попытку самоубийства в 10 лет.",
+      pl: "Urodził się bez rąk i nóg. W dzieciństwie doświadczył nękania, samotności i próby samobójczej w wieku 10 lat."
     },
     transformation: {
       en: "Realized his life had a distinct purpose beyond physical form. He has spoken to millions across 70+ countries, showing that love and courage transcend physical limits.",
       sk: "Uvedomil si, že jeho život má hlbší zmysel. Dnes inšpiruje milióny ľudí vo viac ako 70 krajinách sveta a dokazuje, že ľudská hodnota nezávisí od tela.",
+      cs: "Uvědomil si, že jeho život má hluboký smysl. Dnes inspiruje miliony lidí ve více než 70 zemích a dokazuje, že lidská hodnota nezávisí na těle.",
+      de: "Erkannte seinen Lebenssinn jenseits körperlicher Grenzen und inspiriert Millionen Menschen in über 70 Ländern.",
+      ja: "肉体の限界を超えた命の目的に目覚め、世界70カ国以上の数百万人に勇気と愛を届け続けています。",
+      zh: "领悟到生命超越肉体形态的深远意义，在70多个国家向数千万人演讲，证明爱与勇气超越身体局限。",
+      fr: "A découvert que sa valeur dépasse son corps. Il a inspiré des millions de personnes dans plus de 70 pays.",
+      es: "Descubrió un propósito superior y ha motivado a millones de personas en más de 70 países demostrando el poder del amor y la valentía.",
+      it: "Ha compreso il valore unico della propria vita e oggi ispira milioni di persone in oltre 70 paesi.",
+      ru: "Осознал высший смысл своей жизни и вдохновил миллионы людей в более чем 70 странах мира.",
+      pl: "Odkrył głęboki sens życia i przemawia do milionów ludzi w ponad 70 krajach, dając nadzieję i siłę."
     },
     takeaway: {
       en: "Your worth is not defined by what you lack, but by the love and light you can bring to others.",
       sk: "Tvoja hodnota nie je definovaná tým, čo ti chýba, ale láskou a silou, ktorú môžeš odovzdať ďalej.",
+      cs: "Tvá hodnota není definována tím, co ti chybí, ale láskou a silou, kterou můžeš předat dál.",
+      de: "Dein Wert definiert sich nicht durch das, was dir fehlt, sondern durch die Liebe und Hoffnung, die du schenkst.",
+      ja: "あなたの価値は欠けているものによって決まるのではなく、周りに分かち合える愛と光によって決まる。",
+      zh: "你的价值不取决于你所缺失的，而取决于你能给予他人的爱与光明。",
+      fr: "Votre valeur ne se mesure pas à ce qui vous manque, mais à l'amour et la lumière que vous partagez.",
+      es: "Tu valor no se define por lo que te falta, sino por el amor y la fuerza que eres capaz de transmitir.",
+      it: "Il tuo valore non è definito da ciò che ti manca, ma dall'amore e dalla luce che puoi portare al mondo.",
+      ru: "Твоя ценность определяется не тем, чего тебе не хватает, а любовью и светом, которые ты даришь миру.",
+      pl: "Twoja wartość nie wynika z braków, lecz z miłości i światła, którymi dzielisz się z innymi."
     },
     isGlobalFeatured: true,
   },
@@ -68,28 +131,85 @@ export const INSPIRING_FIGURES: InspiringFigure[] = [
     id: "viktor-frankl",
     name: "Viktor E. Frankl",
     countryCode: "at",
-    countryName: { en: "Austria", sk: "Rakúsko" },
+    countryName: {
+      en: "Austria",
+      sk: "Rakúsko",
+      cs: "Rakousko",
+      de: "Österreich",
+      ja: "オーストリア",
+      zh: "奥地利",
+      fr: "Autriche",
+      es: "Austria",
+      it: "Austria",
+      ru: "Австрия",
+      pl: "Austria"
+    },
     flag: "🇦🇹",
     continent: "europe",
     role: {
       en: "Neurologist, psychiatrist & founder of Logotherapy",
       sk: "Neurológ, psychiater a zakladateľ logoterapie",
+      cs: "Neurolog, psychiatr a zakladatel logoterapie",
+      de: "Neurologe, Psychiater und Begründer der Logotherapie",
+      ja: "神経科医・精神科医・ロゴセラピー創始者",
+      zh: "神经学家、精神病学家及意义治疗学创始人",
+      fr: "Neurologue, psychiatre et fondateur de la logothérapie",
+      es: "Neurólogo, psiquiatra y fundador de la logoterapia",
+      it: "Neurologo, psichiatra e fondatore della logoterapia",
+      ru: "Невролог, психиатр и основатель логотерапии",
+      pl: "Neurolog, psychiatra i twórca logoterapii"
     },
     quote: {
       en: "He who has a why to live can bear almost any how.",
       sk: "Kto má prečo žiť, vydrží takmer každé ako.",
+      cs: "Kdo má proč žít, snese téměř každé jak.",
+      de: "Wer ein Warum zum Leben hat, erträgt fast jedes Wie.",
+      ja: "生きる意味を持つ者は、いかなる困難にも耐えうる。",
+      zh: "知道自己为何而活的人，便能忍受任何一种生活。",
+      fr: "Celui qui a un pourquoi peut supporter n'importe quel comment.",
+      es: "Quien tiene un porqué para vivir, puede soportar casi cualquier cómo.",
+      it: "Chi ha un perché per vivere può sopportare quasi ogni come.",
+      ru: "Тот, у кого есть 'зачем' жить, может вынести почти любое 'как'.",
+      pl: "Ten, kto ma po co żyć, potrafi znieść prawie każde jak."
     },
     adversity: {
       en: "Survived 4 concentration camps including Auschwitz and Dachau; lost his parents, brother, and pregnant wife in the Holocaust.",
       sk: "Prežil 4 koncentračné tábory vrátane Osvienčimu a Dachau. V holokauste prišiel o rodičov, brata aj tehotnú manželku.",
+      cs: "Přežil 4 koncentrační tábory včetně Osvětimi a Dachau. V holokaustu přišel o rodiče, bratra i těhotnou manželku.",
+      de: "Überlebte 4 Konzentrationslager inkl. Auschwitz; verlor seine Eltern, seinen Bruder und seine schwangere Frau.",
+      ja: "アウシュヴィッツやダッハウなど4つの強制収容所を生き延び、ホロコーストで両親、兄弟、身重の妻を失いました。",
+      zh: "在包括奥斯威辛和达豪在内的4个集中营中幸存；在大屠杀中失去了父母、兄弟和怀孕的妻子。",
+      fr: "A survécu à 4 camps de concentration, dont Auschwitz et Dachau ; a perdu ses parents, son frère et son épouse enceinte dans la Shoah.",
+      es: "Sobrevivió a 4 campos de concentración incluidos Auschwitz y Dachau; perdió a sus padres, hermano y esposa embarazada en el Holocausto.",
+      it: "Sopravvisse a 4 campi di concentramento inclusi Auschwitz e Dachau; perse i genitori, il fratello e la moglie incinta nella Shoah.",
+      ru: "Выжил в 4 нацистских концлагерях, включая Освенцим и Дахау; потерял родителей, брата и беременную жену.",
+      pl: "Przeżył 4 obozy koncentracyjne, w tym Auschwitz i Dachau; stracił rodziców, brata i ciężarną żonę."
     },
     transformation: {
       en: "Created logotherapy—the school of psychotherapy centered on finding meaning even in the most unbearable suffering.",
       sk: "Založil logoterapiu – psychoterapeutický smer zameraný na nachádzanie zmyslu života aj v tom najťažšom utrpení.",
+      cs: "Založil logoterapii – směr zaměřený na nacházení smyslu života i v nejtěžším utrpení.",
+      de: "Begründete die Logotherapie, die den Sinn des Lebens selbst im tiefsten Leid in den Mittelpunkt stellt.",
+      ja: "どんなに過酷な苦痛の中にあっても生きる意味を見出す心理療法「ロゴセラピー」を確立しました。",
+      zh: "创立了意义治疗学——专注于在最难以忍受的痛苦中探寻生命意义的心理学流派。",
+      fr: "A fondé la logothérapie, approche psychologique centrée sur la découverte du sens de la vie au cœur même de la souffrance.",
+      es: "Fundó la logoterapia, la corriente psicoterapéutica centrada en encontrar sentido incluso en el sufrimiento más extremo.",
+      it: "Ha fondato la logoterapia, la scuola di psicoterapia incentrata sulla ricerca del senso della vita anche nella sofferenza più dura.",
+      ru: "Создал логотерапию — психотерапевтическое учение о поиске смысла жизни даже в самых невыносимых страданиях.",
+      pl: "Stworzył logoterapię – szkołę psychoterapii skupioną na odnajdywaniu sensu życia nawet w najcięższym cierpieniu."
     },
     takeaway: {
       en: "Everything can be taken from a person but one thing: the last of human freedoms—to choose one's attitude in any set of circumstances.",
       sk: "Človeku možno vziať všetko okrem jediného: poslednej slobody zvoliť si vlastný postoj za akýchkoľvek okolností.",
+      cs: "Člověku lze vzít vše kromě jediného: poslední lidské svobody zvolit si svůj postoj za jakýchkoli okolností.",
+      de: "Dem Menschen kann alles genommen werden, nur eines nicht: die letzte der menschlichen Freiheiten, die eigene Haltung zu wählen.",
+      ja: "人から全てを奪うことはできても、ただ一つ『どのような状況でも自らの態度を選ぶ自由』だけは決して奪えない。",
+      zh: "人的一切都可以被剥夺，唯独除外人类最后的自由——在任何境遇中选择自己态度的自由。",
+      fr: "On peut tout enlever à un homme sauf une chose : la dernière des libertés humaines, celle de choisir son attitude en toute circonstance.",
+      es: "Al ser humano se le puede arrebatar todo excepto la última libertad: la elección de su propia actitud ante cualquier circunstancia.",
+      it: "All'uomo si può togliere tutto tranne una cosa: l'ultima delle libertà umane, scegliere il proprio atteggiamento in qualsiasi situazione.",
+      ru: "У человека можно отнять всё, кроме одного: последней свободы — выбирать собственное отношение к любым обстоятельствам.",
+      pl: "Człowiekowi można odebrać wszystko z wyjątkiem jednego: ostatniej ludzkiej wolności – wyboru własnej postawy w każdych okolicznościach."
     },
     isGlobalFeatured: true,
   },

@@ -255,58 +255,56 @@ export const de: TranslationDictionary = {
     "footerNotice": "Direktversand an hello@martinluzak.sk • Anonyme Meldung möglich"
   },
   motivationPage: {
-    "backToHome": "← Zurück zur Startseite & Krisenhilfe",
-    "badge": "Sinnfindung & Perspektivenwechsel • 101 weltweite Inspirationen",
-    "titlePart1": "Warum deine Existenz ",
-    "titleHighlight": "von tiefster Bedeutung ist",
-    "description": "In Momenten schwerer Erschöpfung verengt sich die Perspektive. Hier sind psychologische Prinzipien und menschliche Geschichten jener, die tiefstes Leid in dauerhaften Sinn verwandelten.",
-    "spotlightBadge": "Stimme aus deiner Region",
-    "spotlightSelectCountry": "Land wählen:",
-    "spotlightAdversity": "Überwundene Prüfung",
-    "spotlightTakeaway": "Botschaft für deinen heutigen Tag",
-    "globalTitansTitle": "Globale Vorbilder menschlicher Widerstandskraft",
-    "globalTitansSubtitle": "Persönlichkeiten, die schier unüberwindbare Prüfungen gemeistert haben und die Menschheit inspirieren.",
-    "galleryTitle": "Galerie aller europäischen & weltweiten Vorbilder",
-    "gallerySubtitle": "Entdecke bewegende Geschichten aus allen Ländern Europas und der ganzen Welt.",
-    "searchPlaceholder": "Name oder Land suchen...",
-    "continents": {
-      "all": "🌍 Alle",
-      "europe": "🏰 Europa",
-      "americas": "🌎 Amerika",
-      "asia": "🌏 Asien",
-      "africa": "🏜️ Afrika",
-      "oceania": "🌊 Ozeanien"
-    },
-    "pillars": {
-      "title": "3 Grundpfeiler der Resilienz",
-      "badge": "Bewährte Prinzipien",
-      "survivalTitle": "100% Überlebensrate",
-      "survivalDesc": "Du hast jede Panikattacke, jeden Herzschmerz und jede dunkle Nacht überstanden. Deine seelische Widerstandskraft ist durch Fakten bewiesen.",
-      "noiseTitle": "Kognitives Rauschen vs. Wahrheit",
-      "noiseDesc": "Das Gehirn übertreibt in Krisen Gefahren. Dunkle Gedanken und Ängste sind evolutionäre Fehlalarme, keine objektiven Wahrheiten.",
-      "chaptersTitle": "Die ungeschriebenen Kapitel",
-      "chaptersDesc": "Beurteile nicht das gesamte Buch deines Lebens nach einem schweren Kapitel. Die wertvollsten Begegnungen und das herzlichste Lachen liegen noch vor dir.",
-      "alchemyTitle": "Alchemie des Schmerzes (Sublimierung)",
-      "alchemyDesc": "Große Kunst, tiefes Mitgefühl und echte Stärke entstehen bei Menschen, die durch das Dunkel gegangen sind. Dein Schmerz kann deine größte Kraft werden."
-    },
-    "sublimation": {
-      "title": "Die Alchemie von Geist & Schatten",
-      "subtitle": "Innere Unruhe in Verstehen und schöpferische Kraft verwandeln.",
-      "card1Title": "1. Gedanken sind keine Tatsachen",
-      "card1Summary": "Selbstkritische Gedanken stammen oft nicht von dir selbst, sondern sind alte Prägungen aus der Kindheit.",
-      "card1Detail": "Als Kinder hatten wir keine Filter. Wut und Kritik anderer wurden im Unterbewusstsein als Wahrheit abgespeichert. Wenn du hörst 'Du bist wertlos', erkenne: Das bist nicht du.",
-      "card2Title": "2. Die Kunst der Sublimierung",
-      "card2Summary": "Dunkle seelische Energie muss dich nicht zerstören. Sie kann in Schöpfung und Empathie verwandelt werden.",
-      "card2Detail": "Sublimierung verwandelt rohen seelischen Schmerz in Kunst, Ausdruckskraft oder Hilfsbereitschaft.",
-      "card3Title": "3. Du bist der Himmel, nicht der Sturm",
-      "card3Summary": "Du bist der bewusste Beobachter des Sturms, nicht der Trümmerhaufen darin.",
-      "card3Detail": "Egal wie dunkel die Gewitterwolken ziehen: Dem Himmel selbst kann das Wetter nichts anhaben. Tritt zurück in die Rolle des stillen Beobachters."
-    },
-    "cta": {
-      "title": "Möchtest du dich jetzt beruhigen oder mit jemandem sprechen?",
-      "desc": "Atme tief durch. Du musst heute nicht dein ganzes Leben lösen. Es reicht, diese eine Minute zu überstehen.",
-      "crisisButton": "Krisentelefone anzeigen",
-      "toolsButton": "Atem- & Erdungsübungen"
-    }
+      "backToHome": "← Zurück zur Startseite & Krisenhilfe",
+      "badge": "Schmerz in Sinn verwandeln • 101 globale Inspirationen",
+      "titlePart1": "Warum deine Existenz ",
+      "titleHighlight": "von tiefer Bedeutung ist",
+      "description": "Wenn Erschöpfung und Schmerz übermächtig werden, verengt sich der Blick. Hier findest du fundierte psychologische Prinzipien und wahre Geschichten von Menschen, die dunkelste Zeiten überstanden haben.",
+      "spotlightBadge": "Stimme aus deiner Region",
+      "spotlightSelectCountry": "Land auswählen:",
+      "spotlightAdversity": "Überwundene Härte",
+      "spotlightTakeaway": "Erkenntnis für deinen heutigen Tag",
+      "globalTitansTitle": "Globale Vorbilder menschlicher Resilienz",
+      "globalTitansSubtitle": "Persönlichkeiten, die scheinbar unlösbare Schicksalsschläge meisterten und die Welt inspirieren.",
+      "galleryTitle": "Galerie der Vorbilder nach Kontinenten",
+      "gallerySubtitle": "Entdecke inspirierende Geschichten aus jedem europäischen Land und allen Teilen der Welt.",
+      "searchPlaceholder": "Name oder Land suchen...",
+      "continents": {
+          "all": "🌍 Alle",
+          "europe": "🏰 Europa",
+          "americas": "🌎 Amerika",
+          "asia": "🌏 Asien",
+          "africa": "🏜️ Afrika",
+          "oceania": "🌊 Ozeanien"
+      },
+      "pillars": {
+          "title": "3 Grundpfeiler der Resilienz",
+          "badge": "Bewährte Prinzipien",
+          "noiseTitle": "Kognitives Rauschen vs. Realität",
+          "noiseDesc": "Das Gehirn ist eine evolutionäre Überlebensmaschine, die Gefahren in Krisen überzeichnet. Ängste und dunkle Gedanken sind oft Fehlalarme, keine Fakten.",
+          "chaptersTitle": "Ungeschriebene Kapitel",
+          "chaptersDesc": "Man kann ein ganzes Lebensbuch nicht nach einem einzigen schwierigen Kapitel beurteilen. Die schönsten Momente und herzlichsten Lachen liegen noch vor dir.",
+          "alchemyTitle": "Alchemie des Schmerzes (Sublimierung)",
+          "alchemyDesc": "Große Kunst, tiefes Mitgefühl und unerschütterliche Kraft entstehen bei jenen, die in der Dunkelheit standen. Dein Schmerz kann deine größte Stärke werden."
+      },
+      "sublimation": {
+          "title": "Die Alchemie von Geist & Schatten",
+          "subtitle": "Verwandlung innerer Unruhe in tiefe Erkenntnis und schöpferische Kraft.",
+          "card1Title": "1. Gedanken sind keine Tatsachen",
+          "card1Summary": "Die meisten selbstkritischen Gedanken stammen nicht aus deinem wahren Selbst, sondern sind alte Muster.",
+          "card1Detail": "Als Kinder hatten wir keine Filter. Wenn wir heute die innere Stimme hören 'Du bist nicht gut genug', erinnere dich: Das bist nicht du, sondern nur eine alte Tonspur.",
+          "card2Title": "2. Die Kunst der Sublimierung",
+          "card2Summary": "Schwere Gefühle müssen dich nicht zerstören – sie können in Schöpfung und Empathie verwandelt werden.",
+          "card2Detail": "Sublimierung wandelt Rohschmerz in Kunst, Kraft oder Hilfe für andere um. Die größten Schöpfer unterdrückten ihre Dunkelheit nicht, sie formten daraus Neues.",
+          "card3Title": "3. Du bist der Himmel, nicht der Sturm",
+          "card3Summary": "Du bist der bewusste Beobachter des Sturms, nicht die Trümmer darin.",
+          "card3Detail": "Egal wie dunkel die Wolken oder wie heftig der Regen sind, der Himmel selbst bleibt unversehrt. Tritt einen Schritt zurück und beobachte Gefühle wie vorbeiziehende Wolken."
+      },
+      "cta": {
+          "title": "Möchtest du dich beruhigen oder mit jemandem sprechen?",
+          "desc": "Atme tief durch. Du musst nicht heute dein ganzes Leben lösen. Es reicht völlig, diese eine Minute zu meistern.",
+          "crisisButton": "Krisen-Helplines anzeigen",
+          "toolsButton": "Atem- & Erdungsübungen"
+      }
   }
 };
