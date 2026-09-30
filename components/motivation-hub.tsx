@@ -129,45 +129,45 @@ export function MotivationHub({ initialCountryCode }: MotivationHubProps) {
   );
 
   return (
-    <div className="space-y-12 lg:space-y-16">
+    <div className="space-y-10 lg:space-y-12">
       {/* ======================================================== */}
-      {/* TOP BENTO GRID: HERO + SPOTLIGHT (LEFT) & 4 PILLARS (RIGHT) */}
+      {/* 1. TOP HERO HEADER (FULL WIDTH)                          */}
+      {/* ======================================================== */}
+      <div className="space-y-4">
+        <div className="flex items-center justify-between">
+          <Link
+            href="/"
+            className="inline-flex items-center gap-2 text-xs font-mono text-slate-300 hover:text-white transition-colors bg-slate-900/90 border border-slate-800 hover:border-slate-700 px-3.5 py-1.5 rounded-xl shadow-sm"
+          >
+            <ArrowLeft className="w-3.5 h-3.5 text-rose-400" />
+            <span>{mp.backToHome}</span>
+          </Link>
+        </div>
+
+        <div className="space-y-2.5 max-w-4xl">
+          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-purple-500/15 text-purple-300 text-xs font-semibold tracking-wide border border-purple-500/30 shadow-sm">
+            <Sparkles className="w-3.5 h-3.5 text-purple-400" />
+            <span>{mp.badge}</span>
+          </div>
+          <h1 className="text-3xl sm:text-4xl xl:text-5xl font-extrabold text-white tracking-tight leading-tight">
+            {mp.titlePart1}
+            <span className="bg-gradient-to-r from-purple-400 via-pink-400 to-amber-300 text-transparent bg-clip-text">
+              {mp.titleHighlight}
+            </span>
+          </h1>
+          <p className="text-slate-300 text-xs sm:text-sm leading-relaxed max-w-3xl">
+            {mp.description}
+          </p>
+        </div>
+      </div>
+
+      {/* ======================================================== */}
+      {/* 2. SIDE-BY-SIDE BENTO: GEO-HERO SPOTLIGHT & 3 PILLARS    */}
       {/* ======================================================== */}
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 lg:gap-8 items-stretch">
         
-        {/* LEFT BENTO BLOCK (7 Columns): Hero Title & Geo-Hero Spotlight */}
-        <div className="lg:col-span-7 flex flex-col justify-between space-y-6">
-          
-          {/* Header & Back Link */}
-          <div className="space-y-4">
-            <div className="flex items-center justify-between">
-              <Link
-                href="/"
-                className="inline-flex items-center gap-2 text-xs font-mono text-slate-300 hover:text-white transition-colors bg-slate-900/90 border border-slate-800 hover:border-slate-700 px-3.5 py-1.5 rounded-xl shadow-sm"
-              >
-                <ArrowLeft className="w-3.5 h-3.5 text-rose-400" />
-                <span>{mp.backToHome}</span>
-              </Link>
-            </div>
-
-            <div className="space-y-2">
-              <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-purple-500/15 text-purple-300 text-xs font-semibold tracking-wide border border-purple-500/30 shadow-sm">
-                <Sparkles className="w-3.5 h-3.5 text-purple-400" />
-                <span>{mp.badge}</span>
-              </div>
-              <h1 className="text-3xl sm:text-4xl xl:text-5xl font-extrabold text-white tracking-tight leading-tight">
-                {mp.titlePart1}
-                <span className="bg-gradient-to-r from-purple-400 via-pink-400 to-amber-300 text-transparent bg-clip-text">
-                  {mp.titleHighlight}
-                </span>
-              </h1>
-              <p className="text-slate-300 text-xs sm:text-sm leading-relaxed max-w-2xl">
-                {mp.description}
-              </p>
-            </div>
-          </div>
-
-          {/* Geo-Hero Spotlight Card (Type 1) */}
+        {/* LEFT BLOCK (7 Columns): Geo-Hero Spotlight */}
+        <div className="lg:col-span-7 flex flex-col">
           <div className="relative rounded-3xl bg-gradient-to-br from-purple-950/40 via-slate-900/95 to-slate-950 border border-purple-500/40 p-6 sm:p-7 shadow-2xl shadow-purple-950/40 backdrop-blur-xl space-y-5 flex-1 flex flex-col justify-between">
             <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-b border-purple-500/20 pb-3.5">
               <div className="flex items-center gap-3">
@@ -241,9 +241,9 @@ export function MotivationHub({ initialCountryCode }: MotivationHubProps) {
           </div>
         </div>
 
-        {/* RIGHT BENTO BLOCK (5 Columns): 3 Psychological Pillars Bento Grid */}
-        <div className="lg:col-span-5 flex flex-col justify-between space-y-4">
-          <div className="flex items-center justify-between pb-1">
+        {/* RIGHT BLOCK (5 Columns): 3 Psychological Pillars */}
+        <div className="lg:col-span-5 flex flex-col justify-between space-y-3.5">
+          <div className="flex items-center justify-between pb-0.5">
             <h3 className="text-sm font-bold text-slate-300 uppercase tracking-wider flex items-center gap-2">
               <Shield className="w-4 h-4 text-purple-400" />
               <span>{mp.pillars.title}</span>
@@ -253,28 +253,29 @@ export function MotivationHub({ initialCountryCode }: MotivationHubProps) {
             </span>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-1 gap-3.5 flex-1">
+          <div className="flex-1 flex flex-col justify-between gap-3">
             {pillars.map((p, idx) => {
               const Icon = p.icon;
               return (
                 <div
                   key={idx}
-                  className={`p-4.5 rounded-3xl bg-slate-900/85 border border-slate-800/90 shadow-md transition-all flex flex-col justify-between space-y-2.5 ${p.glow}`}
+                  className={`p-4 rounded-3xl bg-slate-900/85 border border-slate-800/90 shadow-md transition-all flex flex-col justify-center space-y-2 ${p.glow}`}
                 >
                   <div className="flex items-center justify-between">
-                    <div className={`w-8 h-8 rounded-xl flex items-center justify-center border ${p.color}`}>
-                      <Icon className="w-4 h-4" />
+                    <div className="flex items-center gap-2.5">
+                      <div className={`w-7 h-7 rounded-xl flex items-center justify-center border ${p.color}`}>
+                        <Icon className="w-3.5 h-3.5" />
+                      </div>
+                      <h4 className="text-sm font-bold text-white leading-snug">
+                        {p.title}
+                      </h4>
                     </div>
                     <span className="text-[10px] font-mono font-bold text-slate-500">
                       #{p.badge}
                     </span>
                   </div>
 
-                  <h4 className="text-sm sm:text-base font-bold text-white leading-snug">
-                    {p.title}
-                  </h4>
-
-                  <p className="text-xs text-slate-300 leading-relaxed">
+                  <p className="text-xs text-slate-300 leading-relaxed pl-0.5">
                     {p.desc}
                   </p>
                 </div>
