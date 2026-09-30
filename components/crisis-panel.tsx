@@ -36,6 +36,7 @@ import {
 } from "@/lib/crisis-data";
 import { useLanguage } from "./language-context";
 import { ReportModal } from "./report-modal";
+import { getHotlineI18n } from "@/lib/hotline-i18n";
 
 export interface CrisisPanelProps {
   initialCountryCode?: string;
@@ -110,141 +111,32 @@ function getLocalizedHotlineSummary(
     combined.includes("starší") ||
     combined.includes("starsi");
 
-  if (locale === "sk") {
-    if (isYouth) {
-      return {
-        badge: "Deti a mládež",
-        purpose: "Bezplatná krízová linka dôvery pre deti, mladých ľudí a rodičov",
-      };
-    }
-    if (isWomen) {
-      return {
-        badge: "Podpora a bezpečie",
-        purpose: "Špecializovaná krízová pomoc a ochrana pred násilím",
-      };
-    }
-    if (isElderly) {
-      return {
-        badge: "Seniori",
-        purpose: "Podpora a psychologické poradenstvo pre seniorov",
-      };
-    }
-    return {
-      badge: "Krízová linka",
-      purpose: "Bezplatná krízová linka dôvery a psychologickej pomoci",
-    };
-  }
+  const i18n = getHotlineI18n(locale);
 
-  if (locale === "cs") {
-    if (isYouth) {
-      return {
-        badge: "Děti a mládež",
-        purpose: "Bezplatná krizová linka důvěry pro děti, mladistvé a rodiče",
-      };
-    }
-    if (isWomen) {
-      return {
-        badge: "Pomoc a bezpečí",
-        purpose: "Specializovaná krizová pomoc a ochrana před násilím",
-      };
-    }
-    if (isElderly) {
-      return {
-        badge: "Senioři",
-        purpose: "Krizová podpora a poradenství pro seniory",
-      };
-    }
-    return {
-      badge: "Krizová linka",
-      purpose: "Krizová linka psychologické pomoci a prevence",
-    };
-  }
-
-  if (locale === "de") {
-    if (isYouth) {
-      return {
-        badge: "Kinder & Jugend",
-        purpose: "Kostenlose Krisen- und Beratungshotline für Kinder und Jugendliche",
-      };
-    }
-    if (isWomen) {
-      return {
-        badge: "Hilfe & Schutz",
-        purpose: "Spezialisierte Notruf- und Krisenhilfe bei Gewalt und Krisen",
-      };
-    }
-    if (isElderly) {
-      return {
-        badge: "Senioren",
-        purpose: "Beratung und seelische Unterstützung für ältere Menschen",
-      };
-    }
-    return {
-      badge: "Krisenhilfe",
-      purpose: "Kostenlose seelsorgliche Notfall- und Krisenunterstützung",
-    };
-  }
-
-  if (locale === "es") {
-    if (isYouth) {
-      return {
-        badge: "Niños y Jóvenes",
-        purpose: "Línea de crisis y apoyo psicológico para niños y jóvenes",
-      };
-    }
-    if (isWomen) {
-      return {
-        badge: "Ayuda y Protección",
-        purpose: "Línea especializada de protección y apoyo en crisis",
-      };
-    }
-    return {
-      badge: "Línea de Crisis",
-      purpose: "Línea de ayuda psicológica y prevención de crisis gratuita",
-    };
-  }
-
-  if (locale === "fr") {
-    if (isYouth) {
-      return {
-        badge: "Enfants & Jeunes",
-        purpose: "Ligne d'écoute et de soutien psychologique pour jeunes et enfants",
-      };
-    }
-    if (isWomen) {
-      return {
-        badge: "Aide & Protection",
-        purpose: "Écoute et soutien spécialisé en situation de crise ou violences",
-      };
-    }
-    return {
-      badge: "Ligne de Crise",
-      purpose: "Ligne d'aide psychologique et de soutien en cas de crise",
-    };
-  }
-
-  // Default English / International
   if (isYouth) {
     return {
-      badge: "Youth & Children",
-      purpose: "Confidential crisis helpline and counseling for children, youth and parents",
+      badge: i18n.youthBadge,
+      purpose: i18n.youthPurpose,
     };
   }
+
   if (isWomen) {
     return {
-      badge: "Safety & Support",
-      purpose: "Specialized crisis support, counseling and safety helpline",
+      badge: i18n.womenBadge,
+      purpose: i18n.womenPurpose,
     };
   }
+
   if (isElderly) {
     return {
-      badge: "Seniors",
-      purpose: "Support and psychological guidance for seniors",
+      badge: i18n.elderlyBadge,
+      purpose: i18n.elderlyPurpose,
     };
   }
+
   return {
-    badge: "Crisis Support",
-    purpose: "Free and confidential psychological crisis helpline and counseling",
+    badge: i18n.crisisBadge,
+    purpose: i18n.crisisPurpose,
   };
 }
 
