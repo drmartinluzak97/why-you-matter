@@ -78,6 +78,30 @@ export function LanguageProvider({
     LANGUAGES.find((l) => l.code === locale) || LANGUAGES[0];
   const t = DICTIONARIES[locale] || DICTIONARIES.en;
 
+  useEffect(() => {
+    if (typeof document === "undefined") return;
+
+    // 1. Update HTML lang attribute
+    document.documentElement.lang = locale;
+
+    // 2. Determine title based on current page
+    const isMotivationPage =
+      typeof window !== "undefined" &&
+      window.location.pathname.startsWith("/motivation");
+
+    if (isMotivationPage && t?.nav?.motivation && t?.meta?.title) {
+      document.title = `${t.nav.motivation} | ${t.meta.title}`;
+    } else if (t?.meta?.title) {
+      document.title = t.meta.title;
+    }
+
+    // 3. Update meta description for active client language
+    const metaDescription = document.querySelector('meta[name="description"]');
+    if (metaDescription && t?.meta?.description) {
+      metaDescription.setAttribute("content", t.meta.description);
+    }
+  }, [locale, t]);
+
   return (
     <LanguageContext.Provider
       value={{
